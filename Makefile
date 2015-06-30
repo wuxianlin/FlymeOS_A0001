@@ -40,7 +40,7 @@ vendor_modify_images := boot
 # The default value is app or pri-app which not need to configure.
 # You can configure the directory name which relative to the vendor/system directory.
 #-----------------------------------------------------------------------------
-#vendor_remove_dirs := vendor/operator/app
+vendor_remove_dirs := vendor/bundled-app
 
 ##############################################################################
 # The value decides the file which you want to remove in the vendor directory for the ota package.
@@ -54,7 +54,8 @@ vendor_modify_images := boot
 # The default value is Bluetooth.
 # You can configure the apk name in the vendor/system/app or vendor/system/pri-app directory.
 #-----------------------------------------------------------------------------
-vendor_saved_apps := Bluetooth NfcNci KeyChain Tag HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
+vendor_saved_apps := AntHalService Bluetooth BluetoothExt com.qualcomm.location ConfigPanel NfcNci PPPreference QuickBoot qcrilmsgtunnel shutdownlistener TimeService CameraNext MaxxAudioFX \
+                     KeyChain Tag HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
                      FusedLocation PrintSpooler SharedStorageBackup  ExternalStorageProvider InputDevices \
                      ProxyHandler Shell DefaultContainerService
 
@@ -136,8 +137,8 @@ board_saved_files := lib/libsqlite.so lib/libwebviewchromium.so
 # The property decide your ID on the backend server which statistical data for your device.
 # The default value is FlymeRomer.
 # You should configure the property according to your ID, ie, replace "FlymeRomer" with your ID.
-#override_property += \
-#    ro.flyme.romer=FlymeRomer
+override_property += \
+    ro.flyme.romer=wuxianlin
 
 ##############################################################################
 # The value decides which property you will remove from the build.prop.

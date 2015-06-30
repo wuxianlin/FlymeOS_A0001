@@ -1,0 +1,48 @@
+    * build
+bff0d5e Generate extra userdata partition if needed
+
+    * external/bluetooth/bluedroid
+3890d6e Revert "bluedroid: Support dynamic A2DP stream parameters"
+
+    * external/dhcpcd
+a9a6cc7 dhcpcd: Send proper DUID
+
+    * external/wpa_supplicant_8
+9a52682 P2P: Validate SSID element length before copying it
+
+    * frameworks/base
+5e9f257 Don't animate screen brightness if there is a pending off transition
+fadfe7b Don't dismiss keyguard if recreating status bar
+40782fc Keyguard: reinflate security views after user change
+
+    * frameworks/opt/telephony
+3b7b213 RIL: Fix datacall parcel reading
+
+    * kernel/oneplus/msm8974
+f34ed89 synaptics: Use per-panel firmware loading
+6e2be2d Revert "synaptics: Update firmware to 14001227"
+1b3fb18 msm: camera: isp: Validate input parameter for vfe_write and vfe_read
+ca38721 synaptics: Update firmware to 14001227
+e03a48f mmc: sdhci-msm: Add Samsung 64G search after tune quirk
+920bc35 ARM: dts: A0001: Update Truly panel init sequence
+9290a80 ipv4: Missing sk_nulls_node_init() in ping_unhash().
+
+    * packages/apps/Settings
+354f227 Settings: fix BT switch enabling discoverable mode
+
+    * vendor/cm
+bb53e39 Temp fix for Bouygues telecom issues
+8427893 FOTA: Create /cache/recovery in init.rc for FOTA
+
+    * packages/apps/CameraNext
+647ad87 CameraNext: make CameraControlBar visibility control reliable
+9a3d206 CameraNext: disable all three shutters when photo(s) in progress
+
+    * packages/apps/ThemeStore
+1bdb010 Fix build: Add import Log to stable
+d1b85a2 Get auth token before downloading
+25ae22c Bring over latest API from ThemeStoreServer
+
+    * prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9
+c5d5557 Rebuild with r212222 to fix devirtualization bug in GCC4.9 (darwin)
+
