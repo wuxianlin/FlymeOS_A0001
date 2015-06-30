@@ -55,7 +55,7 @@ vendor_remove_dirs := vendor/bundled-app
 # You can configure the apk name in the vendor/system/app or vendor/system/pri-app directory.
 #-----------------------------------------------------------------------------
 vendor_saved_apps := AntHalService Bluetooth BluetoothExt com.qualcomm.location ConfigPanel NfcNci PPPreference QuickBoot qcrilmsgtunnel shutdownlistener TimeService CameraNext MaxxAudioFX \
-                     KeyChain Tag HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
+                     KeyChain HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
                      FusedLocation PrintSpooler SharedStorageBackup  ExternalStorageProvider InputDevices \
                      ProxyHandler Shell DefaultContainerService
 
