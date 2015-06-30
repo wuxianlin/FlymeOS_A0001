@@ -38,12 +38,10 @@
     .param p2, "attrs"    # Landroid/util/AttributeSet;
 
     .prologue
-    .line 75
-    const v0, 0x1010092
+    const v0, #android:attr@editTextPreferenceStyle#t
 
     invoke-direct {p0, p1, p2, v0}, Landroid/preference/EditTextPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 76
     return-void
 .end method
 
@@ -71,31 +69,26 @@
     .param p4, "defStyleRes"    # I
 
     .prologue
-    .line 54
     invoke-direct {p0, p1, p2, p3, p4}, Landroid/preference/DialogPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
-    .line 56
     new-instance v0, Landroid/widget/EditText;
 
     invoke-direct {v0, p1, p2}, Landroid/widget/EditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     iput-object v0, p0, Landroid/preference/EditTextPreference;->mEditText:Landroid/widget/EditText;
 
-    .line 59
     iget-object v0, p0, Landroid/preference/EditTextPreference;->mEditText:Landroid/widget/EditText;
 
-    const v1, 0x1020003
+    const v1, #android:id@edit#t
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setId(I)V
 
-    .line 67
     iget-object v0, p0, Landroid/preference/EditTextPreference;->mEditText:Landroid/widget/EditText;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setEnabled(Z)V
 
-    .line 68
     return-void
 .end method
 
@@ -137,8 +130,7 @@
     .param p2, "editText"    # Landroid/widget/EditText;
 
     .prologue
-    .line 131
-    const v1, 0x1020357
+    const v1, #android:id@edittext_container#t
 
     invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -180,6 +172,8 @@
     move-result-object v2
 
     invoke-virtual {v0, v2}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-direct/range {p0 .. p0}, Landroid/preference/EditTextPreference;->mzSetEditTextSelection()V
 
     .line 116
     invoke-virtual {v0}, Landroid/widget/EditText;->getParent()Landroid/view/ViewParent;
@@ -447,4 +441,32 @@
     const/4 v0, 0x0
 
     goto :goto_0
+.end method
+
+.method private mzSetEditTextSelection()V
+    .locals 3
+
+    .prologue
+    iget-object v0, p0, Landroid/preference/EditTextPreference;->mEditText:Landroid/widget/EditText;
+
+    invoke-virtual {v0}, Landroid/widget/EditText;->length()I
+
+    move-result v0
+
+    if-lez v0, :cond_0
+
+    iget-object v0, p0, Landroid/preference/EditTextPreference;->mEditText:Landroid/widget/EditText;
+
+    const/4 v1, 0x0
+
+    iget-object v2, p0, Landroid/preference/EditTextPreference;->mEditText:Landroid/widget/EditText;
+
+    invoke-virtual {v2}, Landroid/widget/EditText;->length()I
+
+    move-result v2
+
+    invoke-virtual {v0, v1, v2}, Landroid/widget/EditText;->setSelection(II)V
+
+    :cond_0
+    return-void
 .end method

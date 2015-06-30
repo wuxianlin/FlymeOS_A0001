@@ -676,19 +676,23 @@
 
     move-result v6
 
-    .line 656
     .local v6, "ellipsisWidth":F
+    move-object/from16 v0, p0
+
+    move-object/from16 v1, p9
+
+    invoke-direct {v0, v1, v6}, Landroid/text/StaticLayout;->mzCalculateEllipsis(Landroid/text/TextPaint;F)F
+
+    move-result v6
+
     const/4 v5, 0x0
 
-    .line 657
     .local v5, "ellipsisStart":I
     const/4 v4, 0x0
 
-    .line 658
     .local v4, "ellipsisCount":I
     sub-int v10, p2, p1
 
-    .line 661
     .local v10, "len":I
     sget-object v17, Landroid/text/TextUtils$TruncateAt;->START:Landroid/text/TextUtils$TruncateAt;
 
@@ -4042,4 +4046,30 @@
 
     .line 850
     return-void
+.end method
+
+.method private mzCalculateEllipsis(Landroid/text/TextPaint;F)F
+    .locals 3
+    .param p1, "paint"    # Landroid/text/TextPaint;
+    .param p2, "ellipsisWidth"    # F
+
+    .prologue
+    invoke-static {}, Landroid/os/BuildExt;->isProductInternational()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    sget-object v0, Landroid/text/StaticLayout;->ELLIPSIS_TWO_DOTS:[C
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    invoke-virtual {p1, v0, v1, v2}, Landroid/text/TextPaint;->measureText([CII)F
+
+    move-result p2
+
+    :cond_0
+    return p2
 .end method

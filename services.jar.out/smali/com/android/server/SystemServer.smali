@@ -166,14 +166,12 @@
 
     iput-object v1, p0, Lcom/android/server/SystemServer;->mSystemContext:Landroid/content/Context;
 
-    .line 326
     iget-object v1, p0, Lcom/android/server/SystemServer;->mSystemContext:Landroid/content/Context;
 
-    const v2, 0x103013f
+    const v2, #android:style@Theme.DeviceDefault.Light.DarkActionBar#t
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->setTheme(I)V
 
-    .line 327
     return-void
 .end method
 
@@ -1498,6 +1496,12 @@
     .line 510
     move-object/from16 v0, p0
 
+    move-object/from16 v1, v98
+
+    invoke-static {v0, v1}, Lcom/android/server/SystemServer$FlymeInjector;->startFlymeMoveWindowService(Lcom/android/server/SystemServer;Lcom/android/server/wm/WindowManagerService;)V
+
+    move-object/from16 v0, p0
+
     iget-object v4, v0, Lcom/android/server/SystemServer;->mActivityManagerService:Lcom/android/server/am/ActivityManagerService;
 
     move-object/from16 v0, v115
@@ -1623,14 +1627,13 @@
 
     invoke-static {v4, v5}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 560
     new-instance v69, Lcom/android/server/InputMethodManagerService;
 
     move-object/from16 v0, v69
 
     move-object/from16 v1, v115
 
-    invoke-direct {v0, v3, v1}, Lcom/android/server/InputMethodManagerService;-><init>(Landroid/content/Context;Lcom/android/server/wm/WindowManagerService;)V
+    invoke-direct {v0, v3, v1}, Lcom/android/server/MzInputMethodManagerService;-><init>(Landroid/content/Context;Lcom/android/server/wm/WindowManagerService;)V
     :try_end_8
     .catch Ljava/lang/Throwable; {:try_start_8 .. :try_end_8} :catch_3
 
@@ -1761,7 +1764,7 @@
 
     move-result-object v5
 
-    const v8, 0x1040537
+    const v8, #android:string@android_upgrading_starting_apps#t
 
     invoke-virtual {v5, v8}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -1886,6 +1889,9 @@
     move-object/from16 v0, v98
 
     invoke-static {v4, v0}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
+
+    invoke-static {}, Lcom/android/server/SystemServer$FlymeInjector;->addFlymeStatusBarManagerService()V
+
     :try_end_13
     .catch Ljava/lang/Throwable; {:try_start_13 .. :try_end_13} :catch_45
 
@@ -1954,24 +1960,20 @@
 
     invoke-static {v4, v5}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 664
     invoke-static {v3}, Lcom/android/server/NetworkManagementService;->create(Landroid/content/Context;)Lcom/android/server/NetworkManagementService;
 
     move-result-object v7
 
-    .line 665
     const-string v4, "network_management"
 
     invoke-static {v4, v7}, Landroid/os/ServiceManager;->addService(Ljava/lang/String;Landroid/os/IBinder;)V
     :try_end_16
     .catch Ljava/lang/Throwable; {:try_start_16 .. :try_end_16} :catch_c
 
-    .line 671
     :cond_7
     :goto_f
     if-nez v58, :cond_8
 
-    .line 673
     :try_start_17
     const-string v4, "SystemServer"
 
@@ -2175,7 +2177,6 @@
 
     invoke-virtual {v4, v5}, Lcom/android/server/SystemServiceManager;->startService(Ljava/lang/String;)Lcom/android/server/SystemService;
 
-    .line 721
     :cond_9
     :try_start_1f
     const-string v4, "SystemServer"
@@ -2479,7 +2480,7 @@
 
     move-result-object v4
 
-    const v5, 0x112003f
+    const v5, #android:bool@config_enableWallpaperService#t
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -3008,7 +3009,7 @@
 
     move-result-object v4
 
-    const v5, 0x1120082
+    const v5, #android:bool@config_enableGestureService#t
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -3500,24 +3501,20 @@
     .end local v81    # "mmsService":Lcom/android/server/MmsServiceBroker;
     check-cast v81, Lcom/android/server/MmsServiceBroker;
 
-    .line 1092
     .restart local v81    # "mmsService":Lcom/android/server/MmsServiceBroker;
     :try_start_47
     invoke-virtual/range {v106 .. v106}, Lcom/android/server/VibratorService;->systemReady()V
     :try_end_47
     .catch Ljava/lang/Throwable; {:try_start_47 .. :try_end_47} :catch_2c
 
-    .line 1097
     :goto_30
     if-eqz v76, :cond_27
 
-    .line 1099
     :try_start_48
     invoke-virtual/range {v76 .. v76}, Lcom/android/server/LockSettingsService;->systemReady()V
     :try_end_48
     .catch Ljava/lang/Throwable; {:try_start_48 .. :try_end_48} :catch_2d
 
-    .line 1106
     :cond_27
     :goto_31
     move-object/from16 v0, p0
@@ -5421,4 +5418,51 @@
 
     .line 1352
     return-void
+.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$000(Lcom/android/server/SystemServer;)Lcom/android/server/SystemServiceManager;
+#    .locals 1
+#    .param p0, "x0"    # Lcom/android/server/SystemServer;
+#    .prologue
+#    iget-object v0, p0, Lcom/android/server/SystemServer;->mSystemServiceManager:Lcom/android/server/SystemServiceManager;
+#    return-object v0
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$100(Lcom/android/server/SystemServer;)Lcom/android/server/am/ActivityManagerService;
+#    .locals 1
+#    .param p0, "x0"    # Lcom/android/server/SystemServer;
+#    .prologue
+#    iget-object v0, p0, Lcom/android/server/SystemServer;->mActivityManagerService:Lcom/android/server/am/ActivityManagerService;
+#    return-object v0
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$200(Lcom/android/server/SystemServer;Ljava/lang/String;Ljava/lang/Throwable;)V
+#    .locals 0
+#    .param p0, "x0"    # Lcom/android/server/SystemServer;
+#    .param p1, "x1"    # Ljava/lang/String;
+#    .param p2, "x2"    # Ljava/lang/Throwable;
+#    .prologue
+#    invoke-direct {p0, p1, p2}, Lcom/android/server/SystemServer;->reportWtf(Ljava/lang/String;Ljava/lang/Throwable;)V
+#    return-void
+#.end method
+
+.method getPackageManagerService()Lcom/android/server/pm/PackageManagerService;
+    .locals 1
+
+    .prologue
+    iget-object v0, p0, Lcom/android/server/SystemServer;->mPackageManagerService:Lcom/android/server/pm/PackageManagerService;
+
+    return-object v0
+.end method
+
+.method getSystemContext()Landroid/content/Context;
+    .locals 1
+
+    .prologue
+    iget-object v0, p0, Lcom/android/server/SystemServer;->mSystemContext:Landroid/content/Context;
+
+    return-object v0
 .end method

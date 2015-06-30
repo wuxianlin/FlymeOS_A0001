@@ -244,9 +244,9 @@
 
     .line 115
     .local v0, "intent":Landroid/content/Intent;
-    const-string v1, "com.android.systemui"
+    const-string v1, "com.android.keyguard"
 
-    const-string v2, "com.android.systemui.keyguard.KeyguardService"
+    const-string v2, "com.android.keyguard.KeyguardService"
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -263,33 +263,27 @@
 
     if-nez v1, :cond_0
 
-    .line 118
     const-string v1, "KeyguardServiceDelegate"
 
-    const-string v2, "*** Keyguard: can\'t bind to com.android.systemui.keyguard.KeyguardService"
+    const-string v2, "*** Keyguard: can\'t bind to com.android.keyguard.KeyguardService"
 
     invoke-static {v1, v2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 119
     iget-object v1, p0, Lcom/android/internal/policy/impl/keyguard/KeyguardServiceDelegate;->mKeyguardState:Lcom/android/internal/policy/impl/keyguard/KeyguardServiceDelegate$KeyguardState;
 
     iput-boolean v4, v1, Lcom/android/internal/policy/impl/keyguard/KeyguardServiceDelegate$KeyguardState;->showing:Z
 
-    .line 120
     iget-object v1, p0, Lcom/android/internal/policy/impl/keyguard/KeyguardServiceDelegate;->mKeyguardState:Lcom/android/internal/policy/impl/keyguard/KeyguardServiceDelegate$KeyguardState;
 
     iput-boolean v4, v1, Lcom/android/internal/policy/impl/keyguard/KeyguardServiceDelegate$KeyguardState;->showingAndNotOccluded:Z
 
-    .line 121
     iget-object v1, p0, Lcom/android/internal/policy/impl/keyguard/KeyguardServiceDelegate;->mKeyguardState:Lcom/android/internal/policy/impl/keyguard/KeyguardServiceDelegate$KeyguardState;
 
     iput-boolean v4, v1, Lcom/android/internal/policy/impl/keyguard/KeyguardServiceDelegate$KeyguardState;->secure:Z
 
-    .line 125
     :goto_0
     return-void
 
-    .line 123
     :cond_0
     const-string v1, "KeyguardServiceDelegate"
 
@@ -919,3 +913,12 @@
     :cond_0
     return-void
 .end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$100(Lcom/android/internal/policy/impl/keyguard/KeyguardServiceDelegate;)Landroid/view/View;
+#    .locals 1
+#    .param p0, "x0"    # Lcom/android/internal/policy/impl/keyguard/KeyguardServiceDelegate;
+#    .prologue
+#    iget-object v0, p0, Lcom/android/internal/policy/impl/keyguard/KeyguardServiceDelegate;->mScrim:Landroid/view/View;
+#    return-object v0
+#.end method

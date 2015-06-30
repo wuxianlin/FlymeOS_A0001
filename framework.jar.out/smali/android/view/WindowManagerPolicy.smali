@@ -73,8 +73,6 @@
 
 .field public static final WATCH_POINTER:Z
 
-
-# virtual methods
 .method public abstract addStartingWindow(Landroid/os/IBinder;Ljava/lang/String;ILandroid/content/res/CompatibilityInfo;Ljava/lang/CharSequence;IIII)Landroid/view/View;
 .end method
 
@@ -340,4 +338,12 @@
 .end method
 
 .method public abstract windowTypeToLayerLw(I)I
+.end method
+
+
+# virtual methods
+.method public abstract setStatusBarDarkTheme(Landroid/view/WindowManagerPolicy$WindowState;ZZ)V
+.end method
+
+.method public abstract shouldWindowAffectDarkStatusBarIcon(Landroid/view/WindowManagerPolicy$WindowState;)Z
 .end method

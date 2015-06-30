@@ -2114,7 +2114,7 @@
 
     iget-object v4, v4, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
 
-    const v5, 0x1040539
+    const v5, #android:string@heavy_weight_notification#t
 
     const/4 v6, 0x1
 
@@ -2148,7 +2148,7 @@
 
     .line 1521
     .local v31, "notification":Landroid/app/Notification;
-    const v4, 0x1080661
+    const v4, #android:drawable@stat_sys_adb#t
 
     move-object/from16 v0, v31
 
@@ -2207,7 +2207,7 @@
 
     move-result-object v4
 
-    const v5, 0x106005b
+    const v5, #android:color@system_notification_accent_color#t
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2233,7 +2233,7 @@
 
     iget-object v5, v5, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
 
-    const v6, 0x104053a
+    const v6, #android:string@heavy_weight_notification_detail#t
 
     invoke-virtual {v5, v6}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -2297,7 +2297,7 @@
 
     const/16 v22, 0x0
 
-    const v23, 0x1040539
+    const v23, #android:string@heavy_weight_notification#t
 
     move-object/from16 v0, v63
 
@@ -2377,7 +2377,7 @@
 
     const/4 v5, 0x0
 
-    const v6, 0x1040539
+    const v6, #android:string@heavy_weight_notification#t
 
     move-object/from16 v0, p1
 
@@ -3397,7 +3397,7 @@
 
     iget-object v4, v4, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
 
-    const v5, 0x104003b
+    const v5, #android:string@privacy_guard_notification_detail#t
 
     const/4 v6, 0x1
 
@@ -3431,7 +3431,7 @@
 
     iget-object v4, v4, Lcom/android/server/am/ActivityManagerService;->mContext:Landroid/content/Context;
 
-    const v5, 0x104003a
+    const v5, #android:string@privacy_guard_notification#t
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -3467,7 +3467,7 @@
 
     .line 1939
     .restart local v31    # "notification":Landroid/app/Notification;
-    const v4, 0x108065b
+    const v4, #android:drawable@stat_notify_privacy_guard#t
 
     move-object/from16 v0, v31
 
@@ -3576,7 +3576,7 @@
 
     const/16 v29, 0x0
 
-    const v30, 0x104003a
+    const v30, #android:string@privacy_guard_notification#t
 
     move-object/from16 v0, v63
 
@@ -3656,7 +3656,7 @@
 
     const/4 v5, 0x0
 
-    const v6, 0x104003a
+    const v6, #android:string@privacy_guard_notification#t
 
     move-object/from16 v0, p1
 

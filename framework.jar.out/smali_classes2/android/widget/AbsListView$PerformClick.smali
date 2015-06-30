@@ -56,29 +56,33 @@
     .locals 6
 
     .prologue
-    .line 3035
     iget-object v3, p0, Landroid/widget/AbsListView$PerformClick;->this$0:Landroid/widget/AbsListView;
 
     iget-boolean v3, v3, Landroid/widget/AbsListView;->mDataChanged:Z
 
     if-eqz v3, :cond_1
 
-    .line 3049
     :cond_0
+    :cond_flyme_0
     :goto_0
     return-void
 
-    .line 3037
     :cond_1
+    iget-object v3, p0, Landroid/widget/AbsListView$PerformClick;->this$0:Landroid/widget/AbsListView;
+
+    invoke-virtual {v3}, Landroid/widget/AbsListView;->mzPerformClick()Z
+
+    move-result v3
+
+    if-nez v3, :cond_flyme_0
+
     iget-object v3, p0, Landroid/widget/AbsListView$PerformClick;->this$0:Landroid/widget/AbsListView;
 
     iget-object v0, v3, Landroid/widget/AbsListView;->mAdapter:Landroid/widget/ListAdapter;
 
-    .line 3038
     .local v0, "adapter":Landroid/widget/ListAdapter;
     iget v1, p0, Landroid/widget/AbsListView$PerformClick;->mClickMotionPosition:I
 
-    .line 3039
     .local v1, "motionPosition":I
     if-eqz v0, :cond_0
 

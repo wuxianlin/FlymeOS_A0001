@@ -6,6 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Landroid/view/TextureView$OnSurfaceDestoyredListenner;,
         Landroid/view/TextureView$SurfaceTextureListener;
     }
 .end annotation
@@ -16,6 +17,8 @@
 
 
 # instance fields
+.field private mMzSurfaceDestoryedListener:Landroid/view/TextureView$OnSurfaceDestoyredListenner;
+
 .field private mCanvas:Landroid/graphics/Canvas;
 
 .field private mHadSurface:Z
@@ -401,51 +404,43 @@
 
     move-result v0
 
-    .line 240
     :cond_0
     iget-object v2, p0, Landroid/view/TextureView;->mNativeWindowLock:[Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 241
     :try_start_0
     invoke-direct {p0}, Landroid/view/TextureView;->nDestroyNativeWindow()V
 
-    .line 242
     monitor-exit v2
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 244
     iget-object v1, p0, Landroid/view/TextureView;->mLayer:Landroid/view/HardwareLayer;
 
     invoke-virtual {v1}, Landroid/view/HardwareLayer;->destroy()V
 
-    .line 245
     if-eqz v0, :cond_1
 
     iget-object v1, p0, Landroid/view/TextureView;->mSurface:Landroid/graphics/SurfaceTexture;
 
     invoke-virtual {v1}, Landroid/graphics/SurfaceTexture;->release()V
 
-    .line 246
     :cond_1
     iput-object v3, p0, Landroid/view/TextureView;->mSurface:Landroid/graphics/SurfaceTexture;
 
-    .line 247
     iput-object v3, p0, Landroid/view/TextureView;->mLayer:Landroid/view/HardwareLayer;
 
-    .line 249
+    invoke-direct/range {p0 .. p0}, Landroid/view/TextureView;->onSurfaceDestroyed()V
+
     const/4 v1, 0x1
 
     iput-boolean v1, p0, Landroid/view/TextureView;->mHadSurface:Z
 
-    .line 251
     .end local v0    # "shouldRelease":Z
     :cond_2
     return-void
 
-    .line 242
     .restart local v0    # "shouldRelease":Z
     :catchall_0
     move-exception v1
@@ -1503,4 +1498,32 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     throw v0
+.end method
+
+.method private onSurfaceDestroyed()V
+    .locals 2
+
+    .prologue
+    iget-object v0, p0, Landroid/view/TextureView;->mMzSurfaceDestoryedListener:Landroid/view/TextureView$OnSurfaceDestoyredListenner;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Landroid/view/TextureView;->mMzSurfaceDestoryedListener:Landroid/view/TextureView$OnSurfaceDestoyredListenner;
+
+    iget-object v1, p0, Landroid/view/TextureView;->mSurface:Landroid/graphics/SurfaceTexture;
+
+    invoke-interface {v0, v1}, Landroid/view/TextureView$OnSurfaceDestoyredListenner;->onSurfaceDestroyed(Landroid/graphics/SurfaceTexture;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public setOnSurfaceDestroyedListener(Landroid/view/TextureView$OnSurfaceDestoyredListenner;)V
+    .locals 0
+    .param p1, "l"    # Landroid/view/TextureView$OnSurfaceDestoyredListenner;
+
+    .prologue
+    iput-object p1, p0, Landroid/view/TextureView;->mMzSurfaceDestoryedListener:Landroid/view/TextureView$OnSurfaceDestoyredListenner;
+
+    return-void
 .end method

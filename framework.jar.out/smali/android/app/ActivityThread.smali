@@ -1379,37 +1379,29 @@
     .param p1, "r"    # Landroid/app/ActivityThread$ActivityClientRecord;
 
     .prologue
-    .line 3128
     iget-object v5, p0, Landroid/app/ActivityThread;->mAvailThumbnailBitmap:Landroid/graphics/Bitmap;
 
-    .line 3130
     .local v5, "thumbnail":Landroid/graphics/Bitmap;
     if-nez v5, :cond_0
 
-    .line 3131
     :try_start_0
     iget v6, p0, Landroid/app/ActivityThread;->mThumbnailWidth:I
 
-    .line 3133
     .local v6, "w":I
     if-gez v6, :cond_4
 
-    .line 3134
     iget-object v8, p1, Landroid/app/ActivityThread$ActivityClientRecord;->activity:Landroid/app/Activity;
 
     invoke-virtual {v8}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v4
 
-    .line 3135
     .local v4, "res":Landroid/content/res/Resources;
-    const v7, 0x1050002
+    const v7, #android:dimen@thumbnail_width#t
 
-    .line 3136
     .local v7, "wId":I
-    const v3, 0x1050001
+    const v3, #android:dimen@thumbnail_height#t
 
-    .line 3137
     .local v3, "hId":I
     invoke-virtual {v4, v7}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -18978,5 +18970,246 @@
     invoke-virtual {v0, v1}, Landroid/app/ActivityThread$H;->removeMessages(I)V
 
     .line 1866
+    return-void
+.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$1000(Landroid/app/ActivityThread;Landroid/os/IBinder;ZZIZ)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/os/IBinder;
+#    .param p2, "x2"    # Z
+#    .param p3, "x3"    # Z
+#    .param p4, "x4"    # I
+#    .param p5, "x5"    # Z
+#    .prologue
+#    invoke-direct/range {p0 .. p5}, Landroid/app/ActivityThread;->handlePauseActivity(Landroid/os/IBinder;ZZIZ)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$1100(Landroid/app/ActivityThread;Landroid/os/IBinder;ZI)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/os/IBinder;
+#    .param p2, "x2"    # Z
+#    .param p3, "x3"    # I
+#    .prologue
+#    invoke-direct {p0, p1, p2, p3}, Landroid/app/ActivityThread;->handleStopActivity(Landroid/os/IBinder;ZI)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$1200(Landroid/app/ActivityThread;Landroid/os/IBinder;Z)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/os/IBinder;
+#    .param p2, "x2"    # Z
+#    .prologue
+#    invoke-direct {p0, p1, p2}, Landroid/app/ActivityThread;->handleWindowVisibility(Landroid/os/IBinder;Z)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$1300(Landroid/app/ActivityThread;Landroid/app/ActivityThread$ResultData;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/app/ActivityThread$ResultData;
+#    .prologue
+#    invoke-direct {p0, p1}, Landroid/app/ActivityThread;->handleSendResult(Landroid/app/ActivityThread$ResultData;)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$1400(Landroid/app/ActivityThread;Landroid/os/IBinder;ZIZ)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/os/IBinder;
+#    .param p2, "x2"    # Z
+#    .param p3, "x3"    # I
+#    .param p4, "x4"    # Z
+#    .prologue
+#    invoke-direct {p0, p1, p2, p3, p4}, Landroid/app/ActivityThread;->handleDestroyActivity(Landroid/os/IBinder;ZIZ)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$1500(Landroid/app/ActivityThread;Landroid/app/ActivityThread$AppBindData;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/app/ActivityThread$AppBindData;
+#    .prologue
+#    invoke-direct {p0, p1}, Landroid/app/ActivityThread;->handleBindApplication(Landroid/app/ActivityThread$AppBindData;)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$1600(Landroid/app/ActivityThread;Landroid/app/ActivityThread$NewIntentData;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/app/ActivityThread$NewIntentData;
+#    .prologue
+#    invoke-direct {p0, p1}, Landroid/app/ActivityThread;->handleNewIntent(Landroid/app/ActivityThread$NewIntentData;)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$1700(Landroid/app/ActivityThread;Landroid/app/ActivityThread$ReceiverData;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/app/ActivityThread$ReceiverData;
+#    .prologue
+#    invoke-direct {p0, p1}, Landroid/app/ActivityThread;->handleReceiver(Landroid/app/ActivityThread$ReceiverData;)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$1800(Landroid/app/ActivityThread;Landroid/app/ActivityThread$CreateServiceData;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/app/ActivityThread$CreateServiceData;
+#    .prologue
+#    invoke-direct {p0, p1}, Landroid/app/ActivityThread;->handleCreateService(Landroid/app/ActivityThread$CreateServiceData;)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$1900(Landroid/app/ActivityThread;Landroid/app/ActivityThread$BindServiceData;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/app/ActivityThread$BindServiceData;
+#    .prologue
+#    invoke-direct {p0, p1}, Landroid/app/ActivityThread;->handleBindService(Landroid/app/ActivityThread$BindServiceData;)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$2100(Landroid/app/ActivityThread;Landroid/app/ActivityThread$ServiceArgsData;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/app/ActivityThread$ServiceArgsData;
+#    .prologue
+#    invoke-direct {p0, p1}, Landroid/app/ActivityThread;->handleServiceArgs(Landroid/app/ActivityThread$ServiceArgsData;)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$2200(Landroid/app/ActivityThread;Landroid/os/IBinder;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/os/IBinder;
+#    .prologue
+#    invoke-direct {p0, p1}, Landroid/app/ActivityThread;->handleStopService(Landroid/os/IBinder;)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$2300(Landroid/app/ActivityThread;Landroid/app/ActivityThread$DumpComponentInfo;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/app/ActivityThread$DumpComponentInfo;
+#    .prologue
+#    invoke-direct {p0, p1}, Landroid/app/ActivityThread;->handleDumpService(Landroid/app/ActivityThread$DumpComponentInfo;)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$2400(Landroid/app/ActivityThread;Landroid/app/ActivityThread$CreateBackupAgentData;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/app/ActivityThread$CreateBackupAgentData;
+#    .prologue
+#    invoke-direct {p0, p1}, Landroid/app/ActivityThread;->handleCreateBackupAgent(Landroid/app/ActivityThread$CreateBackupAgentData;)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$2600(Landroid/app/ActivityThread;Landroid/app/ActivityThread$DumpComponentInfo;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/app/ActivityThread$DumpComponentInfo;
+#    .prologue
+#    invoke-direct {p0, p1}, Landroid/app/ActivityThread;->handleDumpActivity(Landroid/app/ActivityThread$DumpComponentInfo;)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$2800(Landroid/app/ActivityThread;Landroid/os/IBinder;Z)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/os/IBinder;
+#    .param p2, "x2"    # Z
+#    .prologue
+#    invoke-direct {p0, p1, p2}, Landroid/app/ActivityThread;->handleSleeping(Landroid/os/IBinder;Z)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$2900(Landroid/app/ActivityThread;Landroid/os/Bundle;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/os/Bundle;
+#    .prologue
+#    invoke-direct {p0, p1}, Landroid/app/ActivityThread;->handleSetCoreSettings(Landroid/os/Bundle;)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$3000(Landroid/app/ActivityThread;Landroid/app/ActivityThread$UpdateCompatibilityData;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/app/ActivityThread$UpdateCompatibilityData;
+#    .prologue
+#    invoke-direct {p0, p1}, Landroid/app/ActivityThread;->handleUpdatePackageCompatibilityInfo(Landroid/app/ActivityThread$UpdateCompatibilityData;)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$3100(Landroid/app/ActivityThread;Landroid/os/IBinder;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/os/IBinder;
+#    .prologue
+#    invoke-direct {p0, p1}, Landroid/app/ActivityThread;->handleEnterAnimationComplete(Landroid/os/IBinder;)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$800(Landroid/app/ActivityThread;Landroid/app/ActivityThread$ActivityClientRecord;Landroid/content/Intent;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/app/ActivityThread$ActivityClientRecord;
+#    .param p2, "x2"    # Landroid/content/Intent;
+#    .prologue
+#    invoke-direct {p0, p1, p2}, Landroid/app/ActivityThread;->handleLaunchActivity(Landroid/app/ActivityThread$ActivityClientRecord;Landroid/content/Intent;)V
+#    return-void
+#.end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$900(Landroid/app/ActivityThread;Landroid/app/ActivityThread$ActivityClientRecord;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/app/ActivityThread;
+#    .param p1, "x1"    # Landroid/app/ActivityThread$ActivityClientRecord;
+#    .prologue
+#    invoke-direct {p0, p1}, Landroid/app/ActivityThread;->handleRelaunchActivity(Landroid/app/ActivityThread$ActivityClientRecord;)V
+#    return-void
+#.end method
+
+
+.method private setFlymeThemeResource(Landroid/content/res/Resources;Landroid/app/LoadedApk;)V
+    .locals 1
+    .param p1, "resources"    # Landroid/content/res/Resources;
+    .param p2, "pkgInfo"    # Landroid/app/LoadedApk;
+
+    .prologue
+    if-eqz p1, :cond_0
+
+    invoke-virtual {p2}, Landroid/app/LoadedApk;->getPackageName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/content/res/Resources;->setFlymeThemeResource(Ljava/lang/String;)V
+
+    :cond_0
     return-void
 .end method

@@ -506,7 +506,7 @@
 
     move-result-object v3
 
-    const v4, 0x10e005f
+    const v4, #android:integer@config_volte_replacement_rat#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -4875,5 +4875,23 @@
     invoke-interface {v0}, Lcom/android/internal/telephony/Phone;->updateServiceLocation()V
 
     .line 940
+    return-void
+.end method
+
+.method public registerForVoiceCallIncomingIndication(Landroid/os/Handler;ILjava/lang/Object;)V
+    .locals 0
+    .param p1, "h"    # Landroid/os/Handler;
+    .param p2, "what"    # I
+    .param p3, "obj"    # Ljava/lang/Object;
+
+    .prologue
+    return-void
+.end method
+
+.method public unregisterForVoiceCallIncomingIndication(Landroid/os/Handler;)V
+    .locals 0
+    .param p1, "h"    # Landroid/os/Handler;
+
+    .prologue
     return-void
 .end method
