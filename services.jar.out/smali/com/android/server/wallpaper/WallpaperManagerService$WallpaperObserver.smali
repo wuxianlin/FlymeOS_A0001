@@ -19,6 +19,8 @@
 
 .field final mKeyguardWallpaperFile:Ljava/io/File;
 
+.field mLockWallpaperFile:Ljava/io/File;
+
 .field final mWallpaper:Lcom/android/server/wallpaper/WallpaperManagerService$WallpaperData;
 
 .field final mWallpaperDir:Ljava/io/File;
@@ -93,6 +95,8 @@
     iput-object v0, p0, Lcom/android/server/wallpaper/WallpaperManagerService$WallpaperObserver;->mKeyguardWallpaperFile:Ljava/io/File;
 
     .line 129
+    invoke-direct/range {p0 .. p0}, Lcom/android/server/wallpaper/WallpaperManagerService$WallpaperObserver;->initLockWallpaperFile()V
+
     return-void
 .end method
 
@@ -135,6 +139,8 @@
 
     .line 138
     .local v7, "changedFile":Ljava/io/File;
+    invoke-virtual {p0, v7}, Lcom/android/server/wallpaper/WallpaperManagerService$WallpaperObserver;->notifyLockWallpaperChanged(Ljava/io/File;)V
+
     iget-object v1, p0, Lcom/android/server/wallpaper/WallpaperManagerService$WallpaperObserver;->mWallpaperFile:Ljava/io/File;
 
     invoke-virtual {v1, v7}, Ljava/io/File;->equals(Ljava/lang/Object;)Z

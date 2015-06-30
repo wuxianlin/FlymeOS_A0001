@@ -5669,7 +5669,7 @@
     .line 2472
     .end local v8    # "dr":Landroid/graphics/drawable/Drawable;
     :cond_7
-    invoke-direct {p0, p1, p2, p3}, Landroid/content/res/Resources;->loadDrawableForCookie(Landroid/util/TypedValue;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0, p1, p2, p3}, Landroid/content/res/Resources$FlymeInjector;->loadDrawableForCookie(Landroid/content/res/Resources;Landroid/util/TypedValue;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v8
 

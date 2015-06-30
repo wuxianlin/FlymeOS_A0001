@@ -3044,6 +3044,8 @@
     .param p1, "enabled"    # Z
 
     .prologue
+    invoke-direct/range {p0 .. p0}, Landroid/net/wifi/WifiManager;->mzEnforceWifiPermission()V
+
     const/4 v1, 0x0
 
     .line 1308

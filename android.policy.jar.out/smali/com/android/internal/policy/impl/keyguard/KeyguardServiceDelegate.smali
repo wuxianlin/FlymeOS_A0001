@@ -17,6 +17,10 @@
 # static fields
 .field private static final ACTION_STATE_CHANGE:Ljava/lang/String; = "com.android.internal.action.KEYGUARD_SERVICE_STATE_CHANGED"
 
+.field public static final FLYME_KEYGUARD_CLASS:Ljava/lang/String; = "com.android.keyguard.KeyguardService"
+
+.field public static final FLYME_KEYGUARD_PACKAGE:Ljava/lang/String; = "com.android.keyguard"
+
 .field private static final DEBUG:Z = true
 
 .field private static final EXTRA_ACTIVE:Ljava/lang/String; = "active"

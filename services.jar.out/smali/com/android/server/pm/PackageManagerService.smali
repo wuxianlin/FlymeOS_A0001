@@ -2407,6 +2407,8 @@
 
     invoke-virtual {v0, v2}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
+    invoke-static/range {v20 .. v20}, Lcom/android/server/pm/InjectorPMS;->mzAddAlreadyDexOpted(Ljava/util/HashSet;)V
+
     invoke-virtual/range {v42 .. v42}, Ljava/io/File;->list()[Ljava/lang/String;
 
     move-result-object v43
@@ -16519,7 +16521,7 @@
 
     move-result v7
 
-    if-nez v7, :cond_4
+    if-nez v7, :cond_flyme_0
 
     :cond_0
     move v0, v6
@@ -16527,6 +16529,7 @@
     .line 7914
     .local v0, "allowed":Z
     :goto_0
+    :goto_flyme_0
     if-nez v0, :cond_2
 
     iget v7, p3, Lcom/android/server/pm/BasePermission;->protectionLevel:I
@@ -16714,6 +16717,22 @@
     move v0, v5
 
     goto :goto_4
+
+    :cond_flyme_0
+    invoke-static/range {p2 .. p3}, Lcom/android/server/pm/InjectorPMS;->isExternalSystemPackage(Landroid/content/pm/PackageParser$Package;Lcom/android/server/pm/BasePermission;)Z
+
+    move-result v4
+
+    if-nez v4, :cond_flyme_1
+
+    const/4 v0, 0x0
+
+    goto :goto_flyme_0
+
+    :cond_flyme_1
+    const/4 v0, 0x1
+
+    goto :goto_flyme_0
 .end method
 
 .method private hasCommonResources(Landroid/content/pm/PackageParser$Package;)Z
@@ -24793,6 +24812,8 @@
     move-object/from16 v0, p0
 
     iput-object v4, v0, Lcom/android/server/pm/PackageManagerService;->mResolveComponentName:Landroid/content/ComponentName;
+
+    invoke-static {}, Lcom/android/server/pm/InjectorPMS;->scanPackageForAccessControl()V
 
     :cond_7
     monitor-exit v5
@@ -53233,7 +53254,7 @@
 
     move/from16 v1, v20
 
-    invoke-direct {v0, v14, v5, v1}, Lcom/android/server/pm/PackageManagerService;->performBootDexOpt(Landroid/content/pm/PackageParser$Package;II)V
+    invoke-direct {v0, v14, v5, v1}, Lcom/android/server/pm/PackageManagerService;->mzperformBootDexOpt(Landroid/content/pm/PackageParser$Package;II)V
 
     goto :goto_8
 

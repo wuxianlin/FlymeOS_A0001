@@ -119,6 +119,10 @@
 # instance fields
 .field private mActiveMedia:Z
 
+.field mFlymeStatusBarService:Lmeizu/statusbar/IFlymeStatusBarService;
+
+.field mServiceAquireLock:Ljava/lang/Object;
+
 .field private mAm:Landroid/app/IActivityManager;
 
 .field private mAppOps:Landroid/app/AppOpsManager;
@@ -528,6 +532,8 @@
     invoke-direct {v0, v1}, Landroid/util/LruCache;-><init>(I)V
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mSpamCache:Landroid/util/LruCache;
+
+    invoke-virtual/range {p0 .. p0}, Lcom/android/server/notification/NotificationManagerService;->initServiceAquireLock()V
 
     return-void
 .end method
@@ -1834,6 +1840,10 @@
     iget-object v4, v0, Lcom/android/server/notification/NotificationManagerService;->mAudioManager:Landroid/media/AudioManager;
 
     invoke-virtual {v4}, Landroid/media/AudioManager;->getRingerMode()I
+
+    move-result v4
+
+    invoke-virtual/range {p0 .. p0}, Lcom/android/server/notification/NotificationManagerService;->isVibrateOn()Z
 
     move-result v4
 
