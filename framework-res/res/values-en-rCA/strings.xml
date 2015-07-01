@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="numeric_date_template" formatted="false">%s-%s-%s</string>
+    <string name="month_day_year" formatted="false">%B %-e, %Y</string>
+    <string name="time_of_day" formatted="false">%-l:%M:%S %p</string>
+    <string name="date_and_time" formatted="false">%Y-%m-%d, %-l:%M:%S %p</string>
+    <string name="date_time">%1$s, %2$s</string>
+    <string name="global_action_reboot">Reboot</string>
+    <string name="reboot_progress">Rebooting…</string>
+    <string name="reboot_title">Reboot</string>
+    <string name="reboot_confirm">Your phone will reboot.</string>
+    <string name="reboot">Reboot</string>
+    <string name="reboot_recovery">Recovery</string>
+    <string name="reboot_bootloader">Bootloader</string>
+    <string name="permlab_setKeyguardWallpaper">set keyguard wallpaper</string>
+    <string name="permdesc_setKeyguardWallpaper">Allows an app to change the lock screen wallpaper.</string>
+    <string name="lock_to_app_toast">To unpin this screen, press and hold Back.</string>
+    <string name="lock_to_app_description">"Screen pinning locks the display in a single view.
+
+To unpin, press and hold Back."</string>
+    <string name="android_installing_apk">Installing app %1$d of %2$d.</string>
+    <string name="android_installing_title">Android is installing…</string>
+    <string name="adb_net_active_notification_title">ADB over network enabled</string>
+    <string name="adb_both_active_notification_title">ADB over USB &amp; network enabled</string>
+    <string name="adb_active_generic_notification_message">Touch to disable debugging.</string>
+</resources>

@@ -1,0 +1,13 @@
+#!/system/bin/sh
+echo "add" > /sys/devices/virtual/diag/diag/uevent
+
+cd /system/lib/modules
+
+#insmod cfg80211.ko 
+insmod wlan.ko con_mode=5
+
+sleep 1
+
+ptt_socket_app -f
+
+

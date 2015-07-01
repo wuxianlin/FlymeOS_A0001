@@ -1,0 +1,6 @@
+#!/system/bin/sh
+echo "add" > /sys/devices/virtual/diag/diag/uevent
+cd /system/lib/modules
+insmod wlan.ko con_mode=5
+
+ptt_socket_app -f

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is the standard set of features for oppo. -->
+<permissions>
+	<feature name="oppo.hw.manufacturer.qualcomm" />
+	<feature name="oppo.sw.solution.device" />
+	<feature name="oppo.breath.light.support" />
+	<feature name="oppo.inexact.alarm" />
+	<feature name="oppo.filtrated.app" />
+	<feature name="oppo.button.light.support" />
+	<feature name="oppo.double.flinger.volume.support" />
+	<feature name="oppo.multi.touch.camera.support" />
+	<feature name="oppo.enable.voice.activation.support" />
+	<feature name="oppo.infrared.gesture.support" />
+	<feature name="oppo.vacant.unlock.support" />
+	<feature name="oppo.voice.ctrl.support" />
+	<feature name="oppo.support.single.partition" />
+    <feature name="oppo.breath.light.color.set.support" />
+    <feature name="oppo.disable.small.window.leather" />
+</permissions>

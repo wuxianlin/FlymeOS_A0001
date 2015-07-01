@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="global_action_reboot">Reiniciar</string>
+    <string name="reboot_progress">Reiniciando…</string>
+    <string name="reboot_title">Reiniciar</string>
+    <string name="reboot_confirm">El teléfono se reiniciará.</string>
+    <string name="reboot">Reiniciar</string>
+    <string name="reboot_recovery">Modo Recovery</string>
+    <string name="reboot_bootloader">Modo Bootloader</string>
+    <string name="permlab_setKeyguardWallpaper">establecer fondo de pantalla de bloqueo</string>
+    <string name="permdesc_setKeyguardWallpaper">Permite que una aplicación cambie el fondo de pantalla de bloqueo.</string>
+    <string name="lock_to_app_toast">Para desactivar esta pantalla, mantén pulsado el botón de retroceso.</string>
+    <string name="lock_to_app_description">"Si fijas la pantalla, esta se bloqueará en una vista única.
+
+Para desactivarla, mantén pulsado el boton de retroceso."</string>
+    <string name="android_installing_apk">Instalando aplicación %1$d de %2$d.</string>
+    <string name="android_installing_title">Android se está instalando…</string>
+    <string name="adb_net_active_notification_title">ADB sobre red activado</string>
+    <string name="adb_both_active_notification_title">ADB sobre USB y red activado</string>
+    <string name="adb_active_generic_notification_message">Toca para desactivar la depuración.</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="global_action_reboot">Neustarten</string>
+    <string name="reboot_progress">Neustart wird durchgeführt</string>
+    <string name="reboot_title">Neustarten</string>
+    <string name="reboot_confirm">Ihr Telefon wird neu gestartet.</string>
+    <string name="reboot">Neustarten</string>
+    <string name="reboot_recovery">Recovery</string>
+    <string name="reboot_bootloader">Bootloader</string>
+    <string name="permlab_setKeyguardWallpaper">Sperrbildschirm-Hintergrund ändern</string>
+    <string name="permdesc_setKeyguardWallpaper">Ermöglicht der App, den Sperrbildschirm-Hintergrund zu ändern.</string>
+    <string name="lock_to_app_toast">To unpin this screen, press and hold Back.</string>
+    <string name="lock_to_app_description">"Screen pinning locks the display in a single view.
+
+To unpin, press and hold Back."</string>
+    <string name="android_installing_apk">Installing app %1$d of %2$d.</string>
+    <string name="android_installing_title">Android is installing…</string>
+    <string name="adb_net_active_notification_title">ADB over network enabled</string>
+    <string name="adb_both_active_notification_title">ADB over USB &amp; network enabled</string>
+    <string name="adb_active_generic_notification_message">Touch to disable debugging.</string>
+</resources>

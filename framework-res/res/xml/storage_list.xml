@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StorageList
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <storage android:mountPoint="/storage/sdcard0" android:storageDescription="@string/storage_internal" android:primary="true" android:removable="false" android:emulated="true" android:mtpReserve="100" />
+    <storage android:mountPoint="/storage/UDiskA" android:storageDescription="@string/storage_usb" android:primary="false" android:removable="true" android:emulated="false" />
+    <storage android:mountPoint="/storage/UDiskB" android:storageDescription="@string/storage_usb" android:primary="false" android:removable="true" android:emulated="false" />
+    <storage android:mountPoint="/storage/UDiskC" android:storageDescription="@string/storage_usb" android:primary="false" android:removable="true" android:emulated="false" />
+    <storage android:mountPoint="/storage/UDiskD" android:storageDescription="@string/storage_usb" android:primary="false" android:removable="true" android:emulated="false" />
+    <storage android:mountPoint="/storage/UDiskE" android:storageDescription="@string/storage_usb" android:primary="false" android:removable="true" android:emulated="false" />
+    <storage android:mountPoint="/storage/UDiskF" android:storageDescription="@string/storage_usb" android:primary="false" android:removable="true" android:emulated="false" />
+</StorageList>
