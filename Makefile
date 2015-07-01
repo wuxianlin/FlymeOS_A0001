@@ -140,7 +140,8 @@ board_saved_files := lib/libsqlite.so lib/libwebviewchromium.so
 # The default value is FlymeRomer.
 # You should configure the property according to your ID, ie, replace "FlymeRomer" with your ID.
 override_property += \
-    ro.flyme.romer=wuxianlin
+    ro.flyme.romer=wuxianlin \
+    ro.product.device=A0001
 
 ##############################################################################
 # The value decides which property you will remove from the build.prop.
