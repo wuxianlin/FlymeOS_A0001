@@ -578,6 +578,8 @@
 
     iput-boolean v2, p0, Landroid/net/wifi/WifiConfiguration;->duplicateNetwork:Z
 
+    invoke-direct/range {p0 .. p0}, Landroid/net/wifi/WifiConfiguration;->initFlymeExtFields()V
+
     return-void
 .end method
 
@@ -993,6 +995,8 @@
     iget-boolean v1, p1, Landroid/net/wifi/WifiConfiguration;->duplicateNetwork:Z
 
     iput-boolean v1, p0, Landroid/net/wifi/WifiConfiguration;->duplicateNetwork:Z
+
+    invoke-direct/range {p0 .. p1}, Landroid/net/wifi/WifiConfiguration;->initFlymeExtFields(Landroid/net/wifi/WifiConfiguration;)V
 
     .end local v0    # "i":I
     :cond_5

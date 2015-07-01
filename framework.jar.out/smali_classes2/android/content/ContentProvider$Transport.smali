@@ -767,7 +767,7 @@
 
     move-result-object p2
 
-    invoke-direct {p0, p1, p2}, Landroid/content/ContentProvider$Transport;->enforceDeletePermission(Ljava/lang/String;Landroid/net/Uri;)I
+    invoke-direct {p0, p1, p2}, Landroid/content/ContentProvider$Transport;->hook_enforceWritePermission_isDel(Ljava/lang/String;Landroid/net/Uri;)I
 
     move-result v1
 

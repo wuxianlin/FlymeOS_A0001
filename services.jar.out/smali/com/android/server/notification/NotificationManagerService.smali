@@ -1542,6 +1542,10 @@
 
     move-result v4
 
+    invoke-virtual/range {p0 .. p0}, Lcom/android/server/notification/NotificationManagerService;->isVibrateOn()Z
+
+    move-result v4
+
     if-eqz v4, :cond_b
 
     .line 1951

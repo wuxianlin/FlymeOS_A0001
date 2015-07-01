@@ -224,6 +224,8 @@
 
     invoke-virtual {p0, v0}, Landroid/widget/AbsListView$FlingRunnable;->endFling(Z)V
 
+    invoke-direct/range {p0 .. p0}, Landroid/widget/AbsListView$FlingRunnable;->mzEndFling()V
+
     return-void
 .end method
 
@@ -1086,6 +1088,8 @@
     invoke-static {v0, v1}, Landroid/widget/AbsListView;->access$2002(Landroid/widget/AbsListView;Landroid/os/StrictMode$Span;)Landroid/os/StrictMode$Span;
 
     :cond_1
+    invoke-direct/range {p0 .. p0}, Landroid/widget/AbsListView$FlingRunnable;->mzStart()V
+
     return-void
 
     .end local v2    # "initialY":I

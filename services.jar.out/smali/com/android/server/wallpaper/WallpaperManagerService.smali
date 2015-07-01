@@ -4841,6 +4841,8 @@
     .local v1, "keyguardWallpaperInfoFile":Ljava/io/File;
     invoke-virtual {v1}, Ljava/io/File;->delete()Z
 
+    invoke-direct/range {p0 .. p1}, Lcom/android/server/wallpaper/WallpaperManagerService;->mzonRemoveUser(I)V
+
     monitor-exit v5
 
     goto :goto_0

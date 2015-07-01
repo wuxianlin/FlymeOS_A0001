@@ -6,6 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Lcom/android/server/SystemServer$FlymeInjector;,
         Lcom/android/server/SystemServer$AdbPortObserver;
     }
 .end annotation
@@ -1493,7 +1494,7 @@
     .line 514
     move-object/from16 v0, p0
 
-    move-object/from16 v1, v98
+    move-object/from16 v1, v112
 
     invoke-static {v0, v1}, Lcom/android/server/SystemServer$FlymeInjector;->startFlymeMoveWindowService(Lcom/android/server/SystemServer;Lcom/android/server/wm/WindowManagerService;)V
 
@@ -1616,7 +1617,7 @@
 
     invoke-static {v4, v5}, Landroid/util/Slog;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    new-instance v69, Lcom/android/server/InputMethodManagerService;
+    new-instance v69, Lcom/android/server/MzInputMethodManagerService;
 
     move-object/from16 v0, v69
 
@@ -3476,6 +3477,14 @@
 
     .line 1085
     .restart local v81    # "mmsService":Lcom/android/server/MmsServiceBroker;
+    move-object/from16 v0, p0
+
+    move-object/from16 v4, v112
+
+    move-object/from16 v5, v106
+
+    invoke-static {v0, v4, v5}, Lcom/android/server/SystemServer$FlymeInjector;->startFlymeServices(Lcom/android/server/SystemServer;Lcom/android/server/wm/WindowManagerService;Lcom/android/server/wallpaper/WallpaperManagerService;)V
+
     :try_start_42
     invoke-virtual/range {v103 .. v103}, Lcom/android/server/VibratorService;->systemReady()V
     :try_end_42

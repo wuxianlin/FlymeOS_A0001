@@ -1683,6 +1683,12 @@
 
     aput-object v2, v0, v1
 
+    add-int/lit8 v1, v1, 0x1
+
+    const-string v2, "meizu_keyguard_lock"
+
+    aput-object v2, v0, v1
+
     sput-object v0, Landroid/provider/Settings$Secure;->SETTINGS_TO_BACKUP:[Ljava/lang/String;
 
     .line 5187

@@ -4644,7 +4644,7 @@
 
     sput-object v0, Lcom/android/internal/R$styleable;->AndroidManifestAction:[I
 
-    const/16 v0, 0x28
+    const/16 v0, 0x29
 
     new-array v0, v0, [I
 

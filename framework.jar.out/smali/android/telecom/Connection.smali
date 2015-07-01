@@ -31,6 +31,38 @@
 
 .field private static final DBG:Z = false
 
+.field public static final CAPABILITY_DISCONNECT_FROM_CONFERENCE:I = 0x2000
+
+.field public static final CAPABILITY_GENERIC_CONFERENCE:I = 0x4000
+
+.field public static final CAPABILITY_HIGH_DEF_AUDIO:I = 0x400
+
+.field public static final CAPABILITY_HOLD:I = 0x1
+
+.field public static final CAPABILITY_MANAGE_CONFERENCE:I = 0x80
+
+.field public static final CAPABILITY_MERGE_CONFERENCE:I = 0x4
+
+.field public static final CAPABILITY_MUTE:I = 0x40
+
+.field public static final CAPABILITY_RESPOND_VIA_TEXT:I = 0x20
+
+.field public static final CAPABILITY_SEPARATE_FROM_CONFERENCE:I = 0x1000
+
+.field public static final CAPABILITY_SUPPORTS_VT_LOCAL:I = 0x100
+
+.field public static final CAPABILITY_SUPPORTS_VT_REMOTE:I = 0x200
+
+.field public static final CAPABILITY_SUPPORT_HOLD:I = 0x2
+
+.field public static final CAPABILITY_SWAP_CONFERENCE:I = 0x8
+
+.field public static final CAPABILITY_UNUSED:I = 0x10
+
+.field public static final CAPABILITY_VoWIFI:I = 0x800
+
+.field public static final STATE_ALERTING:I = 0x7
+
 .field private static final PII_DEBUG:Z
 
 .field public static final STATE_ACTIVE:I = 0x4
