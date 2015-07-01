@@ -433,6 +433,12 @@
     # invokes: Lcom/android/server/notification/NotificationManagerService;->buzzBeepBlinkLocked(Lcom/android/server/notification/NotificationRecord;)V
     invoke-static {v1, v13}, Lcom/android/server/notification/NotificationManagerService;->access$3400(Lcom/android/server/notification/NotificationManagerService;Lcom/android/server/notification/NotificationRecord;)V
 
+    iget-object v1, p0, Lcom/android/server/notification/NotificationManagerService$7;->this$0:Lcom/android/server/notification/NotificationManagerService;
+
+    iget-object v2, p0, Lcom/android/server/notification/NotificationManagerService$7;->val$notification:Landroid/app/Notification;
+
+    invoke-virtual {v1, v2, v0, v13}, Lcom/android/server/notification/NotificationManagerService;->hookEnqueueNotification(Landroid/app/Notification;Landroid/service/notification/StatusBarNotification;Lcom/android/server/notification/NotificationRecord;)V
+
     .line 1826
     monitor-exit v14
 

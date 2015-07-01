@@ -1194,6 +1194,8 @@
 
     .line 441
     :cond_1
+    invoke-static/range {p1 .. p1}, Lcom/android/server/wm/InjectorWMS;->mzSetInputFocusLw(Lcom/android/server/wm/WindowState;)V
+
     return-void
 .end method
 
@@ -1252,6 +1254,8 @@
 
     .line 249
     :cond_0
+    invoke-static {}, Lcom/android/server/wm/InjectorWMS;->mzInsertMultipleWindow()V
+
     const/4 v2, 0x0
 
     move-object/from16 v0, p0

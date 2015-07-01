@@ -484,7 +484,7 @@
 
     move-result-object v1
 
-    const v2, 0x1120093
+    const v2, #android:bool@config_enableCpuBoostForOverScrollerFling#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -502,7 +502,7 @@
 
     move-result-object v1
 
-    const v2, 0x10e007b
+    const v2, #android:integer@flingboost_schedboost_param#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -515,7 +515,7 @@
 
     move-result-object v1
 
-    const v2, 0x10e007a
+    const v2, #android:integer@flingboost_timeout_param#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -528,7 +528,7 @@
 
     move-result-object v1
 
-    const v2, 0x10e007c
+    const v2, #android:integer@flingboost_cpuboost_param#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -541,7 +541,7 @@
 
     move-result-object v1
 
-    const v2, 0x10e007d
+    const v2, #android:integer@flingboost_pcdisbl_param#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -554,7 +554,7 @@
 
     move-result-object v1
 
-    const v2, 0x10e007e
+    const v2, #android:integer@flingboost_ksmboost_param#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -2373,6 +2373,16 @@
     .line 992
     move-object/from16 v0, p0
 
+    invoke-direct {v0, v2, v3}, Landroid/widget/OverScroller$SplineOverScroller;->mzQuintic(J)I
+
+    move-result v18
+
+    move/from16 v0, v18
+
+    int-to-double v6, v0
+
+    move-object/from16 v0, p0
+
     iget v0, v0, Landroid/widget/OverScroller$SplineOverScroller;->mOver:I
 
     move/from16 v18, v0
@@ -2442,4 +2452,64 @@
 
     .line 683
     return-void
+.end method
+
+.method private mzQuintic(J)I
+    .locals 9
+    .param p1, "timePassed"    # J
+
+    .prologue
+    const/high16 v4, 0x3f800000    # 1.0f
+
+    iget v2, p0, Landroid/widget/OverScroller$SplineOverScroller;->mVelocity:I
+
+    int-to-float v2, v2
+
+    invoke-static {v2}, Ljava/lang/Math;->signum(F)F
+
+    move-result v1
+
+    .local v1, "sign":F
+    long-to-float v2, p1
+
+    mul-float/2addr v2, v4
+
+    iget v3, p0, Landroid/widget/OverScroller$SplineOverScroller;->mDuration:I
+
+    int-to-float v3, v3
+
+    div-float/2addr v2, v3
+
+    sub-float v0, v2, v4
+
+    .local v0, "coeff":F
+    iget v2, p0, Landroid/widget/OverScroller$SplineOverScroller;->mOver:I
+
+    int-to-double v2, v2
+
+    float-to-double v4, v0
+
+    const-wide/high16 v6, 0x4014000000000000L    # 5.0
+
+    invoke-static {v4, v5, v6, v7}, Ljava/lang/Math;->pow(DD)D
+
+    move-result-wide v4
+
+    const-wide/high16 v6, 0x3ff0000000000000L    # 1.0
+
+    add-double/2addr v4, v6
+
+    mul-double/2addr v2, v4
+
+    invoke-static {v2, v3}, Ljava/lang/Math;->round(D)J
+
+    move-result-wide v2
+
+    long-to-float v2, v2
+
+    mul-float/2addr v2, v1
+
+    float-to-int v2, v2
+
+    return v2
 .end method

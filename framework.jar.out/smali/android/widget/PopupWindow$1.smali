@@ -70,6 +70,14 @@
     .line 146
     .local v1, "anchor":Landroid/view/View;
     :goto_0
+    iget-object v0, p0, Landroid/widget/PopupWindow$1;->this$0:Landroid/widget/PopupWindow;
+
+    invoke-static {v0}, Landroid/widget/PopupWindow$FlymeInjector;->isAnchorHasParent(Landroid/widget/PopupWindow;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_flyme_0
+
     if-eqz v1, :cond_0
 
     iget-object v0, p0, Landroid/widget/PopupWindow$1;->this$0:Landroid/widget/PopupWindow;
@@ -154,4 +162,8 @@
     const/4 v1, 0x0
 
     goto :goto_0
+
+    :cond_flyme_0
+
+    return-void
 .end method

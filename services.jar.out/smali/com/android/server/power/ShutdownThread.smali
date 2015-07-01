@@ -283,33 +283,28 @@
 
     sput-object v2, Lcom/android/server/power/ShutdownThread;->mAudioManager:Landroid/media/AudioManager;
 
-    .line 320
     sget-object v2, Lcom/android/server/power/ShutdownThread;->mAudioManager:Landroid/media/AudioManager;
 
     const/4 v3, 0x3
 
     invoke-virtual {v2, v6, v3, v4}, Landroid/media/AudioManager;->requestAudioFocus(Landroid/media/AudioManager$OnAudioFocusChangeListener;II)I
 
-    .line 323
     invoke-static {}, Lcom/android/server/power/ShutdownThread;->checkAnimationFileExist()Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
-    .line 326
     new-instance v1, Landroid/app/ProgressDialog;
 
     invoke-direct {v1, p0}, Landroid/app/ProgressDialog;-><init>(Landroid/content/Context;)V
 
-    .line 327
     .local v1, "pd":Landroid/app/ProgressDialog;
     sget-boolean v2, Lcom/android/server/power/ShutdownThread;->mReboot:Z
 
     if-eqz v2, :cond_3
 
-    .line 328
-    const v2, 0x104007c
+    const v2, #android:string@reboot#t
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -317,8 +312,7 @@
 
     invoke-virtual {v1, v2}, Landroid/app/ProgressDialog;->setTitle(Ljava/lang/CharSequence;)V
 
-    .line 329
-    const v2, 0x1040079
+    const v2, #android:string@reboot_progress#t
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -342,17 +336,14 @@
 
     invoke-virtual {v2, v3}, Landroid/view/Window;->setType(I)V
 
-    .line 338
-    invoke-virtual {v1}, Landroid/app/ProgressDialog;->show()V
+    invoke-static/range {p0 .. p0}, Lcom/android/server/power/InjectorPower;->showShutDownAnimation(Landroid/content/Context;)V
 
-    .line 341
     .end local v1    # "pd":Landroid/app/ProgressDialog;
     :cond_1
     sget-object v2, Lcom/android/server/power/ShutdownThread;->sInstance:Lcom/android/server/power/ShutdownThread;
 
     iput-object p0, v2, Lcom/android/server/power/ShutdownThread;->mContext:Landroid/content/Context;
 
-    .line 342
     sget-object v3, Lcom/android/server/power/ShutdownThread;->sInstance:Lcom/android/server/power/ShutdownThread;
 
     const-string v2, "power"
@@ -491,7 +482,7 @@
     .line 331
     .restart local v1    # "pd":Landroid/app/ProgressDialog;
     :cond_3
-    const v2, 0x1040106
+    const v2, #android:string@power_off#t
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -499,8 +490,7 @@
 
     invoke-virtual {v1, v2}, Landroid/app/ProgressDialog;->setTitle(Ljava/lang/CharSequence;)V
 
-    .line 332
-    const v2, 0x104010a
+    const v2, #android:string@shutdown_progress#t
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1145,9 +1135,9 @@
     .param p1, "confirm"    # Z
 
     .prologue
-    const v10, 0x1040009
+    const v10, #android:string@no#t
 
-    const v9, 0x1040013
+    const v9, #android:string@yes#t
 
     .line 145
     sget-object v7, Lcom/android/server/power/ShutdownThread;->sIsStartedGuard:Ljava/lang/Object;
@@ -1189,7 +1179,7 @@
 
     move-result-object v6
 
-    const v7, 0x1070035
+    const v7, #android:array@config_globalActionsList#t
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1225,7 +1215,7 @@
 
     move-result-object v6
 
-    const v7, 0x10e003c
+    const v7, #android:integer@config_longPressOnPowerBehavior#t
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -1237,7 +1227,7 @@
 
     if-eqz v6, :cond_4
 
-    const v4, 0x104010e
+    const v4, #android:string@reboot_safemode_confirm#t
 
     .line 169
     .local v4, "resourceId":I
@@ -1298,13 +1288,13 @@
 
     invoke-direct {v6, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v7, 0x104007a
+    const v7, #android:string@reboot_title#t
 
     invoke-virtual {v6, v7}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v6
 
-    const v7, 0x104007b
+    const v7, #android:string@reboot_confirm#t
 
     invoke-virtual {v6, v7}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -1411,12 +1401,12 @@
 
     if-ne v3, v6, :cond_5
 
-    const v4, 0x104010c
+    const v4, #android:string@shutdown_confirm_question#t
 
     goto/16 :goto_2
 
     :cond_5
-    const v4, 0x104010b
+    const v4, #android:string@shutdown_confirm#t
 
     goto/16 :goto_2
 
@@ -1432,7 +1422,7 @@
 
     if-eqz v6, :cond_7
 
-    const v6, 0x104010d
+    const v6, #android:string@reboot_safemode_title#t
 
     :goto_4
     invoke-virtual {v7, v6}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
@@ -1466,7 +1456,7 @@
     goto :goto_3
 
     :cond_7
-    const v6, 0x1040106
+    const v6, #android:string@power_off#t
 
     goto :goto_4
 
@@ -2225,3 +2215,12 @@
 
     goto/16 :goto_3
 .end method
+
+# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
+#.method static synthetic access$000(Landroid/content/Context;)V
+#    .locals 0
+#    .param p0, "x0"    # Landroid/content/Context;
+#    .prologue
+#    invoke-static {p0}, Lcom/android/server/power/ShutdownThread;->beginShutdownSequence(Landroid/content/Context;)V
+#    return-void
+#.end method

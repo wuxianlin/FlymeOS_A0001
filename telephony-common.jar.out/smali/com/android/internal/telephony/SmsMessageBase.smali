@@ -129,20 +129,17 @@
     .locals 1
 
     .prologue
-    .line 373
-    iget-object v0, p0, Lcom/android/internal/telephony/SmsMessageBase;->mDestinationAddress:Lcom/android/internal/telephony/SmsAddress;
+    iget-object v0, p0, Lcom/android/internal/telephony/SmsMessageBase;->destinationAddress:Lcom/android/internal/telephony/SmsAddress;
 
     if-nez v0, :cond_0
 
-    .line 374
     const/4 v0, 0x0
 
-    .line 376
     :goto_0
     return-object v0
 
     :cond_0
-    iget-object v0, p0, Lcom/android/internal/telephony/SmsMessageBase;->mDestinationAddress:Lcom/android/internal/telephony/SmsAddress;
+    iget-object v0, p0, Lcom/android/internal/telephony/SmsMessageBase;->destinationAddress:Lcom/android/internal/telephony/SmsAddress;
 
     invoke-virtual {v0}, Lcom/android/internal/telephony/SmsAddress;->getAddressString()Ljava/lang/String;
 

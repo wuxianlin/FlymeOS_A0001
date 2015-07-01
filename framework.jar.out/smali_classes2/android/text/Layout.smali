@@ -751,6 +751,12 @@
     .param p1, "method"    # Landroid/text/TextUtils$TruncateAt;
 
     .prologue
+    invoke-static {}, Landroid/os/BuildExt;->isProductInternational()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_flyme_0
+
     const/4 v1, 0x0
 
     .line 1756
@@ -771,6 +777,16 @@
     aget-char v0, v0, v1
 
     goto :goto_0
+
+    :cond_flyme_0
+
+    sget-object v0, Landroid/text/Layout;->ELLIPSIS_TWO_DOTS:[C
+
+    const/4 v1, 0x0
+
+    aget-char v0, v0, v1
+
+    return v0
 .end method
 
 .method private getHorizontal(IZIZ)F

@@ -1027,7 +1027,7 @@
 
     .line 465
     .local v8, "mNotificationMgr":Landroid/app/NotificationManager;
-    const v3, 0x1040477
+    sget v3, Lcom/flyme/internal/R$string;->low_internal_storage_view_title:I
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -1039,7 +1039,7 @@
 
     if-eqz v3, :cond_1
 
-    const v3, 0x1040478
+    const v3, #android:string@low_internal_storage_view_text#t
 
     :goto_1
     invoke-virtual {v0, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
@@ -1062,7 +1062,7 @@
 
     invoke-direct {v1, v0}, Landroid/app/Notification$Builder;-><init>(Landroid/content/Context;)V
 
-    const v3, 0x108065b
+    const v3, #android:drawable@stat_notify_disk_full#t
 
     invoke-virtual {v1, v3}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
 
@@ -1076,7 +1076,7 @@
 
     move-result-object v3
 
-    const v5, 0x1060058
+    const v5, #android:color@system_notification_accent_color#t
 
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1164,7 +1164,7 @@
     .restart local v8    # "mNotificationMgr":Landroid/app/NotificationManager;
     .restart local v10    # "title":Ljava/lang/CharSequence;
     :cond_1
-    const v3, 0x1040479
+    const v3, #android:string@low_internal_storage_view_text_no_boot#t
 
     goto :goto_1
 .end method
