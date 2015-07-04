@@ -63,7 +63,7 @@
     iget-object v0, p0, Lcom/android/server/wm/MoveWindowService$1;->this$0:Lcom/android/server/wm/MoveWindowService;
 
     # getter for: Lcom/android/server/wm/MoveWindowService;->movedFocusWin:Lcom/android/server/wm/WindowState;
-    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$iget-movedFocusWin-ac5191(Lcom/android/server/wm/MoveWindowService;)Lcom/android/server/wm/WindowState;
+    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$000(Lcom/android/server/wm/MoveWindowService;)Lcom/android/server/wm/WindowState;
 
     move-result-object v0
 
@@ -72,7 +72,7 @@
     iget-object v0, p0, Lcom/android/server/wm/MoveWindowService$1;->this$0:Lcom/android/server/wm/MoveWindowService;
 
     # getter for: Lcom/android/server/wm/MoveWindowService;->movedFocusWin:Lcom/android/server/wm/WindowState;
-    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$iget-movedFocusWin-ac5191(Lcom/android/server/wm/MoveWindowService;)Lcom/android/server/wm/WindowState;
+    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$000(Lcom/android/server/wm/MoveWindowService;)Lcom/android/server/wm/WindowState;
 
     move-result-object v0
 
@@ -85,7 +85,7 @@
     iget-object v0, p0, Lcom/android/server/wm/MoveWindowService$1;->this$0:Lcom/android/server/wm/MoveWindowService;
 
     # getter for: Lcom/android/server/wm/MoveWindowService;->movedFocusWin:Lcom/android/server/wm/WindowState;
-    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$iget-movedFocusWin-ac5191(Lcom/android/server/wm/MoveWindowService;)Lcom/android/server/wm/WindowState;
+    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$000(Lcom/android/server/wm/MoveWindowService;)Lcom/android/server/wm/WindowState;
 
     move-result-object v0
 
@@ -103,7 +103,7 @@
     iget v1, p0, Lcom/android/server/wm/MoveWindowService$1;->val$durationTime:I
 
     # invokes: Lcom/android/server/wm/MoveWindowService;->moveWinNormal(I)V
-    invoke-static {v0, v1}, Lcom/android/server/wm/MoveWindowService;->access$invoke-moveWinNormal-ae71c7(Lcom/android/server/wm/MoveWindowService;I)V
+    invoke-static {v0, v1}, Lcom/android/server/wm/MoveWindowService;->access$100(Lcom/android/server/wm/MoveWindowService;I)V
 
     goto :goto_0
 
@@ -112,7 +112,7 @@
     iget-object v0, p0, Lcom/android/server/wm/MoveWindowService$1;->this$0:Lcom/android/server/wm/MoveWindowService;
 
     # getter for: Lcom/android/server/wm/MoveWindowService;->movedFocusWin:Lcom/android/server/wm/WindowState;
-    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$iget-movedFocusWin-ac5191(Lcom/android/server/wm/MoveWindowService;)Lcom/android/server/wm/WindowState;
+    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$000(Lcom/android/server/wm/MoveWindowService;)Lcom/android/server/wm/WindowState;
 
     move-result-object v0
 
@@ -121,7 +121,7 @@
     iget-object v0, p0, Lcom/android/server/wm/MoveWindowService$1;->this$0:Lcom/android/server/wm/MoveWindowService;
 
     # getter for: Lcom/android/server/wm/MoveWindowService;->movedFocusWin:Lcom/android/server/wm/WindowState;
-    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$iget-movedFocusWin-ac5191(Lcom/android/server/wm/MoveWindowService;)Lcom/android/server/wm/WindowState;
+    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$000(Lcom/android/server/wm/MoveWindowService;)Lcom/android/server/wm/WindowState;
 
     move-result-object v0
 
@@ -134,7 +134,7 @@
     iget-object v0, p0, Lcom/android/server/wm/MoveWindowService$1;->this$0:Lcom/android/server/wm/MoveWindowService;
 
     # getter for: Lcom/android/server/wm/MoveWindowService;->movedFocusWin:Lcom/android/server/wm/WindowState;
-    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$iget-movedFocusWin-ac5191(Lcom/android/server/wm/MoveWindowService;)Lcom/android/server/wm/WindowState;
+    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$000(Lcom/android/server/wm/MoveWindowService;)Lcom/android/server/wm/WindowState;
 
     move-result-object v0
 
@@ -153,7 +153,7 @@
     iget v1, p0, Lcom/android/server/wm/MoveWindowService$1;->val$durationTime:I
 
     # invokes: Lcom/android/server/wm/MoveWindowService;->moveWinDown(I)V
-    invoke-static {v0, v1}, Lcom/android/server/wm/MoveWindowService;->access$invoke-moveWinDown-8c80de(Lcom/android/server/wm/MoveWindowService;I)V
+    invoke-static {v0, v1}, Lcom/android/server/wm/MoveWindowService;->access$200(Lcom/android/server/wm/MoveWindowService;I)V
 
     goto :goto_0
 

@@ -53,7 +53,7 @@
     iget-object v0, p0, Landroid/widget/MzActionMenuPresenter$ActionMenuPopupCallback;->this$0:Landroid/widget/MzActionMenuPresenter;
 
     # getter for: Landroid/widget/MzActionMenuPresenter;->mActionButtonPopup:Landroid/widget/MzActionMenuPresenter$ActionButtonSubmenu;
-    invoke-static {v0}, Landroid/widget/MzActionMenuPresenter;->access$iget-mActionButtonPopup-5e7090(Landroid/widget/MzActionMenuPresenter;)Landroid/widget/MzActionMenuPresenter$ActionButtonSubmenu;
+    invoke-static {v0}, Landroid/widget/MzActionMenuPresenter;->access$900(Landroid/widget/MzActionMenuPresenter;)Landroid/widget/MzActionMenuPresenter$ActionButtonSubmenu;
 
     move-result-object v0
 
@@ -62,7 +62,7 @@
     iget-object v0, p0, Landroid/widget/MzActionMenuPresenter$ActionMenuPopupCallback;->this$0:Landroid/widget/MzActionMenuPresenter;
 
     # getter for: Landroid/widget/MzActionMenuPresenter;->mActionButtonPopup:Landroid/widget/MzActionMenuPresenter$ActionButtonSubmenu;
-    invoke-static {v0}, Landroid/widget/MzActionMenuPresenter;->access$iget-mActionButtonPopup-5e7090(Landroid/widget/MzActionMenuPresenter;)Landroid/widget/MzActionMenuPresenter$ActionButtonSubmenu;
+    invoke-static {v0}, Landroid/widget/MzActionMenuPresenter;->access$900(Landroid/widget/MzActionMenuPresenter;)Landroid/widget/MzActionMenuPresenter$ActionButtonSubmenu;
 
     move-result-object v0
 

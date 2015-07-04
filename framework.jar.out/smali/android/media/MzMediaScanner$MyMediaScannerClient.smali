@@ -92,7 +92,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-processCuePlaylist-71145b(Landroid/media/MzMediaScanner$MyMediaScannerClient;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;)Z
+.method static synthetic access$4900(Landroid/media/MzMediaScanner$MyMediaScannerClient;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;)Z
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner$MyMediaScannerClient;
     .param p1, "x1"    # Ljava/lang/String;
@@ -467,7 +467,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mFilesUri:Landroid/net/Uri;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mFilesUri-4c4098(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$600(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
 
     move-result-object v28
 
@@ -478,7 +478,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mMediaInserter:Landroid/media/MediaInserter;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mMediaInserter-e5d54b(Landroid/media/MzMediaScanner;)Landroid/media/MediaInserter;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$2400(Landroid/media/MzMediaScanner;)Landroid/media/MediaInserter;
 
     move-result-object v17
 
@@ -507,7 +507,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mVideoUri:Landroid/net/Uri;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mVideoUri-67c9b0(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$2500(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
 
     move-result-object v28
 
@@ -553,7 +553,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mMtpObjectHandle:I
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mMtpObjectHandle-274bc0(Landroid/media/MzMediaScanner;)I
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$1600(Landroid/media/MzMediaScanner;)I
 
     move-result v4
 
@@ -567,7 +567,7 @@
     iget-object v5, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mMtpObjectHandle:I
-    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$iget-mMtpObjectHandle-274bc0(Landroid/media/MzMediaScanner;)I
+    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$1600(Landroid/media/MzMediaScanner;)I
 
     move-result v5
 
@@ -584,7 +584,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mFilesUri:Landroid/net/Uri;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mFilesUri-4c4098(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$600(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
 
     move-result-object v4
 
@@ -634,7 +634,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mWasEmptyPriorToScan:Z
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mWasEmptyPriorToScan-efd0b6(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$2700(Landroid/media/MzMediaScanner;)Z
 
     move-result v4
 
@@ -649,7 +649,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultNotificationSet:Z
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mDefaultNotificationSet-f1aecb(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$2800(Landroid/media/MzMediaScanner;)Z
 
     move-result v4
 
@@ -660,7 +660,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultNotificationFilename:Ljava/lang/String;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mDefaultNotificationFilename-cc0eac(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$2900(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -679,7 +679,7 @@
     iget-object v5, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultNotificationFilename:Ljava/lang/String;
-    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$iget-mDefaultNotificationFilename-cc0eac(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$2900(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -705,7 +705,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultMmsSet:Z
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mDefaultMmsSet-8e8b79(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$3000(Landroid/media/MzMediaScanner;)Z
 
     move-result v4
 
@@ -716,7 +716,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultMmsFilename:Ljava/lang/String;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mDefaultMmsFilename-a90291(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$3100(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -735,7 +735,7 @@
     iget-object v5, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultMmsFilename:Ljava/lang/String;
-    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$iget-mDefaultMmsFilename-a90291(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$3100(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -761,7 +761,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultMailSet:Z
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mDefaultMailSet-fefa28(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$3200(Landroid/media/MzMediaScanner;)Z
 
     move-result v4
 
@@ -772,7 +772,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultMailFilename:Ljava/lang/String;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mDefaultMailFilename-63bfc2(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$3300(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -791,7 +791,7 @@
     iget-object v5, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultMailFilename:Ljava/lang/String;
-    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$iget-mDefaultMailFilename-63bfc2(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$3300(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -817,7 +817,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultCanlendarSet:Z
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mDefaultCanlendarSet-3d41ba(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$3400(Landroid/media/MzMediaScanner;)Z
 
     move-result v4
 
@@ -828,7 +828,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultCanlendarFilename:Ljava/lang/String;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mDefaultCanlendarFilename-32cbc8(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$3500(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -847,7 +847,7 @@
     iget-object v5, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultCanlendarFilename:Ljava/lang/String;
-    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$iget-mDefaultCanlendarFilename-32cbc8(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$3500(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -887,7 +887,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mMediaProvider:Landroid/content/IContentProvider;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mMediaProvider-4a8f80(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$700(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
 
     move-result-object v4
 
@@ -896,7 +896,7 @@
     iget-object v5, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPackageName:Ljava/lang/String;
-    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$iget-mPackageName-243dec(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$500(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -957,7 +957,7 @@
     const/4 v5, 0x1
 
     # setter for: Landroid/media/MzMediaScanner;->mDefaultMmsSet:Z
-    invoke-static {v4, v5}, Landroid/media/MzMediaScanner;->access$iput-mDefaultMmsSet-a08512(Landroid/media/MzMediaScanner;Z)Z
+    invoke-static {v4, v5}, Landroid/media/MzMediaScanner;->access$3002(Landroid/media/MzMediaScanner;Z)Z
 
     .line 1430
     :cond_14
@@ -982,7 +982,7 @@
     const/4 v5, 0x1
 
     # setter for: Landroid/media/MzMediaScanner;->mDefaultMailSet:Z
-    invoke-static {v4, v5}, Landroid/media/MzMediaScanner;->access$iput-mDefaultMailSet-b8d62d(Landroid/media/MzMediaScanner;Z)Z
+    invoke-static {v4, v5}, Landroid/media/MzMediaScanner;->access$3202(Landroid/media/MzMediaScanner;Z)Z
 
     .line 1434
     :cond_15
@@ -1007,7 +1007,7 @@
     const/4 v5, 0x1
 
     # setter for: Landroid/media/MzMediaScanner;->mDefaultCanlendarSet:Z
-    invoke-static {v4, v5}, Landroid/media/MzMediaScanner;->access$iput-mDefaultCanlendarSet-8f45ca(Landroid/media/MzMediaScanner;Z)Z
+    invoke-static {v4, v5}, Landroid/media/MzMediaScanner;->access$3402(Landroid/media/MzMediaScanner;Z)Z
 
     .line 1438
     :cond_16
@@ -1032,7 +1032,7 @@
     const/4 v5, 0x1
 
     # setter for: Landroid/media/MzMediaScanner;->mDefaultNotificationSet:Z
-    invoke-static {v4, v5}, Landroid/media/MzMediaScanner;->access$iput-mDefaultNotificationSet-22d389(Landroid/media/MzMediaScanner;Z)Z
+    invoke-static {v4, v5}, Landroid/media/MzMediaScanner;->access$2802(Landroid/media/MzMediaScanner;Z)Z
 
     .line 1451
     :cond_17
@@ -1317,7 +1317,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mImagesUri:Landroid/net/Uri;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mImagesUri-a1deec(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$2600(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
 
     move-result-object v28
 
@@ -1344,7 +1344,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mAudioUri:Landroid/net/Uri;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mAudioUri-1fa49a(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$1500(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
 
     move-result-object v28
 
@@ -1365,7 +1365,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultRingtoneSet:Z
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mDefaultRingtoneSet-0b2a19(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$3600(Landroid/media/MzMediaScanner;)Z
 
     move-result v4
 
@@ -1377,7 +1377,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultRingtoneFilename:Ljava/lang/String;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mDefaultRingtoneFilename-e55ec3(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$3700(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -1396,7 +1396,7 @@
     iget-object v5, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultRingtoneFilename:Ljava/lang/String;
-    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$iget-mDefaultRingtoneFilename-e55ec3(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$3700(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -1423,7 +1423,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultAlarmSet:Z
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mDefaultAlarmSet-28cbae(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$3800(Landroid/media/MzMediaScanner;)Z
 
     move-result v4
 
@@ -1435,7 +1435,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultAlarmAlertFilename:Ljava/lang/String;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mDefaultAlarmAlertFilename-ba4bc9(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$3900(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -1454,7 +1454,7 @@
     iget-object v5, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDefaultAlarmAlertFilename:Ljava/lang/String;
-    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$iget-mDefaultAlarmAlertFilename-ba4bc9(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$3900(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -1583,7 +1583,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mMediaProvider:Landroid/content/IContentProvider;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mMediaProvider-4a8f80(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$700(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
 
     move-result-object v4
 
@@ -1592,7 +1592,7 @@
     iget-object v5, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPackageName:Ljava/lang/String;
-    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$iget-mPackageName-243dec(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$500(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -1669,7 +1669,7 @@
     const/4 v5, 0x1
 
     # setter for: Landroid/media/MzMediaScanner;->mDefaultRingtoneSet:Z
-    invoke-static {v4, v5}, Landroid/media/MzMediaScanner;->access$iput-mDefaultRingtoneSet-e68495(Landroid/media/MzMediaScanner;Z)Z
+    invoke-static {v4, v5}, Landroid/media/MzMediaScanner;->access$3602(Landroid/media/MzMediaScanner;Z)Z
 
     goto/16 :goto_5
 
@@ -1696,7 +1696,7 @@
     const/4 v5, 0x1
 
     # setter for: Landroid/media/MzMediaScanner;->mDefaultAlarmSet:Z
-    invoke-static {v4, v5}, Landroid/media/MzMediaScanner;->access$iput-mDefaultAlarmSet-b429fa(Landroid/media/MzMediaScanner;Z)Z
+    invoke-static {v4, v5}, Landroid/media/MzMediaScanner;->access$3802(Landroid/media/MzMediaScanner;Z)Z
 
     goto/16 :goto_5
 
@@ -1738,7 +1738,7 @@
     iget-object v2, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # invokes: Landroid/media/MzMediaScanner;->isDrmEnabled()Z
-    invoke-static {v2}, Landroid/media/MzMediaScanner;->access$invoke-isDrmEnabled-b8f24a(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v2}, Landroid/media/MzMediaScanner;->access$200(Landroid/media/MzMediaScanner;)Z
 
     move-result v2
 
@@ -1761,7 +1761,7 @@
     iget-object v2, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDrmManagerClient:Landroid/drm/DrmManagerClient;
-    invoke-static {v2}, Landroid/media/MzMediaScanner;->access$iget-mDrmManagerClient-5e8969(Landroid/media/MzMediaScanner;)Landroid/drm/DrmManagerClient;
+    invoke-static {v2}, Landroid/media/MzMediaScanner;->access$4600(Landroid/media/MzMediaScanner;)Landroid/drm/DrmManagerClient;
 
     move-result-object v2
 
@@ -1775,21 +1775,21 @@
     iget-object v4, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mContext:Landroid/content/Context;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mContext-2434bc(Landroid/media/MzMediaScanner;)Landroid/content/Context;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$4500(Landroid/media/MzMediaScanner;)Landroid/content/Context;
 
     move-result-object v4
 
     invoke-direct {v3, v4}, Landroid/drm/DrmManagerClient;-><init>(Landroid/content/Context;)V
 
     # setter for: Landroid/media/MzMediaScanner;->mDrmManagerClient:Landroid/drm/DrmManagerClient;
-    invoke-static {v2, v3}, Landroid/media/MzMediaScanner;->access$iput-mDrmManagerClient-543757(Landroid/media/MzMediaScanner;Landroid/drm/DrmManagerClient;)Landroid/drm/DrmManagerClient;
+    invoke-static {v2, v3}, Landroid/media/MzMediaScanner;->access$4602(Landroid/media/MzMediaScanner;Landroid/drm/DrmManagerClient;)Landroid/drm/DrmManagerClient;
 
     .line 1569
     :cond_2
     iget-object v2, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDrmManagerClient:Landroid/drm/DrmManagerClient;
-    invoke-static {v2}, Landroid/media/MzMediaScanner;->access$iget-mDrmManagerClient-5e8969(Landroid/media/MzMediaScanner;)Landroid/drm/DrmManagerClient;
+    invoke-static {v2}, Landroid/media/MzMediaScanner;->access$4600(Landroid/media/MzMediaScanner;)Landroid/drm/DrmManagerClient;
 
     move-result-object v2
 
@@ -1810,7 +1810,7 @@
     iget-object v2, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mDrmManagerClient:Landroid/drm/DrmManagerClient;
-    invoke-static {v2}, Landroid/media/MzMediaScanner;->access$iget-mDrmManagerClient-5e8969(Landroid/media/MzMediaScanner;)Landroid/drm/DrmManagerClient;
+    invoke-static {v2}, Landroid/media/MzMediaScanner;->access$4600(Landroid/media/MzMediaScanner;)Landroid/drm/DrmManagerClient;
 
     move-result-object v2
 
@@ -1848,7 +1848,7 @@
     iget-object v0, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mM3uCopingFlg:Z
-    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$iget-mM3uCopingFlg-7c4719(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$4000(Landroid/media/MzMediaScanner;)Z
 
     move-result v0
 
@@ -1866,7 +1866,7 @@
     iget-object v0, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mM3uMembersUri:Landroid/net/Uri;
-    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$iget-mM3uMembersUri-9d410b(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$4100(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
 
     move-result-object v0
 
@@ -1956,21 +1956,21 @@
     iget-object v0, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mMediaProvider:Landroid/content/IContentProvider;
-    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$iget-mMediaProvider-4a8f80(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
+    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$700(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
 
     move-result-object v0
 
     iget-object v1, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPackageName:Ljava/lang/String;
-    invoke-static {v1}, Landroid/media/MzMediaScanner;->access$iget-mPackageName-243dec(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v1}, Landroid/media/MzMediaScanner;->access$500(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v1
 
     iget-object v2, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mM3uMembersUri:Landroid/net/Uri;
-    invoke-static {v2}, Landroid/media/MzMediaScanner;->access$iget-mM3uMembersUri-9d410b(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+    invoke-static {v2}, Landroid/media/MzMediaScanner;->access$4100(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
 
     move-result-object v2
 
@@ -2068,21 +2068,21 @@
     iget-object v0, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mMediaProvider:Landroid/content/IContentProvider;
-    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$iget-mMediaProvider-4a8f80(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
+    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$700(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
 
     move-result-object v0
 
     iget-object v1, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPackageName:Ljava/lang/String;
-    invoke-static {v1}, Landroid/media/MzMediaScanner;->access$iget-mPackageName-243dec(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v1}, Landroid/media/MzMediaScanner;->access$500(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v1
 
     iget-object v2, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mM3uMembersUri:Landroid/net/Uri;
-    invoke-static {v2}, Landroid/media/MzMediaScanner;->access$iget-mM3uMembersUri-9d410b(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+    invoke-static {v2}, Landroid/media/MzMediaScanner;->access$4100(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
 
     move-result-object v2
 
@@ -2126,14 +2126,14 @@
     iget-object v11, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mM3uPath:Ljava/lang/String;
-    invoke-static {v11}, Landroid/media/MzMediaScanner;->access$iget-mM3uPath-9abc6f(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v11}, Landroid/media/MzMediaScanner;->access$4200(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v11
 
     iget-object v12, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mM3uPath:Ljava/lang/String;
-    invoke-static {v12}, Landroid/media/MzMediaScanner;->access$iget-mM3uPath-9abc6f(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v12}, Landroid/media/MzMediaScanner;->access$4200(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v12
 
@@ -2166,7 +2166,7 @@
     iget-object v11, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mM3uPath:Ljava/lang/String;
-    invoke-static {v11}, Landroid/media/MzMediaScanner;->access$iget-mM3uPath-9abc6f(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v11}, Landroid/media/MzMediaScanner;->access$4200(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v11
 
@@ -2217,7 +2217,7 @@
     iget-object v11, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPlaylistEntries:Ljava/util/ArrayList;
-    invoke-static {v11}, Landroid/media/MzMediaScanner;->access$iget-mPlaylistEntries-df609b(Landroid/media/MzMediaScanner;)Ljava/util/ArrayList;
+    invoke-static {v11}, Landroid/media/MzMediaScanner;->access$4300(Landroid/media/MzMediaScanner;)Ljava/util/ArrayList;
 
     move-result-object v11
 
@@ -2340,7 +2340,7 @@
     iget-object v12, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->mPath:Ljava/lang/String;
 
     # invokes: Landroid/media/MzMediaScanner;->matchPaths(Ljava/lang/String;Ljava/lang/String;)I
-    invoke-static {v11, v12, v5}, Landroid/media/MzMediaScanner;->access$invoke-matchPaths-a0618a(Landroid/media/MzMediaScanner;Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v11, v12, v5}, Landroid/media/MzMediaScanner;->access$4400(Landroid/media/MzMediaScanner;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v7
 
@@ -3273,7 +3273,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPlaylists:Ljava/util/Map;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mPlaylists-7cae83(Landroid/media/MzMediaScanner;)Ljava/util/Map;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$400(Landroid/media/MzMediaScanner;)Ljava/util/Map;
 
     move-result-object v3
 
@@ -3380,7 +3380,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mMediaProvider:Landroid/content/IContentProvider;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mMediaProvider-4a8f80(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$700(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
 
     move-result-object v3
 
@@ -3389,7 +3389,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPackageName:Ljava/lang/String;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mPackageName-243dec(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$500(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -3398,7 +3398,7 @@
     iget-object v5, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mFilesUri:Landroid/net/Uri;
-    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$iget-mFilesUri-4c4098(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$600(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
 
     move-result-object v5
 
@@ -3645,7 +3645,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mMediaProvider:Landroid/content/IContentProvider;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mMediaProvider-4a8f80(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$700(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
 
     move-result-object v3
 
@@ -3654,7 +3654,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPackageName:Ljava/lang/String;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mPackageName-243dec(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$500(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -3663,7 +3663,7 @@
     iget-object v5, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPlaylistsUri:Landroid/net/Uri;
-    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$iget-mPlaylistsUri-c3e3ac(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$800(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
 
     move-result-object v5
 
@@ -3747,7 +3747,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPlaylistsUri:Landroid/net/Uri;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mPlaylistsUri-c3e3ac(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$800(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
 
     move-result-object v3
 
@@ -3786,7 +3786,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mMediaProvider:Landroid/content/IContentProvider;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mMediaProvider-4a8f80(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$700(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
 
     move-result-object v9
 
@@ -3795,7 +3795,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPackageName:Ljava/lang/String;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mPackageName-243dec(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$500(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v10
 
@@ -3818,7 +3818,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mMediaProvider:Landroid/content/IContentProvider;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mMediaProvider-4a8f80(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$700(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
 
     move-result-object v3
 
@@ -3827,7 +3827,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPackageName:Ljava/lang/String;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mPackageName-243dec(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$500(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -3892,7 +3892,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mFilesUri:Landroid/net/Uri;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mFilesUri-4c4098(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$600(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
 
     move-result-object v3
 
@@ -3911,7 +3911,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mMediaProvider:Landroid/content/IContentProvider;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mMediaProvider-4a8f80(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$700(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
 
     move-result-object v13
 
@@ -3920,7 +3920,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPackageName:Ljava/lang/String;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mPackageName-243dec(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$500(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v14
 
@@ -3968,7 +3968,7 @@
     move-object/from16 v1, p0
 
     # invokes: Landroid/media/MzMediaScanner;->processFile(Ljava/lang/String;Ljava/lang/String;Landroid/media/MediaScannerClient;)V
-    invoke-static {v3, v0, v4, v1}, Landroid/media/MzMediaScanner;->access$invoke-processFile-312c71(Landroid/media/MzMediaScanner;Ljava/lang/String;Ljava/lang/String;Landroid/media/MediaScannerClient;)V
+    invoke-static {v3, v0, v4, v1}, Landroid/media/MzMediaScanner;->access$900(Landroid/media/MzMediaScanner;Ljava/lang/String;Ljava/lang/String;Landroid/media/MediaScannerClient;)V
 
     .line 664
     move-object/from16 v0, p0
@@ -4138,7 +4138,7 @@
     .line 698
     .local v44, "lowpath":Ljava/lang/String;
     # getter for: Landroid/media/MzMediaScanner;->MUSIC_DIR:Ljava/lang/String;
-    invoke-static {}, Landroid/media/MzMediaScanner;->access$sget-MUSIC_DIR-2980af()Ljava/lang/String;
+    invoke-static {}, Landroid/media/MzMediaScanner;->access$1000()Ljava/lang/String;
 
     move-result-object v3
 
@@ -4180,7 +4180,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mCaseInsensitivePaths:Z
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mCaseInsensitivePaths-2c2985(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$1100(Landroid/media/MzMediaScanner;)Z
 
     move-result v3
 
@@ -4198,7 +4198,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mCusEntries:Ljava/util/Map;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mCusEntries-ea9360(Landroid/media/MzMediaScanner;)Ljava/util/Map;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$1200(Landroid/media/MzMediaScanner;)Ljava/util/Map;
 
     move-result-object v3
 
@@ -4233,7 +4233,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mCusEntries:Ljava/util/Map;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mCusEntries-ea9360(Landroid/media/MzMediaScanner;)Ljava/util/Map;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$1200(Landroid/media/MzMediaScanner;)Ljava/util/Map;
 
     move-result-object v3
 
@@ -4361,7 +4361,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mProcessGenres:Z
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mProcessGenres-a58be6(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$1300(Landroid/media/MzMediaScanner;)Z
 
     move-result v3
 
@@ -4372,7 +4372,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mClient:Landroid/media/MzMediaScanner$MyMediaScannerClient;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mClient-6baa72(Landroid/media/MzMediaScanner;)Landroid/media/MzMediaScanner$MyMediaScannerClient;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$1400(Landroid/media/MzMediaScanner;)Landroid/media/MzMediaScanner$MyMediaScannerClient;
 
     move-result-object v3
 
@@ -4388,7 +4388,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mClient:Landroid/media/MzMediaScanner$MyMediaScannerClient;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mClient-6baa72(Landroid/media/MzMediaScanner;)Landroid/media/MzMediaScanner$MyMediaScannerClient;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$1400(Landroid/media/MzMediaScanner;)Landroid/media/MzMediaScanner$MyMediaScannerClient;
 
     move-result-object v4
 
@@ -4483,7 +4483,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mClient:Landroid/media/MzMediaScanner$MyMediaScannerClient;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mClient-6baa72(Landroid/media/MzMediaScanner;)Landroid/media/MzMediaScanner$MyMediaScannerClient;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$1400(Landroid/media/MzMediaScanner;)Landroid/media/MzMediaScanner$MyMediaScannerClient;
 
     move-result-object v4
 
@@ -4611,7 +4611,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mMediaProvider:Landroid/content/IContentProvider;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mMediaProvider-4a8f80(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$700(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
 
     move-result-object v3
 
@@ -4620,7 +4620,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPackageName:Ljava/lang/String;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mPackageName-243dec(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$500(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -4629,7 +4629,7 @@
     iget-object v5, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mAudioUri:Landroid/net/Uri;
-    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$iget-mAudioUri-1fa49a(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+    invoke-static {v5}, Landroid/media/MzMediaScanner;->access$1500(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
 
     move-result-object v5
 
@@ -4776,7 +4776,7 @@
     iget-object v3, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mMediaProvider:Landroid/content/IContentProvider;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mMediaProvider-4a8f80(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$700(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
 
     move-result-object v3
 
@@ -4785,7 +4785,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPackageName:Ljava/lang/String;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mPackageName-243dec(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$500(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -4831,7 +4831,7 @@
     iget-object v0, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mBitmapOptions:Landroid/graphics/BitmapFactory$Options;
-    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$iget-mBitmapOptions-f111d3(Landroid/media/MzMediaScanner;)Landroid/graphics/BitmapFactory$Options;
+    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$2200(Landroid/media/MzMediaScanner;)Landroid/graphics/BitmapFactory$Options;
 
     move-result-object v0
 
@@ -4843,7 +4843,7 @@
     iget-object v0, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mBitmapOptions:Landroid/graphics/BitmapFactory$Options;
-    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$iget-mBitmapOptions-f111d3(Landroid/media/MzMediaScanner;)Landroid/graphics/BitmapFactory$Options;
+    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$2200(Landroid/media/MzMediaScanner;)Landroid/graphics/BitmapFactory$Options;
 
     move-result-object v0
 
@@ -4855,7 +4855,7 @@
     iget-object v0, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mBitmapOptions:Landroid/graphics/BitmapFactory$Options;
-    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$iget-mBitmapOptions-f111d3(Landroid/media/MzMediaScanner;)Landroid/graphics/BitmapFactory$Options;
+    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$2200(Landroid/media/MzMediaScanner;)Landroid/graphics/BitmapFactory$Options;
 
     move-result-object v0
 
@@ -4865,7 +4865,7 @@
     iget-object v0, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mBitmapOptions:Landroid/graphics/BitmapFactory$Options;
-    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$iget-mBitmapOptions-f111d3(Landroid/media/MzMediaScanner;)Landroid/graphics/BitmapFactory$Options;
+    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$2200(Landroid/media/MzMediaScanner;)Landroid/graphics/BitmapFactory$Options;
 
     move-result-object v0
 
@@ -4877,7 +4877,7 @@
     iget-object v0, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mBitmapOptions:Landroid/graphics/BitmapFactory$Options;
-    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$iget-mBitmapOptions-f111d3(Landroid/media/MzMediaScanner;)Landroid/graphics/BitmapFactory$Options;
+    invoke-static {v0}, Landroid/media/MzMediaScanner;->access$2200(Landroid/media/MzMediaScanner;)Landroid/graphics/BitmapFactory$Options;
 
     move-result-object v0
 
@@ -4909,7 +4909,7 @@
     iget-object v1, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mContext:Landroid/content/Context;
-    invoke-static {v1}, Landroid/media/MzMediaScanner;->access$iget-mContext-2434bc(Landroid/media/MzMediaScanner;)Landroid/content/Context;
+    invoke-static {v1}, Landroid/media/MzMediaScanner;->access$4500(Landroid/media/MzMediaScanner;)Landroid/content/Context;
 
     move-result-object v1
 
@@ -4933,7 +4933,7 @@
     iget-object v1, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mContext:Landroid/content/Context;
-    invoke-static {v1}, Landroid/media/MzMediaScanner;->access$iget-mContext-2434bc(Landroid/media/MzMediaScanner;)Landroid/content/Context;
+    invoke-static {v1}, Landroid/media/MzMediaScanner;->access$4500(Landroid/media/MzMediaScanner;)Landroid/content/Context;
 
     move-result-object v1
 
@@ -5130,7 +5130,7 @@
     iget-object v2, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mInternalDB:Z
-    invoke-static {v2}, Landroid/media/MzMediaScanner;->access$iget-mInternalDB-adcee1(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v2}, Landroid/media/MzMediaScanner;->access$2300(Landroid/media/MzMediaScanner;)Z
 
     move-result v2
 
@@ -5538,7 +5538,7 @@
     if-nez p8, :cond_0
 
     # invokes: Landroid/media/MzMediaScanner;->isNoMediaFile(Ljava/lang/String;)Z
-    invoke-static/range {p1 .. p1}, Landroid/media/MzMediaScanner;->access$invoke-isNoMediaFile-4ca1ce(Ljava/lang/String;)Z
+    invoke-static/range {p1 .. p1}, Landroid/media/MzMediaScanner;->access$100(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -5684,7 +5684,7 @@
     iget-object v3, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # invokes: Landroid/media/MzMediaScanner;->isDrmEnabled()Z
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$invoke-isDrmEnabled-b8f24a(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$200(Landroid/media/MzMediaScanner;)Z
 
     move-result v3
 
@@ -5769,7 +5769,7 @@
     iget-object v3, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mProcessPlaylists:Z
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mProcessPlaylists-b49d47(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$300(Landroid/media/MzMediaScanner;)Z
 
     move-result v3
 
@@ -5787,7 +5787,7 @@
     iget-object v3, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mPlaylists:Ljava/util/Map;
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mPlaylists-7cae83(Landroid/media/MzMediaScanner;)Ljava/util/Map;
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$400(Landroid/media/MzMediaScanner;)Ljava/util/Map;
 
     move-result-object v3
 
@@ -6009,7 +6009,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mMtpObjectHandle:I
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mMtpObjectHandle-274bc0(Landroid/media/MzMediaScanner;)I
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$1600(Landroid/media/MzMediaScanner;)I
 
     move-result v4
 
@@ -6073,7 +6073,7 @@
     .line 822
     .local v20, "lowpath":Ljava/lang/String;
     # getter for: Landroid/media/MzMediaScanner;->EXTERNAL_DIR:Ljava/lang/String;
-    invoke-static {}, Landroid/media/MzMediaScanner;->access$sget-EXTERNAL_DIR-d9b9e2()Ljava/lang/String;
+    invoke-static {}, Landroid/media/MzMediaScanner;->access$1700()Ljava/lang/String;
 
     move-result-object v4
 
@@ -6097,7 +6097,7 @@
 
     :cond_7
     # getter for: Landroid/media/MzMediaScanner;->EXTERNAL_RINGTONE_DIR:Ljava/lang/String;
-    invoke-static {}, Landroid/media/MzMediaScanner;->access$sget-EXTERNAL_RINGTONE_DIR-fa8f58()Ljava/lang/String;
+    invoke-static {}, Landroid/media/MzMediaScanner;->access$1800()Ljava/lang/String;
 
     move-result-object v4
 
@@ -6110,7 +6110,7 @@
     if-nez v4, :cond_8
 
     # getter for: Landroid/media/MzMediaScanner;->MUSIC_DIR:Ljava/lang/String;
-    invoke-static {}, Landroid/media/MzMediaScanner;->access$sget-MUSIC_DIR-2980af()Ljava/lang/String;
+    invoke-static {}, Landroid/media/MzMediaScanner;->access$1000()Ljava/lang/String;
 
     move-result-object v4
 
@@ -6174,7 +6174,7 @@
     .local v10, "podcasts":Z
     :goto_5
     # getter for: Landroid/media/MzMediaScanner;->MUSIC_DIR:Ljava/lang/String;
-    invoke-static {}, Landroid/media/MzMediaScanner;->access$sget-MUSIC_DIR-2980af()Ljava/lang/String;
+    invoke-static {}, Landroid/media/MzMediaScanner;->access$1000()Ljava/lang/String;
 
     move-result-object v4
 
@@ -6229,7 +6229,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mExternalIsEmulated:Z
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mExternalIsEmulated-d90a19(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$1900(Landroid/media/MzMediaScanner;)Z
 
     move-result v4
 
@@ -6240,7 +6240,7 @@
     iget-object v4, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mExternalStoragePath:Ljava/lang/String;
-    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$iget-mExternalStoragePath-c8808e(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v4}, Landroid/media/MzMediaScanner;->access$2000(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -6270,7 +6270,7 @@
     iget-object v11, v0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mExternalStoragePath:Ljava/lang/String;
-    invoke-static {v11}, Landroid/media/MzMediaScanner;->access$iget-mExternalStoragePath-c8808e(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+    invoke-static {v11}, Landroid/media/MzMediaScanner;->access$2000(Landroid/media/MzMediaScanner;)Ljava/lang/String;
 
     move-result-object v11
 
@@ -6332,7 +6332,7 @@
     move-object/from16 v2, p0
 
     # invokes: Landroid/media/MzMediaScanner;->processFile(Ljava/lang/String;Ljava/lang/String;Landroid/media/MediaScannerClient;)V
-    invoke-static {v4, v0, v1, v2}, Landroid/media/MzMediaScanner;->access$invoke-processFile-312c71(Landroid/media/MzMediaScanner;Ljava/lang/String;Ljava/lang/String;Landroid/media/MediaScannerClient;)V
+    invoke-static {v4, v0, v1, v2}, Landroid/media/MzMediaScanner;->access$900(Landroid/media/MzMediaScanner;Ljava/lang/String;Ljava/lang/String;Landroid/media/MediaScannerClient;)V
 
     .line 852
     :cond_c
@@ -6532,7 +6532,7 @@
 
     .line 1088
     # getter for: Landroid/media/MzMediaScanner;->ID3_GENRES:[Ljava/lang/String;
-    invoke-static {}, Landroid/media/MzMediaScanner;->access$sget-ID3_GENRES-d3c3f9()[Ljava/lang/String;
+    invoke-static {}, Landroid/media/MzMediaScanner;->access$2100()[Ljava/lang/String;
 
     move-result-object v8
 
@@ -6541,7 +6541,7 @@
     if-ge v2, v8, :cond_7
 
     # getter for: Landroid/media/MzMediaScanner;->ID3_GENRES:[Ljava/lang/String;
-    invoke-static {}, Landroid/media/MzMediaScanner;->access$sget-ID3_GENRES-d3c3f9()[Ljava/lang/String;
+    invoke-static {}, Landroid/media/MzMediaScanner;->access$2100()[Ljava/lang/String;
 
     move-result-object v8
 
@@ -6551,7 +6551,7 @@
 
     .line 1089
     # getter for: Landroid/media/MzMediaScanner;->ID3_GENRES:[Ljava/lang/String;
-    invoke-static {}, Landroid/media/MzMediaScanner;->access$sget-ID3_GENRES-d3c3f9()[Ljava/lang/String;
+    invoke-static {}, Landroid/media/MzMediaScanner;->access$2100()[Ljava/lang/String;
 
     move-result-object v8
 
@@ -6811,7 +6811,7 @@
     iget-object v3, p0, Landroid/media/MzMediaScanner$MyMediaScannerClient;->this$0:Landroid/media/MzMediaScanner;
 
     # getter for: Landroid/media/MzMediaScanner;->mProcessGenres:Z
-    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$iget-mProcessGenres-a58be6(Landroid/media/MzMediaScanner;)Z
+    invoke-static {v3}, Landroid/media/MzMediaScanner;->access$1300(Landroid/media/MzMediaScanner;)Z
 
     move-result v3
 

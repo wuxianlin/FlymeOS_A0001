@@ -184,7 +184,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-handleLocalMessage-9c4bc0(Landroid/net/pppoe/PppoeStateTracker;Landroid/os/Message;)V
+.method static synthetic access$000(Landroid/net/pppoe/PppoeStateTracker;Landroid/os/Message;)V
     .locals 0
     .param p0, "x0"    # Landroid/net/pppoe/PppoeStateTracker;
     .param p1, "x1"    # Landroid/os/Message;
@@ -196,7 +196,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mLinkProperties-ce89eb(Landroid/net/pppoe/PppoeStateTracker;)Landroid/net/LinkProperties;
+.method static synthetic access$100(Landroid/net/pppoe/PppoeStateTracker;)Landroid/net/LinkProperties;
     .locals 1
     .param p0, "x0"    # Landroid/net/pppoe/PppoeStateTracker;
 
@@ -207,7 +207,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iput-mLinkProperties-0f5f39(Landroid/net/pppoe/PppoeStateTracker;Landroid/net/LinkProperties;)Landroid/net/LinkProperties;
+.method static synthetic access$102(Landroid/net/pppoe/PppoeStateTracker;Landroid/net/LinkProperties;)Landroid/net/LinkProperties;
     .locals 0
     .param p0, "x0"    # Landroid/net/pppoe/PppoeStateTracker;
     .param p1, "x1"    # Landroid/net/LinkProperties;
@@ -219,7 +219,7 @@
     return-object p1
 .end method
 
-.method static synthetic access$iget-mPppoeStarted-943675(Landroid/net/pppoe/PppoeStateTracker;)Z
+.method static synthetic access$200(Landroid/net/pppoe/PppoeStateTracker;)Z
     .locals 1
     .param p0, "x0"    # Landroid/net/pppoe/PppoeStateTracker;
 
@@ -230,7 +230,7 @@
     return v0
 .end method
 
-.method static synthetic access$invoke-handleNetworkDisconnect-2aff2e(Landroid/net/pppoe/PppoeStateTracker;)V
+.method static synthetic access$300(Landroid/net/pppoe/PppoeStateTracker;)V
     .locals 0
     .param p0, "x0"    # Landroid/net/pppoe/PppoeStateTracker;
 
@@ -241,7 +241,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mPppoeState-6c9dff(Landroid/net/pppoe/PppoeStateTracker;)Ljava/util/concurrent/atomic/AtomicInteger;
+.method static synthetic access$400(Landroid/net/pppoe/PppoeStateTracker;)Ljava/util/concurrent/atomic/AtomicInteger;
     .locals 1
     .param p0, "x0"    # Landroid/net/pppoe/PppoeStateTracker;
 

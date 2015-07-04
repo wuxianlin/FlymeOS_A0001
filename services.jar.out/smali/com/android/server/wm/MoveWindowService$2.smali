@@ -42,7 +42,7 @@
     iget-object v0, p0, Lcom/android/server/wm/MoveWindowService$2;->this$0:Lcom/android/server/wm/MoveWindowService;
 
     # invokes: Lcom/android/server/wm/MoveWindowService;->moveTopAppWinFrame()V
-    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$invoke-moveTopAppWinFrame-23d0a4(Lcom/android/server/wm/MoveWindowService;)V
+    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$300(Lcom/android/server/wm/MoveWindowService;)V
 
     .line 116
     iget-object v0, p0, Lcom/android/server/wm/MoveWindowService$2;->this$0:Lcom/android/server/wm/MoveWindowService;
@@ -64,7 +64,7 @@
     iget-object v0, p0, Lcom/android/server/wm/MoveWindowService$2;->this$0:Lcom/android/server/wm/MoveWindowService;
 
     # invokes: Lcom/android/server/wm/MoveWindowService;->moveTopAppWinFrame()V
-    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$invoke-moveTopAppWinFrame-23d0a4(Lcom/android/server/wm/MoveWindowService;)V
+    invoke-static {v0}, Lcom/android/server/wm/MoveWindowService;->access$300(Lcom/android/server/wm/MoveWindowService;)V
 
     .line 109
     iget-object v0, p0, Lcom/android/server/wm/MoveWindowService$2;->this$0:Lcom/android/server/wm/MoveWindowService;

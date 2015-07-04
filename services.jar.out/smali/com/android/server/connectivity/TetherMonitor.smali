@@ -148,7 +148,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mContext-1797e5(Lcom/android/server/connectivity/TetherMonitor;)Landroid/content/Context;
+.method static synthetic access$100(Lcom/android/server/connectivity/TetherMonitor;)Landroid/content/Context;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/connectivity/TetherMonitor;
 
@@ -159,7 +159,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mBluetoothTethering-f901aa(Lcom/android/server/connectivity/TetherMonitor;)Z
+.method static synthetic access$1000(Lcom/android/server/connectivity/TetherMonitor;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/server/connectivity/TetherMonitor;
 
@@ -170,7 +170,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mBluetoothTethering-f42d05(Lcom/android/server/connectivity/TetherMonitor;Z)Z
+.method static synthetic access$1002(Lcom/android/server/connectivity/TetherMonitor;Z)Z
     .locals 0
     .param p0, "x0"    # Lcom/android/server/connectivity/TetherMonitor;
     .param p1, "x1"    # Z
@@ -182,7 +182,7 @@
     return p1
 .end method
 
-.method static synthetic access$invoke-startTethering-df040c(Lcom/android/server/connectivity/TetherMonitor;I)V
+.method static synthetic access$1100(Lcom/android/server/connectivity/TetherMonitor;I)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/connectivity/TetherMonitor;
     .param p1, "x1"    # I
@@ -194,7 +194,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mTetherConfig-02f441(Lcom/android/server/connectivity/TetherMonitor;)I
+.method static synthetic access$200(Lcom/android/server/connectivity/TetherMonitor;)I
     .locals 1
     .param p0, "x0"    # Lcom/android/server/connectivity/TetherMonitor;
 
@@ -205,7 +205,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mMassStorageActive-eb705d(Lcom/android/server/connectivity/TetherMonitor;Z)Z
+.method static synthetic access$302(Lcom/android/server/connectivity/TetherMonitor;Z)Z
     .locals 0
     .param p0, "x0"    # Lcom/android/server/connectivity/TetherMonitor;
     .param p1, "x1"    # Z
@@ -217,7 +217,7 @@
     return p1
 .end method
 
-.method static synthetic access$iget-mUsbConnected-8fa11b(Lcom/android/server/connectivity/TetherMonitor;)Z
+.method static synthetic access$400(Lcom/android/server/connectivity/TetherMonitor;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/server/connectivity/TetherMonitor;
 
@@ -228,7 +228,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mUsbConnected-701eb5(Lcom/android/server/connectivity/TetherMonitor;Z)Z
+.method static synthetic access$402(Lcom/android/server/connectivity/TetherMonitor;Z)Z
     .locals 0
     .param p0, "x0"    # Lcom/android/server/connectivity/TetherMonitor;
     .param p1, "x1"    # Z
@@ -240,7 +240,7 @@
     return p1
 .end method
 
-.method static synthetic access$invoke-startTether-2e72d7(Lcom/android/server/connectivity/TetherMonitor;I)V
+.method static synthetic access$500(Lcom/android/server/connectivity/TetherMonitor;I)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/connectivity/TetherMonitor;
     .param p1, "x1"    # I
@@ -252,7 +252,7 @@
     return-void
 .end method
 
-.method static synthetic access$sget-mBluetoothEnableForTether-fb2a78()Z
+.method static synthetic access$600()Z
     .locals 1
 
     .prologue
@@ -262,7 +262,7 @@
     return v0
 .end method
 
-.method static synthetic access$sput-mBluetoothEnableForTether-18b73c(Z)Z
+.method static synthetic access$602(Z)Z
     .locals 0
     .param p0, "x0"    # Z
 
@@ -273,7 +273,7 @@
     return p0
 .end method
 
-.method static synthetic access$iget-mBluetoothPan-f1c46e(Lcom/android/server/connectivity/TetherMonitor;)Ljava/util/concurrent/atomic/AtomicReference;
+.method static synthetic access$700(Lcom/android/server/connectivity/TetherMonitor;)Ljava/util/concurrent/atomic/AtomicReference;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/connectivity/TetherMonitor;
 
@@ -284,7 +284,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-handleWifiApStateChanged-4d86ca(Lcom/android/server/connectivity/TetherMonitor;I)V
+.method static synthetic access$800(Lcom/android/server/connectivity/TetherMonitor;I)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/connectivity/TetherMonitor;
     .param p1, "x1"    # I
@@ -296,7 +296,7 @@
     return-void
 .end method
 
-.method static synthetic access$iput-getBluetoothPanProxyDone-50a7b7(Lcom/android/server/connectivity/TetherMonitor;Z)Z
+.method static synthetic access$902(Lcom/android/server/connectivity/TetherMonitor;Z)Z
     .locals 0
     .param p0, "x0"    # Lcom/android/server/connectivity/TetherMonitor;
     .param p1, "x1"    # Z

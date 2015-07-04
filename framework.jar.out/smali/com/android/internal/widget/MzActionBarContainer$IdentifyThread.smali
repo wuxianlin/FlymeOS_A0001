@@ -62,7 +62,7 @@
     iget-object v2, p0, Lcom/android/internal/widget/MzActionBarContainer$IdentifyThread;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mIsSplit:Z
-    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mIsSplit-5435d0(Lcom/android/internal/widget/MzActionBarContainer;)Z
+    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarContainer;->access$100(Lcom/android/internal/widget/MzActionBarContainer;)Z
 
     move-result v2
 
@@ -72,7 +72,7 @@
     iget-object v2, p0, Lcom/android/internal/widget/MzActionBarContainer$IdentifyThread;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mSplitBackgroundColor:I
-    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mSplitBackgroundColor-00163d(Lcom/android/internal/widget/MzActionBarContainer;)I
+    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarContainer;->access$300(Lcom/android/internal/widget/MzActionBarContainer;)I
 
     move-result v2
 
@@ -105,12 +105,12 @@
     iget-object v3, p0, Lcom/android/internal/widget/MzActionBarContainer$IdentifyThread;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mSplitBackground:Landroid/graphics/drawable/Drawable;
-    invoke-static {v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mSplitBackground-4c5648(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$700(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v3
 
     # invokes: Lcom/android/internal/widget/MzActionBarContainer;->drawable2Bitmap(Landroid/graphics/drawable/Drawable;)Landroid/graphics/Bitmap;
-    invoke-static {v2, v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$invoke-drawable2Bitmap-76b96c(Lcom/android/internal/widget/MzActionBarContainer;Landroid/graphics/drawable/Drawable;)Landroid/graphics/Bitmap;
+    invoke-static {v2, v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$1400(Lcom/android/internal/widget/MzActionBarContainer;Landroid/graphics/drawable/Drawable;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -121,19 +121,19 @@
     iget-object v3, p0, Lcom/android/internal/widget/MzActionBarContainer$IdentifyThread;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # invokes: Lcom/android/internal/widget/MzActionBarContainer;->checkBackgroundColor(Landroid/graphics/Bitmap;)I
-    invoke-static {v3, v0}, Lcom/android/internal/widget/MzActionBarContainer;->access$invoke-checkBackgroundColor-6b2e4f(Lcom/android/internal/widget/MzActionBarContainer;Landroid/graphics/Bitmap;)I
+    invoke-static {v3, v0}, Lcom/android/internal/widget/MzActionBarContainer;->access$1500(Lcom/android/internal/widget/MzActionBarContainer;Landroid/graphics/Bitmap;)I
 
     move-result v3
 
     # setter for: Lcom/android/internal/widget/MzActionBarContainer;->mSplitBackgroundColor:I
-    invoke-static {v2, v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$iput-mSplitBackgroundColor-c813d6(Lcom/android/internal/widget/MzActionBarContainer;I)I
+    invoke-static {v2, v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$302(Lcom/android/internal/widget/MzActionBarContainer;I)I
 
     .line 663
     :goto_1
     iget-object v2, p0, Lcom/android/internal/widget/MzActionBarContainer$IdentifyThread;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mIdentifyHandle:Landroid/os/Handler;
-    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mIdentifyHandle-30e9e3(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/os/Handler;
+    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarContainer;->access$1600(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/os/Handler;
 
     move-result-object v2
 
@@ -167,7 +167,7 @@
     iget-object v2, p0, Lcom/android/internal/widget/MzActionBarContainer$IdentifyThread;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mBackgroundColor:I
-    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mBackgroundColor-331da0(Lcom/android/internal/widget/MzActionBarContainer;)I
+    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarContainer;->access$200(Lcom/android/internal/widget/MzActionBarContainer;)I
 
     move-result v2
 
@@ -198,12 +198,12 @@
     iget-object v3, p0, Lcom/android/internal/widget/MzActionBarContainer$IdentifyThread;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mBackground:Landroid/graphics/drawable/Drawable;
-    invoke-static {v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mBackground-1388e4(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$800(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v3
 
     # invokes: Lcom/android/internal/widget/MzActionBarContainer;->drawable2Bitmap(Landroid/graphics/drawable/Drawable;)Landroid/graphics/Bitmap;
-    invoke-static {v2, v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$invoke-drawable2Bitmap-76b96c(Lcom/android/internal/widget/MzActionBarContainer;Landroid/graphics/drawable/Drawable;)Landroid/graphics/Bitmap;
+    invoke-static {v2, v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$1400(Lcom/android/internal/widget/MzActionBarContainer;Landroid/graphics/drawable/Drawable;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -214,12 +214,12 @@
     iget-object v3, p0, Lcom/android/internal/widget/MzActionBarContainer$IdentifyThread;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # invokes: Lcom/android/internal/widget/MzActionBarContainer;->checkBackgroundColor(Landroid/graphics/Bitmap;)I
-    invoke-static {v3, v0}, Lcom/android/internal/widget/MzActionBarContainer;->access$invoke-checkBackgroundColor-6b2e4f(Lcom/android/internal/widget/MzActionBarContainer;Landroid/graphics/Bitmap;)I
+    invoke-static {v3, v0}, Lcom/android/internal/widget/MzActionBarContainer;->access$1500(Lcom/android/internal/widget/MzActionBarContainer;Landroid/graphics/Bitmap;)I
 
     move-result v3
 
     # setter for: Lcom/android/internal/widget/MzActionBarContainer;->mBackgroundColor:I
-    invoke-static {v2, v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$iput-mBackgroundColor-71d67e(Lcom/android/internal/widget/MzActionBarContainer;I)I
+    invoke-static {v2, v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$202(Lcom/android/internal/widget/MzActionBarContainer;I)I
     :try_end_6
     .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_0
     .catchall {:try_start_6 .. :try_end_6} :catchall_0

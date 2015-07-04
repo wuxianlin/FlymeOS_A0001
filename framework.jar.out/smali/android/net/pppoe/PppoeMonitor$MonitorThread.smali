@@ -73,7 +73,7 @@
     iget-object v2, p0, Landroid/net/pppoe/PppoeMonitor$MonitorThread;->this$0:Landroid/net/pppoe/PppoeMonitor;
 
     # getter for: Landroid/net/pppoe/PppoeMonitor;->mPppoeStateTracker:Landroid/net/pppoe/PppoeStateTracker;
-    invoke-static {v2}, Landroid/net/pppoe/PppoeMonitor;->access$iget-mPppoeStateTracker-03d7ae(Landroid/net/pppoe/PppoeMonitor;)Landroid/net/pppoe/PppoeStateTracker;
+    invoke-static {v2}, Landroid/net/pppoe/PppoeMonitor;->access$000(Landroid/net/pppoe/PppoeMonitor;)Landroid/net/pppoe/PppoeStateTracker;
 
     move-result-object v2
 
@@ -90,7 +90,7 @@
     :cond_0
     :goto_1
     # invokes: Landroid/net/pppoe/PppoeMonitor;->nap(I)V
-    invoke-static {v4}, Landroid/net/pppoe/PppoeMonitor;->access$invoke-nap-bb1c1b(I)V
+    invoke-static {v4}, Landroid/net/pppoe/PppoeMonitor;->access$200(I)V
 
     goto :goto_0
 
@@ -104,7 +104,7 @@
     iget-object v2, p0, Landroid/net/pppoe/PppoeMonitor$MonitorThread;->this$0:Landroid/net/pppoe/PppoeMonitor;
 
     # getter for: Landroid/net/pppoe/PppoeMonitor;->mPppoeStateTracker:Landroid/net/pppoe/PppoeStateTracker;
-    invoke-static {v2}, Landroid/net/pppoe/PppoeMonitor;->access$iget-mPppoeStateTracker-03d7ae(Landroid/net/pppoe/PppoeMonitor;)Landroid/net/pppoe/PppoeStateTracker;
+    invoke-static {v2}, Landroid/net/pppoe/PppoeMonitor;->access$000(Landroid/net/pppoe/PppoeMonitor;)Landroid/net/pppoe/PppoeStateTracker;
 
     move-result-object v2
 
@@ -124,7 +124,7 @@
     iget-object v2, p0, Landroid/net/pppoe/PppoeMonitor$MonitorThread;->this$0:Landroid/net/pppoe/PppoeMonitor;
 
     # getter for: Landroid/net/pppoe/PppoeMonitor;->mPppoeStarted:Z
-    invoke-static {v2}, Landroid/net/pppoe/PppoeMonitor;->access$iget-mPppoeStarted-616799(Landroid/net/pppoe/PppoeMonitor;)Z
+    invoke-static {v2}, Landroid/net/pppoe/PppoeMonitor;->access$100(Landroid/net/pppoe/PppoeMonitor;)Z
 
     move-result v2
 
@@ -147,7 +147,7 @@
     iget-object v2, p0, Landroid/net/pppoe/PppoeMonitor$MonitorThread;->this$0:Landroid/net/pppoe/PppoeMonitor;
 
     # getter for: Landroid/net/pppoe/PppoeMonitor;->mPppoeStateTracker:Landroid/net/pppoe/PppoeStateTracker;
-    invoke-static {v2}, Landroid/net/pppoe/PppoeMonitor;->access$iget-mPppoeStateTracker-03d7ae(Landroid/net/pppoe/PppoeMonitor;)Landroid/net/pppoe/PppoeStateTracker;
+    invoke-static {v2}, Landroid/net/pppoe/PppoeMonitor;->access$000(Landroid/net/pppoe/PppoeMonitor;)Landroid/net/pppoe/PppoeStateTracker;
 
     move-result-object v2
 
@@ -162,7 +162,7 @@
     iget-object v2, p0, Landroid/net/pppoe/PppoeMonitor$MonitorThread;->this$0:Landroid/net/pppoe/PppoeMonitor;
 
     # getter for: Landroid/net/pppoe/PppoeMonitor;->mPppoeStateTracker:Landroid/net/pppoe/PppoeStateTracker;
-    invoke-static {v2}, Landroid/net/pppoe/PppoeMonitor;->access$iget-mPppoeStateTracker-03d7ae(Landroid/net/pppoe/PppoeMonitor;)Landroid/net/pppoe/PppoeStateTracker;
+    invoke-static {v2}, Landroid/net/pppoe/PppoeMonitor;->access$000(Landroid/net/pppoe/PppoeMonitor;)Landroid/net/pppoe/PppoeStateTracker;
 
     move-result-object v2
 

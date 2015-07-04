@@ -65,7 +65,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mAlertParams-83816f(Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;)Lcom/android/internal/app/AlertController$AlertParams;
+.method static synthetic access$700(Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;)Lcom/android/internal/app/AlertController$AlertParams;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;
 
@@ -183,7 +183,7 @@
     iget v2, v2, Lcom/android/internal/app/AlertController$AlertParams;->mCheckedItem:I
 
     # setter for: Lcom/android/internal/app/AlertControllerExt;->mCheckedItem:I
-    invoke-static {v1, v2}, Lcom/android/internal/app/AlertControllerExt;->access$iput-mCheckedItem-2cc7ac(Lcom/android/internal/app/AlertControllerExt;I)I
+    invoke-static {v1, v2}, Lcom/android/internal/app/AlertControllerExt;->access$502(Lcom/android/internal/app/AlertControllerExt;I)I
 
     .line 661
     iget-object v1, p0, Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;->mAlertParams:Lcom/android/internal/app/AlertController$AlertParams;

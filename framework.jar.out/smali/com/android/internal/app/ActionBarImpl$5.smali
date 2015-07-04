@@ -49,7 +49,7 @@
     iget-object v1, p0, Lcom/android/internal/app/ActionBarImpl$5;->this$0:Lcom/android/internal/app/ActionBarImpl;
 
     # getter for: Lcom/android/internal/app/ActionBarImpl;->mDelayUpdateTabs:Ljava/lang/Runnable;
-    invoke-static {v1}, Lcom/android/internal/app/ActionBarImpl;->access$iget-mDelayUpdateTabs-2513a7(Lcom/android/internal/app/ActionBarImpl;)Ljava/lang/Runnable;
+    invoke-static {v1}, Lcom/android/internal/app/ActionBarImpl;->access$1600(Lcom/android/internal/app/ActionBarImpl;)Ljava/lang/Runnable;
 
     move-result-object v1
 
@@ -63,7 +63,7 @@
     iget-object v1, p0, Lcom/android/internal/app/ActionBarImpl$5;->this$0:Lcom/android/internal/app/ActionBarImpl;
 
     # getter for: Lcom/android/internal/app/ActionBarImpl;->mDelayUpdateTabs:Ljava/lang/Runnable;
-    invoke-static {v1}, Lcom/android/internal/app/ActionBarImpl;->access$iget-mDelayUpdateTabs-2513a7(Lcom/android/internal/app/ActionBarImpl;)Ljava/lang/Runnable;
+    invoke-static {v1}, Lcom/android/internal/app/ActionBarImpl;->access$1600(Lcom/android/internal/app/ActionBarImpl;)Ljava/lang/Runnable;
 
     move-result-object v1
 

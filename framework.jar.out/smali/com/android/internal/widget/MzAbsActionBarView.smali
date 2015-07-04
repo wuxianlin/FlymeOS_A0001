@@ -185,7 +185,7 @@
 
     move-result-object v1
 
-    const v2, #android:attr@actionBarPopupTheme#t
+    const v2, 0x101048d
 
     invoke-virtual {v1, v2, v0, v3}, Landroid/content/res/Resources$Theme;->resolveAttribute(ILandroid/util/TypedValue;Z)Z
 
@@ -220,7 +220,7 @@
     goto :goto_0
 .end method
 
-.method static synthetic access$invoke-onAnimationStartInner-0beed3(Lcom/android/internal/widget/MzAbsActionBarView;Landroid/animation/Animator;)V
+.method static synthetic access$000(Lcom/android/internal/widget/MzAbsActionBarView;Landroid/animation/Animator;)V
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/widget/MzAbsActionBarView;
     .param p1, "x1"    # Landroid/animation/Animator;
@@ -232,7 +232,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-onAnimationEndInner-f265bd(Lcom/android/internal/widget/MzAbsActionBarView;Landroid/animation/Animator;I)V
+.method static synthetic access$100(Lcom/android/internal/widget/MzAbsActionBarView;Landroid/animation/Animator;I)V
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/widget/MzAbsActionBarView;
     .param p1, "x1"    # Landroid/animation/Animator;
@@ -1347,7 +1347,7 @@
 
     sget-object v3, Landroid/R$styleable;->ActionBar:[I
 
-    const v4, #android:attr@actionBarStyle#t
+    const v4, 0x10102ce
 
     invoke-virtual {v1, v2, v3, v4, v5}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

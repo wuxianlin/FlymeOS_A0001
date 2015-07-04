@@ -50,7 +50,7 @@
     .prologue
     .line 59
     # getter for: Lcom/android/server/am/InjectorAMS;->mErrorListenerLock:Ljava/lang/Object;
-    invoke-static {}, Lcom/android/server/am/InjectorAMS;->access$sget-mErrorListenerLock-931ecd()Ljava/lang/Object;
+    invoke-static {}, Lcom/android/server/am/InjectorAMS;->access$000()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -59,7 +59,7 @@
     .line 60
     :try_start_0
     # getter for: Lcom/android/server/am/InjectorAMS;->mIApplicationErrorListener:Landroid/app/IApplicationErrorListener;
-    invoke-static {}, Lcom/android/server/am/InjectorAMS;->access$sget-mIApplicationErrorListener-1d18fc()Landroid/app/IApplicationErrorListener;
+    invoke-static {}, Lcom/android/server/am/InjectorAMS;->access$100()Landroid/app/IApplicationErrorListener;
 
     move-result-object v0
 
@@ -67,7 +67,7 @@
 
     .line 61
     # setter for: Lcom/android/server/am/InjectorAMS;->mIApplicationErrorListener:Landroid/app/IApplicationErrorListener;
-    invoke-static {p1}, Lcom/android/server/am/InjectorAMS;->access$sput-mIApplicationErrorListener-37e618(Landroid/app/IApplicationErrorListener;)Landroid/app/IApplicationErrorListener;
+    invoke-static {p1}, Lcom/android/server/am/InjectorAMS;->access$102(Landroid/app/IApplicationErrorListener;)Landroid/app/IApplicationErrorListener;
 
     .line 63
     :cond_0

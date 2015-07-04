@@ -53,7 +53,7 @@
     iget-object v0, p0, Lcom/android/internal/app/RecommendActivity$RecommendGridAdapter;->this$0:Lcom/android/internal/app/RecommendActivity;
 
     # getter for: Lcom/android/internal/app/RecommendActivity;->mOpenHelper:Lcom/android/internal/app/RecommendActivity$OpenFileFetchHelper;
-    invoke-static {v0}, Lcom/android/internal/app/RecommendActivity;->access$iget-mOpenHelper-f11304(Lcom/android/internal/app/RecommendActivity;)Lcom/android/internal/app/RecommendActivity$OpenFileFetchHelper;
+    invoke-static {v0}, Lcom/android/internal/app/RecommendActivity;->access$100(Lcom/android/internal/app/RecommendActivity;)Lcom/android/internal/app/RecommendActivity$OpenFileFetchHelper;
 
     move-result-object v0
 
@@ -113,7 +113,7 @@
 
     .line 373
     :goto_0
-    const v5, #android:id@icon#t
+    const v5, 0x1020006
 
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -124,7 +124,7 @@
 
     .line 374
     .restart local v1    # "imageView":Landroid/widget/ImageView;
-    const v5, #android:id@text1#t
+    const v5, 0x1020014
 
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -139,7 +139,7 @@
     iget-object v5, p0, Lcom/android/internal/app/RecommendActivity$RecommendGridAdapter;->this$0:Lcom/android/internal/app/RecommendActivity;
 
     # getter for: Lcom/android/internal/app/RecommendActivity;->mOpenHelper:Lcom/android/internal/app/RecommendActivity$OpenFileFetchHelper;
-    invoke-static {v5}, Lcom/android/internal/app/RecommendActivity;->access$iget-mOpenHelper-f11304(Lcom/android/internal/app/RecommendActivity;)Lcom/android/internal/app/RecommendActivity$OpenFileFetchHelper;
+    invoke-static {v5}, Lcom/android/internal/app/RecommendActivity;->access$100(Lcom/android/internal/app/RecommendActivity;)Lcom/android/internal/app/RecommendActivity$OpenFileFetchHelper;
 
     move-result-object v5
 

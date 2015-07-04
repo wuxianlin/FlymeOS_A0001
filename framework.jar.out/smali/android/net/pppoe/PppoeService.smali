@@ -83,7 +83,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-setPppoeEnabledBlocking-65e476(Landroid/net/pppoe/PppoeService;ZZI)Z
+.method static synthetic access$000(Landroid/net/pppoe/PppoeService;ZZI)Z
     .locals 1
     .param p0, "x0"    # Landroid/net/pppoe/PppoeService;
     .param p1, "x1"    # Z

@@ -73,7 +73,7 @@
     move-result-object v2
 
     # invokes: Lcom/android/server/SambaClientService;->setNetbiosName(Ljava/lang/String;)V
-    invoke-static {v1, v2}, Lcom/android/server/SambaClientService;->access$invoke-setNetbiosName-e76f68(Lcom/android/server/SambaClientService;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/android/server/SambaClientService;->access$100(Lcom/android/server/SambaClientService;Ljava/lang/String;)V
 
     goto :goto_0
 .end method

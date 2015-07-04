@@ -193,7 +193,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mTabLayout-b0cc50(Lcom/android/internal/widget/MzScrollingTabContainerView;)Landroid/widget/LinearLayout;
+.method static synthetic access$200(Lcom/android/internal/widget/MzScrollingTabContainerView;)Landroid/widget/LinearLayout;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzScrollingTabContainerView;
 
@@ -204,7 +204,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-createTabView-c52f76(Lcom/android/internal/widget/MzScrollingTabContainerView;Landroid/app/ActionBar$Tab;Z)Lcom/android/internal/widget/MzScrollingTabContainerView$TabView;
+.method static synthetic access$300(Lcom/android/internal/widget/MzScrollingTabContainerView;Landroid/app/ActionBar$Tab;Z)Lcom/android/internal/widget/MzScrollingTabContainerView$TabView;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzScrollingTabContainerView;
     .param p1, "x1"    # Landroid/app/ActionBar$Tab;
@@ -339,7 +339,7 @@
 
     const/4 v2, 0x0
 
-    const v3, #android:attr@actionDropDownStyle#t
+    const v3, 0x10102d7
 
     invoke-direct {v0, v1, v2, v3}, Landroid/widget/Spinner;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -377,7 +377,7 @@
 
     const/4 v2, 0x0
 
-    const v3, #android:attr@actionBarTabBarStyle#t
+    const v3, 0x10102f4
 
     invoke-direct {v0, v1, v2, v3}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 

@@ -344,7 +344,7 @@
     :goto_5
     :try_start_6
     # getter for: Lcom/android/server/am/InjectorAMS;->TAG:Ljava/lang/String;
-    invoke-static {}, Lcom/android/server/am/InjectorAMS;->access$sget-TAG-c28799()Ljava/lang/String;
+    invoke-static {}, Lcom/android/server/am/InjectorAMS;->access$300()Ljava/lang/String;
 
     move-result-object v0
 
@@ -368,7 +368,7 @@
     :cond_4
     :goto_6
     # getter for: Lcom/android/server/am/InjectorAMS;->mErrorListenerLock:Ljava/lang/Object;
-    invoke-static {}, Lcom/android/server/am/InjectorAMS;->access$sget-mErrorListenerLock-931ecd()Ljava/lang/Object;
+    invoke-static {}, Lcom/android/server/am/InjectorAMS;->access$000()Ljava/lang/Object;
 
     move-result-object v14
 
@@ -377,7 +377,7 @@
     .line 182
     :try_start_8
     # getter for: Lcom/android/server/am/InjectorAMS;->mIApplicationErrorListener:Landroid/app/IApplicationErrorListener;
-    invoke-static {}, Lcom/android/server/am/InjectorAMS;->access$sget-mIApplicationErrorListener-1d18fc()Landroid/app/IApplicationErrorListener;
+    invoke-static {}, Lcom/android/server/am/InjectorAMS;->access$100()Landroid/app/IApplicationErrorListener;
     :try_end_8
     .catch Landroid/os/DeadObjectException; {:try_start_8 .. :try_end_8} :catch_3
     .catch Ljava/lang/Exception; {:try_start_8 .. :try_end_8} :catch_4
@@ -406,7 +406,7 @@
     .line 138
     .restart local v8    # "e":Ljava/io/IOException;
     # getter for: Lcom/android/server/am/InjectorAMS;->TAG:Ljava/lang/String;
-    invoke-static {}, Lcom/android/server/am/InjectorAMS;->access$sget-TAG-c28799()Ljava/lang/String;
+    invoke-static {}, Lcom/android/server/am/InjectorAMS;->access$300()Ljava/lang/String;
 
     move-result-object v0
 
@@ -501,7 +501,7 @@
     :cond_8
     :try_start_c
     # getter for: Lcom/android/server/am/InjectorAMS;->mIApplicationErrorListener:Landroid/app/IApplicationErrorListener;
-    invoke-static {}, Lcom/android/server/am/InjectorAMS;->access$sget-mIApplicationErrorListener-1d18fc()Landroid/app/IApplicationErrorListener;
+    invoke-static {}, Lcom/android/server/am/InjectorAMS;->access$100()Landroid/app/IApplicationErrorListener;
 
     move-result-object v0
 
@@ -556,7 +556,7 @@
     const/4 v0, 0x0
 
     # setter for: Lcom/android/server/am/InjectorAMS;->mIApplicationErrorListener:Landroid/app/IApplicationErrorListener;
-    invoke-static {v0}, Lcom/android/server/am/InjectorAMS;->access$sput-mIApplicationErrorListener-37e618(Landroid/app/IApplicationErrorListener;)Landroid/app/IApplicationErrorListener;
+    invoke-static {v0}, Lcom/android/server/am/InjectorAMS;->access$102(Landroid/app/IApplicationErrorListener;)Landroid/app/IApplicationErrorListener;
 
     goto :goto_a
 

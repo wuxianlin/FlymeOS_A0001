@@ -44,7 +44,7 @@
     iget-object v0, p0, Lcom/android/internal/app/ActionBarImpl$4;->this$0:Lcom/android/internal/app/ActionBarImpl;
 
     # invokes: Lcom/android/internal/app/ActionBarImpl;->updateEmbededTabs()V
-    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$invoke-updateEmbededTabs-679b12(Lcom/android/internal/app/ActionBarImpl;)V
+    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$1500(Lcom/android/internal/app/ActionBarImpl;)V
 
     .line 1688
     return-void

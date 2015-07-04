@@ -140,7 +140,7 @@
     return-void
 .end method
 
-.method static synthetic access$sget-mErrorListenerLock-931ecd()Ljava/lang/Object;
+.method static synthetic access$000()Ljava/lang/Object;
     .locals 1
 
     .prologue
@@ -150,7 +150,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$sget-mIApplicationErrorListener-1d18fc()Landroid/app/IApplicationErrorListener;
+.method static synthetic access$100()Landroid/app/IApplicationErrorListener;
     .locals 1
 
     .prologue
@@ -160,7 +160,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$sput-mIApplicationErrorListener-37e618(Landroid/app/IApplicationErrorListener;)Landroid/app/IApplicationErrorListener;
+.method static synthetic access$102(Landroid/app/IApplicationErrorListener;)Landroid/app/IApplicationErrorListener;
     .locals 0
     .param p0, "x0"    # Landroid/app/IApplicationErrorListener;
 
@@ -171,7 +171,7 @@
     return-object p0
 .end method
 
-.method static synthetic access$sget-TAG-c28799()Ljava/lang/String;
+.method static synthetic access$300()Ljava/lang/String;
     .locals 1
 
     .prologue

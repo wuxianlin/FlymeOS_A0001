@@ -42,7 +42,7 @@
     iget-object v0, p0, Landroid/net/pppoe/PppoeStateTracker$1;->this$0:Landroid/net/pppoe/PppoeStateTracker;
 
     # invokes: Landroid/net/pppoe/PppoeStateTracker;->handleLocalMessage(Landroid/os/Message;)V
-    invoke-static {v0, p1}, Landroid/net/pppoe/PppoeStateTracker;->access$invoke-handleLocalMessage-9c4bc0(Landroid/net/pppoe/PppoeStateTracker;Landroid/os/Message;)V
+    invoke-static {v0, p1}, Landroid/net/pppoe/PppoeStateTracker;->access$000(Landroid/net/pppoe/PppoeStateTracker;Landroid/os/Message;)V
 
     .line 120
     return-void

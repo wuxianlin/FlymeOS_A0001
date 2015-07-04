@@ -60,14 +60,14 @@
     iget-object v0, p0, Lcom/android/server/pm/UpdateAppsReceiver$PackageInstallObserver;->this$0:Lcom/android/server/pm/UpdateAppsReceiver;
 
     # getter for: Lcom/android/server/pm/UpdateAppsReceiver;->mHandler:Landroid/os/Handler;
-    invoke-static {v0}, Lcom/android/server/pm/UpdateAppsReceiver;->access$iget-mHandler-5aacbc(Lcom/android/server/pm/UpdateAppsReceiver;)Landroid/os/Handler;
+    invoke-static {v0}, Lcom/android/server/pm/UpdateAppsReceiver;->access$900(Lcom/android/server/pm/UpdateAppsReceiver;)Landroid/os/Handler;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/android/server/pm/UpdateAppsReceiver$PackageInstallObserver;->this$0:Lcom/android/server/pm/UpdateAppsReceiver;
 
     # getter for: Lcom/android/server/pm/UpdateAppsReceiver;->mHandler:Landroid/os/Handler;
-    invoke-static {v1}, Lcom/android/server/pm/UpdateAppsReceiver;->access$iget-mHandler-5aacbc(Lcom/android/server/pm/UpdateAppsReceiver;)Landroid/os/Handler;
+    invoke-static {v1}, Lcom/android/server/pm/UpdateAppsReceiver;->access$900(Lcom/android/server/pm/UpdateAppsReceiver;)Landroid/os/Handler;
 
     move-result-object v1
 
@@ -93,14 +93,14 @@
     iget-object v0, p0, Lcom/android/server/pm/UpdateAppsReceiver$PackageInstallObserver;->this$0:Lcom/android/server/pm/UpdateAppsReceiver;
 
     # getter for: Lcom/android/server/pm/UpdateAppsReceiver;->mHandler:Landroid/os/Handler;
-    invoke-static {v0}, Lcom/android/server/pm/UpdateAppsReceiver;->access$iget-mHandler-5aacbc(Lcom/android/server/pm/UpdateAppsReceiver;)Landroid/os/Handler;
+    invoke-static {v0}, Lcom/android/server/pm/UpdateAppsReceiver;->access$900(Lcom/android/server/pm/UpdateAppsReceiver;)Landroid/os/Handler;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/android/server/pm/UpdateAppsReceiver$PackageInstallObserver;->this$0:Lcom/android/server/pm/UpdateAppsReceiver;
 
     # getter for: Lcom/android/server/pm/UpdateAppsReceiver;->mHandler:Landroid/os/Handler;
-    invoke-static {v1}, Lcom/android/server/pm/UpdateAppsReceiver;->access$iget-mHandler-5aacbc(Lcom/android/server/pm/UpdateAppsReceiver;)Landroid/os/Handler;
+    invoke-static {v1}, Lcom/android/server/pm/UpdateAppsReceiver;->access$900(Lcom/android/server/pm/UpdateAppsReceiver;)Landroid/os/Handler;
 
     move-result-object v1
 

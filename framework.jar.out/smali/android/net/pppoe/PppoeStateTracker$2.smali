@@ -91,7 +91,7 @@
     check-cast v3, Landroid/net/LinkProperties;
 
     # setter for: Landroid/net/pppoe/PppoeStateTracker;->mLinkProperties:Landroid/net/LinkProperties;
-    invoke-static {v4, v3}, Landroid/net/pppoe/PppoeStateTracker;->access$iput-mLinkProperties-0f5f39(Landroid/net/pppoe/PppoeStateTracker;Landroid/net/LinkProperties;)Landroid/net/LinkProperties;
+    invoke-static {v4, v3}, Landroid/net/pppoe/PppoeStateTracker;->access$102(Landroid/net/pppoe/PppoeStateTracker;Landroid/net/LinkProperties;)Landroid/net/LinkProperties;
 
     .line 164
     const-string v3, "PppoeStateTracker"
@@ -109,7 +109,7 @@
     iget-object v5, p0, Landroid/net/pppoe/PppoeStateTracker$2;->this$0:Landroid/net/pppoe/PppoeStateTracker;
 
     # getter for: Landroid/net/pppoe/PppoeStateTracker;->mLinkProperties:Landroid/net/LinkProperties;
-    invoke-static {v5}, Landroid/net/pppoe/PppoeStateTracker;->access$iget-mLinkProperties-ce89eb(Landroid/net/pppoe/PppoeStateTracker;)Landroid/net/LinkProperties;
+    invoke-static {v5}, Landroid/net/pppoe/PppoeStateTracker;->access$100(Landroid/net/pppoe/PppoeStateTracker;)Landroid/net/LinkProperties;
 
     move-result-object v5
 
@@ -152,7 +152,7 @@
     iget-object v3, p0, Landroid/net/pppoe/PppoeStateTracker$2;->this$0:Landroid/net/pppoe/PppoeStateTracker;
 
     # getter for: Landroid/net/pppoe/PppoeStateTracker;->mPppoeStarted:Z
-    invoke-static {v3}, Landroid/net/pppoe/PppoeStateTracker;->access$iget-mPppoeStarted-943675(Landroid/net/pppoe/PppoeStateTracker;)Z
+    invoke-static {v3}, Landroid/net/pppoe/PppoeStateTracker;->access$200(Landroid/net/pppoe/PppoeStateTracker;)Z
 
     move-result v3
 
@@ -189,7 +189,7 @@
     iget-object v3, p0, Landroid/net/pppoe/PppoeStateTracker$2;->this$0:Landroid/net/pppoe/PppoeStateTracker;
 
     # invokes: Landroid/net/pppoe/PppoeStateTracker;->handleNetworkDisconnect()V
-    invoke-static {v3}, Landroid/net/pppoe/PppoeStateTracker;->access$invoke-handleNetworkDisconnect-2aff2e(Landroid/net/pppoe/PppoeStateTracker;)V
+    invoke-static {v3}, Landroid/net/pppoe/PppoeStateTracker;->access$300(Landroid/net/pppoe/PppoeStateTracker;)V
 
     goto :goto_0
 
@@ -220,7 +220,7 @@
     iget-object v3, p0, Landroid/net/pppoe/PppoeStateTracker$2;->this$0:Landroid/net/pppoe/PppoeStateTracker;
 
     # getter for: Landroid/net/pppoe/PppoeStateTracker;->mPppoeState:Ljava/util/concurrent/atomic/AtomicInteger;
-    invoke-static {v3}, Landroid/net/pppoe/PppoeStateTracker;->access$iget-mPppoeState-6c9dff(Landroid/net/pppoe/PppoeStateTracker;)Ljava/util/concurrent/atomic/AtomicInteger;
+    invoke-static {v3}, Landroid/net/pppoe/PppoeStateTracker;->access$400(Landroid/net/pppoe/PppoeStateTracker;)Ljava/util/concurrent/atomic/AtomicInteger;
 
     move-result-object v3
 
@@ -233,7 +233,7 @@
     iget-object v3, p0, Landroid/net/pppoe/PppoeStateTracker$2;->this$0:Landroid/net/pppoe/PppoeStateTracker;
 
     # getter for: Landroid/net/pppoe/PppoeStateTracker;->mPppoeState:Ljava/util/concurrent/atomic/AtomicInteger;
-    invoke-static {v3}, Landroid/net/pppoe/PppoeStateTracker;->access$iget-mPppoeState-6c9dff(Landroid/net/pppoe/PppoeStateTracker;)Ljava/util/concurrent/atomic/AtomicInteger;
+    invoke-static {v3}, Landroid/net/pppoe/PppoeStateTracker;->access$400(Landroid/net/pppoe/PppoeStateTracker;)Ljava/util/concurrent/atomic/AtomicInteger;
 
     move-result-object v3
 
@@ -258,7 +258,7 @@
     iget-object v3, p0, Landroid/net/pppoe/PppoeStateTracker$2;->this$0:Landroid/net/pppoe/PppoeStateTracker;
 
     # invokes: Landroid/net/pppoe/PppoeStateTracker;->handleNetworkDisconnect()V
-    invoke-static {v3}, Landroid/net/pppoe/PppoeStateTracker;->access$invoke-handleNetworkDisconnect-2aff2e(Landroid/net/pppoe/PppoeStateTracker;)V
+    invoke-static {v3}, Landroid/net/pppoe/PppoeStateTracker;->access$300(Landroid/net/pppoe/PppoeStateTracker;)V
 
     goto :goto_0
 .end method

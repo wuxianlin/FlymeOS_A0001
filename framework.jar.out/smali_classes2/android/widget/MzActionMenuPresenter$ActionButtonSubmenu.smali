@@ -35,7 +35,7 @@
 
     const/4 v4, 0x0
 
-    const v5, #android:attr@actionOverflowMenuStyle#t
+    const v5, 0x1010444
 
     move-object v0, p0
 
@@ -65,14 +65,14 @@
 
     .line 895
     # getter for: Landroid/widget/MzActionMenuPresenter;->mOverflowButton:Landroid/view/View;
-    invoke-static {p1}, Landroid/widget/MzActionMenuPresenter;->access$iget-mOverflowButton-e01452(Landroid/widget/MzActionMenuPresenter;)Landroid/view/View;
+    invoke-static {p1}, Landroid/widget/MzActionMenuPresenter;->access$700(Landroid/widget/MzActionMenuPresenter;)Landroid/view/View;
 
     move-result-object v0
 
     if-nez v0, :cond_2
 
     # getter for: Landroid/widget/MzActionMenuPresenter;->mMenuView:Lcom/android/internal/view/menu/MenuView;
-    invoke-static {p1}, Landroid/widget/MzActionMenuPresenter;->access$iget-mMenuView-60e1f1(Landroid/widget/MzActionMenuPresenter;)Lcom/android/internal/view/menu/MenuView;
+    invoke-static {p1}, Landroid/widget/MzActionMenuPresenter;->access$800(Landroid/widget/MzActionMenuPresenter;)Lcom/android/internal/view/menu/MenuView;
 
     move-result-object v0
 
@@ -140,7 +140,7 @@
     .end local v10    # "preserveIconSpacing":Z
     :cond_2
     # getter for: Landroid/widget/MzActionMenuPresenter;->mOverflowButton:Landroid/view/View;
-    invoke-static {p1}, Landroid/widget/MzActionMenuPresenter;->access$iget-mOverflowButton-e01452(Landroid/widget/MzActionMenuPresenter;)Landroid/view/View;
+    invoke-static {p1}, Landroid/widget/MzActionMenuPresenter;->access$700(Landroid/widget/MzActionMenuPresenter;)Landroid/view/View;
 
     move-result-object v0
 
@@ -172,7 +172,7 @@
     const/4 v1, 0x0
 
     # setter for: Landroid/widget/MzActionMenuPresenter;->mActionButtonPopup:Landroid/widget/MzActionMenuPresenter$ActionButtonSubmenu;
-    invoke-static {v0, v1}, Landroid/widget/MzActionMenuPresenter;->access$iput-mActionButtonPopup-dd5665(Landroid/widget/MzActionMenuPresenter;Landroid/widget/MzActionMenuPresenter$ActionButtonSubmenu;)Landroid/widget/MzActionMenuPresenter$ActionButtonSubmenu;
+    invoke-static {v0, v1}, Landroid/widget/MzActionMenuPresenter;->access$902(Landroid/widget/MzActionMenuPresenter;Landroid/widget/MzActionMenuPresenter$ActionButtonSubmenu;)Landroid/widget/MzActionMenuPresenter$ActionButtonSubmenu;
 
     .line 916
     iget-object v0, p0, Landroid/widget/MzActionMenuPresenter$ActionButtonSubmenu;->this$0:Landroid/widget/MzActionMenuPresenter;

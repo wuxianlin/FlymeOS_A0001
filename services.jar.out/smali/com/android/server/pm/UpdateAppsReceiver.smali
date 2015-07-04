@@ -199,7 +199,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mVerifyFileExist-ad8dd2(Lcom/android/server/pm/UpdateAppsReceiver;)Z
+.method static synthetic access$000(Lcom/android/server/pm/UpdateAppsReceiver;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/server/pm/UpdateAppsReceiver;
 
@@ -210,7 +210,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mVerifyFileExist-6e3b6d(Lcom/android/server/pm/UpdateAppsReceiver;Z)Z
+.method static synthetic access$002(Lcom/android/server/pm/UpdateAppsReceiver;Z)Z
     .locals 0
     .param p0, "x0"    # Lcom/android/server/pm/UpdateAppsReceiver;
     .param p1, "x1"    # Z
@@ -222,7 +222,7 @@
     return p1
 .end method
 
-.method static synthetic access$sget-mPm-586565()Landroid/content/pm/PackageManager;
+.method static synthetic access$100()Landroid/content/pm/PackageManager;
     .locals 1
 
     .prologue
@@ -232,7 +232,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-updateInstallReady-d09822(Lcom/android/server/pm/UpdateAppsReceiver;)V
+.method static synthetic access$1000(Lcom/android/server/pm/UpdateAppsReceiver;)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/pm/UpdateAppsReceiver;
 
@@ -243,7 +243,7 @@
     return-void
 .end method
 
-.method static synthetic access$sput-mPm-3cb091(Landroid/content/pm/PackageManager;)Landroid/content/pm/PackageManager;
+.method static synthetic access$102(Landroid/content/pm/PackageManager;)Landroid/content/pm/PackageManager;
     .locals 0
     .param p0, "x0"    # Landroid/content/pm/PackageManager;
 
@@ -254,7 +254,7 @@
     return-object p0
 .end method
 
-.method static synthetic access$invoke-updateInstallStart-facc71(Lcom/android/server/pm/UpdateAppsReceiver;)V
+.method static synthetic access$1100(Lcom/android/server/pm/UpdateAppsReceiver;)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/pm/UpdateAppsReceiver;
 
@@ -265,7 +265,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-udpateInstallComplete-7f8d66(Lcom/android/server/pm/UpdateAppsReceiver;)V
+.method static synthetic access$1200(Lcom/android/server/pm/UpdateAppsReceiver;)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/pm/UpdateAppsReceiver;
 
@@ -276,7 +276,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-updateInstallFailed-8913d0(Lcom/android/server/pm/UpdateAppsReceiver;I)V
+.method static synthetic access$1300(Lcom/android/server/pm/UpdateAppsReceiver;I)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/pm/UpdateAppsReceiver;
     .param p1, "x1"    # I
@@ -288,7 +288,7 @@
     return-void
 .end method
 
-.method static synthetic access$sget-mInstalledList-ebcc07()Ljava/util/List;
+.method static synthetic access$200()Ljava/util/List;
     .locals 1
 
     .prologue
@@ -298,7 +298,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$sput-mInstalledList-9c0be2(Ljava/util/List;)Ljava/util/List;
+.method static synthetic access$202(Ljava/util/List;)Ljava/util/List;
     .locals 0
     .param p0, "x0"    # Ljava/util/List;
 
@@ -309,7 +309,7 @@
     return-object p0
 .end method
 
-.method static synthetic access$sput-mInstalledListSize-caa0a6(I)I
+.method static synthetic access$302(I)I
     .locals 0
     .param p0, "x0"    # I
 
@@ -320,7 +320,7 @@
     return p0
 .end method
 
-.method static synthetic access$invoke-scanAllFiles-2c0e5d(Lcom/android/server/pm/UpdateAppsReceiver;Ljava/io/File;)Ljava/util/List;
+.method static synthetic access$400(Lcom/android/server/pm/UpdateAppsReceiver;Ljava/io/File;)Ljava/util/List;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/pm/UpdateAppsReceiver;
     .param p1, "x1"    # Ljava/io/File;
@@ -334,7 +334,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-setPackageStateFirstTime-f72697(Lcom/android/server/pm/UpdateAppsReceiver;Ljava/util/List;)V
+.method static synthetic access$500(Lcom/android/server/pm/UpdateAppsReceiver;Ljava/util/List;)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/pm/UpdateAppsReceiver;
     .param p1, "x1"    # Ljava/util/List;
@@ -346,7 +346,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-checkPackageState-4c0103(Lcom/android/server/pm/UpdateAppsReceiver;Ljava/util/List;)Ljava/util/List;
+.method static synthetic access$600(Lcom/android/server/pm/UpdateAppsReceiver;Ljava/util/List;)Ljava/util/List;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/pm/UpdateAppsReceiver;
     .param p1, "x1"    # Ljava/util/List;
@@ -360,7 +360,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$sget-mUpdateInstallApks-c39459()[Ljava/io/File;
+.method static synthetic access$700()[Ljava/io/File;
     .locals 1
 
     .prologue
@@ -370,7 +370,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$sput-mUpdateInstallApks-31c918([Ljava/io/File;)[Ljava/io/File;
+.method static synthetic access$702([Ljava/io/File;)[Ljava/io/File;
     .locals 0
     .param p0, "x0"    # [Ljava/io/File;
 
@@ -381,7 +381,7 @@
     return-object p0
 .end method
 
-.method static synthetic access$sget-mLenght-cb3f2a()I
+.method static synthetic access$800()I
     .locals 1
 
     .prologue
@@ -391,7 +391,7 @@
     return v0
 .end method
 
-.method static synthetic access$sput-mLenght-d5be5e(I)I
+.method static synthetic access$802(I)I
     .locals 0
     .param p0, "x0"    # I
 
@@ -402,7 +402,7 @@
     return p0
 .end method
 
-.method static synthetic access$iget-mHandler-5aacbc(Lcom/android/server/pm/UpdateAppsReceiver;)Landroid/os/Handler;
+.method static synthetic access$900(Lcom/android/server/pm/UpdateAppsReceiver;)Landroid/os/Handler;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/pm/UpdateAppsReceiver;
 

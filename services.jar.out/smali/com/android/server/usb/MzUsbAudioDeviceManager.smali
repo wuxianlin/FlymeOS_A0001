@@ -62,7 +62,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mBootCompleted-30731f(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Z
+.method static synthetic access$100(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/server/usb/MzUsbAudioDeviceManager;
 
@@ -73,7 +73,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mBootCompleted-e590bb(Lcom/android/server/usb/MzUsbAudioDeviceManager;Z)Z
+.method static synthetic access$102(Lcom/android/server/usb/MzUsbAudioDeviceManager;Z)Z
     .locals 0
     .param p0, "x0"    # Lcom/android/server/usb/MzUsbAudioDeviceManager;
     .param p1, "x1"    # Z
@@ -85,7 +85,7 @@
     return p1
 .end method
 
-.method static synthetic access$iget-mContext-27f6df(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Landroid/content/Context;
+.method static synthetic access$200(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Landroid/content/Context;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/usb/MzUsbAudioDeviceManager;
 
@@ -96,7 +96,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mHandler-57e285(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Lcom/android/server/usb/MzUsbAudioDeviceManager$UsbHandler;
+.method static synthetic access$300(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Lcom/android/server/usb/MzUsbAudioDeviceManager$UsbHandler;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/usb/MzUsbAudioDeviceManager;
 
@@ -107,7 +107,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mUsbAudioDeviceEnabled-391c2e(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Z
+.method static synthetic access$400(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/server/usb/MzUsbAudioDeviceManager;
 
@@ -118,7 +118,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mUsbAudioDeviceEnabled-5aaca2(Lcom/android/server/usb/MzUsbAudioDeviceManager;Z)Z
+.method static synthetic access$402(Lcom/android/server/usb/MzUsbAudioDeviceManager;Z)Z
     .locals 0
     .param p0, "x0"    # Lcom/android/server/usb/MzUsbAudioDeviceManager;
     .param p1, "x1"    # Z
@@ -142,7 +142,7 @@
     const-string v1, "add"
 
     # invokes: Lcom/android/server/usb/MzUsbAudioDeviceManager$UsbHandler;->updateUsbAudioDeviceState(Ljava/lang/String;)V
-    invoke-static {v0, v1}, Lcom/android/server/usb/MzUsbAudioDeviceManager$UsbHandler;->access$invoke-updateUsbAudioDeviceState-fc2d49(Lcom/android/server/usb/MzUsbAudioDeviceManager$UsbHandler;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/android/server/usb/MzUsbAudioDeviceManager$UsbHandler;->access$000(Lcom/android/server/usb/MzUsbAudioDeviceManager$UsbHandler;Ljava/lang/String;)V
 
     .line 44
     return-void

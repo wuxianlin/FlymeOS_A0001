@@ -160,7 +160,7 @@
     move-result-object v8
 
     # invokes: Lcom/android/server/SambaClientService;->onScanNotify(Ljava/lang/String;Ljava/lang/String;)V
-    invoke-static {v6, v7, v8}, Lcom/android/server/SambaClientService;->access$invoke-onScanNotify-15b173(Lcom/android/server/SambaClientService;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v6, v7, v8}, Lcom/android/server/SambaClientService;->access$300(Lcom/android/server/SambaClientService;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 617
     :cond_0

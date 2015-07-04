@@ -144,7 +144,7 @@
     iget-object v0, p0, Lcom/android/internal/app/ActionBarImpl$TabImpl;->this$0:Lcom/android/internal/app/ActionBarImpl;
 
     # getter for: Lcom/android/internal/app/ActionBarImpl;->mContext:Landroid/content/Context;
-    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$iget-mContext-6adb44(Lcom/android/internal/app/ActionBarImpl;)Landroid/content/Context;
+    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$1300(Lcom/android/internal/app/ActionBarImpl;)Landroid/content/Context;
 
     move-result-object v0
 
@@ -180,7 +180,7 @@
     iget-object v0, p0, Lcom/android/internal/app/ActionBarImpl$TabImpl;->this$0:Lcom/android/internal/app/ActionBarImpl;
 
     # getter for: Lcom/android/internal/app/ActionBarImpl;->mTabScrollView:Lcom/android/internal/widget/MzScrollingTabContainerView;
-    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$iget-mTabScrollView-475a79(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzScrollingTabContainerView;
+    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$1400(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzScrollingTabContainerView;
 
     move-result-object v0
 
@@ -239,7 +239,7 @@
     iget-object v0, p0, Lcom/android/internal/app/ActionBarImpl$TabImpl;->this$0:Lcom/android/internal/app/ActionBarImpl;
 
     # getter for: Lcom/android/internal/app/ActionBarImpl;->mTabScrollView:Lcom/android/internal/widget/MzScrollingTabContainerView;
-    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$iget-mTabScrollView-475a79(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzScrollingTabContainerView;
+    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$1400(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzScrollingTabContainerView;
 
     move-result-object v0
 
@@ -261,7 +261,7 @@
     iget-object v0, p0, Lcom/android/internal/app/ActionBarImpl$TabImpl;->this$0:Lcom/android/internal/app/ActionBarImpl;
 
     # getter for: Lcom/android/internal/app/ActionBarImpl;->mContext:Landroid/content/Context;
-    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$iget-mContext-6adb44(Lcom/android/internal/app/ActionBarImpl;)Landroid/content/Context;
+    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$1300(Lcom/android/internal/app/ActionBarImpl;)Landroid/content/Context;
 
     move-result-object v0
 
@@ -293,7 +293,7 @@
     iget-object v0, p0, Lcom/android/internal/app/ActionBarImpl$TabImpl;->this$0:Lcom/android/internal/app/ActionBarImpl;
 
     # getter for: Lcom/android/internal/app/ActionBarImpl;->mTabScrollView:Lcom/android/internal/widget/MzScrollingTabContainerView;
-    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$iget-mTabScrollView-475a79(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzScrollingTabContainerView;
+    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$1400(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzScrollingTabContainerView;
 
     move-result-object v0
 
@@ -351,7 +351,7 @@
     iget-object v0, p0, Lcom/android/internal/app/ActionBarImpl$TabImpl;->this$0:Lcom/android/internal/app/ActionBarImpl;
 
     # getter for: Lcom/android/internal/app/ActionBarImpl;->mContext:Landroid/content/Context;
-    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$iget-mContext-6adb44(Lcom/android/internal/app/ActionBarImpl;)Landroid/content/Context;
+    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$1300(Lcom/android/internal/app/ActionBarImpl;)Landroid/content/Context;
 
     move-result-object v0
 
@@ -387,7 +387,7 @@
     iget-object v0, p0, Lcom/android/internal/app/ActionBarImpl$TabImpl;->this$0:Lcom/android/internal/app/ActionBarImpl;
 
     # getter for: Lcom/android/internal/app/ActionBarImpl;->mTabScrollView:Lcom/android/internal/widget/MzScrollingTabContainerView;
-    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$iget-mTabScrollView-475a79(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzScrollingTabContainerView;
+    invoke-static {v0}, Lcom/android/internal/app/ActionBarImpl;->access$1400(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzScrollingTabContainerView;
 
     move-result-object v0
 

@@ -470,7 +470,7 @@
     .line 498
     .local v0, "dragAnimator":Lcom/android/server/wm/MzDragState$DragAnimator;
     # invokes: Lcom/android/server/wm/MzDragState$DragAnimator;->createAnimation()Landroid/animation/AnimatorSet;
-    invoke-static {v0}, Lcom/android/server/wm/MzDragState$DragAnimator;->access$invoke-createAnimation-a43fee(Lcom/android/server/wm/MzDragState$DragAnimator;)Landroid/animation/AnimatorSet;
+    invoke-static {v0}, Lcom/android/server/wm/MzDragState$DragAnimator;->access$000(Lcom/android/server/wm/MzDragState$DragAnimator;)Landroid/animation/AnimatorSet;
 
     move-result-object v1
 

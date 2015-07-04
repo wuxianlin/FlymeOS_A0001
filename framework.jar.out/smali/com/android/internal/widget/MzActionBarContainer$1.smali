@@ -45,7 +45,7 @@
     iget-object v3, p0, Lcom/android/internal/widget/MzActionBarContainer$1;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mOnAfterIdentifyBackgroundListeners:Ljava/util/ArrayList;
-    invoke-static {v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mOnAfterIdentifyBackgroundListeners-5d5edb(Lcom/android/internal/widget/MzActionBarContainer;)Ljava/util/ArrayList;
+    invoke-static {v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$000(Lcom/android/internal/widget/MzActionBarContainer;)Ljava/util/ArrayList;
 
     move-result-object v3
 
@@ -54,7 +54,7 @@
     iget-object v3, p0, Lcom/android/internal/widget/MzActionBarContainer$1;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mOnAfterIdentifyBackgroundListeners:Ljava/util/ArrayList;
-    invoke-static {v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mOnAfterIdentifyBackgroundListeners-5d5edb(Lcom/android/internal/widget/MzActionBarContainer;)Ljava/util/ArrayList;
+    invoke-static {v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$000(Lcom/android/internal/widget/MzActionBarContainer;)Ljava/util/ArrayList;
 
     move-result-object v3
 
@@ -68,7 +68,7 @@
     iget-object v3, p0, Lcom/android/internal/widget/MzActionBarContainer$1;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mOnAfterIdentifyBackgroundListeners:Ljava/util/ArrayList;
-    invoke-static {v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mOnAfterIdentifyBackgroundListeners-5d5edb(Lcom/android/internal/widget/MzActionBarContainer;)Ljava/util/ArrayList;
+    invoke-static {v3}, Lcom/android/internal/widget/MzActionBarContainer;->access$000(Lcom/android/internal/widget/MzActionBarContainer;)Ljava/util/ArrayList;
 
     move-result-object v3
 
@@ -102,21 +102,21 @@
     iget-object v4, p0, Lcom/android/internal/widget/MzActionBarContainer$1;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mIsSplit:Z
-    invoke-static {v4}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mIsSplit-5435d0(Lcom/android/internal/widget/MzActionBarContainer;)Z
+    invoke-static {v4}, Lcom/android/internal/widget/MzActionBarContainer;->access$100(Lcom/android/internal/widget/MzActionBarContainer;)Z
 
     move-result v4
 
     iget-object v5, p0, Lcom/android/internal/widget/MzActionBarContainer$1;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mBackgroundColor:I
-    invoke-static {v5}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mBackgroundColor-331da0(Lcom/android/internal/widget/MzActionBarContainer;)I
+    invoke-static {v5}, Lcom/android/internal/widget/MzActionBarContainer;->access$200(Lcom/android/internal/widget/MzActionBarContainer;)I
 
     move-result v5
 
     iget-object v6, p0, Lcom/android/internal/widget/MzActionBarContainer$1;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mSplitBackgroundColor:I
-    invoke-static {v6}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mSplitBackgroundColor-00163d(Lcom/android/internal/widget/MzActionBarContainer;)I
+    invoke-static {v6}, Lcom/android/internal/widget/MzActionBarContainer;->access$300(Lcom/android/internal/widget/MzActionBarContainer;)I
 
     move-result v6
 

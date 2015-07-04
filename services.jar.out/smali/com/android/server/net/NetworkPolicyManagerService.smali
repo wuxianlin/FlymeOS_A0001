@@ -7707,7 +7707,7 @@
     .line 711
     iget-object v2, v12, Landroid/net/NetworkPolicy;->template:Landroid/net/NetworkTemplate;
 
-    move-object/from16 v0, p0
+    #move-object/from16 v0, p0
 
     #invoke-direct {v0, v2}, Lcom/android/server/net/NetworkPolicyManagerService;->notifyOverLimitLocked(Landroid/net/NetworkTemplate;)V
 

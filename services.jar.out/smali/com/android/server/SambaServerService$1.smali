@@ -57,7 +57,7 @@
     iget-object v1, p0, Lcom/android/server/SambaServerService$1;->this$0:Lcom/android/server/SambaServerService;
 
     # getter for: Lcom/android/server/SambaServerService;->mServerRunning:Z
-    invoke-static {v1}, Lcom/android/server/SambaServerService;->access$iget-mServerRunning-34d7bb(Lcom/android/server/SambaServerService;)Z
+    invoke-static {v1}, Lcom/android/server/SambaServerService;->access$000(Lcom/android/server/SambaServerService;)Z
 
     move-result v1
 
@@ -66,7 +66,7 @@
     iget-object v1, p0, Lcom/android/server/SambaServerService$1;->this$0:Lcom/android/server/SambaServerService;
 
     # getter for: Lcom/android/server/SambaServerService;->mNotificationShown:Z
-    invoke-static {v1}, Lcom/android/server/SambaServerService;->access$iget-mNotificationShown-943476(Lcom/android/server/SambaServerService;)Z
+    invoke-static {v1}, Lcom/android/server/SambaServerService;->access$100(Lcom/android/server/SambaServerService;)Z
 
     move-result v1
 
@@ -76,14 +76,14 @@
     iget-object v1, p0, Lcom/android/server/SambaServerService$1;->this$0:Lcom/android/server/SambaServerService;
 
     # invokes: Lcom/android/server/SambaServerService;->getConnectedWifiIp()Ljava/lang/String;
-    invoke-static {v1}, Lcom/android/server/SambaServerService;->access$invoke-getConnectedWifiIp-c2adf8(Lcom/android/server/SambaServerService;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/android/server/SambaServerService;->access$300(Lcom/android/server/SambaServerService;)Ljava/lang/String;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/android/server/SambaServerService$1;->this$0:Lcom/android/server/SambaServerService;
 
     # getter for: Lcom/android/server/SambaServerService;->mIp:Ljava/lang/String;
-    invoke-static {v2}, Lcom/android/server/SambaServerService;->access$iget-mIp-a5e57e(Lcom/android/server/SambaServerService;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/android/server/SambaServerService;->access$200(Lcom/android/server/SambaServerService;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -99,12 +99,12 @@
     iget-object v2, p0, Lcom/android/server/SambaServerService$1;->this$0:Lcom/android/server/SambaServerService;
 
     # getter for: Lcom/android/server/SambaServerService;->mNotificationShown:Z
-    invoke-static {v2}, Lcom/android/server/SambaServerService;->access$iget-mNotificationShown-943476(Lcom/android/server/SambaServerService;)Z
+    invoke-static {v2}, Lcom/android/server/SambaServerService;->access$100(Lcom/android/server/SambaServerService;)Z
 
     move-result v2
 
     # invokes: Lcom/android/server/SambaServerService;->updateNotification(Z)V
-    invoke-static {v1, v2}, Lcom/android/server/SambaServerService;->access$invoke-updateNotification-c36b20(Lcom/android/server/SambaServerService;Z)V
+    invoke-static {v1, v2}, Lcom/android/server/SambaServerService;->access$400(Lcom/android/server/SambaServerService;Z)V
 
     .line 260
     :cond_0

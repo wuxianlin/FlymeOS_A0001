@@ -44,7 +44,7 @@
     iget-object v0, p0, Lcom/android/internal/policy/impl/MzPhoneWindowManager$1;->this$0:Lcom/android/internal/policy/impl/MzPhoneWindowManager;
 
     # getter for: Lcom/android/internal/policy/impl/MzPhoneWindowManager;->TAG:Ljava/lang/String;
-    invoke-static {v0}, Lcom/android/internal/policy/impl/MzPhoneWindowManager;->access$iget-TAG-96c72f(Lcom/android/internal/policy/impl/MzPhoneWindowManager;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/android/internal/policy/impl/MzPhoneWindowManager;->access$000(Lcom/android/internal/policy/impl/MzPhoneWindowManager;)Ljava/lang/String;
 
     move-result-object v0
 

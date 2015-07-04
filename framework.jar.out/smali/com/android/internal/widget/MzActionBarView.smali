@@ -153,7 +153,7 @@
     iput v0, p0, Lcom/android/internal/widget/MzActionBarView;->mDisplayOptions:I
 
     .line 148
-    const v0, #android:string@action_bar_up_description#t
+    const v0, 0x104063b
 
     iput v0, p0, Lcom/android/internal/widget/MzActionBarView;->mDefaultUpDescription:I
 
@@ -195,7 +195,7 @@
     .line 189
     sget-object v0, Landroid/R$styleable;->ActionBar:[I
 
-    const v1, #android:attr@actionBarStyle#t
+    const v1, 0x10102ce
 
     invoke-virtual {p1, p2, v0, v1, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -252,11 +252,11 @@
 
     .line 204
     .local v10, "inflater":Landroid/view/LayoutInflater;
-    const v9, #android:layout@action_bar_home#t
+    const v9, 0x1090018
 
     .line 206
     .local v9, "homeResId":I
-    const v0, #android:layout@action_bar_up_container#t
+    const v0, 0x109001b
 
     invoke-virtual {v10, v0, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -267,7 +267,7 @@
     iput-object v0, p0, Lcom/android/internal/widget/MzActionBarView;->mUpGoerFive:Landroid/view/ViewGroup;
 
     .line 209
-    const v0, #android:layout@action_bar_home#t
+    const v0, 0x1090018
 
     iget-object v1, p0, Lcom/android/internal/widget/MzActionBarView;->mUpGoerFive:Landroid/view/ViewGroup;
 
@@ -384,7 +384,7 @@
     .line 250
     new-instance v0, Lcom/android/internal/view/menu/ActionMenuItem;
 
-    const v3, #android:id@home#t
+    const v3, 0x102002c
 
     iget-object v6, p0, Lcom/android/internal/widget/MzActionBarView;->mTitle:Ljava/lang/CharSequence;
 
@@ -430,7 +430,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mExpandedMenuPresenter-4797af(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;
+.method static synthetic access$000(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
 
@@ -441,7 +441,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mMenuPrepared-9f47e7(Lcom/android/internal/widget/MzActionBarView;)Z
+.method static synthetic access$100(Lcom/android/internal/widget/MzActionBarView;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
 
@@ -452,7 +452,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mTitleLayout-77e013(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/LinearLayout;
+.method static synthetic access$1000(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/LinearLayout;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
 
@@ -463,7 +463,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mTabScrollView-7dcf1a(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzScrollingTabContainerView;
+.method static synthetic access$1100(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzScrollingTabContainerView;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
 
@@ -474,7 +474,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mSpinner-adaa4d(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/Spinner;
+.method static synthetic access$1200(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/Spinner;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
 
@@ -485,7 +485,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mCustomNavView-b68dcb(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/View;
+.method static synthetic access$1300(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/View;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
 
@@ -496,7 +496,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-setHomeButtonEnabled-67a8af(Lcom/android/internal/widget/MzActionBarView;ZZ)V
+.method static synthetic access$1400(Lcom/android/internal/widget/MzActionBarView;ZZ)V
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
     .param p1, "x1"    # Z
@@ -509,7 +509,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mDisplayOptions-adbbd2(Lcom/android/internal/widget/MzActionBarView;)I
+.method static synthetic access$1500(Lcom/android/internal/widget/MzActionBarView;)I
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
 
@@ -520,7 +520,7 @@
     return v0
 .end method
 
-.method static synthetic access$invoke-initTitle-22d968(Lcom/android/internal/widget/MzActionBarView;)V
+.method static synthetic access$1600(Lcom/android/internal/widget/MzActionBarView;)V
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
 
@@ -531,7 +531,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mWasHomeEnabled-8f4bc8(Lcom/android/internal/widget/MzActionBarView;)Z
+.method static synthetic access$1700(Lcom/android/internal/widget/MzActionBarView;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
 
@@ -542,7 +542,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mLogoNavItem-6da54c(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/view/menu/ActionMenuItem;
+.method static synthetic access$200(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/view/menu/ActionMenuItem;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
 
@@ -553,7 +553,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mExpandedHomeLayout-6356fb(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
+.method static synthetic access$500(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
 
@@ -564,7 +564,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-initExpandHomeLayout-6b765f(Lcom/android/internal/widget/MzActionBarView;)V
+.method static synthetic access$600(Lcom/android/internal/widget/MzActionBarView;)V
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
 
@@ -575,7 +575,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mIcon-95cfad(Lcom/android/internal/widget/MzActionBarView;)Landroid/graphics/drawable/Drawable;
+.method static synthetic access$700(Lcom/android/internal/widget/MzActionBarView;)Landroid/graphics/drawable/Drawable;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
 
@@ -586,7 +586,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mUpGoerFive-1ba510(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/ViewGroup;
+.method static synthetic access$800(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/ViewGroup;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
 
@@ -597,7 +597,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mHomeLayout-22363e(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
+.method static synthetic access$900(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarView;
 
@@ -653,7 +653,7 @@
 
     move-result-object v4
 
-    const v5, #android:string@action_bar_home_subtitle_description_format#t
+    const v5, 0x104063e
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -699,7 +699,7 @@
 
     move-result-object v4
 
-    const v5, #android:string@action_bar_home_description#t
+    const v5, 0x104063a
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -716,7 +716,7 @@
 
     move-result-object v4
 
-    const v5, #android:string@action_bar_home_description_format#t
+    const v5, 0x104063d
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -806,11 +806,11 @@
 
     .line 2273
     .local v1, "inflater":Landroid/view/LayoutInflater;
-    const v0, #android:layout@action_bar_home#t
+    const v0, 0x1090018
 
     .line 2274
     .local v0, "homeResId":I
-    const v3, #android:layout@action_bar_home#t
+    const v3, 0x1090018
 
     iget-object v4, p0, Lcom/android/internal/widget/MzActionBarView;->mUpGoerFive:Landroid/view/ViewGroup;
 
@@ -843,7 +843,7 @@
 
     move-result-object v4
 
-    const v5, #android:string@action_bar_up_description#t
+    const v5, 0x104063b
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -912,7 +912,7 @@
 
     .line 940
     .local v0, "inflater":Landroid/view/LayoutInflater;
-    const v1, #android:layout@action_bar_title_item#t
+    const v1, 0x109001a
 
     invoke-virtual {v0, v1, p0, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -925,7 +925,7 @@
     .line 941
     iget-object v1, p0, Lcom/android/internal/widget/MzActionBarView;->mTitleLayout:Landroid/widget/LinearLayout;
 
-    const v2, #android:id@action_bar_title#t
+    const v2, 0x10202b5
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -938,7 +938,7 @@
     .line 942
     iget-object v1, p0, Lcom/android/internal/widget/MzActionBarView;->mTitleLayout:Landroid/widget/LinearLayout;
 
-    const v2, #android:id@action_bar_subtitle#t
+    const v2, 0x10202b6
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -2053,7 +2053,7 @@
     .line 327
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView;->mIndeterminateProgressView:Landroid/widget/ProgressBar;
 
-    const v1, #android:id@progress_circular#t
+    const v1, 0x1020377
 
     invoke-virtual {v0, v1}, Landroid/widget/ProgressBar;->setId(I)V
 
@@ -2095,7 +2095,7 @@
     .line 318
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView;->mProgressView:Landroid/widget/ProgressBar;
 
-    const v1, #android:id@progress_horizontal#t
+    const v1, 0x1020378
 
     invoke-virtual {v0, v1}, Landroid/widget/ProgressBar;->setId(I)V
 
@@ -6767,7 +6767,7 @@
     .line 456
     iget-object v5, p0, Lcom/android/internal/widget/MzActionBarView;->mActionMenuPresenter:Landroid/widget/MzActionMenuPresenter;
 
-    const v6, #android:id@action_menu_presenter#t
+    const v6, 0x102003f
 
     invoke-virtual {v5, v6}, Landroid/widget/MzActionMenuPresenter;->setId(I)V
 
@@ -7177,7 +7177,7 @@
 
     iget-object v3, p0, Lcom/android/internal/widget/MzActionBarView;->mContext:Landroid/content/Context;
 
-    const v4, #android:attr@actionDropDownStyle#t
+    const v4, 0x10102d7
 
     invoke-direct {v2, v3, v5, v4}, Landroid/widget/Spinner;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -7186,7 +7186,7 @@
     .line 849
     iget-object v2, p0, Lcom/android/internal/widget/MzActionBarView;->mSpinner:Landroid/widget/Spinner;
 
-    const v3, #android:id@action_bar_spinner#t
+    const v3, 0x1020042
 
     invoke-virtual {v2, v3}, Landroid/widget/Spinner;->setId(I)V
 
@@ -7195,7 +7195,7 @@
 
     iget-object v3, p0, Lcom/android/internal/widget/MzActionBarView;->mContext:Landroid/content/Context;
 
-    const v4, #android:attr@actionBarTabBarStyle#t
+    const v4, 0x10102f4
 
     invoke-direct {v2, v3, v5, v4}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 

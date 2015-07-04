@@ -46,7 +46,7 @@
     iget-object v1, p0, Lcom/android/internal/widget/MzActionBarContainer$3;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mVisibleRect:Landroid/graphics/Rect;
-    invoke-static {v1}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mVisibleRect-371ddd(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/Rect;
+    invoke-static {v1}, Lcom/android/internal/widget/MzActionBarContainer;->access$500(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/Rect;
 
     move-result-object v1
 

@@ -100,7 +100,7 @@
 
     .line 62
     # getter for: Lcom/android/server/usb/MzUsbAudioDeviceManager;->mContext:Landroid/content/Context;
-    invoke-static {p1}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$iget-mContext-27f6df(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Landroid/content/Context;
+    invoke-static {p1}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$200(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Landroid/content/Context;
 
     move-result-object v2
 
@@ -130,7 +130,7 @@
     goto :goto_0
 .end method
 
-.method static synthetic access$invoke-updateUsbAudioDeviceState-fc2d49(Lcom/android/server/usb/MzUsbAudioDeviceManager$UsbHandler;Ljava/lang/String;)V
+.method static synthetic access$000(Lcom/android/server/usb/MzUsbAudioDeviceManager$UsbHandler;Ljava/lang/String;)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/usb/MzUsbAudioDeviceManager$UsbHandler;
     .param p1, "x1"    # Ljava/lang/String;
@@ -282,7 +282,7 @@
     iget-object v1, p0, Lcom/android/server/usb/MzUsbAudioDeviceManager$UsbHandler;->this$0:Lcom/android/server/usb/MzUsbAudioDeviceManager;
 
     # getter for: Lcom/android/server/usb/MzUsbAudioDeviceManager;->mContext:Landroid/content/Context;
-    invoke-static {v1}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$iget-mContext-27f6df(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Landroid/content/Context;
+    invoke-static {v1}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$200(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Landroid/content/Context;
 
     move-result-object v1
 
@@ -311,7 +311,7 @@
     iget-object v1, v0, Lcom/android/server/usb/MzUsbAudioDeviceManager$UsbHandler;->this$0:Lcom/android/server/usb/MzUsbAudioDeviceManager;
 
     # getter for: Lcom/android/server/usb/MzUsbAudioDeviceManager;->mUsbAudioDeviceEnabled:Z
-    invoke-static {v1}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$iget-mUsbAudioDeviceEnabled-391c2e(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Z
+    invoke-static {v1}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$400(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Z
 
     move-result v12
 
@@ -459,7 +459,7 @@
     iget-object v1, v0, Lcom/android/server/usb/MzUsbAudioDeviceManager$UsbHandler;->this$0:Lcom/android/server/usb/MzUsbAudioDeviceManager;
 
     # getter for: Lcom/android/server/usb/MzUsbAudioDeviceManager;->mUsbAudioDeviceEnabled:Z
-    invoke-static {v1}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$iget-mUsbAudioDeviceEnabled-391c2e(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Z
+    invoke-static {v1}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$400(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Z
 
     move-result v1
 
@@ -610,7 +610,7 @@
     const/4 v2, 0x1
 
     # setter for: Lcom/android/server/usb/MzUsbAudioDeviceManager;->mUsbAudioDeviceEnabled:Z
-    invoke-static {v1, v2}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$iput-mUsbAudioDeviceEnabled-5aaca2(Lcom/android/server/usb/MzUsbAudioDeviceManager;Z)Z
+    invoke-static {v1, v2}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$402(Lcom/android/server/usb/MzUsbAudioDeviceManager;Z)Z
 
     .line 151
     move-object/from16 v0, p0
@@ -650,7 +650,7 @@
     iget-object v1, v0, Lcom/android/server/usb/MzUsbAudioDeviceManager$UsbHandler;->this$0:Lcom/android/server/usb/MzUsbAudioDeviceManager;
 
     # getter for: Lcom/android/server/usb/MzUsbAudioDeviceManager;->mUsbAudioDeviceEnabled:Z
-    invoke-static {v1}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$iget-mUsbAudioDeviceEnabled-391c2e(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Z
+    invoke-static {v1}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$400(Lcom/android/server/usb/MzUsbAudioDeviceManager;)Z
 
     move-result v1
 
@@ -674,7 +674,7 @@
     const/4 v2, 0x0
 
     # setter for: Lcom/android/server/usb/MzUsbAudioDeviceManager;->mUsbAudioDeviceEnabled:Z
-    invoke-static {v1, v2}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$iput-mUsbAudioDeviceEnabled-5aaca2(Lcom/android/server/usb/MzUsbAudioDeviceManager;Z)Z
+    invoke-static {v1, v2}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$402(Lcom/android/server/usb/MzUsbAudioDeviceManager;Z)Z
 
     .line 159
     move-object/from16 v0, p0

@@ -70,7 +70,7 @@
     const/4 v5, 0x0
 
     # setter for: Lcom/android/server/pm/UpdateAppsReceiver;->mVerifyFileExist:Z
-    invoke-static {v4, v5}, Lcom/android/server/pm/UpdateAppsReceiver;->access$iput-mVerifyFileExist-6e3b6d(Lcom/android/server/pm/UpdateAppsReceiver;Z)Z
+    invoke-static {v4, v5}, Lcom/android/server/pm/UpdateAppsReceiver;->access$002(Lcom/android/server/pm/UpdateAppsReceiver;Z)Z
 
     .line 105
     :goto_0
@@ -81,11 +81,11 @@
     move-result-object v4
 
     # setter for: Lcom/android/server/pm/UpdateAppsReceiver;->mPm:Landroid/content/pm/PackageManager;
-    invoke-static {v4}, Lcom/android/server/pm/UpdateAppsReceiver;->access$sput-mPm-3cb091(Landroid/content/pm/PackageManager;)Landroid/content/pm/PackageManager;
+    invoke-static {v4}, Lcom/android/server/pm/UpdateAppsReceiver;->access$102(Landroid/content/pm/PackageManager;)Landroid/content/pm/PackageManager;
 
     .line 106
     # getter for: Lcom/android/server/pm/UpdateAppsReceiver;->mPm:Landroid/content/pm/PackageManager;
-    invoke-static {}, Lcom/android/server/pm/UpdateAppsReceiver;->access$sget-mPm-586565()Landroid/content/pm/PackageManager;
+    invoke-static {}, Lcom/android/server/pm/UpdateAppsReceiver;->access$100()Landroid/content/pm/PackageManager;
 
     move-result-object v4
 
@@ -112,7 +112,7 @@
     const/4 v5, 0x1
 
     # setter for: Lcom/android/server/pm/UpdateAppsReceiver;->mVerifyFileExist:Z
-    invoke-static {v4, v5}, Lcom/android/server/pm/UpdateAppsReceiver;->access$iput-mVerifyFileExist-6e3b6d(Lcom/android/server/pm/UpdateAppsReceiver;Z)Z
+    invoke-static {v4, v5}, Lcom/android/server/pm/UpdateAppsReceiver;->access$002(Lcom/android/server/pm/UpdateAppsReceiver;Z)Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
 
@@ -206,7 +206,7 @@
 
     .line 113
     # getter for: Lcom/android/server/pm/UpdateAppsReceiver;->mPm:Landroid/content/pm/PackageManager;
-    invoke-static {}, Lcom/android/server/pm/UpdateAppsReceiver;->access$sget-mPm-586565()Landroid/content/pm/PackageManager;
+    invoke-static {}, Lcom/android/server/pm/UpdateAppsReceiver;->access$100()Landroid/content/pm/PackageManager;
 
     move-result-object v4
 
@@ -217,11 +217,11 @@
     move-result-object v4
 
     # setter for: Lcom/android/server/pm/UpdateAppsReceiver;->mInstalledList:Ljava/util/List;
-    invoke-static {v4}, Lcom/android/server/pm/UpdateAppsReceiver;->access$sput-mInstalledList-9c0be2(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v4}, Lcom/android/server/pm/UpdateAppsReceiver;->access$202(Ljava/util/List;)Ljava/util/List;
 
     .line 115
     # getter for: Lcom/android/server/pm/UpdateAppsReceiver;->mInstalledList:Ljava/util/List;
-    invoke-static {}, Lcom/android/server/pm/UpdateAppsReceiver;->access$sget-mInstalledList-ebcc07()Ljava/util/List;
+    invoke-static {}, Lcom/android/server/pm/UpdateAppsReceiver;->access$200()Ljava/util/List;
 
     move-result-object v4
 
@@ -230,7 +230,7 @@
     move-result v4
 
     # setter for: Lcom/android/server/pm/UpdateAppsReceiver;->mInstalledListSize:I
-    invoke-static {v4}, Lcom/android/server/pm/UpdateAppsReceiver;->access$sput-mInstalledListSize-caa0a6(I)I
+    invoke-static {v4}, Lcom/android/server/pm/UpdateAppsReceiver;->access$302(I)I
 
     .line 117
     iget-object v4, p0, Lcom/android/server/pm/UpdateAppsReceiver$1;->this$0:Lcom/android/server/pm/UpdateAppsReceiver;
@@ -242,7 +242,7 @@
     invoke-direct {v5, v6}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
     # invokes: Lcom/android/server/pm/UpdateAppsReceiver;->scanAllFiles(Ljava/io/File;)Ljava/util/List;
-    invoke-static {v4, v5}, Lcom/android/server/pm/UpdateAppsReceiver;->access$invoke-scanAllFiles-2c0e5d(Lcom/android/server/pm/UpdateAppsReceiver;Ljava/io/File;)Ljava/util/List;
+    invoke-static {v4, v5}, Lcom/android/server/pm/UpdateAppsReceiver;->access$400(Lcom/android/server/pm/UpdateAppsReceiver;Ljava/io/File;)Ljava/util/List;
 
     move-result-object v2
 
@@ -251,7 +251,7 @@
     iget-object v4, p0, Lcom/android/server/pm/UpdateAppsReceiver$1;->this$0:Lcom/android/server/pm/UpdateAppsReceiver;
 
     # getter for: Lcom/android/server/pm/UpdateAppsReceiver;->mVerifyFileExist:Z
-    invoke-static {v4}, Lcom/android/server/pm/UpdateAppsReceiver;->access$iget-mVerifyFileExist-ad8dd2(Lcom/android/server/pm/UpdateAppsReceiver;)Z
+    invoke-static {v4}, Lcom/android/server/pm/UpdateAppsReceiver;->access$000(Lcom/android/server/pm/UpdateAppsReceiver;)Z
 
     move-result v4
 
@@ -282,7 +282,7 @@
     iget-object v4, p0, Lcom/android/server/pm/UpdateAppsReceiver$1;->this$0:Lcom/android/server/pm/UpdateAppsReceiver;
 
     # invokes: Lcom/android/server/pm/UpdateAppsReceiver;->setPackageStateFirstTime(Ljava/util/List;)V
-    invoke-static {v4, v2}, Lcom/android/server/pm/UpdateAppsReceiver;->access$invoke-setPackageStateFirstTime-f72697(Lcom/android/server/pm/UpdateAppsReceiver;Ljava/util/List;)V
+    invoke-static {v4, v2}, Lcom/android/server/pm/UpdateAppsReceiver;->access$500(Lcom/android/server/pm/UpdateAppsReceiver;Ljava/util/List;)V
 
     goto/16 :goto_1
 
@@ -325,7 +325,7 @@
     iget-object v4, p0, Lcom/android/server/pm/UpdateAppsReceiver$1;->this$0:Lcom/android/server/pm/UpdateAppsReceiver;
 
     # invokes: Lcom/android/server/pm/UpdateAppsReceiver;->checkPackageState(Ljava/util/List;)Ljava/util/List;
-    invoke-static {v4, v2}, Lcom/android/server/pm/UpdateAppsReceiver;->access$invoke-checkPackageState-4c0103(Lcom/android/server/pm/UpdateAppsReceiver;Ljava/util/List;)Ljava/util/List;
+    invoke-static {v4, v2}, Lcom/android/server/pm/UpdateAppsReceiver;->access$600(Lcom/android/server/pm/UpdateAppsReceiver;Ljava/util/List;)Ljava/util/List;
 
     move-result-object v1
 
@@ -344,18 +344,18 @@
     check-cast v4, [Ljava/io/File;
 
     # setter for: Lcom/android/server/pm/UpdateAppsReceiver;->mUpdateInstallApks:[Ljava/io/File;
-    invoke-static {v4}, Lcom/android/server/pm/UpdateAppsReceiver;->access$sput-mUpdateInstallApks-31c918([Ljava/io/File;)[Ljava/io/File;
+    invoke-static {v4}, Lcom/android/server/pm/UpdateAppsReceiver;->access$702([Ljava/io/File;)[Ljava/io/File;
 
     .line 134
     # getter for: Lcom/android/server/pm/UpdateAppsReceiver;->mUpdateInstallApks:[Ljava/io/File;
-    invoke-static {}, Lcom/android/server/pm/UpdateAppsReceiver;->access$sget-mUpdateInstallApks-c39459()[Ljava/io/File;
+    invoke-static {}, Lcom/android/server/pm/UpdateAppsReceiver;->access$700()[Ljava/io/File;
 
     move-result-object v4
 
     array-length v4, v4
 
     # setter for: Lcom/android/server/pm/UpdateAppsReceiver;->mLenght:I
-    invoke-static {v4}, Lcom/android/server/pm/UpdateAppsReceiver;->access$sput-mLenght-d5be5e(I)I
+    invoke-static {v4}, Lcom/android/server/pm/UpdateAppsReceiver;->access$802(I)I
 
     .line 135
     const-string v4, "UpdateAppsReceiver"
@@ -371,7 +371,7 @@
     move-result-object v5
 
     # getter for: Lcom/android/server/pm/UpdateAppsReceiver;->mLenght:I
-    invoke-static {}, Lcom/android/server/pm/UpdateAppsReceiver;->access$sget-mLenght-cb3f2a()I
+    invoke-static {}, Lcom/android/server/pm/UpdateAppsReceiver;->access$800()I
 
     move-result v6
 
@@ -387,7 +387,7 @@
 
     .line 136
     # getter for: Lcom/android/server/pm/UpdateAppsReceiver;->mLenght:I
-    invoke-static {}, Lcom/android/server/pm/UpdateAppsReceiver;->access$sget-mLenght-cb3f2a()I
+    invoke-static {}, Lcom/android/server/pm/UpdateAppsReceiver;->access$800()I
 
     move-result v4
 
@@ -397,14 +397,14 @@
     iget-object v4, p0, Lcom/android/server/pm/UpdateAppsReceiver$1;->this$0:Lcom/android/server/pm/UpdateAppsReceiver;
 
     # getter for: Lcom/android/server/pm/UpdateAppsReceiver;->mHandler:Landroid/os/Handler;
-    invoke-static {v4}, Lcom/android/server/pm/UpdateAppsReceiver;->access$iget-mHandler-5aacbc(Lcom/android/server/pm/UpdateAppsReceiver;)Landroid/os/Handler;
+    invoke-static {v4}, Lcom/android/server/pm/UpdateAppsReceiver;->access$900(Lcom/android/server/pm/UpdateAppsReceiver;)Landroid/os/Handler;
 
     move-result-object v4
 
     iget-object v5, p0, Lcom/android/server/pm/UpdateAppsReceiver$1;->this$0:Lcom/android/server/pm/UpdateAppsReceiver;
 
     # getter for: Lcom/android/server/pm/UpdateAppsReceiver;->mHandler:Landroid/os/Handler;
-    invoke-static {v5}, Lcom/android/server/pm/UpdateAppsReceiver;->access$iget-mHandler-5aacbc(Lcom/android/server/pm/UpdateAppsReceiver;)Landroid/os/Handler;
+    invoke-static {v5}, Lcom/android/server/pm/UpdateAppsReceiver;->access$900(Lcom/android/server/pm/UpdateAppsReceiver;)Landroid/os/Handler;
 
     move-result-object v5
 

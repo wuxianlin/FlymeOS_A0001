@@ -70,7 +70,7 @@
     iget-object v4, p0, Lcom/android/internal/widget/MzScrollingTabContainerView$TabClickListener;->this$0:Lcom/android/internal/widget/MzScrollingTabContainerView;
 
     # getter for: Lcom/android/internal/widget/MzScrollingTabContainerView;->mTabLayout:Landroid/widget/LinearLayout;
-    invoke-static {v4}, Lcom/android/internal/widget/MzScrollingTabContainerView;->access$iget-mTabLayout-b0cc50(Lcom/android/internal/widget/MzScrollingTabContainerView;)Landroid/widget/LinearLayout;
+    invoke-static {v4}, Lcom/android/internal/widget/MzScrollingTabContainerView;->access$200(Lcom/android/internal/widget/MzScrollingTabContainerView;)Landroid/widget/LinearLayout;
 
     move-result-object v4
 
@@ -90,7 +90,7 @@
     iget-object v4, p0, Lcom/android/internal/widget/MzScrollingTabContainerView$TabClickListener;->this$0:Lcom/android/internal/widget/MzScrollingTabContainerView;
 
     # getter for: Lcom/android/internal/widget/MzScrollingTabContainerView;->mTabLayout:Landroid/widget/LinearLayout;
-    invoke-static {v4}, Lcom/android/internal/widget/MzScrollingTabContainerView;->access$iget-mTabLayout-b0cc50(Lcom/android/internal/widget/MzScrollingTabContainerView;)Landroid/widget/LinearLayout;
+    invoke-static {v4}, Lcom/android/internal/widget/MzScrollingTabContainerView;->access$200(Lcom/android/internal/widget/MzScrollingTabContainerView;)Landroid/widget/LinearLayout;
 
     move-result-object v4
 

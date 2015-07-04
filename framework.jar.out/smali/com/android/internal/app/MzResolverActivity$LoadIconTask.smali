@@ -101,7 +101,7 @@
     iget-object v0, p0, Lcom/android/internal/app/MzResolverActivity$LoadIconTask;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mAdapter:Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;
-    invoke-static {v0}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mAdapter-de8ec5(Lcom/android/internal/app/MzResolverActivity;)Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;
+    invoke-static {v0}, Lcom/android/internal/app/MzResolverActivity;->access$000(Lcom/android/internal/app/MzResolverActivity;)Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;
 
     move-result-object v0
 

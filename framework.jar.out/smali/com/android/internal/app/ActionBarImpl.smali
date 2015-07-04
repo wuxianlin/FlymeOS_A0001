@@ -291,7 +291,7 @@
     if-nez v1, :cond_0
 
     .line 229
-    const v3, #android:id@content#t
+    const v3, 0x1020002
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -528,7 +528,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mContentAnimations-d8408d(Lcom/android/internal/app/ActionBarImpl;)Z
+.method static synthetic access$000(Lcom/android/internal/app/ActionBarImpl;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
 
@@ -539,7 +539,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mContentView-9bc73f(Lcom/android/internal/app/ActionBarImpl;)Landroid/view/View;
+.method static synthetic access$100(Lcom/android/internal/app/ActionBarImpl;)Landroid/view/View;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
 
@@ -550,7 +550,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mContextView-3150d2(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzActionBarContextView;
+.method static synthetic access$1000(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzActionBarContextView;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
 
@@ -561,7 +561,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mDecorToolbar-282fc3(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzDecorToolbar;
+.method static synthetic access$1100(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzDecorToolbar;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
 
@@ -572,7 +572,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mActionView-84831c(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzActionBarView;
+.method static synthetic access$1200(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzActionBarView;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
 
@@ -583,7 +583,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mContext-6adb44(Lcom/android/internal/app/ActionBarImpl;)Landroid/content/Context;
+.method static synthetic access$1300(Lcom/android/internal/app/ActionBarImpl;)Landroid/content/Context;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
 
@@ -594,7 +594,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mTabScrollView-475a79(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzScrollingTabContainerView;
+.method static synthetic access$1400(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzScrollingTabContainerView;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
 
@@ -605,7 +605,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-updateEmbededTabs-679b12(Lcom/android/internal/app/ActionBarImpl;)V
+.method static synthetic access$1500(Lcom/android/internal/app/ActionBarImpl;)V
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
 
@@ -616,7 +616,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mDelayUpdateTabs-2513a7(Lcom/android/internal/app/ActionBarImpl;)Ljava/lang/Runnable;
+.method static synthetic access$1600(Lcom/android/internal/app/ActionBarImpl;)Ljava/lang/Runnable;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
 
@@ -627,7 +627,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mContainerView-e32795(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzActionBarContainer;
+.method static synthetic access$200(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzActionBarContainer;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
 
@@ -638,7 +638,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mSplitView-7b188e(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzSplitActionBarContainer;
+.method static synthetic access$300(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzSplitActionBarContainer;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
 
@@ -649,7 +649,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mContextDisplayMode-a02407(Lcom/android/internal/app/ActionBarImpl;)I
+.method static synthetic access$400(Lcom/android/internal/app/ActionBarImpl;)I
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
 
@@ -660,7 +660,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mOverlayLayout-84c855(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzActionBarOverlayLayout;
+.method static synthetic access$500(Lcom/android/internal/app/ActionBarImpl;)Lcom/android/internal/widget/MzActionBarOverlayLayout;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
 
@@ -671,7 +671,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iput-mCurrentShowAnim-ef88aa(Lcom/android/internal/app/ActionBarImpl;Landroid/animation/Animator;)Landroid/animation/Animator;
+.method static synthetic access$602(Lcom/android/internal/app/ActionBarImpl;Landroid/animation/Animator;)Landroid/animation/Animator;
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
     .param p1, "x1"    # Landroid/animation/Animator;
@@ -683,7 +683,7 @@
     return-object p1
 .end method
 
-.method static synthetic access$iget-mHiddenByApp-f7994c(Lcom/android/internal/app/ActionBarImpl;)Z
+.method static synthetic access$700(Lcom/android/internal/app/ActionBarImpl;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
 
@@ -694,7 +694,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mHiddenBySystem-d9f71b(Lcom/android/internal/app/ActionBarImpl;)Z
+.method static synthetic access$800(Lcom/android/internal/app/ActionBarImpl;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/ActionBarImpl;
 
@@ -705,7 +705,7 @@
     return v0
 .end method
 
-.method static synthetic access$invoke-checkShowingFlags-5370fe(ZZZ)Z
+.method static synthetic access$900(ZZZ)Z
     .locals 1
     .param p0, "x0"    # Z
     .param p1, "x1"    # Z
@@ -872,7 +872,7 @@
     :goto_0
     iget-object v3, p0, Lcom/android/internal/app/ActionBarImpl;->mContext:Landroid/content/Context;
 
-    const v4, #android:interpolator@accelerate_decelerate#t
+    const v4, 0x10c0006
 
     invoke-static {v3, v4}, Landroid/view/animation/AnimationUtils;->loadInterpolator(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
 
@@ -1083,7 +1083,7 @@
     :cond_2
     iget-object v3, p0, Lcom/android/internal/app/ActionBarImpl;->mContext:Landroid/content/Context;
 
-    const v4, #android:interpolator@accelerate_decelerate#t
+    const v4, 0x10c0006
 
     invoke-static {v3, v4}, Landroid/view/animation/AnimationUtils;->loadInterpolator(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
 
@@ -1651,7 +1651,7 @@
     const/4 v7, 0x0
 
     .line 252
-    const v5, #android:id@decor_content_parent#t
+    const v5, 0x1020379
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1673,7 +1673,7 @@
 
     .line 257
     :cond_0
-    const v5, #android:id@action_bar#t
+    const v5, 0x102037b
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1684,7 +1684,7 @@
     iput-object v5, p0, Lcom/android/internal/app/ActionBarImpl;->mDecorToolbar:Lcom/android/internal/widget/MzDecorToolbar;
 
     .line 258
-    const v5, #android:id@action_context_bar#t
+    const v5, 0x102037c
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1695,7 +1695,7 @@
     iput-object v5, p0, Lcom/android/internal/app/ActionBarImpl;->mContextView:Lcom/android/internal/widget/MzActionBarContextView;
 
     .line 260
-    const v5, #android:id@action_bar_container#t
+    const v5, 0x102037a
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1706,7 +1706,7 @@
     iput-object v5, p0, Lcom/android/internal/app/ActionBarImpl;->mContainerView:Lcom/android/internal/widget/MzActionBarContainer;
 
     .line 262
-    const v5, #android:id@split_action_bar#t
+    const v5, 0x102037d
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1854,7 +1854,7 @@
 
     sget-object v9, Landroid/R$styleable;->ActionBar:[I
 
-    const v10, #android:attr@actionBarStyle#t
+    const v10, 0x10102ce
 
     invoke-virtual {v5, v8, v9, v10, v7}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -3487,7 +3487,7 @@
 
     .line 1067
     .local v0, "currentTheme":Landroid/content/res/Resources$Theme;
-    const v3, #android:attr@actionBarWidgetTheme#t
+    const v3, 0x1010397
 
     const/4 v4, 0x1
 

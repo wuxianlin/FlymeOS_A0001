@@ -90,7 +90,7 @@
     iget-object v0, p0, Landroid/text/util/UrlSpanHelper$1;->val$value:Ljava/lang/CharSequence;
 
     # invokes: Landroid/text/util/UrlSpanHelper;->subDate(Ljava/lang/CharSequence;)J
-    invoke-static {v0}, Landroid/text/util/UrlSpanHelper;->access$invoke-subDate-ad2134(Ljava/lang/CharSequence;)J
+    invoke-static {v0}, Landroid/text/util/UrlSpanHelper;->access$000(Ljava/lang/CharSequence;)J
 
     move-result-wide v8
 
@@ -99,7 +99,7 @@
     iget-object v0, p0, Landroid/text/util/UrlSpanHelper$1;->val$eventTitle:Ljava/lang/CharSequence;
 
     # invokes: Landroid/text/util/UrlSpanHelper;->createAllDayEvent(JLandroid/content/Context;Ljava/lang/CharSequence;)V
-    invoke-static {v8, v9, v4, v0}, Landroid/text/util/UrlSpanHelper;->access$invoke-createAllDayEvent-e941b8(JLandroid/content/Context;Ljava/lang/CharSequence;)V
+    invoke-static {v8, v9, v4, v0}, Landroid/text/util/UrlSpanHelper;->access$100(JLandroid/content/Context;Ljava/lang/CharSequence;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -124,7 +124,7 @@
     iget-object v0, p0, Landroid/text/util/UrlSpanHelper$1;->val$eventTitle:Ljava/lang/CharSequence;
 
     # invokes: Landroid/text/util/UrlSpanHelper;->createAllDayEvent(JLandroid/content/Context;Ljava/lang/CharSequence;)V
-    invoke-static {v8, v9, v4, v0}, Landroid/text/util/UrlSpanHelper;->access$invoke-createAllDayEvent-e941b8(JLandroid/content/Context;Ljava/lang/CharSequence;)V
+    invoke-static {v8, v9, v4, v0}, Landroid/text/util/UrlSpanHelper;->access$100(JLandroid/content/Context;Ljava/lang/CharSequence;)V
 
     goto :goto_0
 
@@ -147,7 +147,7 @@
     iget-object v0, p0, Landroid/text/util/UrlSpanHelper$1;->val$value:Ljava/lang/CharSequence;
 
     # invokes: Landroid/text/util/UrlSpanHelper;->subDate(Ljava/lang/CharSequence;)J
-    invoke-static {v0}, Landroid/text/util/UrlSpanHelper;->access$invoke-subDate-ad2134(Ljava/lang/CharSequence;)J
+    invoke-static {v0}, Landroid/text/util/UrlSpanHelper;->access$000(Ljava/lang/CharSequence;)J
 
     move-result-wide v8
 
@@ -156,7 +156,7 @@
     iget-object v0, p0, Landroid/text/util/UrlSpanHelper$1;->val$eventTitle:Ljava/lang/CharSequence;
 
     # invokes: Landroid/text/util/UrlSpanHelper;->createStartTimeEvent(JLandroid/content/Context;Ljava/lang/CharSequence;)V
-    invoke-static {v8, v9, v4, v0}, Landroid/text/util/UrlSpanHelper;->access$invoke-createStartTimeEvent-80d90a(JLandroid/content/Context;Ljava/lang/CharSequence;)V
+    invoke-static {v8, v9, v4, v0}, Landroid/text/util/UrlSpanHelper;->access$200(JLandroid/content/Context;Ljava/lang/CharSequence;)V
 
     goto :goto_0
 
@@ -177,7 +177,7 @@
     iget-object v0, p0, Landroid/text/util/UrlSpanHelper$1;->val$value:Ljava/lang/CharSequence;
 
     # invokes: Landroid/text/util/UrlSpanHelper;->subTimeToTime(Ljava/lang/CharSequence;)[J
-    invoke-static {v0}, Landroid/text/util/UrlSpanHelper;->access$invoke-subTimeToTime-4040a1(Ljava/lang/CharSequence;)[J
+    invoke-static {v0}, Landroid/text/util/UrlSpanHelper;->access$300(Ljava/lang/CharSequence;)[J
 
     move-result-object v7
 
@@ -194,7 +194,7 @@
     iget-object v5, p0, Landroid/text/util/UrlSpanHelper$1;->val$eventTitle:Ljava/lang/CharSequence;
 
     # invokes: Landroid/text/util/UrlSpanHelper;->createTimeToTimeEvent(JJLandroid/content/Context;Ljava/lang/CharSequence;)V
-    invoke-static/range {v0 .. v5}, Landroid/text/util/UrlSpanHelper;->access$invoke-createTimeToTimeEvent-27f962(JJLandroid/content/Context;Ljava/lang/CharSequence;)V
+    invoke-static/range {v0 .. v5}, Landroid/text/util/UrlSpanHelper;->access$400(JJLandroid/content/Context;Ljava/lang/CharSequence;)V
 
     goto :goto_0
 
@@ -210,7 +210,7 @@
     iget-object v0, p0, Landroid/text/util/UrlSpanHelper$1;->val$eventTitle:Ljava/lang/CharSequence;
 
     # invokes: Landroid/text/util/UrlSpanHelper;->createAllDayEvent(JLandroid/content/Context;Ljava/lang/CharSequence;)V
-    invoke-static {v8, v9, v4, v0}, Landroid/text/util/UrlSpanHelper;->access$invoke-createAllDayEvent-e941b8(JLandroid/content/Context;Ljava/lang/CharSequence;)V
+    invoke-static {v8, v9, v4, v0}, Landroid/text/util/UrlSpanHelper;->access$100(JLandroid/content/Context;Ljava/lang/CharSequence;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -224,7 +224,7 @@
     iget-object v1, p0, Landroid/text/util/UrlSpanHelper$1;->val$widget:Landroid/view/View;
 
     # invokes: Landroid/text/util/UrlSpanHelper;->setPrimaryClip(Ljava/lang/CharSequence;Landroid/view/View;)V
-    invoke-static {v0, v1}, Landroid/text/util/UrlSpanHelper;->access$invoke-setPrimaryClip-23577f(Ljava/lang/CharSequence;Landroid/view/View;)V
+    invoke-static {v0, v1}, Landroid/text/util/UrlSpanHelper;->access$500(Ljava/lang/CharSequence;Landroid/view/View;)V
 
     goto :goto_0
 
@@ -245,7 +245,7 @@
     iget-object v0, p0, Landroid/text/util/UrlSpanHelper$1;->val$value:Ljava/lang/CharSequence;
 
     # invokes: Landroid/text/util/UrlSpanHelper;->subTimeToTime(Ljava/lang/CharSequence;)[J
-    invoke-static {v0}, Landroid/text/util/UrlSpanHelper;->access$invoke-subTimeToTime-4040a1(Ljava/lang/CharSequence;)[J
+    invoke-static {v0}, Landroid/text/util/UrlSpanHelper;->access$300(Ljava/lang/CharSequence;)[J
 
     move-result-object v7
 
@@ -256,7 +256,7 @@
     aget-wide v0, v7, v0
 
     # invokes: Landroid/text/util/UrlSpanHelper;->openCalendar(JLandroid/content/Context;)V
-    invoke-static {v0, v1, v4}, Landroid/text/util/UrlSpanHelper;->access$invoke-openCalendar-01ce33(JLandroid/content/Context;)V
+    invoke-static {v0, v1, v4}, Landroid/text/util/UrlSpanHelper;->access$600(JLandroid/content/Context;)V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
 
@@ -279,7 +279,7 @@
     .line 158
     .restart local v8    # "sTime":J
     # invokes: Landroid/text/util/UrlSpanHelper;->openCalendar(JLandroid/content/Context;)V
-    invoke-static {v8, v9, v4}, Landroid/text/util/UrlSpanHelper;->access$invoke-openCalendar-01ce33(JLandroid/content/Context;)V
+    invoke-static {v8, v9, v4}, Landroid/text/util/UrlSpanHelper;->access$600(JLandroid/content/Context;)V
 
     goto/16 :goto_0
 
@@ -291,14 +291,14 @@
     iget-object v0, p0, Landroid/text/util/UrlSpanHelper$1;->val$value:Ljava/lang/CharSequence;
 
     # invokes: Landroid/text/util/UrlSpanHelper;->subDate(Ljava/lang/CharSequence;)J
-    invoke-static {v0}, Landroid/text/util/UrlSpanHelper;->access$invoke-subDate-ad2134(Ljava/lang/CharSequence;)J
+    invoke-static {v0}, Landroid/text/util/UrlSpanHelper;->access$000(Ljava/lang/CharSequence;)J
 
     move-result-wide v8
 
     .line 153
     .restart local v8    # "sTime":J
     # invokes: Landroid/text/util/UrlSpanHelper;->openCalendar(JLandroid/content/Context;)V
-    invoke-static {v8, v9, v4}, Landroid/text/util/UrlSpanHelper;->access$invoke-openCalendar-01ce33(JLandroid/content/Context;)V
+    invoke-static {v8, v9, v4}, Landroid/text/util/UrlSpanHelper;->access$600(JLandroid/content/Context;)V
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
 

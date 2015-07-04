@@ -93,7 +93,7 @@
     iget-object v3, p0, Landroid/widget/AbsListView$FlingRunnable;->this$0:Landroid/widget/AbsListView;
 
     # getter for: Landroid/widget/AbsListView;->mScrollY:I
-    invoke-static {v3}, Landroid/widget/AbsListView;->access$1900(Landroid/widget/AbsListView;)I
+    invoke-static {v3}, Landroid/widget/AbsListView;->access$2300(Landroid/widget/AbsListView;)I
 
     move-result v3
 
@@ -224,8 +224,6 @@
 
     invoke-virtual {p0, v0}, Landroid/widget/AbsListView$FlingRunnable;->endFling(Z)V
 
-    invoke-direct/range {p0 .. p0}, Landroid/widget/AbsListView$FlingRunnable;->mzEndFling()V
-
     return-void
 .end method
 
@@ -305,6 +303,8 @@
 
     .line 4459
     :cond_1
+    invoke-direct/range {p0 .. p0}, Landroid/widget/AbsListView$FlingRunnable;->mzEndFling()V
+
     return-void
 .end method
 
@@ -607,7 +607,7 @@
     iget-object v6, v0, Landroid/widget/AbsListView$FlingRunnable;->this$0:Landroid/widget/AbsListView;
 
     # getter for: Landroid/widget/AbsListView;->mScrollY:I
-    invoke-static {v6}, Landroid/widget/AbsListView;->access$2100(Landroid/widget/AbsListView;)I
+    invoke-static {v6}, Landroid/widget/AbsListView;->access$3100(Landroid/widget/AbsListView;)I
 
     move-result v6
 
@@ -711,7 +711,7 @@
     iget-object v3, v0, Landroid/widget/AbsListView$FlingRunnable;->this$0:Landroid/widget/AbsListView;
 
     # getter for: Landroid/widget/AbsListView;->mPaddingBottom:I
-    invoke-static {v3}, Landroid/widget/AbsListView;->access$2700(Landroid/widget/AbsListView;)I
+    invoke-static {v3}, Landroid/widget/AbsListView;->access$2900(Landroid/widget/AbsListView;)I
 
     move-result v3
 
@@ -722,7 +722,7 @@
     iget-object v3, v0, Landroid/widget/AbsListView$FlingRunnable;->this$0:Landroid/widget/AbsListView;
 
     # getter for: Landroid/widget/AbsListView;->mPaddingTop:I
-    invoke-static {v3}, Landroid/widget/AbsListView;->access$2800(Landroid/widget/AbsListView;)I
+    invoke-static {v3}, Landroid/widget/AbsListView;->access$3000(Landroid/widget/AbsListView;)I
 
     move-result v3
 
@@ -822,7 +822,7 @@
     iget-object v2, v0, Landroid/widget/AbsListView$FlingRunnable;->this$0:Landroid/widget/AbsListView;
 
     # getter for: Landroid/widget/AbsListView;->mScrollY:I
-    invoke-static {v2}, Landroid/widget/AbsListView;->access$2100(Landroid/widget/AbsListView;)I
+    invoke-static {v2}, Landroid/widget/AbsListView;->access$3300(Landroid/widget/AbsListView;)I
 
     move-result v9
 
@@ -861,7 +861,7 @@
     const/4 v14, 0x0
 
     # invokes: Landroid/widget/AbsListView;->overScrollBy(IIIIIIIIZ)Z
-    invoke-static/range {v5 .. v14}, Landroid/widget/AbsListView;->access$3200(Landroid/widget/AbsListView;IIIIIIIIZ)Z
+    invoke-static/range {v5 .. v14}, Landroid/widget/AbsListView;->access$3400(Landroid/widget/AbsListView;IIIIIIIIZ)Z
 
     move-result v2
 
@@ -1120,7 +1120,7 @@
     iget-object v2, p0, Landroid/widget/AbsListView$FlingRunnable;->this$0:Landroid/widget/AbsListView;
 
     # getter for: Landroid/widget/AbsListView;->mScrollY:I
-    invoke-static {v2}, Landroid/widget/AbsListView;->access$2100(Landroid/widget/AbsListView;)I
+    invoke-static {v2}, Landroid/widget/AbsListView;->access$2200(Landroid/widget/AbsListView;)I
 
     move-result v2
 

@@ -82,7 +82,7 @@
     .line 243
     .local v1, "intent":Landroid/content/Intent;
     # invokes: Landroid/text/util/UrlSpanHelper;->startActivity(Landroid/content/Context;Landroid/content/Intent;)V
-    invoke-static {v0, v1}, Landroid/text/util/UrlSpanHelper;->access$invoke-startActivity-d96a20(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-static {v0, v1}, Landroid/text/util/UrlSpanHelper;->access$700(Landroid/content/Context;Landroid/content/Intent;)V
 
     goto :goto_0
 
@@ -112,7 +112,7 @@
     .line 248
     .restart local v1    # "intent":Landroid/content/Intent;
     # invokes: Landroid/text/util/UrlSpanHelper;->startActivity(Landroid/content/Context;Landroid/content/Intent;)V
-    invoke-static {v0, v1}, Landroid/text/util/UrlSpanHelper;->access$invoke-startActivity-d96a20(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-static {v0, v1}, Landroid/text/util/UrlSpanHelper;->access$700(Landroid/content/Context;Landroid/content/Intent;)V
 
     goto :goto_0
 
@@ -124,7 +124,7 @@
     iget-object v3, p0, Landroid/text/util/UrlSpanHelper$3;->val$widget:Landroid/view/View;
 
     # invokes: Landroid/text/util/UrlSpanHelper;->setPrimaryClip(Ljava/lang/CharSequence;Landroid/view/View;)V
-    invoke-static {v2, v3}, Landroid/text/util/UrlSpanHelper;->access$invoke-setPrimaryClip-23577f(Ljava/lang/CharSequence;Landroid/view/View;)V
+    invoke-static {v2, v3}, Landroid/text/util/UrlSpanHelper;->access$500(Ljava/lang/CharSequence;Landroid/view/View;)V
 
     goto :goto_0
 
@@ -148,7 +148,7 @@
 
     .line 256
     # invokes: Landroid/text/util/UrlSpanHelper;->startActivity(Landroid/content/Context;Landroid/content/Intent;)V
-    invoke-static {v0, v1}, Landroid/text/util/UrlSpanHelper;->access$invoke-startActivity-d96a20(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-static {v0, v1}, Landroid/text/util/UrlSpanHelper;->access$700(Landroid/content/Context;Landroid/content/Intent;)V
 
     goto :goto_0
 
@@ -183,7 +183,7 @@
 
     .line 263
     # invokes: Landroid/text/util/UrlSpanHelper;->startActivity(Landroid/content/Context;Landroid/content/Intent;)V
-    invoke-static {v0, v1}, Landroid/text/util/UrlSpanHelper;->access$invoke-startActivity-d96a20(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-static {v0, v1}, Landroid/text/util/UrlSpanHelper;->access$700(Landroid/content/Context;Landroid/content/Intent;)V
 
     goto :goto_0
 

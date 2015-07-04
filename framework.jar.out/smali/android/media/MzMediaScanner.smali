@@ -1371,7 +1371,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-isNoMediaFile-4ca1ce(Ljava/lang/String;)Z
+.method static synthetic access$100(Ljava/lang/String;)Z
     .locals 1
     .param p0, "x0"    # Ljava/lang/String;
 
@@ -1384,7 +1384,7 @@
     return v0
 .end method
 
-.method static synthetic access$sget-MUSIC_DIR-2980af()Ljava/lang/String;
+.method static synthetic access$1000()Ljava/lang/String;
     .locals 1
 
     .prologue
@@ -1394,7 +1394,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mCaseInsensitivePaths-2c2985(Landroid/media/MzMediaScanner;)Z
+.method static synthetic access$1100(Landroid/media/MzMediaScanner;)Z
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1405,7 +1405,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mCusEntries-ea9360(Landroid/media/MzMediaScanner;)Ljava/util/Map;
+.method static synthetic access$1200(Landroid/media/MzMediaScanner;)Ljava/util/Map;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1416,7 +1416,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mProcessGenres-a58be6(Landroid/media/MzMediaScanner;)Z
+.method static synthetic access$1300(Landroid/media/MzMediaScanner;)Z
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1427,7 +1427,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mClient-6baa72(Landroid/media/MzMediaScanner;)Landroid/media/MzMediaScanner$MyMediaScannerClient;
+.method static synthetic access$1400(Landroid/media/MzMediaScanner;)Landroid/media/MzMediaScanner$MyMediaScannerClient;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1438,7 +1438,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mAudioUri-1fa49a(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+.method static synthetic access$1500(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1449,7 +1449,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mMtpObjectHandle-274bc0(Landroid/media/MzMediaScanner;)I
+.method static synthetic access$1600(Landroid/media/MzMediaScanner;)I
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1460,7 +1460,7 @@
     return v0
 .end method
 
-.method static synthetic access$sget-EXTERNAL_DIR-d9b9e2()Ljava/lang/String;
+.method static synthetic access$1700()Ljava/lang/String;
     .locals 1
 
     .prologue
@@ -1470,7 +1470,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$sget-EXTERNAL_RINGTONE_DIR-fa8f58()Ljava/lang/String;
+.method static synthetic access$1800()Ljava/lang/String;
     .locals 1
 
     .prologue
@@ -1480,7 +1480,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mExternalIsEmulated-d90a19(Landroid/media/MzMediaScanner;)Z
+.method static synthetic access$1900(Landroid/media/MzMediaScanner;)Z
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1491,7 +1491,7 @@
     return v0
 .end method
 
-.method static synthetic access$invoke-isDrmEnabled-b8f24a(Landroid/media/MzMediaScanner;)Z
+.method static synthetic access$200(Landroid/media/MzMediaScanner;)Z
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1504,7 +1504,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mExternalStoragePath-c8808e(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+.method static synthetic access$2000(Landroid/media/MzMediaScanner;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1515,7 +1515,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$sget-ID3_GENRES-d3c3f9()[Ljava/lang/String;
+.method static synthetic access$2100()[Ljava/lang/String;
     .locals 1
 
     .prologue
@@ -1525,7 +1525,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mBitmapOptions-f111d3(Landroid/media/MzMediaScanner;)Landroid/graphics/BitmapFactory$Options;
+.method static synthetic access$2200(Landroid/media/MzMediaScanner;)Landroid/graphics/BitmapFactory$Options;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1536,7 +1536,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mInternalDB-adcee1(Landroid/media/MzMediaScanner;)Z
+.method static synthetic access$2300(Landroid/media/MzMediaScanner;)Z
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1547,7 +1547,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mMediaInserter-e5d54b(Landroid/media/MzMediaScanner;)Landroid/media/MediaInserter;
+.method static synthetic access$2400(Landroid/media/MzMediaScanner;)Landroid/media/MediaInserter;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1558,7 +1558,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mVideoUri-67c9b0(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+.method static synthetic access$2500(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1569,7 +1569,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mImagesUri-a1deec(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+.method static synthetic access$2600(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1580,7 +1580,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mWasEmptyPriorToScan-efd0b6(Landroid/media/MzMediaScanner;)Z
+.method static synthetic access$2700(Landroid/media/MzMediaScanner;)Z
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1591,7 +1591,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mDefaultNotificationSet-f1aecb(Landroid/media/MzMediaScanner;)Z
+.method static synthetic access$2800(Landroid/media/MzMediaScanner;)Z
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1602,7 +1602,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mDefaultNotificationSet-22d389(Landroid/media/MzMediaScanner;Z)Z
+.method static synthetic access$2802(Landroid/media/MzMediaScanner;Z)Z
     .locals 0
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
     .param p1, "x1"    # Z
@@ -1614,7 +1614,7 @@
     return p1
 .end method
 
-.method static synthetic access$iget-mDefaultNotificationFilename-cc0eac(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+.method static synthetic access$2900(Landroid/media/MzMediaScanner;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1625,7 +1625,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mProcessPlaylists-b49d47(Landroid/media/MzMediaScanner;)Z
+.method static synthetic access$300(Landroid/media/MzMediaScanner;)Z
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1636,7 +1636,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mDefaultMmsSet-8e8b79(Landroid/media/MzMediaScanner;)Z
+.method static synthetic access$3000(Landroid/media/MzMediaScanner;)Z
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1647,7 +1647,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mDefaultMmsSet-a08512(Landroid/media/MzMediaScanner;Z)Z
+.method static synthetic access$3002(Landroid/media/MzMediaScanner;Z)Z
     .locals 0
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
     .param p1, "x1"    # Z
@@ -1659,7 +1659,7 @@
     return p1
 .end method
 
-.method static synthetic access$iget-mDefaultMmsFilename-a90291(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+.method static synthetic access$3100(Landroid/media/MzMediaScanner;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1670,7 +1670,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mDefaultMailSet-fefa28(Landroid/media/MzMediaScanner;)Z
+.method static synthetic access$3200(Landroid/media/MzMediaScanner;)Z
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1681,7 +1681,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mDefaultMailSet-b8d62d(Landroid/media/MzMediaScanner;Z)Z
+.method static synthetic access$3202(Landroid/media/MzMediaScanner;Z)Z
     .locals 0
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
     .param p1, "x1"    # Z
@@ -1693,7 +1693,7 @@
     return p1
 .end method
 
-.method static synthetic access$iget-mDefaultMailFilename-63bfc2(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+.method static synthetic access$3300(Landroid/media/MzMediaScanner;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1704,7 +1704,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mDefaultCanlendarSet-3d41ba(Landroid/media/MzMediaScanner;)Z
+.method static synthetic access$3400(Landroid/media/MzMediaScanner;)Z
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1715,7 +1715,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mDefaultCanlendarSet-8f45ca(Landroid/media/MzMediaScanner;Z)Z
+.method static synthetic access$3402(Landroid/media/MzMediaScanner;Z)Z
     .locals 0
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
     .param p1, "x1"    # Z
@@ -1727,7 +1727,7 @@
     return p1
 .end method
 
-.method static synthetic access$iget-mDefaultCanlendarFilename-32cbc8(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+.method static synthetic access$3500(Landroid/media/MzMediaScanner;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1738,7 +1738,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mDefaultRingtoneSet-0b2a19(Landroid/media/MzMediaScanner;)Z
+.method static synthetic access$3600(Landroid/media/MzMediaScanner;)Z
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1749,7 +1749,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mDefaultRingtoneSet-e68495(Landroid/media/MzMediaScanner;Z)Z
+.method static synthetic access$3602(Landroid/media/MzMediaScanner;Z)Z
     .locals 0
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
     .param p1, "x1"    # Z
@@ -1761,7 +1761,7 @@
     return p1
 .end method
 
-.method static synthetic access$iget-mDefaultRingtoneFilename-e55ec3(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+.method static synthetic access$3700(Landroid/media/MzMediaScanner;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1772,7 +1772,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mDefaultAlarmSet-28cbae(Landroid/media/MzMediaScanner;)Z
+.method static synthetic access$3800(Landroid/media/MzMediaScanner;)Z
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1783,7 +1783,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mDefaultAlarmSet-b429fa(Landroid/media/MzMediaScanner;Z)Z
+.method static synthetic access$3802(Landroid/media/MzMediaScanner;Z)Z
     .locals 0
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
     .param p1, "x1"    # Z
@@ -1795,7 +1795,7 @@
     return p1
 .end method
 
-.method static synthetic access$iget-mDefaultAlarmAlertFilename-ba4bc9(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+.method static synthetic access$3900(Landroid/media/MzMediaScanner;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1806,7 +1806,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mPlaylists-7cae83(Landroid/media/MzMediaScanner;)Ljava/util/Map;
+.method static synthetic access$400(Landroid/media/MzMediaScanner;)Ljava/util/Map;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1817,7 +1817,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mM3uCopingFlg-7c4719(Landroid/media/MzMediaScanner;)Z
+.method static synthetic access$4000(Landroid/media/MzMediaScanner;)Z
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1828,7 +1828,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mM3uMembersUri-9d410b(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+.method static synthetic access$4100(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1839,7 +1839,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mM3uPath-9abc6f(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+.method static synthetic access$4200(Landroid/media/MzMediaScanner;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1850,7 +1850,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mPlaylistEntries-df609b(Landroid/media/MzMediaScanner;)Ljava/util/ArrayList;
+.method static synthetic access$4300(Landroid/media/MzMediaScanner;)Ljava/util/ArrayList;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1861,7 +1861,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-matchPaths-a0618a(Landroid/media/MzMediaScanner;Ljava/lang/String;Ljava/lang/String;)I
+.method static synthetic access$4400(Landroid/media/MzMediaScanner;Ljava/lang/String;Ljava/lang/String;)I
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
     .param p1, "x1"    # Ljava/lang/String;
@@ -1876,7 +1876,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mContext-2434bc(Landroid/media/MzMediaScanner;)Landroid/content/Context;
+.method static synthetic access$4500(Landroid/media/MzMediaScanner;)Landroid/content/Context;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1887,7 +1887,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mDrmManagerClient-5e8969(Landroid/media/MzMediaScanner;)Landroid/drm/DrmManagerClient;
+.method static synthetic access$4600(Landroid/media/MzMediaScanner;)Landroid/drm/DrmManagerClient;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1898,7 +1898,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iput-mDrmManagerClient-543757(Landroid/media/MzMediaScanner;Landroid/drm/DrmManagerClient;)Landroid/drm/DrmManagerClient;
+.method static synthetic access$4602(Landroid/media/MzMediaScanner;Landroid/drm/DrmManagerClient;)Landroid/drm/DrmManagerClient;
     .locals 0
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
     .param p1, "x1"    # Landroid/drm/DrmManagerClient;
@@ -1910,7 +1910,7 @@
     return-object p1
 .end method
 
-.method static synthetic access$invoke-cachePlaylistEntry-a04fb7(Landroid/media/MzMediaScanner;Ljava/lang/String;Ljava/lang/String;)V
+.method static synthetic access$4800(Landroid/media/MzMediaScanner;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
     .param p1, "x1"    # Ljava/lang/String;
@@ -1923,7 +1923,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mPackageName-243dec(Landroid/media/MzMediaScanner;)Ljava/lang/String;
+.method static synthetic access$500(Landroid/media/MzMediaScanner;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1934,7 +1934,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mFilesUri-4c4098(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+.method static synthetic access$600(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1945,7 +1945,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mMediaProvider-4a8f80(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
+.method static synthetic access$700(Landroid/media/MzMediaScanner;)Landroid/content/IContentProvider;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1956,7 +1956,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mPlaylistsUri-c3e3ac(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
+.method static synthetic access$800(Landroid/media/MzMediaScanner;)Landroid/net/Uri;
     .locals 1
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
 
@@ -1967,7 +1967,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-processFile-312c71(Landroid/media/MzMediaScanner;Ljava/lang/String;Ljava/lang/String;Landroid/media/MediaScannerClient;)V
+.method static synthetic access$900(Landroid/media/MzMediaScanner;Ljava/lang/String;Ljava/lang/String;Landroid/media/MediaScannerClient;)V
     .locals 0
     .param p0, "x0"    # Landroid/media/MzMediaScanner;
     .param p1, "x1"    # Ljava/lang/String;
@@ -4928,7 +4928,7 @@
     move-object/from16 v0, v17
 
     # invokes: Landroid/media/MzMediaScanner$MyMediaScannerClient;->processCuePlaylist(Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;)Z
-    invoke-static {v2, v3, v0, v9}, Landroid/media/MzMediaScanner$MyMediaScannerClient;->access$invoke-processCuePlaylist-71145b(Landroid/media/MzMediaScanner$MyMediaScannerClient;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;)Z
+    invoke-static {v2, v3, v0, v9}, Landroid/media/MzMediaScanner$MyMediaScannerClient;->access$4900(Landroid/media/MzMediaScanner$MyMediaScannerClient;Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;)Z
 
     goto :goto_3
 .end method

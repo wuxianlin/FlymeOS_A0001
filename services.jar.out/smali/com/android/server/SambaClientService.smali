@@ -244,7 +244,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mListeners-f00fbb(Lcom/android/server/SambaClientService;)Ljava/util/ArrayList;
+.method static synthetic access$000(Lcom/android/server/SambaClientService;)Ljava/util/ArrayList;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/SambaClientService;
 
@@ -255,7 +255,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-setNetbiosName-e76f68(Lcom/android/server/SambaClientService;Ljava/lang/String;)V
+.method static synthetic access$100(Lcom/android/server/SambaClientService;Ljava/lang/String;)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/SambaClientService;
     .param p1, "x1"    # Ljava/lang/String;
@@ -267,7 +267,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mScanIp-b94072(Lcom/android/server/SambaClientService;)Ljava/lang/String;
+.method static synthetic access$200(Lcom/android/server/SambaClientService;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/SambaClientService;
 
@@ -278,7 +278,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-onScanNotify-15b173(Lcom/android/server/SambaClientService;Ljava/lang/String;Ljava/lang/String;)V
+.method static synthetic access$300(Lcom/android/server/SambaClientService;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/SambaClientService;
     .param p1, "x1"    # Ljava/lang/String;
@@ -291,7 +291,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mScanThread-d486b9(Lcom/android/server/SambaClientService;)Lcom/android/server/SambaClientService$ScanThread;
+.method static synthetic access$400(Lcom/android/server/SambaClientService;)Lcom/android/server/SambaClientService$ScanThread;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/SambaClientService;
 
@@ -302,7 +302,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iput-mScanThread-a0df27(Lcom/android/server/SambaClientService;Lcom/android/server/SambaClientService$ScanThread;)Lcom/android/server/SambaClientService$ScanThread;
+.method static synthetic access$402(Lcom/android/server/SambaClientService;Lcom/android/server/SambaClientService$ScanThread;)Lcom/android/server/SambaClientService$ScanThread;
     .locals 0
     .param p0, "x0"    # Lcom/android/server/SambaClientService;
     .param p1, "x1"    # Lcom/android/server/SambaClientService$ScanThread;
@@ -314,7 +314,7 @@
     return-object p1
 .end method
 
-.method static synthetic access$iget-mConnector-a66a78(Lcom/android/server/SambaClientService;)Lcom/android/server/NativeDaemonConnector;
+.method static synthetic access$500(Lcom/android/server/SambaClientService;)Lcom/android/server/NativeDaemonConnector;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/SambaClientService;
 
@@ -325,7 +325,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mListerningIp-e18dc8(Lcom/android/server/SambaClientService;)Z
+.method static synthetic access$600(Lcom/android/server/SambaClientService;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/server/SambaClientService;
 
@@ -336,7 +336,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mIp-ce40df(Lcom/android/server/SambaClientService;Ljava/lang/String;)Ljava/lang/String;
+.method static synthetic access$702(Lcom/android/server/SambaClientService;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
     .param p0, "x0"    # Lcom/android/server/SambaClientService;
     .param p1, "x1"    # Ljava/lang/String;
@@ -348,7 +348,7 @@
     return-object p1
 .end method
 
-.method static synthetic access$invoke-getConnectedWifiIp-8fa0e1(Lcom/android/server/SambaClientService;)Ljava/lang/String;
+.method static synthetic access$800(Lcom/android/server/SambaClientService;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/SambaClientService;
 
@@ -361,7 +361,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mContext-3d0e6e(Lcom/android/server/SambaClientService;)Landroid/content/Context;
+.method static synthetic access$900(Lcom/android/server/SambaClientService;)Landroid/content/Context;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/SambaClientService;
 

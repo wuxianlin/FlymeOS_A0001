@@ -68,7 +68,7 @@
     iget v3, p1, Landroid/os/Message;->arg2:I
 
     # invokes: Landroid/net/pppoe/PppoeService;->setPppoeEnabledBlocking(ZZI)Z
-    invoke-static {v2, v1, v0, v3}, Landroid/net/pppoe/PppoeService;->access$invoke-setPppoeEnabledBlocking-65e476(Landroid/net/pppoe/PppoeService;ZZI)Z
+    invoke-static {v2, v1, v0, v3}, Landroid/net/pppoe/PppoeService;->access$000(Landroid/net/pppoe/PppoeService;ZZI)Z
 
     goto :goto_0
 
@@ -84,7 +84,7 @@
     iget v3, p1, Landroid/os/Message;->arg2:I
 
     # invokes: Landroid/net/pppoe/PppoeService;->setPppoeEnabledBlocking(ZZI)Z
-    invoke-static {v2, v0, v1, v3}, Landroid/net/pppoe/PppoeService;->access$invoke-setPppoeEnabledBlocking-65e476(Landroid/net/pppoe/PppoeService;ZZI)Z
+    invoke-static {v2, v0, v1, v3}, Landroid/net/pppoe/PppoeService;->access$000(Landroid/net/pppoe/PppoeService;ZZI)Z
 
     goto :goto_0
 

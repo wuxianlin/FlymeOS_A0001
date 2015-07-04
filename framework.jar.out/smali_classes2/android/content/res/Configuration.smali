@@ -901,11 +901,11 @@
 
     or-int/2addr v0, p1
 
+    or-int/lit16 v0, v0, 0x4000
+
     const/high16 v1, 0x100000
 
     or-int/2addr v0, v1
-
-    or-int/lit16 v0, v0, 0x4000
 
     and-int/2addr v0, p0
 
