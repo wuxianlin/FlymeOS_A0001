@@ -51,7 +51,7 @@
     iget-object v3, p0, Lcom/android/internal/app/MzResolverActivity$2;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mAlwaysUseOption:Z
-    invoke-static {v3}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mAlwaysUseOption-bde5e0(Lcom/android/internal/app/MzResolverActivity;)Z
+    invoke-static {v3}, Lcom/android/internal/app/MzResolverActivity;->access$100(Lcom/android/internal/app/MzResolverActivity;)Z
 
     move-result v3
 
@@ -61,7 +61,7 @@
     iget-object v3, p0, Lcom/android/internal/app/MzResolverActivity$2;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mAdapter:Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;
-    invoke-static {v3}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mAdapter-de8ec5(Lcom/android/internal/app/MzResolverActivity;)Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;
+    invoke-static {v3}, Lcom/android/internal/app/MzResolverActivity;->access$000(Lcom/android/internal/app/MzResolverActivity;)Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;
 
     move-result-object v3
 
@@ -74,7 +74,7 @@
     iget-object v3, p0, Lcom/android/internal/app/MzResolverActivity$2;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mAlwaysCheck:Landroid/widget/CheckBox;
-    invoke-static {v3}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mAlwaysCheck-5291d7(Lcom/android/internal/app/MzResolverActivity;)Landroid/widget/CheckBox;
+    invoke-static {v3}, Lcom/android/internal/app/MzResolverActivity;->access$600(Lcom/android/internal/app/MzResolverActivity;)Landroid/widget/CheckBox;
 
     move-result-object v3
 
@@ -83,7 +83,7 @@
     iget-object v3, p0, Lcom/android/internal/app/MzResolverActivity$2;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mAlwaysCheck:Landroid/widget/CheckBox;
-    invoke-static {v3}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mAlwaysCheck-5291d7(Lcom/android/internal/app/MzResolverActivity;)Landroid/widget/CheckBox;
+    invoke-static {v3}, Lcom/android/internal/app/MzResolverActivity;->access$600(Lcom/android/internal/app/MzResolverActivity;)Landroid/widget/CheckBox;
 
     move-result-object v3
 

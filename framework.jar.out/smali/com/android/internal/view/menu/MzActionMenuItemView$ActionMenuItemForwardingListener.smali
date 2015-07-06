@@ -43,7 +43,7 @@
     iget-object v0, p0, Lcom/android/internal/view/menu/MzActionMenuItemView$ActionMenuItemForwardingListener;->this$0:Lcom/android/internal/view/menu/MzActionMenuItemView;
 
     # getter for: Lcom/android/internal/view/menu/MzActionMenuItemView;->mPopupCallback:Lcom/android/internal/view/menu/MzActionMenuItemView$PopupCallback;
-    invoke-static {v0}, Lcom/android/internal/view/menu/MzActionMenuItemView;->access$iget-mPopupCallback-2cce01(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MzActionMenuItemView$PopupCallback;
+    invoke-static {v0}, Lcom/android/internal/view/menu/MzActionMenuItemView;->access$000(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MzActionMenuItemView$PopupCallback;
 
     move-result-object v0
 
@@ -53,7 +53,7 @@
     iget-object v0, p0, Lcom/android/internal/view/menu/MzActionMenuItemView$ActionMenuItemForwardingListener;->this$0:Lcom/android/internal/view/menu/MzActionMenuItemView;
 
     # getter for: Lcom/android/internal/view/menu/MzActionMenuItemView;->mPopupCallback:Lcom/android/internal/view/menu/MzActionMenuItemView$PopupCallback;
-    invoke-static {v0}, Lcom/android/internal/view/menu/MzActionMenuItemView;->access$iget-mPopupCallback-2cce01(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MzActionMenuItemView$PopupCallback;
+    invoke-static {v0}, Lcom/android/internal/view/menu/MzActionMenuItemView;->access$000(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MzActionMenuItemView$PopupCallback;
 
     move-result-object v0
 
@@ -81,7 +81,7 @@
     iget-object v2, p0, Lcom/android/internal/view/menu/MzActionMenuItemView$ActionMenuItemForwardingListener;->this$0:Lcom/android/internal/view/menu/MzActionMenuItemView;
 
     # getter for: Lcom/android/internal/view/menu/MzActionMenuItemView;->mItemInvoker:Lcom/android/internal/view/menu/MenuBuilder$ItemInvoker;
-    invoke-static {v2}, Lcom/android/internal/view/menu/MzActionMenuItemView;->access$iget-mItemInvoker-fbffac(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MenuBuilder$ItemInvoker;
+    invoke-static {v2}, Lcom/android/internal/view/menu/MzActionMenuItemView;->access$100(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MenuBuilder$ItemInvoker;
 
     move-result-object v2
 
@@ -90,14 +90,14 @@
     iget-object v2, p0, Lcom/android/internal/view/menu/MzActionMenuItemView$ActionMenuItemForwardingListener;->this$0:Lcom/android/internal/view/menu/MzActionMenuItemView;
 
     # getter for: Lcom/android/internal/view/menu/MzActionMenuItemView;->mItemInvoker:Lcom/android/internal/view/menu/MenuBuilder$ItemInvoker;
-    invoke-static {v2}, Lcom/android/internal/view/menu/MzActionMenuItemView;->access$iget-mItemInvoker-fbffac(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MenuBuilder$ItemInvoker;
+    invoke-static {v2}, Lcom/android/internal/view/menu/MzActionMenuItemView;->access$100(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MenuBuilder$ItemInvoker;
 
     move-result-object v2
 
     iget-object v3, p0, Lcom/android/internal/view/menu/MzActionMenuItemView$ActionMenuItemForwardingListener;->this$0:Lcom/android/internal/view/menu/MzActionMenuItemView;
 
     # getter for: Lcom/android/internal/view/menu/MzActionMenuItemView;->mItemData:Lcom/android/internal/view/menu/MenuItemImpl;
-    invoke-static {v3}, Lcom/android/internal/view/menu/MzActionMenuItemView;->access$iget-mItemData-a1c765(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MenuItemImpl;
+    invoke-static {v3}, Lcom/android/internal/view/menu/MzActionMenuItemView;->access$200(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MenuItemImpl;
 
     move-result-object v3
 

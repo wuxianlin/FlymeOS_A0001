@@ -86,7 +86,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-subDate-ad2134(Ljava/lang/CharSequence;)J
+.method static synthetic access$000(Ljava/lang/CharSequence;)J
     .locals 2
     .param p0, "x0"    # Ljava/lang/CharSequence;
 
@@ -99,7 +99,7 @@
     return-wide v0
 .end method
 
-.method static synthetic access$invoke-createAllDayEvent-e941b8(JLandroid/content/Context;Ljava/lang/CharSequence;)V
+.method static synthetic access$100(JLandroid/content/Context;Ljava/lang/CharSequence;)V
     .locals 0
     .param p0, "x0"    # J
     .param p2, "x1"    # Landroid/content/Context;
@@ -112,7 +112,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-showWarning-b81e70(Landroid/view/View;Ljava/lang/String;)V
+.method static synthetic access$1000(Landroid/view/View;Ljava/lang/String;)V
     .locals 0
     .param p0, "x0"    # Landroid/view/View;
     .param p1, "x1"    # Ljava/lang/String;
@@ -124,7 +124,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-createStartTimeEvent-80d90a(JLandroid/content/Context;Ljava/lang/CharSequence;)V
+.method static synthetic access$200(JLandroid/content/Context;Ljava/lang/CharSequence;)V
     .locals 0
     .param p0, "x0"    # J
     .param p2, "x1"    # Landroid/content/Context;
@@ -137,7 +137,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-subTimeToTime-4040a1(Ljava/lang/CharSequence;)[J
+.method static synthetic access$300(Ljava/lang/CharSequence;)[J
     .locals 1
     .param p0, "x0"    # Ljava/lang/CharSequence;
 
@@ -150,7 +150,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-createTimeToTimeEvent-27f962(JJLandroid/content/Context;Ljava/lang/CharSequence;)V
+.method static synthetic access$400(JJLandroid/content/Context;Ljava/lang/CharSequence;)V
     .locals 0
     .param p0, "x0"    # J
     .param p2, "x1"    # J
@@ -164,7 +164,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-setPrimaryClip-23577f(Ljava/lang/CharSequence;Landroid/view/View;)V
+.method static synthetic access$500(Ljava/lang/CharSequence;Landroid/view/View;)V
     .locals 0
     .param p0, "x0"    # Ljava/lang/CharSequence;
     .param p1, "x1"    # Landroid/view/View;
@@ -176,7 +176,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-openCalendar-01ce33(JLandroid/content/Context;)V
+.method static synthetic access$600(JLandroid/content/Context;)V
     .locals 0
     .param p0, "x0"    # J
     .param p2, "x1"    # Landroid/content/Context;
@@ -188,7 +188,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-startActivity-d96a20(Landroid/content/Context;Landroid/content/Intent;)V
+.method static synthetic access$700(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 0
     .param p0, "x0"    # Landroid/content/Context;
     .param p1, "x1"    # Landroid/content/Intent;
@@ -200,7 +200,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-getDisplayNameFromPhone-f902d6(Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;
+.method static synthetic access$800(Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Ljava/lang/String;
     .param p1, "x1"    # Landroid/content/Context;
@@ -214,7 +214,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$sget-mDialog-871410()Landroid/app/AlertDialog;
+.method static synthetic access$900()Landroid/app/AlertDialog;
     .locals 1
 
     .prologue
@@ -1093,12 +1093,12 @@
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     .line 529
-    const/high16 v3, #android:string@cancel#t
+    const/high16 v3, 0x1040000
 
     invoke-virtual {v0, v3, v5}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     .line 530
-    const v3, #android:string@ok#t
+    const v3, 0x104000a
 
     new-instance v4, Landroid/text/util/UrlSpanHelper$6;
 

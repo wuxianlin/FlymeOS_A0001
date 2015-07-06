@@ -155,7 +155,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mOnMenuItemClickListener-2fb182(Landroid/widget/MzActionMenuView;)Landroid/widget/MzActionMenuView$OnMenuItemClickListener;
+.method static synthetic access$200(Landroid/widget/MzActionMenuView;)Landroid/widget/MzActionMenuView$OnMenuItemClickListener;
     .locals 1
     .param p0, "x0"    # Landroid/widget/MzActionMenuView;
 
@@ -166,7 +166,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mMenuBuilderCallback-f669c4(Landroid/widget/MzActionMenuView;)Lcom/android/internal/view/menu/MenuBuilder$Callback;
+.method static synthetic access$300(Landroid/widget/MzActionMenuView;)Lcom/android/internal/view/menu/MenuBuilder$Callback;
     .locals 1
     .param p0, "x0"    # Landroid/widget/MzActionMenuView;
 

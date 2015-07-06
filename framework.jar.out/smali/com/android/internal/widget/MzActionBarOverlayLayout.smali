@@ -122,8 +122,8 @@
 
     :array_0
     .array-data 4
-        #android:attr@actionBarSize#t
-        #android:attr@windowContentOverlay#t
+        0x10102eb
+        0x1010059
     .end array-data
 .end method
 
@@ -318,7 +318,7 @@
     return-void
 .end method
 
-.method static synthetic access$iput-mCurrentActionBarTopAnimator-68fc12(Lcom/android/internal/widget/MzActionBarOverlayLayout;Landroid/view/ViewPropertyAnimator;)Landroid/view/ViewPropertyAnimator;
+.method static synthetic access$002(Lcom/android/internal/widget/MzActionBarOverlayLayout;Landroid/view/ViewPropertyAnimator;)Landroid/view/ViewPropertyAnimator;
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarOverlayLayout;
     .param p1, "x1"    # Landroid/view/ViewPropertyAnimator;
@@ -330,7 +330,7 @@
     return-object p1
 .end method
 
-.method static synthetic access$iput-mAnimatingForFling-cd1132(Lcom/android/internal/widget/MzActionBarOverlayLayout;Z)Z
+.method static synthetic access$102(Lcom/android/internal/widget/MzActionBarOverlayLayout;Z)Z
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarOverlayLayout;
     .param p1, "x1"    # Z
@@ -342,7 +342,7 @@
     return p1
 .end method
 
-.method static synthetic access$iput-mCurrentActionBarBottomAnimator-22eedd(Lcom/android/internal/widget/MzActionBarOverlayLayout;Landroid/view/ViewPropertyAnimator;)Landroid/view/ViewPropertyAnimator;
+.method static synthetic access$202(Lcom/android/internal/widget/MzActionBarOverlayLayout;Landroid/view/ViewPropertyAnimator;)Landroid/view/ViewPropertyAnimator;
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarOverlayLayout;
     .param p1, "x1"    # Landroid/view/ViewPropertyAnimator;
@@ -354,7 +354,7 @@
     return-object p1
 .end method
 
-.method static synthetic access$invoke-haltActionBarHideOffsetAnimations-f149c6(Lcom/android/internal/widget/MzActionBarOverlayLayout;)V
+.method static synthetic access$300(Lcom/android/internal/widget/MzActionBarOverlayLayout;)V
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarOverlayLayout;
 
@@ -365,7 +365,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mTopAnimatorListener-b32b1a(Lcom/android/internal/widget/MzActionBarOverlayLayout;)Landroid/animation/Animator$AnimatorListener;
+.method static synthetic access$400(Lcom/android/internal/widget/MzActionBarOverlayLayout;)Landroid/animation/Animator$AnimatorListener;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarOverlayLayout;
 
@@ -376,7 +376,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mActionBarTop-fcd968(Lcom/android/internal/widget/MzActionBarOverlayLayout;)Lcom/android/internal/widget/MzActionBarContainer;
+.method static synthetic access$500(Lcom/android/internal/widget/MzActionBarOverlayLayout;)Lcom/android/internal/widget/MzActionBarContainer;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarOverlayLayout;
 
@@ -387,7 +387,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mActionBarBottom-f27d41(Lcom/android/internal/widget/MzActionBarOverlayLayout;)Lcom/android/internal/widget/MzActionBarContainer;
+.method static synthetic access$600(Lcom/android/internal/widget/MzActionBarOverlayLayout;)Lcom/android/internal/widget/MzActionBarContainer;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarOverlayLayout;
 
@@ -398,7 +398,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mBottomAnimatorListener-efaff4(Lcom/android/internal/widget/MzActionBarOverlayLayout;)Landroid/animation/Animator$AnimatorListener;
+.method static synthetic access$700(Lcom/android/internal/widget/MzActionBarOverlayLayout;)Landroid/animation/Animator$AnimatorListener;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarOverlayLayout;
 
@@ -2797,7 +2797,7 @@
     if-nez v0, :cond_0
 
     .line 604
-    const v0, #android:id@content#t
+    const v0, 0x1020002
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->findViewById(I)Landroid/view/View;
 
@@ -2806,7 +2806,7 @@
     iput-object v0, p0, Lcom/android/internal/widget/MzActionBarOverlayLayout;->mContent:Landroid/view/View;
 
     .line 605
-    const v0, #android:id@action_bar_container#t
+    const v0, 0x1020378
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->findViewById(I)Landroid/view/View;
 
@@ -2817,7 +2817,7 @@
     iput-object v0, p0, Lcom/android/internal/widget/MzActionBarOverlayLayout;->mActionBarTop:Lcom/android/internal/widget/MzActionBarContainer;
 
     .line 607
-    const v0, #android:id@action_bar#t
+    const v0, 0x1020379
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->findViewById(I)Landroid/view/View;
 
@@ -2830,7 +2830,7 @@
     iput-object v0, p0, Lcom/android/internal/widget/MzActionBarOverlayLayout;->mDecorToolbar:Lcom/android/internal/widget/DecorToolbar;
 
     .line 608
-    const v0, #android:id@split_action_bar#t
+    const v0, 0x102037b
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->findViewById(I)Landroid/view/View;
 
@@ -3372,7 +3372,7 @@
 
     move-result-object v6
 
-    const v7, #android:bool@split_action_bar_is_narrow#t
+    const v7, 0x1120008
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -3499,7 +3499,7 @@
     invoke-interface {v5, v3}, Lcom/android/internal/widget/DecorToolbar;->setSplitWhenNarrow(Z)V
 
     .line 768
-    const v5, #android:id@action_context_bar#t
+    const v5, 0x102037a
 
     invoke-virtual {p0, v5}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->findViewById(I)Landroid/view/View;
 

@@ -159,7 +159,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mAdapter-de8ec5(Lcom/android/internal/app/MzResolverActivity;)Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;
+.method static synthetic access$000(Lcom/android/internal/app/MzResolverActivity;)Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/MzResolverActivity;
 
@@ -170,7 +170,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mAlwaysUseOption-bde5e0(Lcom/android/internal/app/MzResolverActivity;)Z
+.method static synthetic access$100(Lcom/android/internal/app/MzResolverActivity;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/MzResolverActivity;
 
@@ -181,7 +181,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mPm-fafc72(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
+.method static synthetic access$200(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/MzResolverActivity;
 
@@ -192,7 +192,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iput-mShowExtended-23f21d(Lcom/android/internal/app/MzResolverActivity;Z)Z
+.method static synthetic access$302(Lcom/android/internal/app/MzResolverActivity;Z)Z
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/app/MzResolverActivity;
     .param p1, "x1"    # Z
@@ -204,7 +204,7 @@
     return p1
 .end method
 
-.method static synthetic access$invoke-ensureDraggable-8d458b(Lcom/android/internal/app/MzResolverActivity;Landroid/content/Intent;)Z
+.method static synthetic access$400(Lcom/android/internal/app/MzResolverActivity;Landroid/content/Intent;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/MzResolverActivity;
     .param p1, "x1"    # Landroid/content/Intent;
@@ -218,7 +218,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mStats-857788(Lcom/android/internal/app/MzResolverActivity;)Ljava/util/Map;
+.method static synthetic access$500(Lcom/android/internal/app/MzResolverActivity;)Ljava/util/Map;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/MzResolverActivity;
 
@@ -229,7 +229,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mAlwaysCheck-5291d7(Lcom/android/internal/app/MzResolverActivity;)Landroid/widget/CheckBox;
+.method static synthetic access$600(Lcom/android/internal/app/MzResolverActivity;)Landroid/widget/CheckBox;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/MzResolverActivity;
 

@@ -41,7 +41,7 @@
     .line 343
     :try_start_0
     # getter for: Lcom/android/internal/policy/impl/MzGlobalActions;->mContext:Landroid/content/Context;
-    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$sget-mContext-0d2470()Landroid/content/Context;
+    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$600()Landroid/content/Context;
 
     move-result-object v1
 

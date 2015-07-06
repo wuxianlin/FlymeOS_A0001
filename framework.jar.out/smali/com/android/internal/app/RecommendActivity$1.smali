@@ -58,7 +58,7 @@
     iget-object v3, p0, Lcom/android/internal/app/RecommendActivity$1;->this$0:Lcom/android/internal/app/RecommendActivity;
 
     # getter for: Lcom/android/internal/app/RecommendActivity;->mOpenHelper:Lcom/android/internal/app/RecommendActivity$OpenFileFetchHelper;
-    invoke-static {v3}, Lcom/android/internal/app/RecommendActivity;->access$iget-mOpenHelper-f11304(Lcom/android/internal/app/RecommendActivity;)Lcom/android/internal/app/RecommendActivity$OpenFileFetchHelper;
+    invoke-static {v3}, Lcom/android/internal/app/RecommendActivity;->access$100(Lcom/android/internal/app/RecommendActivity;)Lcom/android/internal/app/RecommendActivity$OpenFileFetchHelper;
 
     move-result-object v3
 
@@ -74,7 +74,7 @@
     iget-object v3, p0, Lcom/android/internal/app/RecommendActivity$1;->this$0:Lcom/android/internal/app/RecommendActivity;
 
     # getter for: Lcom/android/internal/app/RecommendActivity;->mOpenHelper:Lcom/android/internal/app/RecommendActivity$OpenFileFetchHelper;
-    invoke-static {v3}, Lcom/android/internal/app/RecommendActivity;->access$iget-mOpenHelper-f11304(Lcom/android/internal/app/RecommendActivity;)Lcom/android/internal/app/RecommendActivity$OpenFileFetchHelper;
+    invoke-static {v3}, Lcom/android/internal/app/RecommendActivity;->access$100(Lcom/android/internal/app/RecommendActivity;)Lcom/android/internal/app/RecommendActivity$OpenFileFetchHelper;
 
     move-result-object v3
 
@@ -92,7 +92,7 @@
     iget-object v4, p0, Lcom/android/internal/app/RecommendActivity$1;->this$0:Lcom/android/internal/app/RecommendActivity;
 
     # getter for: Lcom/android/internal/app/RecommendActivity;->mAlwaysCheck:Landroid/widget/CheckBox;
-    invoke-static {v4}, Lcom/android/internal/app/RecommendActivity;->access$iget-mAlwaysCheck-7b6b72(Lcom/android/internal/app/RecommendActivity;)Landroid/widget/CheckBox;
+    invoke-static {v4}, Lcom/android/internal/app/RecommendActivity;->access$200(Lcom/android/internal/app/RecommendActivity;)Landroid/widget/CheckBox;
 
     move-result-object v4
 
@@ -101,7 +101,7 @@
     move-result v4
 
     # invokes: Lcom/android/internal/app/RecommendActivity;->clearAndSetDefalutApp(Landroid/content/Intent;Landroid/content/pm/ResolveInfo;Z)V
-    invoke-static {v3, v1, v2, v4}, Lcom/android/internal/app/RecommendActivity;->access$invoke-clearAndSetDefalutApp-cfb906(Lcom/android/internal/app/RecommendActivity;Landroid/content/Intent;Landroid/content/pm/ResolveInfo;Z)V
+    invoke-static {v3, v1, v2, v4}, Lcom/android/internal/app/RecommendActivity;->access$300(Lcom/android/internal/app/RecommendActivity;Landroid/content/Intent;Landroid/content/pm/ResolveInfo;Z)V
 
     .line 210
     :cond_0

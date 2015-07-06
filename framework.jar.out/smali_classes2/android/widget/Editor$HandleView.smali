@@ -1033,18 +1033,21 @@
 
     move-result-object v0
 
+    .line 3368
     .local v0, "layout":Landroid/text/Layout;
     if-nez v0, :cond_1
 
+    .line 3370
     iget-object v3, p0, Landroid/widget/Editor$HandleView;->this$0:Landroid/widget/Editor;
 
     invoke-virtual {v3}, Landroid/widget/Editor;->prepareCursorControllers()V
 
+    .line 3393
     :cond_0
-    :cond_flyme_0
     :goto_0
     return-void
 
+    .line 3374
     :cond_1
     iget v4, p0, Landroid/widget/Editor$HandleView;->mPreviousOffset:I
 
@@ -1063,7 +1066,11 @@
 
     move-result v4
 
-    if-nez v4, :cond_flyme_0
+    if-eqz v4, :cond_flyme_0
+
+    return-void
+
+    :cond_flyme_0
 
     if-eqz v2, :cond_3
 

@@ -57,7 +57,7 @@
     iget-object v2, p0, Lcom/android/server/SambaClientService$2;->this$0:Lcom/android/server/SambaClientService;
 
     # getter for: Lcom/android/server/SambaClientService;->mListerningIp:Z
-    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$iget-mListerningIp-e18dc8(Lcom/android/server/SambaClientService;)Z
+    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$600(Lcom/android/server/SambaClientService;)Z
 
     move-result v2
 
@@ -69,18 +69,18 @@
     iget-object v3, p0, Lcom/android/server/SambaClientService$2;->this$0:Lcom/android/server/SambaClientService;
 
     # invokes: Lcom/android/server/SambaClientService;->getConnectedWifiIp()Ljava/lang/String;
-    invoke-static {v3}, Lcom/android/server/SambaClientService;->access$invoke-getConnectedWifiIp-8fa0e1(Lcom/android/server/SambaClientService;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/android/server/SambaClientService;->access$800(Lcom/android/server/SambaClientService;)Ljava/lang/String;
 
     move-result-object v3
 
     # setter for: Lcom/android/server/SambaClientService;->mIp:Ljava/lang/String;
-    invoke-static {v2, v3}, Lcom/android/server/SambaClientService;->access$iput-mIp-ce40df(Lcom/android/server/SambaClientService;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/android/server/SambaClientService;->access$702(Lcom/android/server/SambaClientService;Ljava/lang/String;)Ljava/lang/String;
 
     .line 735
     iget-object v2, p0, Lcom/android/server/SambaClientService$2;->this$0:Lcom/android/server/SambaClientService;
 
     # getter for: Lcom/android/server/SambaClientService;->mContext:Landroid/content/Context;
-    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$iget-mContext-3d0e6e(Lcom/android/server/SambaClientService;)Landroid/content/Context;
+    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$900(Lcom/android/server/SambaClientService;)Landroid/content/Context;
 
     move-result-object v2
 
@@ -99,7 +99,7 @@
     iget-object v2, p0, Lcom/android/server/SambaClientService$2;->this$0:Lcom/android/server/SambaClientService;
 
     # invokes: Lcom/android/server/SambaClientService;->setNetbiosName(Ljava/lang/String;)V
-    invoke-static {v2, v1}, Lcom/android/server/SambaClientService;->access$invoke-setNetbiosName-e76f68(Lcom/android/server/SambaClientService;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lcom/android/server/SambaClientService;->access$100(Lcom/android/server/SambaClientService;Ljava/lang/String;)V
 
     .line 741
     .end local v1    # "name":Ljava/lang/String;

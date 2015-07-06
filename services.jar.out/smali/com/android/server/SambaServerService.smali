@@ -178,7 +178,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mServerRunning-34d7bb(Lcom/android/server/SambaServerService;)Z
+.method static synthetic access$000(Lcom/android/server/SambaServerService;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/server/SambaServerService;
 
@@ -189,7 +189,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mServerRunning-8265f4(Lcom/android/server/SambaServerService;Z)Z
+.method static synthetic access$002(Lcom/android/server/SambaServerService;Z)Z
     .locals 0
     .param p0, "x0"    # Lcom/android/server/SambaServerService;
     .param p1, "x1"    # Z
@@ -201,7 +201,7 @@
     return p1
 .end method
 
-.method static synthetic access$iget-mNotificationShown-943476(Lcom/android/server/SambaServerService;)Z
+.method static synthetic access$100(Lcom/android/server/SambaServerService;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/server/SambaServerService;
 
@@ -212,7 +212,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mIp-a5e57e(Lcom/android/server/SambaServerService;)Ljava/lang/String;
+.method static synthetic access$200(Lcom/android/server/SambaServerService;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/SambaServerService;
 
@@ -223,7 +223,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-getConnectedWifiIp-c2adf8(Lcom/android/server/SambaServerService;)Ljava/lang/String;
+.method static synthetic access$300(Lcom/android/server/SambaServerService;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/SambaServerService;
 
@@ -236,7 +236,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-updateNotification-c36b20(Lcom/android/server/SambaServerService;Z)V
+.method static synthetic access$400(Lcom/android/server/SambaServerService;Z)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/SambaServerService;
     .param p1, "x1"    # Z
@@ -248,7 +248,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mConnector-364dfa(Lcom/android/server/SambaServerService;)Lcom/android/server/NativeDaemonConnector;
+.method static synthetic access$500(Lcom/android/server/SambaServerService;)Lcom/android/server/NativeDaemonConnector;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/SambaServerService;
 
@@ -259,7 +259,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mSharedItemList-1f58a7(Lcom/android/server/SambaServerService;)Ljava/util/ArrayList;
+.method static synthetic access$600(Lcom/android/server/SambaServerService;)Ljava/util/ArrayList;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/SambaServerService;
 
@@ -778,7 +778,7 @@
 
     .line 321
     .local v2, "contentView":Landroid/widget/RemoteViews;
-    const v14, #android:id@icon#t
+    const v14, 0x1020006
 
     invoke-virtual {v2, v14, v6}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
@@ -906,7 +906,7 @@
 
     iget-object v14, v14, Landroid/app/Notification;->contentView:Landroid/widget/RemoteViews;
 
-    const v15, #android:id@title#t
+    const v15, 0x1020016
 
     invoke-virtual {v14, v15, v13}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 

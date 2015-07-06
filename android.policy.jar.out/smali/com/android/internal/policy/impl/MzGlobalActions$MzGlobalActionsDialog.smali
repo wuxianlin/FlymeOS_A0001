@@ -127,7 +127,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mAttached-23ac2c(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Z
+.method static synthetic access$000(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;
 
@@ -138,7 +138,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mAttached-c52376(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;Z)Z
+.method static synthetic access$002(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;Z)Z
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;
     .param p1, "x1"    # Z
@@ -150,7 +150,7 @@
     return p1
 .end method
 
-.method static synthetic access$iget-mFadeInSet-ead009(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/AnimatorSet;
+.method static synthetic access$100(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/AnimatorSet;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;
 
@@ -161,7 +161,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mContainerFadeOutAnimator-663198(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/ObjectAnimator;
+.method static synthetic access$200(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/ObjectAnimator;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;
 
@@ -172,7 +172,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mButtonSFadeOutAnimator-d2e99b(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/ObjectAnimator;
+.method static synthetic access$300(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/ObjectAnimator;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;
 
@@ -183,7 +183,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mButtonRFadeOutAnimator-41119b(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/ObjectAnimator;
+.method static synthetic access$400(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/ObjectAnimator;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;
 
@@ -194,7 +194,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mFadeOutSet-9d6b8f(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/AnimatorSet;
+.method static synthetic access$500(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/AnimatorSet;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;
 
@@ -205,7 +205,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mHandler-e72fea(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/os/Handler;
+.method static synthetic access$700(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/os/Handler;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;
 
@@ -216,7 +216,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mOutAnimtor-3d667c(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/ObjectAnimator;
+.method static synthetic access$800(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/ObjectAnimator;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;
 
@@ -227,7 +227,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mInAnimtor-969717(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/ObjectAnimator;
+.method static synthetic access$900(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/ObjectAnimator;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;
 
@@ -549,7 +549,7 @@
 
     .line 144
     # getter for: Lcom/android/internal/policy/impl/MzGlobalActions;->mContext:Landroid/content/Context;
-    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$sget-mContext-0d2470()Landroid/content/Context;
+    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$600()Landroid/content/Context;
 
     move-result-object v5
 
@@ -683,7 +683,7 @@
 
     .line 170
     # getter for: Lcom/android/internal/policy/impl/MzGlobalActions;->mContext:Landroid/content/Context;
-    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$sget-mContext-0d2470()Landroid/content/Context;
+    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$600()Landroid/content/Context;
 
     move-result-object v4
 
@@ -890,7 +890,7 @@
     iget-object v1, p0, Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;->mFindPhoneAbstract:Lcom/meizu/findphone/FindPhoneAbstract;
 
     # getter for: Lcom/android/internal/policy/impl/MzGlobalActions;->mContext:Landroid/content/Context;
-    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$sget-mContext-0d2470()Landroid/content/Context;
+    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$600()Landroid/content/Context;
 
     move-result-object v2
 
@@ -989,7 +989,7 @@
     iget-object v1, p0, Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;->mRestartView:Lcom/android/internal/policy/impl/MzCustomCircleButton;
 
     # getter for: Lcom/android/internal/policy/impl/MzGlobalActions;->mContext:Landroid/content/Context;
-    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$sget-mContext-0d2470()Landroid/content/Context;
+    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$600()Landroid/content/Context;
 
     move-result-object v2
 
@@ -1009,7 +1009,7 @@
     iget-object v1, p0, Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;->mRestartView:Lcom/android/internal/policy/impl/MzCustomCircleButton;
 
     # getter for: Lcom/android/internal/policy/impl/MzGlobalActions;->mContext:Landroid/content/Context;
-    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$sget-mContext-0d2470()Landroid/content/Context;
+    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$600()Landroid/content/Context;
 
     move-result-object v2
 
@@ -1029,7 +1029,7 @@
     iget-object v1, p0, Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;->mShutdownView:Lcom/android/internal/policy/impl/MzCustomCircleButton;
 
     # getter for: Lcom/android/internal/policy/impl/MzGlobalActions;->mContext:Landroid/content/Context;
-    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$sget-mContext-0d2470()Landroid/content/Context;
+    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$600()Landroid/content/Context;
 
     move-result-object v2
 
@@ -1049,7 +1049,7 @@
     iget-object v1, p0, Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;->mShutdownView:Lcom/android/internal/policy/impl/MzCustomCircleButton;
 
     # getter for: Lcom/android/internal/policy/impl/MzGlobalActions;->mContext:Landroid/content/Context;
-    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$sget-mContext-0d2470()Landroid/content/Context;
+    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$600()Landroid/content/Context;
 
     move-result-object v2
 
@@ -1116,7 +1116,7 @@
 
     .line 368
     # getter for: Lcom/android/internal/policy/impl/MzGlobalActions;->mContext:Landroid/content/Context;
-    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$sget-mContext-0d2470()Landroid/content/Context;
+    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$600()Landroid/content/Context;
 
     move-result-object v1
 
@@ -1222,7 +1222,7 @@
     .line 422
     :goto_0
     # getter for: Lcom/android/internal/policy/impl/MzGlobalActions;->mContext:Landroid/content/Context;
-    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$sget-mContext-0d2470()Landroid/content/Context;
+    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$600()Landroid/content/Context;
 
     move-result-object v1
 

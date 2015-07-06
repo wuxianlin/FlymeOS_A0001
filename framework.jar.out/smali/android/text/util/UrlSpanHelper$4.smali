@@ -59,7 +59,7 @@
     move-result-object v3
 
     # invokes: Landroid/text/util/UrlSpanHelper;->getDisplayNameFromPhone(Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;
-    invoke-static {v2, v3}, Landroid/text/util/UrlSpanHelper;->access$invoke-getDisplayNameFromPhone-f902d6(Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v2, v3}, Landroid/text/util/UrlSpanHelper;->access$800(Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
 

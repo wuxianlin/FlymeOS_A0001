@@ -51,7 +51,7 @@
     iget-object v1, p0, Landroid/widget/MzActionMenuPresenter$OpenOverflowRunnable;->this$0:Landroid/widget/MzActionMenuPresenter;
 
     # getter for: Landroid/widget/MzActionMenuPresenter;->mMenu:Lcom/android/internal/view/menu/MenuBuilder;
-    invoke-static {v1}, Landroid/widget/MzActionMenuPresenter;->access$iget-mMenu-cfec6c(Landroid/widget/MzActionMenuPresenter;)Lcom/android/internal/view/menu/MenuBuilder;
+    invoke-static {v1}, Landroid/widget/MzActionMenuPresenter;->access$1000(Landroid/widget/MzActionMenuPresenter;)Lcom/android/internal/view/menu/MenuBuilder;
 
     move-result-object v1
 
@@ -61,7 +61,7 @@
     iget-object v1, p0, Landroid/widget/MzActionMenuPresenter$OpenOverflowRunnable;->this$0:Landroid/widget/MzActionMenuPresenter;
 
     # getter for: Landroid/widget/MzActionMenuPresenter;->mMenuView:Lcom/android/internal/view/menu/MenuView;
-    invoke-static {v1}, Landroid/widget/MzActionMenuPresenter;->access$iget-mMenuView-60e1f1(Landroid/widget/MzActionMenuPresenter;)Lcom/android/internal/view/menu/MenuView;
+    invoke-static {v1}, Landroid/widget/MzActionMenuPresenter;->access$1100(Landroid/widget/MzActionMenuPresenter;)Lcom/android/internal/view/menu/MenuView;
 
     move-result-object v0
 
@@ -98,7 +98,7 @@
     iget-object v2, p0, Landroid/widget/MzActionMenuPresenter$OpenOverflowRunnable;->mPopup:Landroid/widget/MzActionMenuPresenter$OverflowPopup;
 
     # setter for: Landroid/widget/MzActionMenuPresenter;->mOverflowPopup:Landroid/widget/MzActionMenuPresenter$OverflowPopup;
-    invoke-static {v1, v2}, Landroid/widget/MzActionMenuPresenter;->access$iput-mOverflowPopup-086766(Landroid/widget/MzActionMenuPresenter;Landroid/widget/MzActionMenuPresenter$OverflowPopup;)Landroid/widget/MzActionMenuPresenter$OverflowPopup;
+    invoke-static {v1, v2}, Landroid/widget/MzActionMenuPresenter;->access$202(Landroid/widget/MzActionMenuPresenter;Landroid/widget/MzActionMenuPresenter$OverflowPopup;)Landroid/widget/MzActionMenuPresenter$OverflowPopup;
 
     .line 960
     :cond_0
@@ -107,7 +107,7 @@
     const/4 v2, 0x0
 
     # setter for: Landroid/widget/MzActionMenuPresenter;->mPostedOpenRunnable:Landroid/widget/MzActionMenuPresenter$OpenOverflowRunnable;
-    invoke-static {v1, v2}, Landroid/widget/MzActionMenuPresenter;->access$iput-mPostedOpenRunnable-ebe886(Landroid/widget/MzActionMenuPresenter;Landroid/widget/MzActionMenuPresenter$OpenOverflowRunnable;)Landroid/widget/MzActionMenuPresenter$OpenOverflowRunnable;
+    invoke-static {v1, v2}, Landroid/widget/MzActionMenuPresenter;->access$302(Landroid/widget/MzActionMenuPresenter;Landroid/widget/MzActionMenuPresenter$OpenOverflowRunnable;)Landroid/widget/MzActionMenuPresenter$OpenOverflowRunnable;
 
     .line 961
     return-void

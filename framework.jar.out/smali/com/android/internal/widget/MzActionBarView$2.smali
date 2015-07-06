@@ -45,7 +45,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$2;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mMenuPrepared:Z
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mMenuPrepared-9f47e7(Lcom/android/internal/widget/MzActionBarView;)Z
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$100(Lcom/android/internal/widget/MzActionBarView;)Z
 
     move-result v0
 
@@ -61,7 +61,7 @@
     iget-object v2, p0, Lcom/android/internal/widget/MzActionBarView$2;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mLogoNavItem:Lcom/android/internal/view/menu/ActionMenuItem;
-    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mLogoNavItem-6da54c(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/view/menu/ActionMenuItem;
+    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarView;->access$200(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/view/menu/ActionMenuItem;
 
     move-result-object v2
 

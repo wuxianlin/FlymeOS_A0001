@@ -866,7 +866,7 @@
 
     .line 4586
     :cond_0
-    const v2, #android:id@checkbox#t
+    const v2, 0x1020001
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

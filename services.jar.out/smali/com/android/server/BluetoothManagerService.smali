@@ -1039,6 +1039,7 @@
 
     .end local v1    # "intent":Landroid/content/Intent;
     :cond_2
+
     invoke-virtual/range {p0 .. p2}, Lcom/android/server/BluetoothManagerService;->mzChangeBluetoothName(II)V
 
     return-void
@@ -3121,7 +3122,7 @@
 
     if-eq v3, v4, :cond_0
 
-    invoke-direct {p0}, Lcom/android/server/BluetoothManagerService;->hook_checkIfCallerIsForegroundUser()Z
+    invoke-direct {p0}, Lcom/android/server/BluetoothManagerService;->checkIfCallerIsForegroundUser()Z
 
     move-result v3
 
@@ -3180,7 +3181,13 @@
 
     move-result v3
 
-    if-eqz v3, :cond_flyme_0
+    if-nez v3, :cond_flyme_0
+
+    const/4 v2, 0x0
+
+    return v2
+
+    :cond_flyme_0
 
     .line 490
     iget-object v3, p0, Lcom/android/server/BluetoothManagerService;->mReceiver:Landroid/content/BroadcastReceiver;
@@ -3232,12 +3239,6 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     throw v2
-
-    :cond_flyme_0
-
-    const/4 v2, 0x0
-
-    return v2
 .end method
 
 .method doBind(Landroid/content/Intent;Landroid/content/ServiceConnection;ILandroid/os/UserHandle;)Z
@@ -3328,7 +3329,7 @@
 
     if-eq v6, v7, :cond_1
 
-    invoke-direct {p0}, Lcom/android/server/BluetoothManagerService;->checkIfCallerIsForegroundUser()Z
+    invoke-direct {p0}, Lcom/android/server/BluetoothManagerService;->hook_checkIfCallerIsForegroundUser()Z
 
     move-result v6
 

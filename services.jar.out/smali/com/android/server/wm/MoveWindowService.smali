@@ -83,7 +83,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-movedFocusWin-ac5191(Lcom/android/server/wm/MoveWindowService;)Lcom/android/server/wm/WindowState;
+.method static synthetic access$000(Lcom/android/server/wm/MoveWindowService;)Lcom/android/server/wm/WindowState;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/wm/MoveWindowService;
 
@@ -94,7 +94,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-moveWinNormal-ae71c7(Lcom/android/server/wm/MoveWindowService;I)V
+.method static synthetic access$100(Lcom/android/server/wm/MoveWindowService;I)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/wm/MoveWindowService;
     .param p1, "x1"    # I
@@ -106,7 +106,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-moveWinDown-8c80de(Lcom/android/server/wm/MoveWindowService;I)V
+.method static synthetic access$200(Lcom/android/server/wm/MoveWindowService;I)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/wm/MoveWindowService;
     .param p1, "x1"    # I
@@ -118,7 +118,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-moveTopAppWinFrame-23d0a4(Lcom/android/server/wm/MoveWindowService;)V
+.method static synthetic access$300(Lcom/android/server/wm/MoveWindowService;)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/wm/MoveWindowService;
 
@@ -129,7 +129,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-moveTopAppShowFrame-507606(Lcom/android/server/wm/MoveWindowService;II)V
+.method static synthetic access$400(Lcom/android/server/wm/MoveWindowService;II)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/wm/MoveWindowService;
     .param p1, "x1"    # I
@@ -142,7 +142,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-resetMoveWinMode-e31738(Lcom/android/server/wm/MoveWindowService;)V
+.method static synthetic access$500(Lcom/android/server/wm/MoveWindowService;)V
     .locals 0
     .param p0, "x0"    # Lcom/android/server/wm/MoveWindowService;
 

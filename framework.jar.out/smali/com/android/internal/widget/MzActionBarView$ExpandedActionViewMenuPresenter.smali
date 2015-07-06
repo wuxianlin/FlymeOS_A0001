@@ -99,7 +99,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mExpandedHomeLayout:Lcom/android/internal/widget/MzActionBarView$HomeView;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mExpandedHomeLayout-6356fb(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$500(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
 
     move-result-object v0
 
@@ -109,14 +109,14 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mUpGoerFive:Landroid/view/ViewGroup;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mUpGoerFive-1ba510(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/ViewGroup;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$800(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/ViewGroup;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mExpandedHomeLayout:Lcom/android/internal/widget/MzActionBarView$HomeView;
-    invoke-static {v1}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mExpandedHomeLayout-6356fb(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
+    invoke-static {v1}, Lcom/android/internal/widget/MzActionBarView;->access$500(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
 
     move-result-object v1
 
@@ -132,7 +132,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mDisplayOptions:I
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mDisplayOptions-adbbd2(Lcom/android/internal/widget/MzActionBarView;)I
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1500(Lcom/android/internal/widget/MzActionBarView;)I
 
     move-result v0
 
@@ -144,7 +144,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mHomeLayout:Lcom/android/internal/widget/MzActionBarView$HomeView;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mHomeLayout-22363e(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$900(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
 
     move-result-object v0
 
@@ -155,7 +155,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mDisplayOptions:I
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mDisplayOptions-adbbd2(Lcom/android/internal/widget/MzActionBarView;)I
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1500(Lcom/android/internal/widget/MzActionBarView;)I
 
     move-result v0
 
@@ -167,7 +167,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mTitleLayout:Landroid/widget/LinearLayout;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mTitleLayout-77e013(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/LinearLayout;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1000(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/LinearLayout;
 
     move-result-object v0
 
@@ -177,7 +177,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # invokes: Lcom/android/internal/widget/MzActionBarView;->initTitle()V
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$invoke-initTitle-22d968(Lcom/android/internal/widget/MzActionBarView;)V
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1600(Lcom/android/internal/widget/MzActionBarView;)V
 
     .line 1918
     :cond_3
@@ -185,7 +185,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mTabScrollView:Lcom/android/internal/widget/MzScrollingTabContainerView;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mTabScrollView-7dcf1a(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzScrollingTabContainerView;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1100(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzScrollingTabContainerView;
 
     move-result-object v0
 
@@ -194,7 +194,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mTabScrollView:Lcom/android/internal/widget/MzScrollingTabContainerView;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mTabScrollView-7dcf1a(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzScrollingTabContainerView;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1100(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzScrollingTabContainerView;
 
     move-result-object v0
 
@@ -205,7 +205,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mSpinner:Landroid/widget/Spinner;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mSpinner-adaa4d(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/Spinner;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1200(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/Spinner;
 
     move-result-object v0
 
@@ -214,7 +214,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mSpinner:Landroid/widget/Spinner;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mSpinner-adaa4d(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/Spinner;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1200(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/Spinner;
 
     move-result-object v0
 
@@ -225,7 +225,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mCustomNavView:Landroid/view/View;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mCustomNavView-b68dcb(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/View;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1300(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/View;
 
     move-result-object v0
 
@@ -234,7 +234,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mCustomNavView:Landroid/view/View;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mCustomNavView-b68dcb(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/View;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1300(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/View;
 
     move-result-object v0
 
@@ -245,7 +245,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mExpandedHomeLayout:Lcom/android/internal/widget/MzActionBarView$HomeView;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mExpandedHomeLayout-6356fb(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$500(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
 
     move-result-object v0
 
@@ -255,7 +255,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mExpandedHomeLayout:Lcom/android/internal/widget/MzActionBarView$HomeView;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mExpandedHomeLayout-6356fb(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$500(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
 
     move-result-object v0
 
@@ -271,7 +271,7 @@
     iget-object v1, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mWasHomeEnabled:Z
-    invoke-static {v1}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mWasHomeEnabled-8f4bc8(Lcom/android/internal/widget/MzActionBarView;)Z
+    invoke-static {v1}, Lcom/android/internal/widget/MzActionBarView;->access$1700(Lcom/android/internal/widget/MzActionBarView;)Z
 
     move-result v1
 
@@ -295,7 +295,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mTitleLayout:Landroid/widget/LinearLayout;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mTitleLayout-77e013(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/LinearLayout;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1000(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/LinearLayout;
 
     move-result-object v0
 
@@ -334,7 +334,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mExpandedHomeLayout:Lcom/android/internal/widget/MzActionBarView$HomeView;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mExpandedHomeLayout-6356fb(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$500(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
 
     move-result-object v0
 
@@ -344,14 +344,14 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # invokes: Lcom/android/internal/widget/MzActionBarView;->initExpandHomeLayout()V
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$invoke-initExpandHomeLayout-6b765f(Lcom/android/internal/widget/MzActionBarView;)V
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$600(Lcom/android/internal/widget/MzActionBarView;)V
 
     .line 1865
     :cond_0
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mIcon:Landroid/graphics/drawable/Drawable;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mIcon-95cfad(Lcom/android/internal/widget/MzActionBarView;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$700(Lcom/android/internal/widget/MzActionBarView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -361,14 +361,14 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mExpandedHomeLayout:Lcom/android/internal/widget/MzActionBarView$HomeView;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mExpandedHomeLayout-6356fb(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$500(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mIcon:Landroid/graphics/drawable/Drawable;
-    invoke-static {v1}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mIcon-95cfad(Lcom/android/internal/widget/MzActionBarView;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v1}, Lcom/android/internal/widget/MzActionBarView;->access$700(Lcom/android/internal/widget/MzActionBarView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
@@ -419,7 +419,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mExpandedHomeLayout:Lcom/android/internal/widget/MzActionBarView$HomeView;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mExpandedHomeLayout-6356fb(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$500(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
 
     move-result-object v0
 
@@ -430,7 +430,7 @@
     iget-object v1, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mUpGoerFive:Landroid/view/ViewGroup;
-    invoke-static {v1}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mUpGoerFive-1ba510(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/ViewGroup;
+    invoke-static {v1}, Lcom/android/internal/widget/MzActionBarView;->access$800(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/ViewGroup;
 
     move-result-object v1
 
@@ -440,14 +440,14 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mUpGoerFive:Landroid/view/ViewGroup;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mUpGoerFive-1ba510(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/ViewGroup;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$800(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/ViewGroup;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mExpandedHomeLayout:Lcom/android/internal/widget/MzActionBarView$HomeView;
-    invoke-static {v1}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mExpandedHomeLayout-6356fb(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
+    invoke-static {v1}, Lcom/android/internal/widget/MzActionBarView;->access$500(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
 
     move-result-object v1
 
@@ -458,7 +458,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mHomeLayout:Lcom/android/internal/widget/MzActionBarView$HomeView;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mHomeLayout-22363e(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$900(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$HomeView;
 
     move-result-object v0
 
@@ -468,7 +468,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mTitleLayout:Landroid/widget/LinearLayout;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mTitleLayout-77e013(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/LinearLayout;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1000(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/LinearLayout;
 
     move-result-object v0
 
@@ -477,7 +477,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mTitleLayout:Landroid/widget/LinearLayout;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mTitleLayout-77e013(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/LinearLayout;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1000(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/LinearLayout;
 
     move-result-object v0
 
@@ -488,7 +488,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mTabScrollView:Lcom/android/internal/widget/MzScrollingTabContainerView;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mTabScrollView-7dcf1a(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzScrollingTabContainerView;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1100(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzScrollingTabContainerView;
 
     move-result-object v0
 
@@ -497,7 +497,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mTabScrollView:Lcom/android/internal/widget/MzScrollingTabContainerView;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mTabScrollView-7dcf1a(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzScrollingTabContainerView;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1100(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzScrollingTabContainerView;
 
     move-result-object v0
 
@@ -508,7 +508,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mSpinner:Landroid/widget/Spinner;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mSpinner-adaa4d(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/Spinner;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1200(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/Spinner;
 
     move-result-object v0
 
@@ -517,7 +517,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mSpinner:Landroid/widget/Spinner;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mSpinner-adaa4d(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/Spinner;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1200(Lcom/android/internal/widget/MzActionBarView;)Landroid/widget/Spinner;
 
     move-result-object v0
 
@@ -528,7 +528,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mCustomNavView:Landroid/view/View;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mCustomNavView-b68dcb(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/View;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1300(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/View;
 
     move-result-object v0
 
@@ -537,7 +537,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mCustomNavView:Landroid/view/View;
-    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mCustomNavView-b68dcb(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/View;
+    invoke-static {v0}, Lcom/android/internal/widget/MzActionBarView;->access$1300(Lcom/android/internal/widget/MzActionBarView;)Landroid/view/View;
 
     move-result-object v0
 
@@ -548,7 +548,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # invokes: Lcom/android/internal/widget/MzActionBarView;->setHomeButtonEnabled(ZZ)V
-    invoke-static {v0, v4, v4}, Lcom/android/internal/widget/MzActionBarView;->access$invoke-setHomeButtonEnabled-67a8af(Lcom/android/internal/widget/MzActionBarView;ZZ)V
+    invoke-static {v0, v4, v4}, Lcom/android/internal/widget/MzActionBarView;->access$1400(Lcom/android/internal/widget/MzActionBarView;ZZ)V
 
     .line 1881
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;->this$0:Lcom/android/internal/widget/MzActionBarView;

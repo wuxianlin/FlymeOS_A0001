@@ -159,7 +159,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mOpenHelper-f11304(Lcom/android/internal/app/RecommendActivity;)Lcom/android/internal/app/RecommendActivity$OpenFileFetchHelper;
+.method static synthetic access$100(Lcom/android/internal/app/RecommendActivity;)Lcom/android/internal/app/RecommendActivity$OpenFileFetchHelper;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/RecommendActivity;
 
@@ -170,7 +170,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mScheme-e37e31(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
+.method static synthetic access$1000(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/RecommendActivity;
 
@@ -181,7 +181,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mAlwaysCheck-7b6b72(Lcom/android/internal/app/RecommendActivity;)Landroid/widget/CheckBox;
+.method static synthetic access$200(Lcom/android/internal/app/RecommendActivity;)Landroid/widget/CheckBox;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/RecommendActivity;
 
@@ -192,7 +192,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-clearAndSetDefalutApp-cfb906(Lcom/android/internal/app/RecommendActivity;Landroid/content/Intent;Landroid/content/pm/ResolveInfo;Z)V
+.method static synthetic access$300(Lcom/android/internal/app/RecommendActivity;Landroid/content/Intent;Landroid/content/pm/ResolveInfo;Z)V
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/app/RecommendActivity;
     .param p1, "x1"    # Landroid/content/Intent;
@@ -206,7 +206,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mRecommendInfo-6f98fa(Lcom/android/internal/app/RecommendActivity;)Lcom/android/internal/app/RecommendActivity$RecommendInfo;
+.method static synthetic access$400(Lcom/android/internal/app/RecommendActivity;)Lcom/android/internal/app/RecommendActivity$RecommendInfo;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/RecommendActivity;
 
@@ -217,7 +217,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-isInternational-938a3b(Lcom/android/internal/app/RecommendActivity;)Z
+.method static synthetic access$500(Lcom/android/internal/app/RecommendActivity;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/RecommendActivity;
 
@@ -228,7 +228,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-hasGooglePaly-2a7ad3(Lcom/android/internal/app/RecommendActivity;)Z
+.method static synthetic access$600(Lcom/android/internal/app/RecommendActivity;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/RecommendActivity;
 
@@ -239,7 +239,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mMimeType-a36a3d(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
+.method static synthetic access$700(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/RecommendActivity;
 
@@ -250,7 +250,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mFileEx-197868(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
+.method static synthetic access$800(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/RecommendActivity;
 
@@ -261,7 +261,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-launchGooglePlaySearch-12e538(Lcom/android/internal/app/RecommendActivity;Ljava/lang/String;Ljava/lang/String;)V
+.method static synthetic access$900(Lcom/android/internal/app/RecommendActivity;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/app/RecommendActivity;
     .param p1, "x1"    # Ljava/lang/String;

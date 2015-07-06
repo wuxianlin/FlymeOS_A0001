@@ -45,7 +45,7 @@
     iget-object v0, p0, Lcom/android/internal/app/RecommendActivity$4;->this$0:Lcom/android/internal/app/RecommendActivity;
 
     # getter for: Lcom/android/internal/app/RecommendActivity;->isInternational:Z
-    invoke-static {v0}, Lcom/android/internal/app/RecommendActivity;->access$iget-isInternational-938a3b(Lcom/android/internal/app/RecommendActivity;)Z
+    invoke-static {v0}, Lcom/android/internal/app/RecommendActivity;->access$500(Lcom/android/internal/app/RecommendActivity;)Z
 
     move-result v0
 
@@ -54,7 +54,7 @@
     iget-object v0, p0, Lcom/android/internal/app/RecommendActivity$4;->this$0:Lcom/android/internal/app/RecommendActivity;
 
     # getter for: Lcom/android/internal/app/RecommendActivity;->hasGooglePaly:Z
-    invoke-static {v0}, Lcom/android/internal/app/RecommendActivity;->access$iget-hasGooglePaly-2a7ad3(Lcom/android/internal/app/RecommendActivity;)Z
+    invoke-static {v0}, Lcom/android/internal/app/RecommendActivity;->access$600(Lcom/android/internal/app/RecommendActivity;)Z
 
     move-result v0
 
@@ -66,19 +66,19 @@
     iget-object v1, p0, Lcom/android/internal/app/RecommendActivity$4;->this$0:Lcom/android/internal/app/RecommendActivity;
 
     # getter for: Lcom/android/internal/app/RecommendActivity;->mMimeType:Ljava/lang/String;
-    invoke-static {v1}, Lcom/android/internal/app/RecommendActivity;->access$iget-mMimeType-a36a3d(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/android/internal/app/RecommendActivity;->access$700(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/android/internal/app/RecommendActivity$4;->this$0:Lcom/android/internal/app/RecommendActivity;
 
     # getter for: Lcom/android/internal/app/RecommendActivity;->mFileEx:Ljava/lang/String;
-    invoke-static {v2}, Lcom/android/internal/app/RecommendActivity;->access$iget-mFileEx-197868(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/android/internal/app/RecommendActivity;->access$800(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
 
     move-result-object v2
 
     # invokes: Lcom/android/internal/app/RecommendActivity;->launchGooglePlaySearch(Ljava/lang/String;Ljava/lang/String;)V
-    invoke-static {v0, v1, v2}, Lcom/android/internal/app/RecommendActivity;->access$invoke-launchGooglePlaySearch-12e538(Lcom/android/internal/app/RecommendActivity;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lcom/android/internal/app/RecommendActivity;->access$900(Lcom/android/internal/app/RecommendActivity;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 578
     :goto_0
@@ -91,21 +91,21 @@
     iget-object v1, p0, Lcom/android/internal/app/RecommendActivity$4;->this$0:Lcom/android/internal/app/RecommendActivity;
 
     # getter for: Lcom/android/internal/app/RecommendActivity;->mScheme:Ljava/lang/String;
-    invoke-static {v1}, Lcom/android/internal/app/RecommendActivity;->access$iget-mScheme-e37e31(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/android/internal/app/RecommendActivity;->access$1000(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/android/internal/app/RecommendActivity$4;->this$0:Lcom/android/internal/app/RecommendActivity;
 
     # getter for: Lcom/android/internal/app/RecommendActivity;->mMimeType:Ljava/lang/String;
-    invoke-static {v2}, Lcom/android/internal/app/RecommendActivity;->access$iget-mMimeType-a36a3d(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/android/internal/app/RecommendActivity;->access$700(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
 
     move-result-object v2
 
     iget-object v3, p0, Lcom/android/internal/app/RecommendActivity$4;->this$0:Lcom/android/internal/app/RecommendActivity;
 
     # getter for: Lcom/android/internal/app/RecommendActivity;->mFileEx:Ljava/lang/String;
-    invoke-static {v3}, Lcom/android/internal/app/RecommendActivity;->access$iget-mFileEx-197868(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/android/internal/app/RecommendActivity;->access$800(Lcom/android/internal/app/RecommendActivity;)Ljava/lang/String;
 
     move-result-object v3
 

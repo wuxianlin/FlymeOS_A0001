@@ -95,6 +95,7 @@
 
     .line 1479
     :cond_0
+
     invoke-direct/range {p0 .. p1}, Landroid/widget/Gallery$FlingRunnable;->mzEndFling(Z)V
 
     return-void
@@ -209,7 +210,7 @@
     iget-object v6, p0, Landroid/widget/Gallery$FlingRunnable;->this$0:Landroid/widget/Gallery;
 
     # getter for: Landroid/widget/Gallery;->mPaddingLeft:I
-    invoke-static {v6}, Landroid/widget/Gallery;->access$1200(Landroid/widget/Gallery;)I
+    invoke-static {v6}, Landroid/widget/Gallery;->access$900(Landroid/widget/Gallery;)I
 
     move-result v6
 
@@ -307,7 +308,7 @@
     iget-object v6, p0, Landroid/widget/Gallery$FlingRunnable;->this$0:Landroid/widget/Gallery;
 
     # getter for: Landroid/widget/Gallery;->mPaddingRight:I
-    invoke-static {v6}, Landroid/widget/Gallery;->access$1000(Landroid/widget/Gallery;)I
+    invoke-static {v6}, Landroid/widget/Gallery;->access$1100(Landroid/widget/Gallery;)I
 
     move-result v6
 

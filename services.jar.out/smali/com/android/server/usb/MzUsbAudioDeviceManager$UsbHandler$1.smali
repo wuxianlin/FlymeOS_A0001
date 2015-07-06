@@ -54,7 +54,7 @@
     const/4 v1, 0x1
 
     # setter for: Lcom/android/server/usb/MzUsbAudioDeviceManager;->mBootCompleted:Z
-    invoke-static {v0, v1}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$iput-mBootCompleted-e590bb(Lcom/android/server/usb/MzUsbAudioDeviceManager;Z)Z
+    invoke-static {v0, v1}, Lcom/android/server/usb/MzUsbAudioDeviceManager;->access$102(Lcom/android/server/usb/MzUsbAudioDeviceManager;Z)Z
 
     .line 53
     return-void

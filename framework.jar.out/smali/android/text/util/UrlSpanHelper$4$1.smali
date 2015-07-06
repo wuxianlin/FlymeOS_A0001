@@ -46,7 +46,7 @@
     .prologue
     .line 281
     # getter for: Landroid/text/util/UrlSpanHelper;->mDialog:Landroid/app/AlertDialog;
-    invoke-static {}, Landroid/text/util/UrlSpanHelper;->access$sget-mDialog-871410()Landroid/app/AlertDialog;
+    invoke-static {}, Landroid/text/util/UrlSpanHelper;->access$900()Landroid/app/AlertDialog;
 
     move-result-object v0
 

@@ -48,7 +48,7 @@
     iget-object v0, p0, Lcom/android/server/connectivity/TetherMonitor$2;->this$0:Lcom/android/server/connectivity/TetherMonitor;
 
     # getter for: Lcom/android/server/connectivity/TetherMonitor;->mBluetoothPan:Ljava/util/concurrent/atomic/AtomicReference;
-    invoke-static {v0}, Lcom/android/server/connectivity/TetherMonitor;->access$iget-mBluetoothPan-f1c46e(Lcom/android/server/connectivity/TetherMonitor;)Ljava/util/concurrent/atomic/AtomicReference;
+    invoke-static {v0}, Lcom/android/server/connectivity/TetherMonitor;->access$700(Lcom/android/server/connectivity/TetherMonitor;)Ljava/util/concurrent/atomic/AtomicReference;
 
     move-result-object v0
 
@@ -68,13 +68,13 @@
     iget-object v0, p0, Lcom/android/server/connectivity/TetherMonitor$2;->this$0:Lcom/android/server/connectivity/TetherMonitor;
 
     # setter for: Lcom/android/server/connectivity/TetherMonitor;->getBluetoothPanProxyDone:Z
-    invoke-static {v0, v2}, Lcom/android/server/connectivity/TetherMonitor;->access$iput-getBluetoothPanProxyDone-50a7b7(Lcom/android/server/connectivity/TetherMonitor;Z)Z
+    invoke-static {v0, v2}, Lcom/android/server/connectivity/TetherMonitor;->access$902(Lcom/android/server/connectivity/TetherMonitor;Z)Z
 
     .line 548
     iget-object v0, p0, Lcom/android/server/connectivity/TetherMonitor$2;->this$0:Lcom/android/server/connectivity/TetherMonitor;
 
     # getter for: Lcom/android/server/connectivity/TetherMonitor;->mBluetoothTethering:Z
-    invoke-static {v0}, Lcom/android/server/connectivity/TetherMonitor;->access$iget-mBluetoothTethering-f901aa(Lcom/android/server/connectivity/TetherMonitor;)Z
+    invoke-static {v0}, Lcom/android/server/connectivity/TetherMonitor;->access$1000(Lcom/android/server/connectivity/TetherMonitor;)Z
 
     move-result v0
 
@@ -84,7 +84,7 @@
     iget-object v0, p0, Lcom/android/server/connectivity/TetherMonitor$2;->this$0:Lcom/android/server/connectivity/TetherMonitor;
 
     # getter for: Lcom/android/server/connectivity/TetherMonitor;->mContext:Landroid/content/Context;
-    invoke-static {v0}, Lcom/android/server/connectivity/TetherMonitor;->access$iget-mContext-1797e5(Lcom/android/server/connectivity/TetherMonitor;)Landroid/content/Context;
+    invoke-static {v0}, Lcom/android/server/connectivity/TetherMonitor;->access$100(Lcom/android/server/connectivity/TetherMonitor;)Landroid/content/Context;
 
     move-result-object v0
 
@@ -100,7 +100,7 @@
     const/4 v1, 0x2
 
     # invokes: Lcom/android/server/connectivity/TetherMonitor;->startTethering(I)V
-    invoke-static {v0, v1}, Lcom/android/server/connectivity/TetherMonitor;->access$invoke-startTethering-df040c(Lcom/android/server/connectivity/TetherMonitor;I)V
+    invoke-static {v0, v1}, Lcom/android/server/connectivity/TetherMonitor;->access$1100(Lcom/android/server/connectivity/TetherMonitor;I)V
 
     .line 552
     :cond_0
@@ -109,7 +109,7 @@
     const/4 v1, 0x0
 
     # setter for: Lcom/android/server/connectivity/TetherMonitor;->mBluetoothTethering:Z
-    invoke-static {v0, v1}, Lcom/android/server/connectivity/TetherMonitor;->access$iput-mBluetoothTethering-f42d05(Lcom/android/server/connectivity/TetherMonitor;Z)Z
+    invoke-static {v0, v1}, Lcom/android/server/connectivity/TetherMonitor;->access$1002(Lcom/android/server/connectivity/TetherMonitor;Z)Z
 
     .line 554
     :cond_1
@@ -132,7 +132,7 @@
     iget-object v0, p0, Lcom/android/server/connectivity/TetherMonitor$2;->this$0:Lcom/android/server/connectivity/TetherMonitor;
 
     # getter for: Lcom/android/server/connectivity/TetherMonitor;->mBluetoothPan:Ljava/util/concurrent/atomic/AtomicReference;
-    invoke-static {v0}, Lcom/android/server/connectivity/TetherMonitor;->access$iget-mBluetoothPan-f1c46e(Lcom/android/server/connectivity/TetherMonitor;)Ljava/util/concurrent/atomic/AtomicReference;
+    invoke-static {v0}, Lcom/android/server/connectivity/TetherMonitor;->access$700(Lcom/android/server/connectivity/TetherMonitor;)Ljava/util/concurrent/atomic/AtomicReference;
 
     move-result-object v0
 
@@ -146,7 +146,7 @@
     const/4 v1, 0x1
 
     # setter for: Lcom/android/server/connectivity/TetherMonitor;->getBluetoothPanProxyDone:Z
-    invoke-static {v0, v1}, Lcom/android/server/connectivity/TetherMonitor;->access$iput-getBluetoothPanProxyDone-50a7b7(Lcom/android/server/connectivity/TetherMonitor;Z)Z
+    invoke-static {v0, v1}, Lcom/android/server/connectivity/TetherMonitor;->access$902(Lcom/android/server/connectivity/TetherMonitor;Z)Z
 
     .line 560
     return-void

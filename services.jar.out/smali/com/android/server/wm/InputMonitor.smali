@@ -1194,6 +1194,7 @@
 
     .line 441
     :cond_1
+
     invoke-static/range {p1 .. p1}, Lcom/android/server/wm/InjectorWMS;->mzSetInputFocusLw(Lcom/android/server/wm/WindowState;)V
 
     return-void

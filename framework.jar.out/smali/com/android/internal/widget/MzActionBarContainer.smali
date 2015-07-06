@@ -208,7 +208,7 @@
 
     move-result v3
 
-    const v4, #android:id@split_action_bar#t
+    const v4, 0x102037b
 
     if-ne v3, v4, :cond_0
 
@@ -271,7 +271,7 @@
     goto :goto_0
 .end method
 
-.method static synthetic access$iget-mOnAfterIdentifyBackgroundListeners-5d5edb(Lcom/android/internal/widget/MzActionBarContainer;)Ljava/util/ArrayList;
+.method static synthetic access$000(Lcom/android/internal/widget/MzActionBarContainer;)Ljava/util/ArrayList;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarContainer;
 
@@ -282,7 +282,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mIsSplit-5435d0(Lcom/android/internal/widget/MzActionBarContainer;)Z
+.method static synthetic access$100(Lcom/android/internal/widget/MzActionBarContainer;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarContainer;
 
@@ -293,7 +293,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mIsStacked-ededd0(Lcom/android/internal/widget/MzActionBarContainer;)Z
+.method static synthetic access$1000(Lcom/android/internal/widget/MzActionBarContainer;)Z
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarContainer;
 
@@ -304,7 +304,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mActionBarView-10c89c(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/view/View;
+.method static synthetic access$1100(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/view/View;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarContainer;
 
@@ -315,7 +315,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-isCollapsed-3936c0(Landroid/view/View;)Z
+.method static synthetic access$1200(Landroid/view/View;)Z
     .locals 1
     .param p0, "x0"    # Landroid/view/View;
 
@@ -328,7 +328,7 @@
     return v0
 .end method
 
-.method static synthetic access$invoke-drawable2Bitmap-76b96c(Lcom/android/internal/widget/MzActionBarContainer;Landroid/graphics/drawable/Drawable;)Landroid/graphics/Bitmap;
+.method static synthetic access$1400(Lcom/android/internal/widget/MzActionBarContainer;Landroid/graphics/drawable/Drawable;)Landroid/graphics/Bitmap;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarContainer;
     .param p1, "x1"    # Landroid/graphics/drawable/Drawable;
@@ -342,7 +342,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$invoke-checkBackgroundColor-6b2e4f(Lcom/android/internal/widget/MzActionBarContainer;Landroid/graphics/Bitmap;)I
+.method static synthetic access$1500(Lcom/android/internal/widget/MzActionBarContainer;Landroid/graphics/Bitmap;)I
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarContainer;
     .param p1, "x1"    # Landroid/graphics/Bitmap;
@@ -356,7 +356,7 @@
     return v0
 .end method
 
-.method static synthetic access$iget-mIdentifyHandle-30e9e3(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/os/Handler;
+.method static synthetic access$1600(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/os/Handler;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarContainer;
 
@@ -367,7 +367,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mBackgroundColor-331da0(Lcom/android/internal/widget/MzActionBarContainer;)I
+.method static synthetic access$200(Lcom/android/internal/widget/MzActionBarContainer;)I
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarContainer;
 
@@ -378,7 +378,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mBackgroundColor-71d67e(Lcom/android/internal/widget/MzActionBarContainer;I)I
+.method static synthetic access$202(Lcom/android/internal/widget/MzActionBarContainer;I)I
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarContainer;
     .param p1, "x1"    # I
@@ -390,7 +390,7 @@
     return p1
 .end method
 
-.method static synthetic access$iget-mSplitBackgroundColor-00163d(Lcom/android/internal/widget/MzActionBarContainer;)I
+.method static synthetic access$300(Lcom/android/internal/widget/MzActionBarContainer;)I
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarContainer;
 
@@ -401,7 +401,7 @@
     return v0
 .end method
 
-.method static synthetic access$iput-mSplitBackgroundColor-c813d6(Lcom/android/internal/widget/MzActionBarContainer;I)I
+.method static synthetic access$302(Lcom/android/internal/widget/MzActionBarContainer;I)I
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarContainer;
     .param p1, "x1"    # I
@@ -413,7 +413,7 @@
     return p1
 .end method
 
-.method static synthetic access$sget-sDirtyField-191039()Ljava/lang/reflect/Field;
+.method static synthetic access$400()Ljava/lang/reflect/Field;
     .locals 1
 
     .prologue
@@ -423,7 +423,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mVisibleRect-371ddd(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/Rect;
+.method static synthetic access$500(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/Rect;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarContainer;
 
@@ -434,7 +434,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mSplitBackground-4c5648(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/drawable/Drawable;
+.method static synthetic access$700(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/drawable/Drawable;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarContainer;
 
@@ -445,7 +445,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mBackground-1388e4(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/drawable/Drawable;
+.method static synthetic access$800(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/drawable/Drawable;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarContainer;
 
@@ -456,7 +456,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mStackedBackground-bd8ccd(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/drawable/Drawable;
+.method static synthetic access$900(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/drawable/Drawable;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/widget/MzActionBarContainer;
 
@@ -1362,7 +1362,7 @@
     invoke-super {p0}, Landroid/widget/FrameLayout;->onFinishInflate()V
 
     .line 165
-    const v0, #android:id@action_bar#t
+    const v0, 0x1020379
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/MzActionBarContainer;->findViewById(I)Landroid/view/View;
 
@@ -1371,7 +1371,7 @@
     iput-object v0, p0, Lcom/android/internal/widget/MzActionBarContainer;->mActionBarView:Landroid/view/View;
 
     .line 166
-    const v0, #android:id@action_context_bar#t
+    const v0, 0x102037a
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/MzActionBarContainer;->findViewById(I)Landroid/view/View;
 

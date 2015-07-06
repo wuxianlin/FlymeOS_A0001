@@ -74,7 +74,7 @@
     iget-object v1, p0, Lcom/android/internal/app/MzResolverActivity$ResolverComparator;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mStats:Ljava/util/Map;
-    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mStats-857788(Lcom/android/internal/app/MzResolverActivity;)Ljava/util/Map;
+    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$500(Lcom/android/internal/app/MzResolverActivity;)Ljava/util/Map;
 
     move-result-object v1
 
@@ -84,7 +84,7 @@
     iget-object v1, p0, Lcom/android/internal/app/MzResolverActivity$ResolverComparator;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mStats:Ljava/util/Map;
-    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mStats-857788(Lcom/android/internal/app/MzResolverActivity;)Ljava/util/Map;
+    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$500(Lcom/android/internal/app/MzResolverActivity;)Ljava/util/Map;
 
     move-result-object v1
 
@@ -143,7 +143,7 @@
     iget-object v5, p0, Lcom/android/internal/app/MzResolverActivity$ResolverComparator;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mStats:Ljava/util/Map;
-    invoke-static {v5}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mStats-857788(Lcom/android/internal/app/MzResolverActivity;)Ljava/util/Map;
+    invoke-static {v5}, Lcom/android/internal/app/MzResolverActivity;->access$500(Lcom/android/internal/app/MzResolverActivity;)Ljava/util/Map;
 
     move-result-object v5
 
@@ -189,7 +189,7 @@
     iget-object v4, p0, Lcom/android/internal/app/MzResolverActivity$ResolverComparator;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mPm:Landroid/content/pm/PackageManager;
-    invoke-static {v4}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mPm-fafc72(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
+    invoke-static {v4}, Lcom/android/internal/app/MzResolverActivity;->access$200(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
 
     move-result-object v4
 
@@ -210,7 +210,7 @@
     iget-object v4, p0, Lcom/android/internal/app/MzResolverActivity$ResolverComparator;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mPm:Landroid/content/pm/PackageManager;
-    invoke-static {v4}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mPm-fafc72(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
+    invoke-static {v4}, Lcom/android/internal/app/MzResolverActivity;->access$200(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
 
     move-result-object v4
 

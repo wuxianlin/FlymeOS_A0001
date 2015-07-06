@@ -5764,7 +5764,7 @@
     invoke-direct/range {p0 .. p0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->clearClearableFlagsLw()V
 
     .line 6554
-    #and-int/lit8 p3, p3, -0x8
+    and-int/lit8 p3, p3, -0x8
 
     .line 6557
     :cond_6
@@ -13675,6 +13675,7 @@
     iput-object v6, p0, Lcom/android/internal/policy/impl/PhoneWindowManager;->mDeviceKeyHandler:Lcom/oneplus/DeviceKeyHandler;
 
     :cond_2
+
     invoke-static/range {p0 .. p1}, Lcom/android/internal/policy/impl/PhoneWindowManager$FlymeInjector;->initExtFlymeFields(Lcom/android/internal/policy/impl/PhoneWindowManager;Landroid/content/Context;)V
 
     return-void
@@ -16509,6 +16510,7 @@
     goto/16 :goto_3
 
     :cond_flyme_1
+
     move-object/from16 v0, p0
 
     move-object/from16 v1, p2
@@ -16524,6 +16526,7 @@
     return-wide v6
 
     :cond_flyme_2
+
     const-wide/16 v6, 0x0
 
     return-wide v6
@@ -17277,6 +17280,8 @@
 
     iput-boolean v0, v1, Lcom/android/internal/policy/impl/PhoneWindowManager;->mVolumeUpKeyTriggered:Z
 
+    invoke-direct/range {p0 .. p1}, Lcom/android/internal/policy/impl/PhoneWindowManager;->mzInterceptVolumeUpKeyBeforeQueueing(Landroid/view/KeyEvent;)V
+
     invoke-virtual/range {p1 .. p1}, Landroid/view/KeyEvent;->getDownTime()J
 
     move-result-wide v22
@@ -17294,8 +17299,6 @@
     move-object/from16 v1, p0
 
     iput-boolean v0, v1, Lcom/android/internal/policy/impl/PhoneWindowManager;->mVolumeUpKeyConsumedByScreenshotChord:Z
-
-    invoke-direct/range {p0 .. p1}, Lcom/android/internal/policy/impl/PhoneWindowManager;->mzInterceptVolumeUpKeyBeforeQueueing(Landroid/view/KeyEvent;)V
 
     invoke-direct/range {p0 .. p0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->cancelPendingPowerKeyAction()V
 

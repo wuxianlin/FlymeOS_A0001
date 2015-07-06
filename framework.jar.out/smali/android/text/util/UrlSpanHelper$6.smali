@@ -64,7 +64,7 @@
     move-result-object v1
 
     # invokes: Landroid/text/util/UrlSpanHelper;->startActivity(Landroid/content/Context;Landroid/content/Intent;)V
-    invoke-static {v1, v0}, Landroid/text/util/UrlSpanHelper;->access$invoke-startActivity-d96a20(Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-static {v1, v0}, Landroid/text/util/UrlSpanHelper;->access$700(Landroid/content/Context;Landroid/content/Intent;)V
 
     .line 535
     return-void

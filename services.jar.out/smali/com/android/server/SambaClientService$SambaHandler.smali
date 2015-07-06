@@ -62,13 +62,13 @@
     invoke-direct {v3, v4}, Lcom/android/server/SambaClientService$ScanThread;-><init>(Lcom/android/server/SambaClientService;)V
 
     # setter for: Lcom/android/server/SambaClientService;->mScanThread:Lcom/android/server/SambaClientService$ScanThread;
-    invoke-static {v2, v3}, Lcom/android/server/SambaClientService;->access$iput-mScanThread-a0df27(Lcom/android/server/SambaClientService;Lcom/android/server/SambaClientService$ScanThread;)Lcom/android/server/SambaClientService$ScanThread;
+    invoke-static {v2, v3}, Lcom/android/server/SambaClientService;->access$402(Lcom/android/server/SambaClientService;Lcom/android/server/SambaClientService$ScanThread;)Lcom/android/server/SambaClientService$ScanThread;
 
     .line 530
     iget-object v2, p0, Lcom/android/server/SambaClientService$SambaHandler;->this$0:Lcom/android/server/SambaClientService;
 
     # getter for: Lcom/android/server/SambaClientService;->mScanThread:Lcom/android/server/SambaClientService$ScanThread;
-    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$iget-mScanThread-d486b9(Lcom/android/server/SambaClientService;)Lcom/android/server/SambaClientService$ScanThread;
+    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$400(Lcom/android/server/SambaClientService;)Lcom/android/server/SambaClientService$ScanThread;
 
     move-result-object v2
 
@@ -81,7 +81,7 @@
     iget-object v2, p0, Lcom/android/server/SambaClientService$SambaHandler;->this$0:Lcom/android/server/SambaClientService;
 
     # getter for: Lcom/android/server/SambaClientService;->mScanThread:Lcom/android/server/SambaClientService$ScanThread;
-    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$iget-mScanThread-d486b9(Lcom/android/server/SambaClientService;)Lcom/android/server/SambaClientService$ScanThread;
+    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$400(Lcom/android/server/SambaClientService;)Lcom/android/server/SambaClientService$ScanThread;
 
     move-result-object v2
 
@@ -91,7 +91,7 @@
     iget-object v2, p0, Lcom/android/server/SambaClientService$SambaHandler;->this$0:Lcom/android/server/SambaClientService;
 
     # getter for: Lcom/android/server/SambaClientService;->mScanThread:Lcom/android/server/SambaClientService$ScanThread;
-    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$iget-mScanThread-d486b9(Lcom/android/server/SambaClientService;)Lcom/android/server/SambaClientService$ScanThread;
+    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$400(Lcom/android/server/SambaClientService;)Lcom/android/server/SambaClientService$ScanThread;
 
     move-result-object v2
 
@@ -103,7 +103,7 @@
     const/4 v3, 0x0
 
     # setter for: Lcom/android/server/SambaClientService;->mScanThread:Lcom/android/server/SambaClientService$ScanThread;
-    invoke-static {v2, v3}, Lcom/android/server/SambaClientService;->access$iput-mScanThread-a0df27(Lcom/android/server/SambaClientService;Lcom/android/server/SambaClientService$ScanThread;)Lcom/android/server/SambaClientService$ScanThread;
+    invoke-static {v2, v3}, Lcom/android/server/SambaClientService;->access$402(Lcom/android/server/SambaClientService;Lcom/android/server/SambaClientService$ScanThread;)Lcom/android/server/SambaClientService$ScanThread;
 
     goto :goto_0
 
@@ -119,7 +119,7 @@
     iget-object v2, p0, Lcom/android/server/SambaClientService$SambaHandler;->this$0:Lcom/android/server/SambaClientService;
 
     # getter for: Lcom/android/server/SambaClientService;->mConnector:Lcom/android/server/NativeDaemonConnector;
-    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$iget-mConnector-a66a78(Lcom/android/server/SambaClientService;)Lcom/android/server/NativeDaemonConnector;
+    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$500(Lcom/android/server/SambaClientService;)Lcom/android/server/NativeDaemonConnector;
 
     move-result-object v2
 
@@ -193,7 +193,7 @@
     iget-object v2, p0, Lcom/android/server/SambaClientService$SambaHandler;->this$0:Lcom/android/server/SambaClientService;
 
     # getter for: Lcom/android/server/SambaClientService;->mConnector:Lcom/android/server/NativeDaemonConnector;
-    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$iget-mConnector-a66a78(Lcom/android/server/SambaClientService;)Lcom/android/server/NativeDaemonConnector;
+    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$500(Lcom/android/server/SambaClientService;)Lcom/android/server/NativeDaemonConnector;
 
     move-result-object v2
 
@@ -243,7 +243,7 @@
     iget-object v2, p0, Lcom/android/server/SambaClientService$SambaHandler;->this$0:Lcom/android/server/SambaClientService;
 
     # getter for: Lcom/android/server/SambaClientService;->mConnector:Lcom/android/server/NativeDaemonConnector;
-    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$iget-mConnector-a66a78(Lcom/android/server/SambaClientService;)Lcom/android/server/NativeDaemonConnector;
+    invoke-static {v2}, Lcom/android/server/SambaClientService;->access$500(Lcom/android/server/SambaClientService;)Lcom/android/server/NativeDaemonConnector;
 
     move-result-object v2
 

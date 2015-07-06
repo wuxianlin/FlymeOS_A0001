@@ -68,7 +68,7 @@
     iget-object v2, p0, Lcom/android/internal/app/AlertControllerExt$AlertParamsExt$1;->this$0:Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;
 
     # getter for: Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;->mAlertParams:Lcom/android/internal/app/AlertController$AlertParams;
-    invoke-static {v2}, Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;->access$iget-mAlertParams-83816f(Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;)Lcom/android/internal/app/AlertController$AlertParams;
+    invoke-static {v2}, Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;->access$700(Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;)Lcom/android/internal/app/AlertController$AlertParams;
 
     move-result-object v2
 
@@ -83,7 +83,7 @@
     iget-object v2, p0, Lcom/android/internal/app/AlertControllerExt$AlertParamsExt$1;->this$0:Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;
 
     # getter for: Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;->mAlertParams:Lcom/android/internal/app/AlertController$AlertParams;
-    invoke-static {v2}, Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;->access$iget-mAlertParams-83816f(Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;)Lcom/android/internal/app/AlertController$AlertParams;
+    invoke-static {v2}, Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;->access$700(Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;)Lcom/android/internal/app/AlertController$AlertParams;
 
     move-result-object v2
 
@@ -122,7 +122,7 @@
     iget-object v1, p0, Lcom/android/internal/app/AlertControllerExt$AlertParamsExt$1;->this$0:Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;
 
     # getter for: Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;->mAlertParams:Lcom/android/internal/app/AlertController$AlertParams;
-    invoke-static {v1}, Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;->access$iget-mAlertParams-83816f(Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;)Lcom/android/internal/app/AlertController$AlertParams;
+    invoke-static {v1}, Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;->access$700(Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;)Lcom/android/internal/app/AlertController$AlertParams;
 
     move-result-object v1
 
@@ -133,7 +133,7 @@
     iget-object v2, v2, Lcom/android/internal/app/AlertController;->mAlertExt:Lcom/android/internal/app/AlertControllerExt;
 
     # getter for: Lcom/android/internal/app/AlertControllerExt;->mDialogInterface:Landroid/content/DialogInterface;
-    invoke-static {v2}, Lcom/android/internal/app/AlertControllerExt;->access$iget-mDialogInterface-0d67ef(Lcom/android/internal/app/AlertControllerExt;)Landroid/content/DialogInterface;
+    invoke-static {v2}, Lcom/android/internal/app/AlertControllerExt;->access$600(Lcom/android/internal/app/AlertControllerExt;)Landroid/content/DialogInterface;
 
     move-result-object v2
 
@@ -155,7 +155,7 @@
     iget-object v1, p0, Lcom/android/internal/app/AlertControllerExt$AlertParamsExt$1;->this$0:Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;
 
     # getter for: Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;->mAlertParams:Lcom/android/internal/app/AlertController$AlertParams;
-    invoke-static {v1}, Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;->access$iget-mAlertParams-83816f(Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;)Lcom/android/internal/app/AlertController$AlertParams;
+    invoke-static {v1}, Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;->access$700(Lcom/android/internal/app/AlertControllerExt$AlertParamsExt;)Lcom/android/internal/app/AlertController$AlertParams;
 
     move-result-object v1
 
@@ -171,7 +171,7 @@
     iget-object v1, v1, Lcom/android/internal/app/AlertController;->mAlertExt:Lcom/android/internal/app/AlertControllerExt;
 
     # getter for: Lcom/android/internal/app/AlertControllerExt;->mDialogInterface:Landroid/content/DialogInterface;
-    invoke-static {v1}, Lcom/android/internal/app/AlertControllerExt;->access$iget-mDialogInterface-0d67ef(Lcom/android/internal/app/AlertControllerExt;)Landroid/content/DialogInterface;
+    invoke-static {v1}, Lcom/android/internal/app/AlertControllerExt;->access$600(Lcom/android/internal/app/AlertControllerExt;)Landroid/content/DialogInterface;
 
     move-result-object v1
 

@@ -58,7 +58,7 @@
     iget-object v0, p0, Lcom/android/server/SambaClientService$SambaStatusBinderListener;->this$0:Lcom/android/server/SambaClientService;
 
     # getter for: Lcom/android/server/SambaClientService;->mListeners:Ljava/util/ArrayList;
-    invoke-static {v0}, Lcom/android/server/SambaClientService;->access$iget-mListeners-f00fbb(Lcom/android/server/SambaClientService;)Ljava/util/ArrayList;
+    invoke-static {v0}, Lcom/android/server/SambaClientService;->access$000(Lcom/android/server/SambaClientService;)Ljava/util/ArrayList;
 
     move-result-object v1
 
@@ -69,7 +69,7 @@
     iget-object v0, p0, Lcom/android/server/SambaClientService$SambaStatusBinderListener;->this$0:Lcom/android/server/SambaClientService;
 
     # getter for: Lcom/android/server/SambaClientService;->mListeners:Ljava/util/ArrayList;
-    invoke-static {v0}, Lcom/android/server/SambaClientService;->access$iget-mListeners-f00fbb(Lcom/android/server/SambaClientService;)Ljava/util/ArrayList;
+    invoke-static {v0}, Lcom/android/server/SambaClientService;->access$000(Lcom/android/server/SambaClientService;)Ljava/util/ArrayList;
 
     move-result-object v0
 

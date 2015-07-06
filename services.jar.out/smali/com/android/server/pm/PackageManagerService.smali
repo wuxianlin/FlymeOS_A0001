@@ -16824,22 +16824,29 @@
 
     invoke-static/range {p1 .. p2}, Lcom/android/server/pm/InjectorPMS;->removeActiveAdminX(Ljava/lang/String;I)V
 
-    :cond_0
-    :goto_0
-    :goto_flyme_0
+    const/4 v3, 0x0
+
     return v3
 
+    .line 10867
+    :cond_0
+    :goto_0
+    return v3
+
+    .line 10854
     :cond_1
     const/4 v5, -0x1
 
     if-ne p2, v5, :cond_2
 
+    .line 10855
     sget-object v5, Lcom/android/server/pm/PackageManagerService;->sUserManager:Lcom/android/server/pm/UserManagerService;
 
     invoke-virtual {v5}, Lcom/android/server/pm/UserManagerService;->getUserIds()[I
 
     move-result-object v2
 
+    .line 10859
     .local v2, "users":[I
     :goto_1
     const/4 v1, 0x0
@@ -16893,11 +16900,14 @@
     goto :goto_0
 
     :cond_flyme_0
+
     aget v5, v2, v1
 
     invoke-static {p1, v5}, Lcom/android/server/pm/InjectorPMS;->removeActiveAdminX(Ljava/lang/String;I)V
 
-    goto :goto_flyme_0
+    const/4 v3, 0x0
+
+    return v3
 .end method
 
 .method private static isPrivilegedApp(Landroid/content/pm/PackageParser$Package;)Z

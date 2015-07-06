@@ -133,7 +133,7 @@
     .line 173
     new-array v0, v4, [I
 
-    const v1, #android:attr@state_expanded#t
+    const v1, 0x10100a8
 
     aput v1, v0, v3
 
@@ -142,7 +142,7 @@
     .line 177
     new-array v0, v4, [I
 
-    const v1, #android:attr@state_empty#t
+    const v1, 0x10100a9
 
     aput v1, v0, v3
 
@@ -183,7 +183,7 @@
     .line 193
     new-array v0, v4, [I
 
-    const v1, #android:attr@state_last#t
+    const v1, 0x10100a6
 
     aput v1, v0, v3
 
@@ -194,8 +194,8 @@
     .line 181
     :array_0
     .array-data 4
-        #android:attr@state_expanded#t
-        #android:attr@state_empty#t
+        0x10100a8
+        0x10100a9
     .end array-data
 .end method
 
@@ -220,7 +220,7 @@
 
     .prologue
     .line 214
-    const v0, #android:attr@expandableListViewStyle#t
+    const v0, 0x101006f
 
     invoke-direct {p0, p1, p2, v0}, Landroid/widget/ExpandableListViewMz;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 

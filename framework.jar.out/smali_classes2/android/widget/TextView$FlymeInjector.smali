@@ -359,7 +359,7 @@
     const/4 v0, 0x1
 
     .line 9944
-    const v1, #android:id@startSelectingText#t
+    const v1, 0x1020028
 
     if-ne v1, p1, :cond_0
 

@@ -42,7 +42,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mPppoeStateTracker-03d7ae(Landroid/net/pppoe/PppoeMonitor;)Landroid/net/pppoe/PppoeStateTracker;
+.method static synthetic access$000(Landroid/net/pppoe/PppoeMonitor;)Landroid/net/pppoe/PppoeStateTracker;
     .locals 1
     .param p0, "x0"    # Landroid/net/pppoe/PppoeMonitor;
 
@@ -53,7 +53,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mPppoeStarted-616799(Landroid/net/pppoe/PppoeMonitor;)Z
+.method static synthetic access$100(Landroid/net/pppoe/PppoeMonitor;)Z
     .locals 1
     .param p0, "x0"    # Landroid/net/pppoe/PppoeMonitor;
 
@@ -64,7 +64,7 @@
     return v0
 .end method
 
-.method static synthetic access$invoke-nap-bb1c1b(I)V
+.method static synthetic access$200(I)V
     .locals 0
     .param p0, "x0"    # I
 

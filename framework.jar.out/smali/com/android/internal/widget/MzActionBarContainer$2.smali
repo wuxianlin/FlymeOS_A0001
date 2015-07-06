@@ -54,7 +54,7 @@
     .line 109
     :try_start_0
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->sDirtyField:Ljava/lang/reflect/Field;
-    invoke-static {}, Lcom/android/internal/widget/MzActionBarContainer;->access$sget-sDirtyField-191039()Ljava/lang/reflect/Field;
+    invoke-static {}, Lcom/android/internal/widget/MzActionBarContainer;->access$400()Ljava/lang/reflect/Field;
 
     move-result-object v2
 
@@ -72,7 +72,7 @@
     iget-object v2, p0, Lcom/android/internal/widget/MzActionBarContainer$2;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mVisibleRect:Landroid/graphics/Rect;
-    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mVisibleRect-371ddd(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/Rect;
+    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarContainer;->access$500(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/Rect;
 
     move-result-object v2
 
@@ -85,7 +85,7 @@
     iget-object v2, p0, Lcom/android/internal/widget/MzActionBarContainer$2;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mVisibleRect:Landroid/graphics/Rect;
-    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mVisibleRect-371ddd(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/Rect;
+    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarContainer;->access$500(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/Rect;
 
     move-result-object v2
 
@@ -99,7 +99,7 @@
     iget-object v2, p0, Lcom/android/internal/widget/MzActionBarContainer$2;->this$0:Lcom/android/internal/widget/MzActionBarContainer;
 
     # getter for: Lcom/android/internal/widget/MzActionBarContainer;->mVisibleRect:Landroid/graphics/Rect;
-    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarContainer;->access$iget-mVisibleRect-371ddd(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/Rect;
+    invoke-static {v2}, Lcom/android/internal/widget/MzActionBarContainer;->access$500(Lcom/android/internal/widget/MzActionBarContainer;)Landroid/graphics/Rect;
 
     move-result-object v2
 

@@ -65,7 +65,7 @@
     iget-object v11, p0, Lcom/android/internal/app/AlertControllerExt$1;->this$0:Lcom/android/internal/app/AlertControllerExt;
 
     # getter for: Lcom/android/internal/app/AlertControllerExt;->mWindow:Landroid/view/Window;
-    invoke-static {v11}, Lcom/android/internal/app/AlertControllerExt;->access$iget-mWindow-41c0e2(Lcom/android/internal/app/AlertControllerExt;)Landroid/view/Window;
+    invoke-static {v11}, Lcom/android/internal/app/AlertControllerExt;->access$000(Lcom/android/internal/app/AlertControllerExt;)Landroid/view/Window;
 
     move-result-object v11
 
@@ -86,7 +86,7 @@
     iget-object v11, p0, Lcom/android/internal/app/AlertControllerExt$1;->this$0:Lcom/android/internal/app/AlertControllerExt;
 
     # getter for: Lcom/android/internal/app/AlertControllerExt;->mWindow:Landroid/view/Window;
-    invoke-static {v11}, Lcom/android/internal/app/AlertControllerExt;->access$iget-mWindow-41c0e2(Lcom/android/internal/app/AlertControllerExt;)Landroid/view/Window;
+    invoke-static {v11}, Lcom/android/internal/app/AlertControllerExt;->access$000(Lcom/android/internal/app/AlertControllerExt;)Landroid/view/Window;
 
     move-result-object v11
 
@@ -107,7 +107,7 @@
     iget-object v11, p0, Lcom/android/internal/app/AlertControllerExt$1;->this$0:Lcom/android/internal/app/AlertControllerExt;
 
     # getter for: Lcom/android/internal/app/AlertControllerExt;->mWindow:Landroid/view/Window;
-    invoke-static {v11}, Lcom/android/internal/app/AlertControllerExt;->access$iget-mWindow-41c0e2(Lcom/android/internal/app/AlertControllerExt;)Landroid/view/Window;
+    invoke-static {v11}, Lcom/android/internal/app/AlertControllerExt;->access$000(Lcom/android/internal/app/AlertControllerExt;)Landroid/view/Window;
 
     move-result-object v11
 
@@ -128,7 +128,7 @@
     iget-object v11, p0, Lcom/android/internal/app/AlertControllerExt$1;->this$0:Lcom/android/internal/app/AlertControllerExt;
 
     # getter for: Lcom/android/internal/app/AlertControllerExt;->mWindow:Landroid/view/Window;
-    invoke-static {v11}, Lcom/android/internal/app/AlertControllerExt;->access$iget-mWindow-41c0e2(Lcom/android/internal/app/AlertControllerExt;)Landroid/view/Window;
+    invoke-static {v11}, Lcom/android/internal/app/AlertControllerExt;->access$000(Lcom/android/internal/app/AlertControllerExt;)Landroid/view/Window;
 
     move-result-object v11
 
@@ -182,7 +182,7 @@
     iget-object v11, p0, Lcom/android/internal/app/AlertControllerExt$1;->this$0:Lcom/android/internal/app/AlertControllerExt;
 
     # getter for: Lcom/android/internal/app/AlertControllerExt;->mMessage:Ljava/lang/CharSequence;
-    invoke-static {v11}, Lcom/android/internal/app/AlertControllerExt;->access$iget-mMessage-850971(Lcom/android/internal/app/AlertControllerExt;)Ljava/lang/CharSequence;
+    invoke-static {v11}, Lcom/android/internal/app/AlertControllerExt;->access$100(Lcom/android/internal/app/AlertControllerExt;)Ljava/lang/CharSequence;
 
     move-result-object v11
 
@@ -192,7 +192,7 @@
     iget-object v11, p0, Lcom/android/internal/app/AlertControllerExt$1;->this$0:Lcom/android/internal/app/AlertControllerExt;
 
     # getter for: Lcom/android/internal/app/AlertControllerExt;->mMessageView:Landroid/widget/TextView;
-    invoke-static {v11}, Lcom/android/internal/app/AlertControllerExt;->access$iget-mMessageView-5fa515(Lcom/android/internal/app/AlertControllerExt;)Landroid/widget/TextView;
+    invoke-static {v11}, Lcom/android/internal/app/AlertControllerExt;->access$200(Lcom/android/internal/app/AlertControllerExt;)Landroid/widget/TextView;
 
     move-result-object v11
 

@@ -53,7 +53,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzScrollingTabContainerView$TabAdapter;->this$0:Lcom/android/internal/widget/MzScrollingTabContainerView;
 
     # getter for: Lcom/android/internal/widget/MzScrollingTabContainerView;->mTabLayout:Landroid/widget/LinearLayout;
-    invoke-static {v0}, Lcom/android/internal/widget/MzScrollingTabContainerView;->access$iget-mTabLayout-b0cc50(Lcom/android/internal/widget/MzScrollingTabContainerView;)Landroid/widget/LinearLayout;
+    invoke-static {v0}, Lcom/android/internal/widget/MzScrollingTabContainerView;->access$200(Lcom/android/internal/widget/MzScrollingTabContainerView;)Landroid/widget/LinearLayout;
 
     move-result-object v0
 
@@ -73,7 +73,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzScrollingTabContainerView$TabAdapter;->this$0:Lcom/android/internal/widget/MzScrollingTabContainerView;
 
     # getter for: Lcom/android/internal/widget/MzScrollingTabContainerView;->mTabLayout:Landroid/widget/LinearLayout;
-    invoke-static {v0}, Lcom/android/internal/widget/MzScrollingTabContainerView;->access$iget-mTabLayout-b0cc50(Lcom/android/internal/widget/MzScrollingTabContainerView;)Landroid/widget/LinearLayout;
+    invoke-static {v0}, Lcom/android/internal/widget/MzScrollingTabContainerView;->access$200(Lcom/android/internal/widget/MzScrollingTabContainerView;)Landroid/widget/LinearLayout;
 
     move-result-object v0
 
@@ -123,7 +123,7 @@
     const/4 v2, 0x1
 
     # invokes: Lcom/android/internal/widget/MzScrollingTabContainerView;->createTabView(Landroid/app/ActionBar$Tab;Z)Lcom/android/internal/widget/MzScrollingTabContainerView$TabView;
-    invoke-static {v1, v0, v2}, Lcom/android/internal/widget/MzScrollingTabContainerView;->access$invoke-createTabView-c52f76(Lcom/android/internal/widget/MzScrollingTabContainerView;Landroid/app/ActionBar$Tab;Z)Lcom/android/internal/widget/MzScrollingTabContainerView$TabView;
+    invoke-static {v1, v0, v2}, Lcom/android/internal/widget/MzScrollingTabContainerView;->access$300(Lcom/android/internal/widget/MzScrollingTabContainerView;Landroid/app/ActionBar$Tab;Z)Lcom/android/internal/widget/MzScrollingTabContainerView$TabView;
 
     move-result-object p2
 

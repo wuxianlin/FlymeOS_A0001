@@ -503,7 +503,7 @@
     const/4 v2, 0x1
 
     # setter for: Lcom/android/internal/app/MzResolverActivity;->mShowExtended:Z
-    invoke-static {v1, v2}, Lcom/android/internal/app/MzResolverActivity;->access$iput-mShowExtended-23f21d(Lcom/android/internal/app/MzResolverActivity;Z)Z
+    invoke-static {v1, v2}, Lcom/android/internal/app/MzResolverActivity;->access$302(Lcom/android/internal/app/MzResolverActivity;Z)Z
 
     .line 1056
     const/4 v14, 0x0
@@ -521,7 +521,7 @@
     iget-object v2, v0, Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mPm:Landroid/content/pm/PackageManager;
-    invoke-static {v2}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mPm-fafc72(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
+    invoke-static {v2}, Lcom/android/internal/app/MzResolverActivity;->access$200(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
 
     move-result-object v2
 
@@ -578,7 +578,7 @@
     iget-object v2, v0, Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mPm:Landroid/content/pm/PackageManager;
-    invoke-static {v2}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mPm-fafc72(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
+    invoke-static {v2}, Lcom/android/internal/app/MzResolverActivity;->access$200(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
 
     move-result-object v2
 
@@ -759,7 +759,7 @@
     iget-object v5, v0, Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mPm:Landroid/content/pm/PackageManager;
-    invoke-static {v5}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mPm-fafc72(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
+    invoke-static {v5}, Lcom/android/internal/app/MzResolverActivity;->access$200(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
 
     move-result-object v5
 
@@ -1033,7 +1033,7 @@
     iget-object v1, v0, Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mPm:Landroid/content/pm/PackageManager;
-    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mPm-fafc72(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
+    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$200(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
 
     move-result-object v2
 
@@ -1044,7 +1044,7 @@
     iget-object v1, v0, Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mAlwaysUseOption:Z
-    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mAlwaysUseOption-bde5e0(Lcom/android/internal/app/MzResolverActivity;)Z
+    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$100(Lcom/android/internal/app/MzResolverActivity;)Z
 
     move-result v1
 
@@ -1071,7 +1071,7 @@
     iget-object v1, v0, Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mPm:Landroid/content/pm/PackageManager;
-    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mPm-fafc72(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
+    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$200(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
 
     move-result-object v2
 
@@ -1086,7 +1086,7 @@
     iget-object v1, v0, Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mAlwaysUseOption:Z
-    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mAlwaysUseOption-bde5e0(Lcom/android/internal/app/MzResolverActivity;)Z
+    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$100(Lcom/android/internal/app/MzResolverActivity;)Z
 
     move-result v1
 
@@ -1249,7 +1249,7 @@
     iget-object v1, v0, Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mPm:Landroid/content/pm/PackageManager;
-    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mPm-fafc72(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
+    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$200(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
 
     move-result-object v1
 
@@ -1487,7 +1487,7 @@
     iget-object v1, v0, Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mPm:Landroid/content/pm/PackageManager;
-    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mPm-fafc72(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
+    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$200(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
 
     move-result-object v1
 
@@ -1504,7 +1504,7 @@
     const/4 v2, 0x0
 
     # setter for: Lcom/android/internal/app/MzResolverActivity;->mShowExtended:Z
-    invoke-static {v1, v2}, Lcom/android/internal/app/MzResolverActivity;->access$iput-mShowExtended-23f21d(Lcom/android/internal/app/MzResolverActivity;Z)Z
+    invoke-static {v1, v2}, Lcom/android/internal/app/MzResolverActivity;->access$302(Lcom/android/internal/app/MzResolverActivity;Z)Z
 
     .line 1019
     const/16 v16, 0x1
@@ -1543,7 +1543,7 @@
     iget-object v1, v0, Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # getter for: Lcom/android/internal/app/MzResolverActivity;->mPm:Landroid/content/pm/PackageManager;
-    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$iget-mPm-fafc72(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
+    invoke-static {v1}, Lcom/android/internal/app/MzResolverActivity;->access$200(Lcom/android/internal/app/MzResolverActivity;)Landroid/content/pm/PackageManager;
 
     move-result-object v1
 
@@ -2058,7 +2058,7 @@
     iget-object v9, p0, Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # invokes: Lcom/android/internal/app/MzResolverActivity;->ensureDraggable(Landroid/content/Intent;)Z
-    invoke-static {v9, v3}, Lcom/android/internal/app/MzResolverActivity;->access$invoke-ensureDraggable-8d458b(Lcom/android/internal/app/MzResolverActivity;Landroid/content/Intent;)Z
+    invoke-static {v9, v3}, Lcom/android/internal/app/MzResolverActivity;->access$400(Lcom/android/internal/app/MzResolverActivity;Landroid/content/Intent;)Z
 
     move-result v9
 
@@ -2235,7 +2235,7 @@
     iget-object v9, p0, Lcom/android/internal/app/MzResolverActivity$ResolveListAdapter;->this$0:Lcom/android/internal/app/MzResolverActivity;
 
     # invokes: Lcom/android/internal/app/MzResolverActivity;->ensureDraggable(Landroid/content/Intent;)Z
-    invoke-static {v9, v3}, Lcom/android/internal/app/MzResolverActivity;->access$invoke-ensureDraggable-8d458b(Lcom/android/internal/app/MzResolverActivity;Landroid/content/Intent;)Z
+    invoke-static {v9, v3}, Lcom/android/internal/app/MzResolverActivity;->access$400(Lcom/android/internal/app/MzResolverActivity;Landroid/content/Intent;)Z
 
     move-result v9
 
@@ -2416,7 +2416,7 @@
     move-object/from16 v0, v17
 
     # invokes: Lcom/android/internal/app/MzResolverActivity;->ensureDraggable(Landroid/content/Intent;)Z
-    invoke-static {v0, v6}, Lcom/android/internal/app/MzResolverActivity;->access$invoke-ensureDraggable-8d458b(Lcom/android/internal/app/MzResolverActivity;Landroid/content/Intent;)Z
+    invoke-static {v0, v6}, Lcom/android/internal/app/MzResolverActivity;->access$400(Lcom/android/internal/app/MzResolverActivity;Landroid/content/Intent;)Z
 
     move-result v17
 
@@ -3071,7 +3071,7 @@
 
     .prologue
     .line 1273
-    const v0, #android:id@icon#t
+    const v0, 0x1020006
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

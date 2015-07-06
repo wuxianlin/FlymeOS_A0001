@@ -45,7 +45,7 @@
     iget-object v1, p0, Lcom/android/internal/widget/MzActionBarView$1;->this$0:Lcom/android/internal/widget/MzActionBarView;
 
     # getter for: Lcom/android/internal/widget/MzActionBarView;->mExpandedMenuPresenter:Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;
-    invoke-static {v1}, Lcom/android/internal/widget/MzActionBarView;->access$iget-mExpandedMenuPresenter-4797af(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;
+    invoke-static {v1}, Lcom/android/internal/widget/MzActionBarView;->access$000(Lcom/android/internal/widget/MzActionBarView;)Lcom/android/internal/widget/MzActionBarView$ExpandedActionViewMenuPresenter;
 
     move-result-object v1
 

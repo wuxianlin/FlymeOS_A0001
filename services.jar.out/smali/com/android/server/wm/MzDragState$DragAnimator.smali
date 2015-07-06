@@ -69,7 +69,7 @@
     return-void
 .end method
 
-.method static synthetic access$invoke-createAnimation-a43fee(Lcom/android/server/wm/MzDragState$DragAnimator;)Landroid/animation/AnimatorSet;
+.method static synthetic access$000(Lcom/android/server/wm/MzDragState$DragAnimator;)Landroid/animation/AnimatorSet;
     .locals 1
     .param p0, "x0"    # Lcom/android/server/wm/MzDragState$DragAnimator;
 

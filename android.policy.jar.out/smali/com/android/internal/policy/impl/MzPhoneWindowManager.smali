@@ -65,7 +65,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-TAG-96c72f(Lcom/android/internal/policy/impl/MzPhoneWindowManager;)Ljava/lang/String;
+.method static synthetic access$000(Lcom/android/internal/policy/impl/MzPhoneWindowManager;)Ljava/lang/String;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/policy/impl/MzPhoneWindowManager;
 

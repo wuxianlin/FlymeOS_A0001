@@ -87,7 +87,7 @@
     iget v1, p0, Lcom/android/internal/widget/MzAbsActionBarView$VisibilityAnimListener;->mFinalVisibility:I
 
     # invokes: Lcom/android/internal/widget/MzAbsActionBarView;->onAnimationEndInner(Landroid/animation/Animator;I)V
-    invoke-static {v0, p1, v1}, Lcom/android/internal/widget/MzAbsActionBarView;->access$invoke-onAnimationEndInner-f265bd(Lcom/android/internal/widget/MzAbsActionBarView;Landroid/animation/Animator;I)V
+    invoke-static {v0, p1, v1}, Lcom/android/internal/widget/MzAbsActionBarView;->access$100(Lcom/android/internal/widget/MzAbsActionBarView;Landroid/animation/Animator;I)V
 
     goto :goto_0
 .end method
@@ -110,7 +110,7 @@
     iget-object v0, p0, Lcom/android/internal/widget/MzAbsActionBarView$VisibilityAnimListener;->this$0:Lcom/android/internal/widget/MzAbsActionBarView;
 
     # invokes: Lcom/android/internal/widget/MzAbsActionBarView;->onAnimationStartInner(Landroid/animation/Animator;)V
-    invoke-static {v0, p1}, Lcom/android/internal/widget/MzAbsActionBarView;->access$invoke-onAnimationStartInner-0beed3(Lcom/android/internal/widget/MzAbsActionBarView;Landroid/animation/Animator;)V
+    invoke-static {v0, p1}, Lcom/android/internal/widget/MzAbsActionBarView;->access$000(Lcom/android/internal/widget/MzAbsActionBarView;Landroid/animation/Animator;)V
 
     .line 350
     iget-object v0, p0, Lcom/android/internal/widget/MzAbsActionBarView$VisibilityAnimListener;->this$0:Lcom/android/internal/widget/MzAbsActionBarView;

@@ -829,98 +829,83 @@
     :goto_5
     iput-boolean v12, p0, Lcom/android/server/wm/WindowState;->mIsFloatingLayer:Z
 
-    .line 433
     .end local v6    # "childWindows":Lcom/android/server/wm/WindowList;
     .end local v10    # "numChildWindows":I
     :goto_6
     move-object v4, p0
 
-    .line 434
     .local v4, "appWin":Lcom/android/server/wm/WindowState;
     :goto_7
     iget-object v12, v4, Lcom/android/server/wm/WindowState;->mAttachedWindow:Lcom/android/server/wm/WindowState;
 
     if-eqz v12, :cond_12
 
-    .line 435
     iget-object v4, v4, Lcom/android/server/wm/WindowState;->mAttachedWindow:Lcom/android/server/wm/WindowState;
 
     goto :goto_7
 
-    .line 357
     .end local v4    # "appWin":Lcom/android/server/wm/WindowState;
     :cond_3
     const/4 v12, 0x0
 
     goto/16 :goto_0
 
-    .line 363
     :catch_0
     move-exception v8
 
-    .line 364
     .local v8, "e":Landroid/os/RemoteException;
     const/4 v12, 0x0
 
     iput-object v12, p0, Lcom/android/server/wm/WindowState;->mDeathRecipient:Lcom/android/server/wm/WindowState$DeathRecipient;
 
-    .line 365
     const/4 v12, 0x0
 
     iput-object v12, p0, Lcom/android/server/wm/WindowState;->mAttachedWindow:Lcom/android/server/wm/WindowState;
 
-    .line 366
     const/4 v12, 0x0
 
     iput-boolean v12, p0, Lcom/android/server/wm/WindowState;->mLayoutAttached:Z
 
-    .line 367
     const/4 v12, 0x0
 
     iput-boolean v12, p0, Lcom/android/server/wm/WindowState;->mIsImWindow:Z
 
-    .line 368
     const/4 v12, 0x0
 
     iput-boolean v12, p0, Lcom/android/server/wm/WindowState;->mIsWallpaper:Z
 
-    .line 369
     const/4 v12, 0x0
 
     iput-boolean v12, p0, Lcom/android/server/wm/WindowState;->mIsFloatingLayer:Z
 
-    .line 370
     const/4 v12, 0x0
 
     iput v12, p0, Lcom/android/server/wm/WindowState;->mBaseLayer:I
 
-    .line 371
     const/4 v12, 0x0
 
     iput v12, p0, Lcom/android/server/wm/WindowState;->mSubLayer:I
 
-    .line 372
     const/4 v12, 0x0
 
     iput-object v12, p0, Lcom/android/server/wm/WindowState;->mInputWindowHandle:Lcom/android/server/input/InputWindowHandle;
 
-    .line 373
     const/4 v12, 0x0
 
     iput-object v12, p0, Lcom/android/server/wm/WindowState;->mWinAnimator:Lcom/android/server/wm/WindowStateAnimator;
 
-    .line 465
     .end local v8    # "e":Landroid/os/RemoteException;
     :goto_8
+
+    invoke-static/range {p0 .. p0}, Lcom/android/server/wm/WindowState$Injector;->newInstanceWindowStateExt(Lcom/android/server/wm/WindowState;)V
+
     return-void
 
-    .line 394
     .restart local v6    # "childWindows":Lcom/android/server/wm/WindowList;
     .restart local v10    # "numChildWindows":I
     :cond_4
     const/4 v1, 0x0
 
-    .line 395
     .local v1, "added":Z
     const/4 v9, 0x0
 
@@ -1241,8 +1226,6 @@
     invoke-direct {v13, v12, p0, v14}, Lcom/android/server/input/InputWindowHandle;-><init>(Lcom/android/server/input/InputApplicationHandle;Ljava/lang/Object;I)V
 
     iput-object v13, p0, Lcom/android/server/wm/WindowState;->mInputWindowHandle:Lcom/android/server/input/InputWindowHandle;
-
-    invoke-static/range {p0 .. p0}, Lcom/android/server/wm/WindowState$Injector;->newInstanceWindowStateExt(Lcom/android/server/wm/WindowState;)V
 
     goto/16 :goto_8
 

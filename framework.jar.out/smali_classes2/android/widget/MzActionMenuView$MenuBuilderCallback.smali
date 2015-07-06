@@ -58,7 +58,7 @@
     iget-object v0, p0, Landroid/widget/MzActionMenuView$MenuBuilderCallback;->this$0:Landroid/widget/MzActionMenuView;
 
     # getter for: Landroid/widget/MzActionMenuView;->mOnMenuItemClickListener:Landroid/widget/MzActionMenuView$OnMenuItemClickListener;
-    invoke-static {v0}, Landroid/widget/MzActionMenuView;->access$iget-mOnMenuItemClickListener-2fb182(Landroid/widget/MzActionMenuView;)Landroid/widget/MzActionMenuView$OnMenuItemClickListener;
+    invoke-static {v0}, Landroid/widget/MzActionMenuView;->access$200(Landroid/widget/MzActionMenuView;)Landroid/widget/MzActionMenuView$OnMenuItemClickListener;
 
     move-result-object v0
 
@@ -67,7 +67,7 @@
     iget-object v0, p0, Landroid/widget/MzActionMenuView$MenuBuilderCallback;->this$0:Landroid/widget/MzActionMenuView;
 
     # getter for: Landroid/widget/MzActionMenuView;->mOnMenuItemClickListener:Landroid/widget/MzActionMenuView$OnMenuItemClickListener;
-    invoke-static {v0}, Landroid/widget/MzActionMenuView;->access$iget-mOnMenuItemClickListener-2fb182(Landroid/widget/MzActionMenuView;)Landroid/widget/MzActionMenuView$OnMenuItemClickListener;
+    invoke-static {v0}, Landroid/widget/MzActionMenuView;->access$200(Landroid/widget/MzActionMenuView;)Landroid/widget/MzActionMenuView$OnMenuItemClickListener;
 
     move-result-object v0
 
@@ -97,7 +97,7 @@
     iget-object v0, p0, Landroid/widget/MzActionMenuView$MenuBuilderCallback;->this$0:Landroid/widget/MzActionMenuView;
 
     # getter for: Landroid/widget/MzActionMenuView;->mMenuBuilderCallback:Lcom/android/internal/view/menu/MenuBuilder$Callback;
-    invoke-static {v0}, Landroid/widget/MzActionMenuView;->access$iget-mMenuBuilderCallback-f669c4(Landroid/widget/MzActionMenuView;)Lcom/android/internal/view/menu/MenuBuilder$Callback;
+    invoke-static {v0}, Landroid/widget/MzActionMenuView;->access$300(Landroid/widget/MzActionMenuView;)Lcom/android/internal/view/menu/MenuBuilder$Callback;
 
     move-result-object v0
 
@@ -107,7 +107,7 @@
     iget-object v0, p0, Landroid/widget/MzActionMenuView$MenuBuilderCallback;->this$0:Landroid/widget/MzActionMenuView;
 
     # getter for: Landroid/widget/MzActionMenuView;->mMenuBuilderCallback:Lcom/android/internal/view/menu/MenuBuilder$Callback;
-    invoke-static {v0}, Landroid/widget/MzActionMenuView;->access$iget-mMenuBuilderCallback-f669c4(Landroid/widget/MzActionMenuView;)Lcom/android/internal/view/menu/MenuBuilder$Callback;
+    invoke-static {v0}, Landroid/widget/MzActionMenuView;->access$300(Landroid/widget/MzActionMenuView;)Lcom/android/internal/view/menu/MenuBuilder$Callback;
 
     move-result-object v0
 

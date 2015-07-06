@@ -278,7 +278,7 @@
     return v0
 .end method
 
-.method static synthetic access$1000(Landroid/widget/Gallery;)I
+.method static synthetic access$1100(Landroid/widget/Gallery;)I
     .locals 1
     .param p0, "x0"    # Landroid/widget/Gallery;
 
@@ -379,7 +379,7 @@
     return v0
 .end method
 
-.method static synthetic access$1200(Landroid/widget/Gallery;)I
+.method static synthetic access$900(Landroid/widget/Gallery;)I
     .locals 1
     .param p0, "x0"    # Landroid/widget/Gallery;
 

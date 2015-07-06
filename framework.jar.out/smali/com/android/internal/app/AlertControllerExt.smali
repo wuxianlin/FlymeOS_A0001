@@ -168,7 +168,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mWindow-41c0e2(Lcom/android/internal/app/AlertControllerExt;)Landroid/view/Window;
+.method static synthetic access$000(Lcom/android/internal/app/AlertControllerExt;)Landroid/view/Window;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/AlertControllerExt;
 
@@ -179,7 +179,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mMessage-850971(Lcom/android/internal/app/AlertControllerExt;)Ljava/lang/CharSequence;
+.method static synthetic access$100(Lcom/android/internal/app/AlertControllerExt;)Ljava/lang/CharSequence;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/AlertControllerExt;
 
@@ -190,7 +190,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mMessageView-5fa515(Lcom/android/internal/app/AlertControllerExt;)Landroid/widget/TextView;
+.method static synthetic access$200(Lcom/android/internal/app/AlertControllerExt;)Landroid/widget/TextView;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/AlertControllerExt;
 
@@ -201,7 +201,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mDialog-41940e(Lcom/android/internal/app/AlertControllerExt;)Landroid/app/Dialog;
+.method static synthetic access$300(Lcom/android/internal/app/AlertControllerExt;)Landroid/app/Dialog;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/AlertControllerExt;
 
@@ -212,7 +212,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mContext-b33cdc(Lcom/android/internal/app/AlertControllerExt;)Landroid/content/Context;
+.method static synthetic access$400(Lcom/android/internal/app/AlertControllerExt;)Landroid/content/Context;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/AlertControllerExt;
 
@@ -223,7 +223,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iput-mCheckedItem-2cc7ac(Lcom/android/internal/app/AlertControllerExt;I)I
+.method static synthetic access$502(Lcom/android/internal/app/AlertControllerExt;I)I
     .locals 0
     .param p0, "x0"    # Lcom/android/internal/app/AlertControllerExt;
     .param p1, "x1"    # I
@@ -235,7 +235,7 @@
     return p1
 .end method
 
-.method static synthetic access$iget-mDialogInterface-0d67ef(Lcom/android/internal/app/AlertControllerExt;)Landroid/content/DialogInterface;
+.method static synthetic access$600(Lcom/android/internal/app/AlertControllerExt;)Landroid/content/DialogInterface;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/AlertControllerExt;
 
@@ -246,7 +246,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mListView-46f555(Lcom/android/internal/app/AlertControllerExt;)Landroid/widget/ListView;
+.method static synthetic access$800(Lcom/android/internal/app/AlertControllerExt;)Landroid/widget/ListView;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/app/AlertControllerExt;
 
@@ -1142,7 +1142,7 @@
     .local v4, "states":[[I
     new-array v5, v8, [I
 
-    const v6, #android:attr@state_enabled#t
+    const v6, 0x101009e
 
     aput v6, v5, v7
 
@@ -1771,7 +1771,7 @@
     .line 739
     iget-object v10, p0, Lcom/android/internal/app/AlertControllerExt;->mWindow:Landroid/view/Window;
 
-    const v11, #android:id@message#t
+    const v11, 0x102000b
 
     invoke-virtual {v10, v11}, Landroid/view/Window;->findViewById(I)Landroid/view/View;
 
@@ -1813,7 +1813,7 @@
 
     sget-object v12, Landroid/R$styleable;->Theme:[I
 
-    const v13, #android:attr@windowTitleStyle#t
+    const v13, 0x101005b
 
     const/4 v14, 0x0
 
@@ -2323,7 +2323,7 @@
     .line 839
     iget-object v1, p0, Lcom/android/internal/app/AlertControllerExt;->mWindow:Landroid/view/Window;
 
-    const v4, #android:id@icon#t
+    const v4, 0x1020006
 
     invoke-virtual {v1, v4}, Landroid/view/Window;->findViewById(I)Landroid/view/View;
 
@@ -2464,7 +2464,7 @@
 
     iget-object v2, p0, Lcom/android/internal/app/AlertControllerExt;->mContext:Landroid/content/Context;
 
-    const v3, #android:style@TextAppearance.DeviceDefault.Small#t
+    const v3, 0x10301b3
 
     invoke-virtual {v1, v2, v3}, Landroid/widget/TextView;->setTextAppearance(Landroid/content/Context;I)V
 
@@ -3938,7 +3938,7 @@
     .line 696
     iget-object v0, p0, Lcom/android/internal/app/AlertControllerExt;->mWindow:Landroid/view/Window;
 
-    const v1, #android:id@mask#t
+    const v1, 0x102002e
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->findViewById(I)Landroid/view/View;
 

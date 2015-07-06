@@ -44,7 +44,7 @@
     const/4 v1, 0x0
 
     # setter for: Lcom/android/internal/widget/MzActionBarOverlayLayout;->mCurrentActionBarTopAnimator:Landroid/view/ViewPropertyAnimator;
-    invoke-static {v0, v1}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->access$iput-mCurrentActionBarTopAnimator-68fc12(Lcom/android/internal/widget/MzActionBarOverlayLayout;Landroid/view/ViewPropertyAnimator;)Landroid/view/ViewPropertyAnimator;
+    invoke-static {v0, v1}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->access$002(Lcom/android/internal/widget/MzActionBarOverlayLayout;Landroid/view/ViewPropertyAnimator;)Landroid/view/ViewPropertyAnimator;
 
     .line 107
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarOverlayLayout$1;->this$0:Lcom/android/internal/widget/MzActionBarOverlayLayout;
@@ -52,7 +52,7 @@
     const/4 v1, 0x0
 
     # setter for: Lcom/android/internal/widget/MzActionBarOverlayLayout;->mAnimatingForFling:Z
-    invoke-static {v0, v1}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->access$iput-mAnimatingForFling-cd1132(Lcom/android/internal/widget/MzActionBarOverlayLayout;Z)Z
+    invoke-static {v0, v1}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->access$102(Lcom/android/internal/widget/MzActionBarOverlayLayout;Z)Z
 
     .line 108
     return-void
@@ -69,7 +69,7 @@
     const/4 v1, 0x0
 
     # setter for: Lcom/android/internal/widget/MzActionBarOverlayLayout;->mCurrentActionBarTopAnimator:Landroid/view/ViewPropertyAnimator;
-    invoke-static {v0, v1}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->access$iput-mCurrentActionBarTopAnimator-68fc12(Lcom/android/internal/widget/MzActionBarOverlayLayout;Landroid/view/ViewPropertyAnimator;)Landroid/view/ViewPropertyAnimator;
+    invoke-static {v0, v1}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->access$002(Lcom/android/internal/widget/MzActionBarOverlayLayout;Landroid/view/ViewPropertyAnimator;)Landroid/view/ViewPropertyAnimator;
 
     .line 101
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarOverlayLayout$1;->this$0:Lcom/android/internal/widget/MzActionBarOverlayLayout;
@@ -77,7 +77,7 @@
     const/4 v1, 0x0
 
     # setter for: Lcom/android/internal/widget/MzActionBarOverlayLayout;->mAnimatingForFling:Z
-    invoke-static {v0, v1}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->access$iput-mAnimatingForFling-cd1132(Lcom/android/internal/widget/MzActionBarOverlayLayout;Z)Z
+    invoke-static {v0, v1}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->access$102(Lcom/android/internal/widget/MzActionBarOverlayLayout;Z)Z
 
     .line 102
     return-void

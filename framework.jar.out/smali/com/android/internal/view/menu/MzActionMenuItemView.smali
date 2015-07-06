@@ -205,7 +205,7 @@
     return-void
 .end method
 
-.method static synthetic access$iget-mPopupCallback-2cce01(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MzActionMenuItemView$PopupCallback;
+.method static synthetic access$000(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MzActionMenuItemView$PopupCallback;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/view/menu/MzActionMenuItemView;
 
@@ -216,7 +216,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mItemInvoker-fbffac(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MenuBuilder$ItemInvoker;
+.method static synthetic access$100(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MenuBuilder$ItemInvoker;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/view/menu/MzActionMenuItemView;
 
@@ -227,7 +227,7 @@
     return-object v0
 .end method
 
-.method static synthetic access$iget-mItemData-a1c765(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MenuItemImpl;
+.method static synthetic access$200(Lcom/android/internal/view/menu/MzActionMenuItemView;)Lcom/android/internal/view/menu/MenuItemImpl;
     .locals 1
     .param p0, "x0"    # Lcom/android/internal/view/menu/MzActionMenuItemView;
 

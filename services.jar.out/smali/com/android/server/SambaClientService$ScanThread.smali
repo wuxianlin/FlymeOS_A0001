@@ -137,7 +137,7 @@
     iget-object v8, p0, Lcom/android/server/SambaClientService$ScanThread;->this$0:Lcom/android/server/SambaClientService;
 
     # getter for: Lcom/android/server/SambaClientService;->mScanIp:Ljava/lang/String;
-    invoke-static {v8}, Lcom/android/server/SambaClientService;->access$iget-mScanIp-b94072(Lcom/android/server/SambaClientService;)Ljava/lang/String;
+    invoke-static {v8}, Lcom/android/server/SambaClientService;->access$200(Lcom/android/server/SambaClientService;)Ljava/lang/String;
 
     move-result-object v8
 
@@ -153,7 +153,7 @@
     iget-object v8, p0, Lcom/android/server/SambaClientService$ScanThread;->this$0:Lcom/android/server/SambaClientService;
 
     # getter for: Lcom/android/server/SambaClientService;->mScanIp:Ljava/lang/String;
-    invoke-static {v8}, Lcom/android/server/SambaClientService;->access$iget-mScanIp-b94072(Lcom/android/server/SambaClientService;)Ljava/lang/String;
+    invoke-static {v8}, Lcom/android/server/SambaClientService;->access$200(Lcom/android/server/SambaClientService;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -340,7 +340,7 @@
     const-string v10, ""
 
     # invokes: Lcom/android/server/SambaClientService;->onScanNotify(Ljava/lang/String;Ljava/lang/String;)V
-    invoke-static {v8, v9, v10}, Lcom/android/server/SambaClientService;->access$invoke-onScanNotify-15b173(Lcom/android/server/SambaClientService;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v8, v9, v10}, Lcom/android/server/SambaClientService;->access$300(Lcom/android/server/SambaClientService;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 512
     :cond_4

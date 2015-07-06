@@ -47,7 +47,7 @@
     iget-object v1, p0, Lcom/android/internal/app/RecommendActivity$3;->this$0:Lcom/android/internal/app/RecommendActivity;
 
     # getter for: Lcom/android/internal/app/RecommendActivity;->mRecommendInfo:Lcom/android/internal/app/RecommendActivity$RecommendInfo;
-    invoke-static {v1}, Lcom/android/internal/app/RecommendActivity;->access$iget-mRecommendInfo-6f98fa(Lcom/android/internal/app/RecommendActivity;)Lcom/android/internal/app/RecommendActivity$RecommendInfo;
+    invoke-static {v1}, Lcom/android/internal/app/RecommendActivity;->access$400(Lcom/android/internal/app/RecommendActivity;)Lcom/android/internal/app/RecommendActivity$RecommendInfo;
 
     move-result-object v1
 

@@ -67,7 +67,7 @@
     iget-object v2, p0, Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog$5;->this$1:Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;
 
     # getter for: Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;->mFadeOutSet:Landroid/animation/AnimatorSet;
-    invoke-static {v2}, Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;->access$iget-mFadeOutSet-9d6b8f(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/AnimatorSet;
+    invoke-static {v2}, Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;->access$500(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/animation/AnimatorSet;
 
     move-result-object v2
 
@@ -81,7 +81,7 @@
     iget-object v2, p0, Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog$5;->this$1:Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;
 
     # getter for: Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;->mHandler:Landroid/os/Handler;
-    invoke-static {v2}, Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;->access$iget-mHandler-e72fea(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/os/Handler;
+    invoke-static {v2}, Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;->access$700(Lcom/android/internal/policy/impl/MzGlobalActions$MzGlobalActionsDialog;)Landroid/os/Handler;
 
     move-result-object v2
 
@@ -98,7 +98,7 @@
     .line 353
     :cond_1
     # getter for: Lcom/android/internal/policy/impl/MzGlobalActions;->mContext:Landroid/content/Context;
-    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$sget-mContext-0d2470()Landroid/content/Context;
+    invoke-static {}, Lcom/android/internal/policy/impl/MzGlobalActions;->access$600()Landroid/content/Context;
 
     move-result-object v2
 

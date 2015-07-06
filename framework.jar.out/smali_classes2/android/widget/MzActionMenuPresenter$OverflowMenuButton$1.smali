@@ -48,7 +48,7 @@
     iget-object v0, v0, Landroid/widget/MzActionMenuPresenter$OverflowMenuButton;->this$0:Landroid/widget/MzActionMenuPresenter;
 
     # getter for: Landroid/widget/MzActionMenuPresenter;->mOverflowPopup:Landroid/widget/MzActionMenuPresenter$OverflowPopup;
-    invoke-static {v0}, Landroid/widget/MzActionMenuPresenter;->access$iget-mOverflowPopup-ec8b15(Landroid/widget/MzActionMenuPresenter;)Landroid/widget/MzActionMenuPresenter$OverflowPopup;
+    invoke-static {v0}, Landroid/widget/MzActionMenuPresenter;->access$200(Landroid/widget/MzActionMenuPresenter;)Landroid/widget/MzActionMenuPresenter$OverflowPopup;
 
     move-result-object v0
 
@@ -67,7 +67,7 @@
     iget-object v0, v0, Landroid/widget/MzActionMenuPresenter$OverflowMenuButton;->this$0:Landroid/widget/MzActionMenuPresenter;
 
     # getter for: Landroid/widget/MzActionMenuPresenter;->mOverflowPopup:Landroid/widget/MzActionMenuPresenter$OverflowPopup;
-    invoke-static {v0}, Landroid/widget/MzActionMenuPresenter;->access$iget-mOverflowPopup-ec8b15(Landroid/widget/MzActionMenuPresenter;)Landroid/widget/MzActionMenuPresenter$OverflowPopup;
+    invoke-static {v0}, Landroid/widget/MzActionMenuPresenter;->access$200(Landroid/widget/MzActionMenuPresenter;)Landroid/widget/MzActionMenuPresenter$OverflowPopup;
 
     move-result-object v0
 
@@ -105,7 +105,7 @@
     iget-object v0, v0, Landroid/widget/MzActionMenuPresenter$OverflowMenuButton;->this$0:Landroid/widget/MzActionMenuPresenter;
 
     # getter for: Landroid/widget/MzActionMenuPresenter;->mPostedOpenRunnable:Landroid/widget/MzActionMenuPresenter$OpenOverflowRunnable;
-    invoke-static {v0}, Landroid/widget/MzActionMenuPresenter;->access$iget-mPostedOpenRunnable-a135d5(Landroid/widget/MzActionMenuPresenter;)Landroid/widget/MzActionMenuPresenter$OpenOverflowRunnable;
+    invoke-static {v0}, Landroid/widget/MzActionMenuPresenter;->access$300(Landroid/widget/MzActionMenuPresenter;)Landroid/widget/MzActionMenuPresenter$OpenOverflowRunnable;
 
     move-result-object v0
 
