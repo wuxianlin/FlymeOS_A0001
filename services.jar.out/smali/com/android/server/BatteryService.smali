@@ -6,8 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/android/server/BatteryService$MzInjector;,
         Lcom/android/server/BatteryService$SettingsObserver;,
+        Lcom/android/server/BatteryService$MzInjector;,
         Lcom/android/server/BatteryService$LocalService;,
         Lcom/android/server/BatteryService$BinderService;,
         Lcom/android/server/BatteryService$BatteryListener;,
@@ -302,6 +302,7 @@
 
     .line 176
     :cond_0
+
     invoke-static/range {p0 .. p0}, Lcom/android/server/BatteryService$MzInjector;->registerBootCompleted(Lcom/android/server/BatteryService;)V
 
     return-void
@@ -3061,7 +3062,11 @@
     .prologue
     sget-boolean v0, Lcom/android/server/BatteryService$MzInjector;->mEnableScreen:Z
 
-    if-eqz v0, :cond_flyme_0
+    if-nez v0, :cond_flyme_0
+
+    return-void
+
+    :cond_flyme_0
 
     iget-object v0, p0, Lcom/android/server/BatteryService;->mBatteryProps:Landroid/os/BatteryProperties;
 
@@ -3088,7 +3093,6 @@
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
     :cond_0
-    :cond_flyme_0
     return-void
 .end method
 
@@ -3098,10 +3102,12 @@
     .prologue
     sget-boolean v0, Lcom/android/server/BatteryService$MzInjector;->mEnableScreen:Z
 
-    if-eqz v0, :cond_flyme_0
+    if-nez v0, :cond_flyme_0
 
-    
-    
+    return-void
+
+    :cond_flyme_0
+
     iget-object v0, p0, Lcom/android/server/BatteryService;->mBatteryProps:Landroid/os/BatteryProperties;
 
     iget v0, v0, Landroid/os/BatteryProperties;->batteryTemperature:I
@@ -3121,7 +3127,6 @@
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
     :cond_0
-    :cond_flyme_0
     return-void
 .end method
 
@@ -3402,84 +3407,6 @@
 
     goto :goto_0
 .end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1000(Lcom/android/server/BatteryService;Ljava/io/PrintWriter;[Ljava/lang/String;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/BatteryService;
-#    .param p1, "x1"    # Ljava/io/PrintWriter;
-#    .param p2, "x2"    # [Ljava/lang/String;
-#    .prologue
-#    invoke-direct {p0, p1, p2}, Lcom/android/server/BatteryService;->dumpInternal(Ljava/io/PrintWriter;[Ljava/lang/String;)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1100(Lcom/android/server/BatteryService;I)Z
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/BatteryService;
-#    .param p1, "x1"    # I
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/BatteryService;->isPoweredLocked(I)Z
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$500(Lcom/android/server/BatteryService;)Landroid/content/Context;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/BatteryService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/BatteryService;->mContext:Landroid/content/Context;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$600(Lcom/android/server/BatteryService;)I
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/BatteryService;
-#    .prologue
-#    iget v0, p0, Lcom/android/server/BatteryService;->mInvalidCharger:I
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$602(Lcom/android/server/BatteryService;I)I
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/BatteryService;
-#    .param p1, "x1"    # I
-#    .prologue
-#    iput p1, p0, Lcom/android/server/BatteryService;->mInvalidCharger:I
-#    return p1
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$700(Lcom/android/server/BatteryService;)Landroid/os/BatteryProperties;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/BatteryService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/BatteryService;->mBatteryProps:Landroid/os/BatteryProperties;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$800(Lcom/android/server/BatteryService;)I
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/BatteryService;
-#    .prologue
-#    iget v0, p0, Lcom/android/server/BatteryService;->mLowBatteryWarningLevel:I
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$900(Lcom/android/server/BatteryService;Landroid/os/BatteryProperties;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/BatteryService;
-#    .param p1, "x1"    # Landroid/os/BatteryProperties;
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/BatteryService;->update(Landroid/os/BatteryProperties;)V
-#    return-void
-#.end method
 
 .method mzGetFieldBatteryProps()Landroid/os/BatteryProperties;
     .locals 1

@@ -17,18 +17,6 @@
 
 
 # static fields
-.field public static final CALL_SUBSTATE_AUDIO_CONNECTED_SUSPENDED:I = 0x1
-
-.field public static final CALL_SUBSTATE_AVP_RETRY:I = 0x4
-
-.field public static final CALL_SUBSTATE_MEDIA_PAUSED:I = 0x8
-
-.field public static final CALL_SUBSTATE_NONE:I = 0x0
-
-.field public static final CALL_SUBSTATE_VIDEO_CONNECTED_SUSPENDED:I = 0x2
-
-.field private static final DBG:Z = false
-
 .field public static final CAPABILITY_DISCONNECT_FROM_CONFERENCE:I = 0x2000
 
 .field public static final CAPABILITY_GENERIC_CONFERENCE:I = 0x4000
@@ -60,6 +48,18 @@
 .field public static final CAPABILITY_VoWIFI:I = 0x800
 
 .field public static final STATE_ALERTING:I = 0x7
+
+.field public static final CALL_SUBSTATE_AUDIO_CONNECTED_SUSPENDED:I = 0x1
+
+.field public static final CALL_SUBSTATE_AVP_RETRY:I = 0x4
+
+.field public static final CALL_SUBSTATE_MEDIA_PAUSED:I = 0x8
+
+.field public static final CALL_SUBSTATE_NONE:I = 0x0
+
+.field public static final CALL_SUBSTATE_VIDEO_CONNECTED_SUSPENDED:I = 0x2
+
+.field private static final DBG:Z = false
 
 .field private static final PII_DEBUG:Z
 

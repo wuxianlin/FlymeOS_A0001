@@ -2389,12 +2389,3 @@
 
     goto/16 :goto_3
 .end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$000(Landroid/content/Context;)V
-#    .locals 0
-#    .param p0, "x0"    # Landroid/content/Context;
-#    .prologue
-#    invoke-static {p0}, Lcom/android/server/power/ShutdownThread;->beginShutdownSequence(Landroid/content/Context;)V
-#    return-void
-#.end method

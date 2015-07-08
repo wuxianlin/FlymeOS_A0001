@@ -127,15 +127,6 @@
     return-object v0
 .end method
 
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$300(Lcom/android/server/wallpaper/WallpaperManagerService$WallpaperData;)Landroid/os/RemoteCallbackList;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/wallpaper/WallpaperManagerService$WallpaperData;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/wallpaper/WallpaperManagerService$WallpaperData;->callbacks:Landroid/os/RemoteCallbackList;
-#    return-object v0
-#.end method
-
 .method private initFlymeWallpaperData()V
     .locals 1
 

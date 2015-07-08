@@ -1039,6 +1039,7 @@
 
     .end local v1    # "intent":Landroid/content/Intent;
     :cond_2
+
     invoke-virtual/range {p0 .. p2}, Lcom/android/server/BluetoothManagerService;->mzChangeBluetoothName(II)V
 
     return-void
@@ -3180,7 +3181,13 @@
 
     move-result v3
 
-    if-eqz v3, :cond_flyme_0
+    if-nez v3, :cond_flyme_0
+
+    const/4 v2, 0x0
+
+    return v2
+
+    :cond_flyme_0
 
     .line 490
     iget-object v3, p0, Lcom/android/server/BluetoothManagerService;->mReceiver:Landroid/content/BroadcastReceiver;
@@ -3232,12 +3239,6 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     throw v2
-
-    :cond_flyme_0
-
-    const/4 v2, 0x0
-
-    return v2
 .end method
 
 .method doBind(Landroid/content/Intent;Landroid/content/ServiceConnection;ILandroid/os/UserHandle;)Z
@@ -4421,142 +4422,6 @@
     .line 392
     return-void
 .end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1700(Lcom/android/server/BluetoothManagerService;ZZ)Z
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/BluetoothManagerService;
-#    .param p1, "x1"    # Z
-#    .param p2, "x2"    # Z
-#    .prologue
-#    invoke-direct {p0, p1, p2}, Lcom/android/server/BluetoothManagerService;->waitForOnOff(ZZ)Z
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2202(Lcom/android/server/BluetoothManagerService;Landroid/bluetooth/IBluetoothGatt;)Landroid/bluetooth/IBluetoothGatt;
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/BluetoothManagerService;
-#    .param p1, "x1"    # Landroid/bluetooth/IBluetoothGatt;
-#    .prologue
-#    iput-object p1, p0, Lcom/android/server/BluetoothManagerService;->mBluetoothGatt:Landroid/bluetooth/IBluetoothGatt;
-#    return-object p1
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2300(Lcom/android/server/BluetoothManagerService;)Landroid/content/ContentResolver;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/BluetoothManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/BluetoothManagerService;->mContentResolver:Landroid/content/ContentResolver;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2400(Lcom/android/server/BluetoothManagerService;)Landroid/bluetooth/IBluetoothCallback;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/BluetoothManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/BluetoothManagerService;->mBluetoothCallback:Landroid/bluetooth/IBluetoothCallback;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2500(Lcom/android/server/BluetoothManagerService;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/BluetoothManagerService;
-#    .prologue
-#    invoke-direct {p0}, Lcom/android/server/BluetoothManagerService;->sendBluetoothServiceUpCallback()V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2600(Lcom/android/server/BluetoothManagerService;)Z
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/BluetoothManagerService;
-#    .prologue
-#    iget-boolean v0, p0, Lcom/android/server/BluetoothManagerService;->mQuietEnable:Z
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2700(Lcom/android/server/BluetoothManagerService;)I
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/BluetoothManagerService;
-#    .prologue
-#    iget v0, p0, Lcom/android/server/BluetoothManagerService;->mState:I
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2702(Lcom/android/server/BluetoothManagerService;I)I
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/BluetoothManagerService;
-#    .param p1, "x1"    # I
-#    .prologue
-#    iput p1, p0, Lcom/android/server/BluetoothManagerService;->mState:I
-#    return p1
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2800(Lcom/android/server/BluetoothManagerService;II)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/BluetoothManagerService;
-#    .param p1, "x1"    # I
-#    .param p2, "x2"    # I
-#    .prologue
-#    invoke-direct {p0, p1, p2}, Lcom/android/server/BluetoothManagerService;->bluetoothStateChangeHandler(II)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3000(Lcom/android/server/BluetoothManagerService;)I
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/BluetoothManagerService;
-#    .prologue
-#    iget v0, p0, Lcom/android/server/BluetoothManagerService;->mErrorRecoveryRetryCounter:I
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3002(Lcom/android/server/BluetoothManagerService;I)I
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/BluetoothManagerService;
-#    .param p1, "x1"    # I
-#    .prologue
-#    iput p1, p0, Lcom/android/server/BluetoothManagerService;->mErrorRecoveryRetryCounter:I
-#    return p1
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3100(Lcom/android/server/BluetoothManagerService;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/BluetoothManagerService;
-#    .prologue
-#    invoke-direct {p0}, Lcom/android/server/BluetoothManagerService;->sendBluetoothServiceDownCallback()V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3202(Lcom/android/server/BluetoothManagerService;Z)Z
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/BluetoothManagerService;
-#    .param p1, "x1"    # Z
-#    .prologue
-#    iput-boolean p1, p0, Lcom/android/server/BluetoothManagerService;->mUnbinding:Z
-#    return p1
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3300(Lcom/android/server/BluetoothManagerService;)Landroid/content/Context;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/BluetoothManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/BluetoothManagerService;->mContext:Landroid/content/Context;
-#    return-object v0
-#.end method
-
 
 .method private hook_checkIfCallerIsForegroundUser()Z
     .locals 1

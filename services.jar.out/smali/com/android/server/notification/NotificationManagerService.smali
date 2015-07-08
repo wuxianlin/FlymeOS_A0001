@@ -117,11 +117,11 @@
 
 
 # instance fields
-.field private mActiveMedia:Z
-
 .field mFlymeStatusBarService:Lmeizu/statusbar/IFlymeStatusBarService;
 
 .field mServiceAquireLock:Ljava/lang/Object;
+
+.field private mActiveMedia:Z
 
 .field private mAm:Landroid/app/IActivityManager;
 
@@ -433,98 +433,115 @@
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mRankingThread:Landroid/os/HandlerThread;
 
+    .line 211
     invoke-static {}, Ljava/util/concurrent/Executors;->newSingleThreadExecutor()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mSpamExecutor:Ljava/util/concurrent/ExecutorService;
 
+    .line 228
     new-instance v0, Landroid/util/ArraySet;
 
     invoke-direct {v0}, Landroid/util/ArraySet;-><init>()V
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mListenersDisablingEffects:Landroid/util/ArraySet;
 
+    .line 234
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/android/server/notification/NotificationManagerService;->mScreenOn:Z
 
+    .line 235
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/android/server/notification/NotificationManagerService;->mInCall:Z
 
+    .line 244
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mNotificationList:Ljava/util/ArrayList;
 
+    .line 246
     new-instance v0, Landroid/util/ArrayMap;
 
     invoke-direct {v0}, Landroid/util/ArrayMap;-><init>()V
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mNotificationsByKey:Landroid/util/ArrayMap;
 
+    .line 248
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mToastQueue:Ljava/util/ArrayList;
 
+    .line 250
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mLights:Ljava/util/ArrayList;
 
+    .line 259
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mBlockedPackages:Ljava/util/HashSet;
 
+    .line 272
     new-instance v0, Lcom/android/server/notification/ManagedServices$UserProfiles;
 
     invoke-direct {v0}, Lcom/android/server/notification/ManagedServices$UserProfiles;-><init>()V
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mUserProfiles:Lcom/android/server/notification/ManagedServices$UserProfiles;
 
+    .line 534
     new-instance v0, Lcom/android/server/notification/NotificationManagerService$1;
 
     invoke-direct {v0, p0}, Lcom/android/server/notification/NotificationManagerService$1;-><init>(Lcom/android/server/notification/NotificationManagerService;)V
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mNotificationDelegate:Lcom/android/server/notification/NotificationDelegate;
 
+    .line 695
     new-instance v0, Lcom/android/server/notification/NotificationManagerService$2;
 
     invoke-direct {v0, p0}, Lcom/android/server/notification/NotificationManagerService$2;-><init>(Lcom/android/server/notification/NotificationManagerService;)V
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mIntentReceiver:Landroid/content/BroadcastReceiver;
 
+    .line 888
     new-instance v0, Lcom/android/server/notification/NotificationManagerService$3;
 
     invoke-direct {v0, p0}, Lcom/android/server/notification/NotificationManagerService$3;-><init>(Lcom/android/server/notification/NotificationManagerService;)V
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mBuzzBeepBlinked:Ljava/lang/Runnable;
 
+    .line 1112
     new-instance v0, Lcom/android/server/notification/NotificationManagerService$5;
 
     invoke-direct {v0, p0}, Lcom/android/server/notification/NotificationManagerService$5;-><init>(Lcom/android/server/notification/NotificationManagerService;)V
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mService:Landroid/os/IBinder;
 
+    .line 1774
     new-instance v0, Lcom/android/server/notification/NotificationManagerService$6;
 
     invoke-direct {v0, p0}, Lcom/android/server/notification/NotificationManagerService$6;-><init>(Lcom/android/server/notification/NotificationManagerService;)V
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mInternalService:Lcom/android/server/notification/NotificationManagerInternal;
 
+    .line 1979
     new-instance v0, Lcom/android/server/notification/NotificationManagerService$8;
 
     invoke-direct {v0, p0}, Lcom/android/server/notification/NotificationManagerService$8;-><init>(Lcom/android/server/notification/NotificationManagerService;)V
 
     iput-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mSessionListener:Landroid/media/session/MediaSessionManager$OnActiveSessionsChangedListener;
 
+    .line 910
     new-instance v0, Landroid/util/LruCache;
 
     const/16 v1, 0x64
@@ -535,6 +552,7 @@
 
     invoke-virtual/range {p0 .. p0}, Lcom/android/server/notification/NotificationManagerService;->initServiceAquireLock()V
 
+    .line 911
     return-void
 .end method
 
@@ -544,6 +562,7 @@
     .param p1, "x1"    # Z
 
     .prologue
+    .line 140
     iput-boolean p1, p0, Lcom/android/server/notification/NotificationManagerService;->mDisableNotificationEffects:Z
 
     return p1
@@ -555,6 +574,7 @@
     .param p1, "x1"    # Lcom/android/server/notification/NotificationRecord;
 
     .prologue
+    .line 140
     invoke-direct {p0, p1}, Lcom/android/server/notification/NotificationManagerService;->disableNotificationEffects(Lcom/android/server/notification/NotificationRecord;)Ljava/lang/String;
 
     move-result-object v0
@@ -567,6 +587,7 @@
     .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
 
     .prologue
+    .line 140
     iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mNotificationLight:Lcom/android/server/lights/Light;
 
     return-object v0
@@ -577,6 +598,7 @@
     .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
 
     .prologue
+    .line 140
     iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mSettingsObserver:Lcom/android/server/notification/NotificationManagerService$SettingsObserver;
 
     return-object v0
@@ -587,6 +609,7 @@
     .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
 
     .prologue
+    .line 140
     iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mUserProfiles:Lcom/android/server/notification/ManagedServices$UserProfiles;
 
     return-object v0
@@ -598,6 +621,7 @@
     .param p1, "x1"    # Z
 
     .prologue
+    .line 140
     iput-boolean p1, p0, Lcom/android/server/notification/NotificationManagerService;->mNotificationPulseEnabled:Z
 
     return p1
@@ -608,6 +632,7 @@
     .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
 
     .prologue
+    .line 140
     iget v0, p0, Lcom/android/server/notification/NotificationManagerService;->mDefaultNotificationColor:I
 
     return v0
@@ -619,6 +644,7 @@
     .param p1, "x1"    # I
 
     .prologue
+    .line 140
     iput p1, p0, Lcom/android/server/notification/NotificationManagerService;->mDefaultNotificationColor:I
 
     return p1
@@ -629,6 +655,7 @@
     .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
 
     .prologue
+    .line 140
     iget v0, p0, Lcom/android/server/notification/NotificationManagerService;->mDefaultNotificationLedOn:I
 
     return v0
@@ -640,6 +667,7 @@
     .param p1, "x1"    # I
 
     .prologue
+    .line 140
     iput p1, p0, Lcom/android/server/notification/NotificationManagerService;->mDefaultNotificationLedOn:I
 
     return p1
@@ -650,6 +678,7 @@
     .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
 
     .prologue
+    .line 140
     iget v0, p0, Lcom/android/server/notification/NotificationManagerService;->mDefaultNotificationLedOff:I
 
     return v0
@@ -661,6 +690,7 @@
     .param p1, "x1"    # I
 
     .prologue
+    .line 140
     iput p1, p0, Lcom/android/server/notification/NotificationManagerService;->mDefaultNotificationLedOff:I
 
     return p1
@@ -671,6 +701,7 @@
     .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
 
     .prologue
+    .line 140
     iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mNotificationPulseCustomLedValues:Ljava/util/HashMap;
 
     return-object v0
@@ -682,9 +713,9 @@
     .param p1, "x1"    # Ljava/lang/String;
 
     .prologue
+    .line 140
     invoke-direct {p0, p1}, Lcom/android/server/notification/NotificationManagerService;->parseNotificationPulseCustomValuesString(Ljava/lang/String;)V
 
-    .line 911
     return-void
 .end method
 
@@ -9354,397 +9385,6 @@
     goto :goto_5
 .end method
 
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1000(Lcom/android/server/notification/NotificationManagerService;)Lcom/android/server/notification/NotificationManagerService$SettingsObserver;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mSettingsObserver:Lcom/android/server/notification/NotificationManagerService$SettingsObserver;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1100(Lcom/android/server/notification/NotificationManagerService;)Lcom/android/server/notification/ManagedServices$UserProfiles;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mUserProfiles:Lcom/android/server/notification/ManagedServices$UserProfiles;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1200(Lcom/android/server/notification/NotificationManagerService;)Z
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget-boolean v0, p0, Lcom/android/server/notification/NotificationManagerService;->mNotificationPulseEnabled:Z
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1202(Lcom/android/server/notification/NotificationManagerService;Z)Z
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .param p1, "x1"    # Z
-#    .prologue
-#    iput-boolean p1, p0, Lcom/android/server/notification/NotificationManagerService;->mNotificationPulseEnabled:Z
-#    return p1
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1400(Lcom/android/server/notification/NotificationManagerService;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    invoke-direct {p0}, Lcom/android/server/notification/NotificationManagerService;->updateInterruptionFilterLocked()V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1500()Z
-#    .locals 1
-#    .prologue
-#    invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->isCallerSystem()Z
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1600(Lcom/android/server/notification/NotificationManagerService;Ljava/lang/String;I)Z
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .param p1, "x1"    # Ljava/lang/String;
-#    .param p2, "x2"    # I
-#    .prologue
-#    invoke-direct {p0, p1, p2}, Lcom/android/server/notification/NotificationManagerService;->noteNotificationOp(Ljava/lang/String;I)Z
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1700(Ljava/lang/String;)V
-#    .locals 0
-#    .param p0, "x0"    # Ljava/lang/String;
-#    .prologue
-#    invoke-static {p0}, Lcom/android/server/notification/NotificationManagerService;->checkCallerIsSystemOrSameApp(Ljava/lang/String;)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1800()V
-#    .locals 0
-#    .prologue
-#    invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->checkCallerIsSystem()V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1900(Lcom/android/server/notification/NotificationManagerService;)Landroid/app/AppOpsManager;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mAppOps:Landroid/app/AppOpsManager;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$200()I
-#    .locals 1
-#    .prologue
-#    sget v0, Lcom/android/server/notification/NotificationManagerService;->MY_UID:I
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2000(Lcom/android/server/notification/NotificationManagerService;)Lcom/android/server/notification/RankingHelper;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mRankingHelper:Lcom/android/server/notification/RankingHelper;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2100(Lcom/android/server/notification/NotificationManagerService;)Lcom/android/server/notification/NotificationManagerService$Archive;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mArchive:Lcom/android/server/notification/NotificationManagerService$Archive;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2200(Lcom/android/server/notification/NotificationManagerService;Landroid/service/notification/StatusBarNotification;Lcom/android/server/notification/ManagedServices$ManagedServiceInfo;)Z
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .param p1, "x1"    # Landroid/service/notification/StatusBarNotification;
-#    .param p2, "x2"    # Lcom/android/server/notification/ManagedServices$ManagedServiceInfo;
-#    .prologue
-#    invoke-direct {p0, p1, p2}, Lcom/android/server/notification/NotificationManagerService;->isVisibleToListener(Landroid/service/notification/StatusBarNotification;Lcom/android/server/notification/ManagedServices$ManagedServiceInfo;)Z
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2300(Lcom/android/server/notification/NotificationManagerService;)Landroid/util/ArraySet;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mListenersDisablingEffects:Landroid/util/ArraySet;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2400(Lcom/android/server/notification/NotificationManagerService;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    invoke-direct {p0}, Lcom/android/server/notification/NotificationManagerService;->updateListenerHintsLocked()V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2500(Lcom/android/server/notification/NotificationManagerService;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    invoke-direct {p0}, Lcom/android/server/notification/NotificationManagerService;->updateEffectsSuppressorLocked()V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2600(Lcom/android/server/notification/NotificationManagerService;)I
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget v0, p0, Lcom/android/server/notification/NotificationManagerService;->mListenerHints:I
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2700(Lcom/android/server/notification/NotificationManagerService;)Lcom/android/server/notification/ZenModeHelper;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mZenModeHelper:Lcom/android/server/notification/ZenModeHelper;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2800(Lcom/android/server/notification/NotificationManagerService;)I
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget v0, p0, Lcom/android/server/notification/NotificationManagerService;->mInterruptionFilter:I
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2900(Lcom/android/server/notification/NotificationManagerService;)Landroid/content/ComponentName;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mEffectsSuppressor:Landroid/content/ComponentName;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3100(Lcom/android/server/notification/NotificationManagerService;Lcom/android/server/notification/NotificationRecord;IILjava/lang/String;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .param p1, "x1"    # Lcom/android/server/notification/NotificationRecord;
-#    .param p2, "x2"    # I
-#    .param p3, "x3"    # I
-#    .param p4, "x4"    # Ljava/lang/String;
-#    .prologue
-#    invoke-direct {p0, p1, p2, p3, p4}, Lcom/android/server/notification/NotificationManagerService;->cancelGroupChildrenLocked(Lcom/android/server/notification/NotificationRecord;IILjava/lang/String;)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3200(Lcom/android/server/notification/NotificationManagerService;)Lcom/android/server/notification/NotificationUsageStats;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mUsageStats:Lcom/android/server/notification/NotificationUsageStats;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3300(Lcom/android/server/notification/NotificationManagerService;Lcom/android/server/notification/NotificationRecord;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .param p1, "x1"    # Lcom/android/server/notification/NotificationRecord;
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/notification/NotificationManagerService;->applyZenModeLocked(Lcom/android/server/notification/NotificationRecord;)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3400(Lcom/android/server/notification/NotificationManagerService;Lcom/android/server/notification/NotificationRecord;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .param p1, "x1"    # Lcom/android/server/notification/NotificationRecord;
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/notification/NotificationManagerService;->buzzBeepBlinkLocked(Lcom/android/server/notification/NotificationRecord;)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3500(Lcom/android/server/notification/NotificationManagerService;Lcom/android/server/notification/NotificationManagerService$ToastRecord;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .param p1, "x1"    # Lcom/android/server/notification/NotificationManagerService$ToastRecord;
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/notification/NotificationManagerService;->handleTimeout(Lcom/android/server/notification/NotificationManagerService$ToastRecord;)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3600(Lcom/android/server/notification/NotificationManagerService;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    invoke-direct {p0}, Lcom/android/server/notification/NotificationManagerService;->handleSavePolicyFile()V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3700(Lcom/android/server/notification/NotificationManagerService;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    invoke-direct {p0}, Lcom/android/server/notification/NotificationManagerService;->handleSendRankingUpdate()V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3800(Lcom/android/server/notification/NotificationManagerService;I)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .param p1, "x1"    # I
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/notification/NotificationManagerService;->handleListenerHintsChanged(I)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3900(Lcom/android/server/notification/NotificationManagerService;I)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .param p1, "x1"    # I
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/notification/NotificationManagerService;->handleListenerInterruptionFilterChanged(I)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$400(Lcom/android/server/notification/NotificationManagerService;)Lcom/android/server/notification/NotificationManagerService$NotificationListeners;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mListeners:Lcom/android/server/notification/NotificationManagerService$NotificationListeners;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$4000(Lcom/android/server/notification/NotificationManagerService;Landroid/os/Message;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .param p1, "x1"    # Landroid/os/Message;
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/notification/NotificationManagerService;->handleRankingReconsideration(Landroid/os/Message;)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$4100(Lcom/android/server/notification/NotificationManagerService;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    invoke-direct {p0}, Lcom/android/server/notification/NotificationManagerService;->handleRankingConfigChange()V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$4200(Lcom/android/server/notification/NotificationManagerService;Lcom/android/server/notification/NotificationRecord;ZI)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .param p1, "x1"    # Lcom/android/server/notification/NotificationRecord;
-#    .param p2, "x2"    # Z
-#    .param p3, "x3"    # I
-#    .prologue
-#    invoke-direct {p0, p1, p2, p3}, Lcom/android/server/notification/NotificationManagerService;->cancelNotificationLocked(Lcom/android/server/notification/NotificationRecord;ZI)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$4300(Lcom/android/server/notification/NotificationManagerService;)I
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget v0, p0, Lcom/android/server/notification/NotificationManagerService;->mCallState:I
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$4302(Lcom/android/server/notification/NotificationManagerService;I)I
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .param p1, "x1"    # I
-#    .prologue
-#    iput p1, p0, Lcom/android/server/notification/NotificationManagerService;->mCallState:I
-#    return p1
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$4400(Lcom/android/server/notification/NotificationManagerService;)Lcom/android/server/notification/NotificationManagerService$WorkerHandler;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mHandler:Lcom/android/server/notification/NotificationManagerService$WorkerHandler;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$4500(Lcom/android/server/notification/NotificationManagerService;Lcom/android/server/notification/ManagedServices$ManagedServiceInfo;)Landroid/service/notification/NotificationRankingUpdate;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .param p1, "x1"    # Lcom/android/server/notification/ManagedServices$ManagedServiceInfo;
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/notification/NotificationManagerService;->makeRankingUpdateLocked(Lcom/android/server/notification/ManagedServices$ManagedServiceInfo;)Landroid/service/notification/NotificationRankingUpdate;
-#    move-result-object v0
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$500(Lcom/android/server/notification/NotificationManagerService;)Lcom/android/server/notification/ConditionProviders;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mConditionProviders:Lcom/android/server/notification/ConditionProviders;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$602(Lcom/android/server/notification/NotificationManagerService;Z)Z
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .param p1, "x1"    # Z
-#    .prologue
-#    iput-boolean p1, p0, Lcom/android/server/notification/NotificationManagerService;->mScreenOn:Z
-#    return p1
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$900(Lcom/android/server/notification/NotificationManagerService;)Lcom/android/server/lights/Light;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/notification/NotificationManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService;->mNotificationLight:Lcom/android/server/lights/Light;
-#    return-object v0
-#.end method
-
 .method getFlymeStatusBarService()Lmeizu/statusbar/IFlymeStatusBarService;
     .locals 2
 
@@ -9787,33 +9427,21 @@
     throw v0
 .end method
 
-.method public hookEnqueueNotification(Landroid/app/Notification;Landroid/service/notification/StatusBarNotification;Lcom/android/server/notification/NotificationRecord;)V
-    .locals 9
+.method public hookEnqueueNotification(Landroid/app/Notification;Lcom/android/server/notification/NotificationRecord;Landroid/service/notification/StatusBarNotification;Lcom/android/server/notification/NotificationRecord;)V
+    .locals 8
     .param p1, "notification"    # Landroid/app/Notification;
-    .param p2, "n"    # Landroid/service/notification/StatusBarNotification;
-    .param p3, "r"    # Lcom/android/server/notification/NotificationRecord;
+    .param p2, "old"    # Lcom/android/server/notification/NotificationRecord;
+    .param p3, "n"    # Landroid/service/notification/StatusBarNotification;
+    .param p4, "r"    # Lcom/android/server/notification/NotificationRecord;
 
     .prologue
-    iget-object v6, p0, Lcom/android/server/notification/NotificationManagerService;->mNotificationsByKey:Landroid/util/ArrayMap;
+    if-eqz p2, :cond_0
 
-    invoke-virtual {p2}, Landroid/service/notification/StatusBarNotification;->getKey()Ljava/lang/String;
-
-    move-result-object v7
-
-    invoke-virtual {v6, v7}, Landroid/util/ArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p2}, Lcom/android/server/notification/NotificationRecord;->getNotification()Landroid/app/Notification;
 
     move-result-object v1
 
-    check-cast v1, Lcom/android/server/notification/NotificationRecord;
-
-    .local v1, "old":Lcom/android/server/notification/NotificationRecord;
-    if-eqz v1, :cond_0
-
-    invoke-virtual {v1}, Lcom/android/server/notification/NotificationRecord;->getNotification()Landroid/app/Notification;
-
-    move-result-object v6
-
-    iget-wide v6, v6, Landroid/app/Notification;->when:J
+    iget-wide v6, v1, Landroid/app/Notification;->when:J
 
     iput-wide v6, p1, Landroid/app/Notification;->when:J
 
@@ -9833,29 +9461,29 @@
     .local v0, "currentUser":I
     invoke-static {v4, v5}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
-    iget v6, p1, Landroid/app/Notification;->icon:I
+    iget v1, p1, Landroid/app/Notification;->icon:I
 
-    if-eqz v6, :cond_4
+    if-eqz v1, :cond_4
 
     invoke-virtual {p0}, Lcom/android/server/notification/NotificationManagerService;->getContext()Landroid/content/Context;
 
+    move-result-object v1
+
+    invoke-virtual {p3}, Landroid/service/notification/StatusBarNotification;->getNotification()Landroid/app/Notification;
+
     move-result-object v6
 
-    invoke-virtual {p2}, Landroid/service/notification/StatusBarNotification;->getNotification()Landroid/app/Notification;
-
-    move-result-object v7
-
-    invoke-static {v6, v7}, Landroid/app/Notification$Builder;->rebuild(Landroid/content/Context;Landroid/app/Notification;)Landroid/app/Notification;
+    invoke-static {v1, v6}, Landroid/app/Notification$Builder;->rebuild(Landroid/content/Context;Landroid/app/Notification;)Landroid/app/Notification;
 
     invoke-virtual {p0}, Lcom/android/server/notification/NotificationManagerService;->getFlymeStatusBarService()Lmeizu/statusbar/IFlymeStatusBarService;
 
-    move-result-object v6
+    move-result-object v1
 
-    iput-object v6, p0, Lcom/android/server/notification/NotificationManagerService;->mFlymeStatusBarService:Lmeizu/statusbar/IFlymeStatusBarService;
+    iput-object v1, p0, Lcom/android/server/notification/NotificationManagerService;->mFlymeStatusBarService:Lmeizu/statusbar/IFlymeStatusBarService;
 
-    iget-object v6, p0, Lcom/android/server/notification/NotificationManagerService;->mFlymeStatusBarService:Lmeizu/statusbar/IFlymeStatusBarService;
+    iget-object v1, p0, Lcom/android/server/notification/NotificationManagerService;->mFlymeStatusBarService:Lmeizu/statusbar/IFlymeStatusBarService;
 
-    if-nez v6, :cond_2
+    if-nez v1, :cond_2
 
     :cond_1
     :goto_0
@@ -9863,23 +9491,23 @@
 
     .end local v0    # "currentUser":I
     :catchall_0
-    move-exception v6
+    move-exception v1
 
     invoke-static {v4, v5}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
-    throw v6
+    throw v1
 
     .restart local v0    # "currentUser":I
     :cond_2
+    if-eqz p2, :cond_3
+
+    iget-object v1, p2, Lcom/android/server/notification/NotificationRecord;->statusBarKey:Landroid/os/IBinder;
+
     if-eqz v1, :cond_3
 
-    iget-object v6, v1, Lcom/android/server/notification/NotificationRecord;->statusBarKey:Landroid/os/IBinder;
+    iget-object v1, p2, Lcom/android/server/notification/NotificationRecord;->statusBarKey:Landroid/os/IBinder;
 
-    if-eqz v6, :cond_3
-
-    iget-object v6, v1, Lcom/android/server/notification/NotificationRecord;->statusBarKey:Landroid/os/IBinder;
-
-    iput-object v6, p3, Lcom/android/server/notification/NotificationRecord;->statusBarKey:Landroid/os/IBinder;
+    iput-object v1, p4, Lcom/android/server/notification/NotificationRecord;->statusBarKey:Landroid/os/IBinder;
 
     invoke-static {}, Landroid/os/Binder;->clearCallingIdentity()J
 
@@ -9887,11 +9515,11 @@
 
     .local v2, "identity":J
     :try_start_1
-    iget-object v6, p0, Lcom/android/server/notification/NotificationManagerService;->mFlymeStatusBarService:Lmeizu/statusbar/IFlymeStatusBarService;
+    iget-object v1, p0, Lcom/android/server/notification/NotificationManagerService;->mFlymeStatusBarService:Lmeizu/statusbar/IFlymeStatusBarService;
 
-    iget-object v7, p3, Lcom/android/server/notification/NotificationRecord;->statusBarKey:Landroid/os/IBinder;
+    iget-object v6, p4, Lcom/android/server/notification/NotificationRecord;->statusBarKey:Landroid/os/IBinder;
 
-    invoke-interface {v6, v7, p2}, Lmeizu/statusbar/IFlymeStatusBarService;->updateNotification(Landroid/os/IBinder;Landroid/service/notification/StatusBarNotification;)V
+    invoke-interface {v1, v6, p3}, Lmeizu/statusbar/IFlymeStatusBarService;->updateNotification(Landroid/os/IBinder;Landroid/service/notification/StatusBarNotification;)V
     :try_end_1
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
@@ -9901,18 +9529,18 @@
     goto :goto_0
 
     :catch_0
-    move-exception v6
+    move-exception v1
 
     invoke-static {v2, v3}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     goto :goto_0
 
     :catchall_1
-    move-exception v6
+    move-exception v1
 
     invoke-static {v2, v3}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
-    throw v6
+    throw v1
 
     .end local v2    # "identity":J
     :cond_3
@@ -9922,13 +9550,13 @@
 
     .restart local v2    # "identity":J
     :try_start_2
-    iget-object v6, p0, Lcom/android/server/notification/NotificationManagerService;->mFlymeStatusBarService:Lmeizu/statusbar/IFlymeStatusBarService;
+    iget-object v1, p0, Lcom/android/server/notification/NotificationManagerService;->mFlymeStatusBarService:Lmeizu/statusbar/IFlymeStatusBarService;
 
-    invoke-interface {v6, p2}, Lmeizu/statusbar/IFlymeStatusBarService;->addNotification(Landroid/service/notification/StatusBarNotification;)Landroid/os/IBinder;
+    invoke-interface {v1, p3}, Lmeizu/statusbar/IFlymeStatusBarService;->addNotification(Landroid/service/notification/StatusBarNotification;)Landroid/os/IBinder;
 
-    move-result-object v6
+    move-result-object v1
 
-    iput-object v6, p3, Lcom/android/server/notification/NotificationRecord;->statusBarKey:Landroid/os/IBinder;
+    iput-object v1, p4, Lcom/android/server/notification/NotificationRecord;->statusBarKey:Landroid/os/IBinder;
     :try_end_2
     .catch Landroid/os/RemoteException; {:try_start_2 .. :try_end_2} :catch_1
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
@@ -9938,48 +9566,48 @@
     goto :goto_0
 
     :catch_1
-    move-exception v6
+    move-exception v1
 
     invoke-static {v2, v3}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     goto :goto_0
 
     :catchall_2
-    move-exception v6
+    move-exception v1
 
     invoke-static {v2, v3}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
-    throw v6
+    throw v1
 
     .end local v2    # "identity":J
     :cond_4
-    const-string v6, "NotificationService"
+    const-string v1, "NotificationService"
 
-    new-instance v7, Ljava/lang/StringBuilder;
+    new-instance v6, Ljava/lang/StringBuilder;
 
-    invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v8, "Not posting notification with icon==0: "
+    const-string v7, "Not posting notification with icon==0: "
 
-    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result-object v7
+    move-result-object v6
 
-    invoke-virtual {v7, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    move-result-object v7
+    move-result-object v6
 
-    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    move-result-object v7
+    move-result-object v6
 
-    invoke-static {v6, v7}, Landroid/util/Slog;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v6}, Landroid/util/Slog;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    if-eqz p2, :cond_1
+
+    iget-object v1, p2, Lcom/android/server/notification/NotificationRecord;->statusBarKey:Landroid/os/IBinder;
 
     if-eqz v1, :cond_1
-
-    iget-object v6, v1, Lcom/android/server/notification/NotificationRecord;->statusBarKey:Landroid/os/IBinder;
-
-    if-eqz v6, :cond_1
 
     invoke-static {}, Landroid/os/Binder;->clearCallingIdentity()J
 
@@ -9987,11 +9615,11 @@
 
     .restart local v2    # "identity":J
     :try_start_3
-    iget-object v6, p0, Lcom/android/server/notification/NotificationManagerService;->mFlymeStatusBarService:Lmeizu/statusbar/IFlymeStatusBarService;
+    iget-object v1, p0, Lcom/android/server/notification/NotificationManagerService;->mFlymeStatusBarService:Lmeizu/statusbar/IFlymeStatusBarService;
 
-    iget-object v7, v1, Lcom/android/server/notification/NotificationRecord;->statusBarKey:Landroid/os/IBinder;
+    iget-object v6, p2, Lcom/android/server/notification/NotificationRecord;->statusBarKey:Landroid/os/IBinder;
 
-    invoke-interface {v6, v7}, Lmeizu/statusbar/IFlymeStatusBarService;->removeNotification(Landroid/os/IBinder;)V
+    invoke-interface {v1, v6}, Lmeizu/statusbar/IFlymeStatusBarService;->removeNotification(Landroid/os/IBinder;)V
     :try_end_3
     .catch Landroid/os/RemoteException; {:try_start_3 .. :try_end_3} :catch_2
     .catchall {:try_start_3 .. :try_end_3} :catchall_3
@@ -10001,18 +9629,18 @@
     goto :goto_0
 
     :catch_2
-    move-exception v6
+    move-exception v1
 
     invoke-static {v2, v3}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     goto :goto_0
 
     :catchall_3
-    move-exception v6
+    move-exception v1
 
     invoke-static {v2, v3}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
-    throw v6
+    throw v1
 .end method
 
 .method public hookcancelNotification(Lcom/android/server/notification/NotificationRecord;)V

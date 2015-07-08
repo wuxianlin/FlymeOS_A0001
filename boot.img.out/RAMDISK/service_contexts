@@ -122,9 +122,8 @@ wifip2p                                   u:object_r:system_server_service:s0
 wifiscanner                               u:object_r:system_server_service:s0
 wifi                                      u:object_r:system_server_service:s0
 window                                    u:object_r:system_server_service:s0
-
-*                                         u:object_r:default_android_service:s0
 access_control                            u:object_r:system_server_service:s0
+*                                         u:object_r:default_android_service:s0
 move_window                               u:object_r:system_server_service:s0
 flyme_wallpaper                           u:object_r:system_server_service:s0
 

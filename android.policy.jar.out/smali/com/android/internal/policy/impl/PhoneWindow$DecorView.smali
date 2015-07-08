@@ -2207,7 +2207,13 @@
 
     move-result v6
 
-    if-nez v6, :cond_flyme_0
+    if-eqz v6, :cond_flyme_0
+
+    const/4 v5, 0x1
+
+    return v5
+
+    :cond_flyme_0
 
     if-nez v2, :cond_0
 
@@ -2255,11 +2261,6 @@
     move-result v5
 
     goto :goto_1
-
-    :cond_flyme_0
-    const/4 v5, 0x1
-
-    return v5
 .end method
 
 .method public dispatchKeyShortcutEvent(Landroid/view/KeyEvent;)Z
@@ -4760,7 +4761,13 @@
 
     move-result v2
 
-    if-eqz v2, :cond_flyme_0
+    if-nez v2, :cond_flyme_0
+
+    const/4 v1, 0x1
+
+    return v1
+
+    :cond_flyme_0
 
     if-ne v0, v1, :cond_0
 
@@ -4779,11 +4786,6 @@
     move-result v1
 
     goto :goto_0
-
-    :cond_flyme_0
-    const/4 v1, 0x1
-
-    return v1
 .end method
 
 .method public superDispatchKeyShortcutEvent(Landroid/view/KeyEvent;)Z
@@ -4905,63 +4907,6 @@
 
     goto :goto_0
 .end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1400(Lcom/android/internal/policy/impl/PhoneWindow$DecorView;)Lcom/android/internal/widget/ActionBarContextView;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/internal/policy/impl/PhoneWindow$DecorView;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/internal/policy/impl/PhoneWindow$DecorView;->mActionModeView:Lcom/android/internal/widget/ActionBarContextView;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1500(Lcom/android/internal/policy/impl/PhoneWindow$DecorView;)Landroid/widget/PopupWindow;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/internal/policy/impl/PhoneWindow$DecorView;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/internal/policy/impl/PhoneWindow$DecorView;->mActionModePopup:Landroid/widget/PopupWindow;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2400(Lcom/android/internal/policy/impl/PhoneWindow$DecorView;)Ljava/lang/Runnable;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/internal/policy/impl/PhoneWindow$DecorView;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/internal/policy/impl/PhoneWindow$DecorView;->mShowActionModePopup:Ljava/lang/Runnable;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2500(Lcom/android/internal/policy/impl/PhoneWindow$DecorView;Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/internal/policy/impl/PhoneWindow$DecorView;
-#    .param p1, "x1"    # Landroid/view/WindowInsets;
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/internal/policy/impl/PhoneWindow$DecorView;->updateColorViews(Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
-#    move-result-object v0
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$300(Lcom/android/internal/policy/impl/PhoneWindow$DecorView;)Landroid/view/ActionMode;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/internal/policy/impl/PhoneWindow$DecorView;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/internal/policy/impl/PhoneWindow$DecorView;->mActionMode:Landroid/view/ActionMode;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$302(Lcom/android/internal/policy/impl/PhoneWindow$DecorView;Landroid/view/ActionMode;)Landroid/view/ActionMode;
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/internal/policy/impl/PhoneWindow$DecorView;
-#    .param p1, "x1"    # Landroid/view/ActionMode;
-#    .prologue
-#    iput-object p1, p0, Lcom/android/internal/policy/impl/PhoneWindow$DecorView;->mActionMode:Landroid/view/ActionMode;
-#    return-object p1
-#.end method
 
 .method public dispatchDragEvent(Landroid/view/DragEvent;)Z
     .locals 16

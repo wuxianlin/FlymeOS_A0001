@@ -74,7 +74,11 @@
 
     move-result v0
 
-    if-eqz v0, :cond_flyme_0
+    if-nez v0, :cond_flyme_0
+
+    return-void
+
+    :cond_flyme_0
 
     if-eqz v1, :cond_0
 
@@ -153,8 +157,4 @@
     const/4 v1, 0x0
 
     goto :goto_0
-
-    :cond_flyme_0
-
-    return-void
 .end method

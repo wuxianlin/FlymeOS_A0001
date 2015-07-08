@@ -15,11 +15,11 @@
 
 
 # instance fields
+.field mLockWallpaperFile:Ljava/io/File;
+
 .field final mKeyguardWallpaper:Lcom/android/server/wallpaper/WallpaperManagerService$KeyguardWallpaperData;
 
 .field final mKeyguardWallpaperFile:Ljava/io/File;
-
-.field mLockWallpaperFile:Ljava/io/File;
 
 .field final mWallpaper:Lcom/android/server/wallpaper/WallpaperManagerService$WallpaperData;
 
@@ -94,9 +94,9 @@
 
     iput-object v0, p0, Lcom/android/server/wallpaper/WallpaperManagerService$WallpaperObserver;->mKeyguardWallpaperFile:Ljava/io/File;
 
-    .line 129
     invoke-direct/range {p0 .. p0}, Lcom/android/server/wallpaper/WallpaperManagerService$WallpaperObserver;->initLockWallpaperFile()V
 
+    .line 129
     return-void
 .end method
 
@@ -164,11 +164,14 @@
 
     invoke-direct {v6, v1}, Landroid/app/backup/BackupManager;-><init>(Landroid/content/Context;)V
 
+    .line 142
     .local v6, "bm":Landroid/app/backup/BackupManager;
     invoke-virtual {v6}, Landroid/app/backup/BackupManager;->dataChanged()V
 
+    .line 143
     invoke-static {v8, v9}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
+    .line 145
     iget-object v1, p0, Lcom/android/server/wallpaper/WallpaperManagerService$WallpaperObserver;->this$0:Lcom/android/server/wallpaper/WallpaperManagerService;
 
     iget-object v2, p0, Lcom/android/server/wallpaper/WallpaperManagerService$WallpaperObserver;->mWallpaper:Lcom/android/server/wallpaper/WallpaperManagerService$WallpaperData;
@@ -309,7 +312,6 @@
 
     goto :goto_1
 .end method
-
 
 .method private initLockWallpaperFile()V
     .locals 3

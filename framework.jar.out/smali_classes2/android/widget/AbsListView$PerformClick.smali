@@ -63,7 +63,6 @@
     if-eqz v3, :cond_1
 
     :cond_0
-    :cond_flyme_0
     :goto_0
     return-void
 
@@ -74,7 +73,11 @@
 
     move-result v3
 
-    if-nez v3, :cond_flyme_0
+    if-eqz v3, :cond_flyme_0
+
+    return-void
+
+    :cond_flyme_0
 
     iget-object v3, p0, Landroid/widget/AbsListView$PerformClick;->this$0:Landroid/widget/AbsListView;
 

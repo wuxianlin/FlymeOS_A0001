@@ -901,11 +901,11 @@
 
     or-int/2addr v0, p1
 
-    or-int/lit16 v0, v0, 0x4000
-
     const/high16 v1, 0x100000
 
     or-int/2addr v0, v1
+
+    or-int/lit16 v0, v0, 0x4000
 
     and-int/2addr v0, p0
 
@@ -2428,135 +2428,112 @@
 
     sub-int v2, v3, v5
 
-    .line 1296
     if-nez v2, :cond_0
 
-    .line 1297
     iget v3, p0, Landroid/content/res/Configuration;->keyboard:I
 
     iget v5, p1, Landroid/content/res/Configuration;->keyboard:I
 
     sub-int v2, v3, v5
 
-    .line 1298
     if-nez v2, :cond_0
 
-    .line 1299
     iget v3, p0, Landroid/content/res/Configuration;->keyboardHidden:I
 
     iget v5, p1, Landroid/content/res/Configuration;->keyboardHidden:I
 
     sub-int v2, v3, v5
 
-    .line 1300
     if-nez v2, :cond_0
 
-    .line 1301
     iget v3, p0, Landroid/content/res/Configuration;->hardKeyboardHidden:I
 
     iget v5, p1, Landroid/content/res/Configuration;->hardKeyboardHidden:I
 
     sub-int v2, v3, v5
 
-    .line 1302
     if-nez v2, :cond_0
 
-    .line 1303
     iget v3, p0, Landroid/content/res/Configuration;->navigation:I
 
     iget v5, p1, Landroid/content/res/Configuration;->navigation:I
 
     sub-int v2, v3, v5
 
-    .line 1304
     if-nez v2, :cond_0
 
-    .line 1305
     iget v3, p0, Landroid/content/res/Configuration;->navigationHidden:I
 
     iget v5, p1, Landroid/content/res/Configuration;->navigationHidden:I
 
     sub-int v2, v3, v5
 
-    .line 1306
     if-nez v2, :cond_0
 
-    .line 1307
     iget v3, p0, Landroid/content/res/Configuration;->orientation:I
 
     iget v5, p1, Landroid/content/res/Configuration;->orientation:I
 
     sub-int v2, v3, v5
 
-    .line 1308
     if-nez v2, :cond_0
 
-    .line 1309
     iget v3, p0, Landroid/content/res/Configuration;->screenLayout:I
 
     iget v5, p1, Landroid/content/res/Configuration;->screenLayout:I
 
     sub-int v2, v3, v5
 
-    .line 1310
     if-nez v2, :cond_0
 
-    .line 1311
     iget v3, p0, Landroid/content/res/Configuration;->uiMode:I
 
     iget v5, p1, Landroid/content/res/Configuration;->uiMode:I
 
     sub-int v2, v3, v5
 
-    .line 1312
     if-nez v2, :cond_0
 
-    .line 1313
     iget v3, p0, Landroid/content/res/Configuration;->screenWidthDp:I
 
     iget v5, p1, Landroid/content/res/Configuration;->screenWidthDp:I
 
     sub-int v2, v3, v5
 
-    .line 1314
     if-nez v2, :cond_0
 
-    .line 1315
     iget v3, p0, Landroid/content/res/Configuration;->screenHeightDp:I
 
     iget v5, p1, Landroid/content/res/Configuration;->screenHeightDp:I
 
     sub-int v2, v3, v5
 
-    .line 1316
     if-nez v2, :cond_0
 
-    .line 1317
     iget v3, p0, Landroid/content/res/Configuration;->smallestScreenWidthDp:I
 
     iget v5, p1, Landroid/content/res/Configuration;->smallestScreenWidthDp:I
 
     sub-int v2, v3, v5
 
-    .line 1318
     if-nez v2, :cond_0
 
-    .line 1319
     iget v3, p0, Landroid/content/res/Configuration;->densityDpi:I
 
     iget v5, p1, Landroid/content/res/Configuration;->densityDpi:I
 
     sub-int v2, v3, v5
 
-    .line 1320
+    invoke-static/range {p0 .. p1}, Landroid/content/res/Configuration$FlymeInject;->compareTo(Landroid/content/res/Configuration;Landroid/content/res/Configuration;)I
+
+    move-result v2
+
     if-nez v2, :cond_0
 
-    .line 1321
     iget-object v3, p0, Landroid/content/res/Configuration;->themeConfig:Landroid/content/res/ThemeConfig;
 
     if-nez v3, :cond_6
 
-    .line 1322
     iget-object v3, p1, Landroid/content/res/Configuration;->themeConfig:Landroid/content/res/ThemeConfig;
 
     if-eqz v3, :cond_0
@@ -2572,10 +2549,6 @@
     iget-object v4, p1, Landroid/content/res/Configuration;->themeConfig:Landroid/content/res/ThemeConfig;
 
     invoke-virtual {v3, v4}, Landroid/content/res/ThemeConfig;->compareTo(Landroid/content/res/ThemeConfig;)I
-
-    move-result v2
-
-    invoke-static/range {p0 .. p1}, Landroid/content/res/Configuration$FlymeInject;->compareTo(Landroid/content/res/Configuration;Landroid/content/res/Configuration;)I
 
     move-result v2
 
@@ -2919,13 +2892,15 @@
 
     if-eq v3, v4, :cond_12
 
+    .line 1122
     or-int/lit16 v0, v0, 0x1000
 
+    .line 1124
+    :cond_12
     invoke-static {p0, p1, v0}, Landroid/content/res/Configuration$FlymeInject;->diff(Landroid/content/res/Configuration;Landroid/content/res/Configuration;I)I
 
     move-result v0
 
-    :cond_12
     iget-object v3, p1, Landroid/content/res/Configuration;->themeConfig:Landroid/content/res/ThemeConfig;
 
     if-eqz v3, :cond_15
@@ -3512,6 +3487,8 @@
 
     iput v0, p0, Landroid/content/res/Configuration;->seq:I
 
+    invoke-static/range {p0 .. p1}, Landroid/content/res/Configuration$FlymeInject;->readFromParcel(Landroid/content/res/Configuration;Landroid/os/Parcel;)V
+
     const-class v0, Landroid/content/res/ThemeConfig;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
@@ -3526,10 +3503,10 @@
 
     iput-object v0, p0, Landroid/content/res/Configuration;->themeConfig:Landroid/content/res/ThemeConfig;
 
-    invoke-static/range {p0 .. p1}, Landroid/content/res/Configuration$FlymeInject;->readFromParcel(Landroid/content/res/Configuration;Landroid/os/Parcel;)V
-
+    .line 1253
     return-void
 
+    .line 1234
     :cond_1
     const/4 v0, 0x0
 
@@ -3695,6 +3672,8 @@
 
     iput v0, p0, Landroid/content/res/Configuration;->seq:I
 
+    invoke-static/range {p0 .. p1}, Landroid/content/res/Configuration$FlymeInject;->setTo(Landroid/content/res/Configuration;Landroid/content/res/Configuration;)V
+
     iget-object v0, p1, Landroid/content/res/Configuration;->themeConfig:Landroid/content/res/ThemeConfig;
 
     if-eqz v0, :cond_1
@@ -3711,8 +3690,6 @@
 
     .line 696
     :cond_1
-    invoke-static/range {p0 .. p1}, Landroid/content/res/Configuration$FlymeInject;->setTo(Landroid/content/res/Configuration;Landroid/content/res/Configuration;)V
-
     return-void
 .end method
 
@@ -3770,9 +3747,9 @@
 
     iput v1, p0, Landroid/content/res/Configuration;->seq:I
 
-    iput-object v2, p0, Landroid/content/res/Configuration;->themeConfig:Landroid/content/res/ThemeConfig;
-
     invoke-static/range {p0 .. p0}, Landroid/content/res/Configuration$FlymeInject;->setToDefaults(Landroid/content/res/Configuration;)V
+
+    iput-object v2, p0, Landroid/content/res/Configuration;->themeConfig:Landroid/content/res/ThemeConfig;
 
     return-void
 .end method
@@ -4147,6 +4124,10 @@
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     :cond_0
+    invoke-static {p0, v1}, Landroid/content/res/Configuration$FlymeInject;->toString(Landroid/content/res/Configuration;Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
     const-string v2, " themeResource="
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -4154,10 +4135,6 @@
     iget-object v2, p0, Landroid/content/res/Configuration;->themeConfig:Landroid/content/res/ThemeConfig;
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-static {p0, v1}, Landroid/content/res/Configuration$FlymeInject;->toString(Landroid/content/res/Configuration;Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
 
     const/16 v2, 0x7d
 
@@ -5231,6 +5208,10 @@
 
     .line 1004
     :cond_19
+    invoke-static {p0, p1, v0}, Landroid/content/res/Configuration$FlymeInject;->updateFrom(Landroid/content/res/Configuration;Landroid/content/res/Configuration;I)I
+
+    move-result v0
+
     iget-object v3, p1, Landroid/content/res/Configuration;->themeConfig:Landroid/content/res/ThemeConfig;
 
     if-eqz v3, :cond_1d
@@ -5300,20 +5281,19 @@
 
     iput-object v3, p0, Landroid/content/res/Configuration;->themeConfig:Landroid/content/res/ThemeConfig;
 
+    .line 1015
     .end local v2    # "fontPkgName":Ljava/lang/String;
     :cond_1d
-    invoke-static {p0, p1, v0}, Landroid/content/res/Configuration$FlymeInject;->updateFrom(Landroid/content/res/Configuration;Landroid/content/res/Configuration;I)I
-
-    move-result v0
-
     return v0
 
+    .line 893
     .end local v1    # "deltaScreenLayoutDir":I
     :cond_1e
     const/4 v3, 0x0
 
     goto/16 :goto_0
 
+    .line 956
     .restart local v1    # "deltaScreenLayoutDir":I
     :cond_1f
     iget v3, p1, Landroid/content/res/Configuration;->screenLayout:I
@@ -5427,11 +5407,11 @@
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
+    invoke-static/range {p0 .. p1}, Landroid/content/res/Configuration$FlymeInject;->writeToParcel(Landroid/content/res/Configuration;Landroid/os/Parcel;)V
+
     iget-object v0, p0, Landroid/content/res/Configuration;->themeConfig:Landroid/content/res/ThemeConfig;
 
     invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
-
-    invoke-static/range {p0 .. p1}, Landroid/content/res/Configuration$FlymeInject;->writeToParcel(Landroid/content/res/Configuration;Landroid/os/Parcel;)V
 
     return-void
 

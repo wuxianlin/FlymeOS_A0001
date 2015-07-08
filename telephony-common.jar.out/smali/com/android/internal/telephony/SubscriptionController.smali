@@ -1689,19 +1689,19 @@
     .line 1123
     :array_0
     .array-data 4
-        0x108060e
-        0x1080610
-        0x108060f
-        0x1080611
+        #android:drawable@sim_dark_blue#t
+        #android:drawable@sim_dark_orange#t
+        #android:drawable@sim_dark_green#t
+        #android:drawable@sim_dark_purple#t
     .end array-data
 
     .line 1131
     :array_1
     .array-data 4
-        0x1080612
-        0x1080614
-        0x1080613
-        0x1080615
+        #android:drawable@sim_light_blue#t
+        #android:drawable@sim_light_orange#t
+        #android:drawable@sim_light_green#t
+        #android:drawable@sim_light_purple#t
     .end array-data
 .end method
 
@@ -7252,7 +7252,7 @@
     .line 800
     iget-object v1, p0, Lcom/android/internal/telephony/SubscriptionController;->mContext:Landroid/content/Context;
 
-    const v2, 0x104000e
+    const v2, #android:string@unknownName#t
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

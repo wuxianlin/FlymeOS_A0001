@@ -2363,7 +2363,7 @@
     .end packed-switch
 .end method
 
-.method static isUidValidForRules(I)Z
+.method private static isUidValidForRules(I)Z
     .locals 1
     .param p0, "uid"    # I
 
@@ -7707,7 +7707,7 @@
     .line 711
     iget-object v2, v12, Landroid/net/NetworkPolicy;->template:Landroid/net/NetworkTemplate;
 
-    #move-object/from16 v0, p0
+    move-object/from16 v0, p0
 
     #invoke-direct {v0, v2}, Lcom/android/server/net/NetworkPolicyManagerService;->notifyOverLimitLocked(Landroid/net/NetworkTemplate;)V
 
@@ -8493,4 +8493,16 @@
     iget-object v0, p0, Lcom/android/server/net/NetworkPolicyManagerService;->mContext:Landroid/content/Context;
 
     return-object v0
+.end method
+
+.method mzInvokeMethodIsUidValidForRules(I)Z
+    .locals 1
+    .param p1, "uid"    # I
+
+    .prologue
+    invoke-static {p1}, Lcom/android/server/net/NetworkPolicyManagerService;->isUidValidForRules(I)Z
+
+    move-result v0
+
+    return v0
 .end method

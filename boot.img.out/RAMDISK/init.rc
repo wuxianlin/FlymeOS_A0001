@@ -342,6 +342,7 @@ on post-fs-data
     mkdir /data/misc/samba/tmp 0775 system system
     mkdir /data/misc/samba/var 0775 system system
     # @}
+
 on boot
     # basic network init
     ifup lo

@@ -2409,13 +2409,16 @@
 
     invoke-static/range {v20 .. v20}, Lcom/android/server/pm/InjectorPMS;->mzAddAlreadyDexOpted(Ljava/util/HashSet;)V
 
+    .line 1614
     invoke-virtual/range {v42 .. v42}, Ljava/io/File;->list()[Ljava/lang/String;
 
     move-result-object v43
 
+    .line 1615
     .local v43, "frameworkFiles":[Ljava/lang/String;
     if-eqz v43, :cond_17
 
+    .line 1619
     move-object/from16 v21, v35
 
     .restart local v21    # "arr$":[Ljava/lang/String;
@@ -19092,22 +19095,29 @@
 
     invoke-static/range {p1 .. p2}, Lcom/android/server/pm/InjectorPMS;->removeActiveAdminX(Ljava/lang/String;I)V
 
-    :cond_0
-    :goto_0
-    :goto_flyme_0
+    const/4 v3, 0x0
+
     return v3
 
+    .line 11549
+    :cond_0
+    :goto_0
+    return v3
+
+    .line 11536
     :cond_1
     const/4 v5, -0x1
 
     if-ne p2, v5, :cond_2
 
+    .line 11537
     sget-object v5, Lcom/android/server/pm/PackageManagerService;->sUserManager:Lcom/android/server/pm/UserManagerService;
 
     invoke-virtual {v5}, Lcom/android/server/pm/UserManagerService;->getUserIds()[I
 
     move-result-object v2
 
+    .line 11541
     .local v2, "users":[I
     :goto_1
     const/4 v1, 0x0
@@ -19161,11 +19171,14 @@
     goto :goto_0
 
     :cond_flyme_0
+
     aget v5, v2, v1
 
     invoke-static {p1, v5}, Lcom/android/server/pm/InjectorPMS;->removeActiveAdminX(Ljava/lang/String;I)V
 
-    goto :goto_flyme_0
+    const/4 v3, 0x0
+
+    return v3
 .end method
 
 .method private static isPrivilegedApp(Landroid/content/pm/PackageParser$Package;)Z
@@ -24815,11 +24828,13 @@
 
     invoke-static {}, Lcom/android/server/pm/InjectorPMS;->scanPackageForAccessControl()V
 
+    .line 5546
     :cond_7
     monitor-exit v5
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
+    .line 5554
     :cond_8
     move-object/from16 v0, p0
 
@@ -59534,310 +59549,6 @@
 
     return-void
 .end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1100(Lcom/android/server/pm/PackageManagerService;)I
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .prologue
-#    invoke-direct {p0}, Lcom/android/server/pm/PackageManagerService;->getUnknownSourcesSettings()I
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1200(Lcom/android/server/pm/PackageManagerService;Ljava/util/Set;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # Ljava/util/Set;
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/pm/PackageManagerService;->unloadAllContainers(Ljava/util/Set;)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1300(Lcom/android/server/pm/PackageManagerService;)Ljava/util/HashSet;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/pm/PackageManagerService;->mDirtyUsers:Ljava/util/HashSet;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1500(Lcom/android/server/pm/PackageManagerService;ILandroid/net/Uri;ILandroid/os/UserHandle;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # I
-#    .param p2, "x2"    # Landroid/net/Uri;
-#    .param p3, "x3"    # I
-#    .param p4, "x4"    # Landroid/os/UserHandle;
-#    .prologue
-#    invoke-direct {p0, p1, p2, p3, p4}, Lcom/android/server/pm/PackageManagerService;->broadcastPackageVerified(ILandroid/net/Uri;ILandroid/os/UserHandle;)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1600(Lcom/android/server/pm/PackageManagerService;Lcom/android/server/pm/PackageManagerService$InstallArgs;I)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # Lcom/android/server/pm/PackageManagerService$InstallArgs;
-#    .param p2, "x2"    # I
-#    .prologue
-#    invoke-direct {p0, p1, p2}, Lcom/android/server/pm/PackageManagerService;->processPendingInstall(Lcom/android/server/pm/PackageManagerService$InstallArgs;I)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2000(Landroid/content/pm/ApplicationInfo;)Z
-#    .locals 1
-#    .param p0, "x0"    # Landroid/content/pm/ApplicationInfo;
-#    .prologue
-#    invoke-static {p0}, Lcom/android/server/pm/PackageManagerService;->isSystemApp(Landroid/content/pm/ApplicationInfo;)Z
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2100(Lcom/android/server/pm/PackageManagerService;I)Z
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # I
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/pm/PackageManagerService;->userNeedsBadging(I)Z
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2200()Ljava/util/Comparator;
-#    .locals 1
-#    .prologue
-#    sget-object v0, Lcom/android/server/pm/PackageManagerService;->mResolvePrioritySorter:Ljava/util/Comparator;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2300(Lcom/android/server/pm/PackageManagerService;Lcom/android/server/pm/PackageManagerService$InstallArgs;Lcom/android/server/pm/PackageManagerService$PackageInstalledInfo;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # Lcom/android/server/pm/PackageManagerService$InstallArgs;
-#    .param p2, "x2"    # Lcom/android/server/pm/PackageManagerService$PackageInstalledInfo;
-#    .prologue
-#    invoke-direct {p0, p1, p2}, Lcom/android/server/pm/PackageManagerService;->installPackageLI(Lcom/android/server/pm/PackageManagerService$InstallArgs;Lcom/android/server/pm/PackageManagerService$PackageInstalledInfo;)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2400(Lcom/android/server/pm/PackageManagerService;Ljava/lang/String;ILandroid/content/pm/PackageStats;)Z
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # Ljava/lang/String;
-#    .param p2, "x2"    # I
-#    .param p3, "x3"    # Landroid/content/pm/PackageStats;
-#    .prologue
-#    invoke-direct {p0, p1, p2, p3}, Lcom/android/server/pm/PackageManagerService;->getPackageSizeInfoLI(Ljava/lang/String;ILandroid/content/pm/PackageStats;)Z
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2500(Lcom/android/internal/app/IMediaContainerService;[Ljava/io/File;)J
-#    .locals 2
-#    .param p0, "x0"    # Lcom/android/internal/app/IMediaContainerService;
-#    .param p1, "x1"    # [Ljava/io/File;
-#    .annotation system Ldalvik/annotation/Throws;
-#        value = {
-#            Landroid/os/RemoteException;
-#        }
-#    .end annotation
-#    .prologue
-#    invoke-static {p0, p1}, Lcom/android/server/pm/PackageManagerService;->calculateDirectorySize(Lcom/android/internal/app/IMediaContainerService;[Ljava/io/File;)J
-#    move-result-wide v0
-#    return-wide v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2600(Lcom/android/server/pm/PackageManagerService;Lcom/android/server/pm/PackageManagerService$InstallParams;)Lcom/android/server/pm/PackageManagerService$InstallArgs;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # Lcom/android/server/pm/PackageManagerService$InstallParams;
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/pm/PackageManagerService;->createInstallArgs(Lcom/android/server/pm/PackageManagerService$InstallParams;)Lcom/android/server/pm/PackageManagerService$InstallArgs;
-#    move-result-object v0
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2700(Lcom/android/server/pm/PackageManagerService;)Ljava/lang/String;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/pm/PackageManagerService;->mRequiredVerifierPackage:Ljava/lang/String;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2800(Lcom/android/server/pm/PackageManagerService;II)Z
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # I
-#    .param p2, "x2"    # I
-#    .prologue
-#    invoke-direct {p0, p1, p2}, Lcom/android/server/pm/PackageManagerService;->isVerificationEnabled(II)Z
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$2908(Lcom/android/server/pm/PackageManagerService;)I
-#    .locals 2
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .prologue
-#    iget v0, p0, Lcom/android/server/pm/PackageManagerService;->mPendingVerificationToken:I
-#    add-int/lit8 v1, v0, 0x1
-#    iput v1, p0, Lcom/android/server/pm/PackageManagerService;->mPendingVerificationToken:I
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3000(Lcom/android/server/pm/PackageManagerService;Landroid/content/pm/PackageInfoLite;Ljava/util/List;Lcom/android/server/pm/PackageVerificationState;)Ljava/util/List;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # Landroid/content/pm/PackageInfoLite;
-#    .param p2, "x2"    # Ljava/util/List;
-#    .param p3, "x3"    # Lcom/android/server/pm/PackageVerificationState;
-#    .prologue
-#    invoke-direct {p0, p1, p2, p3}, Lcom/android/server/pm/PackageManagerService;->matchVerifiers(Landroid/content/pm/PackageInfoLite;Ljava/util/List;Lcom/android/server/pm/PackageVerificationState;)Ljava/util/List;
-#    move-result-object v0
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3100(Lcom/android/server/pm/PackageManagerService;Ljava/lang/String;Ljava/util/List;)Landroid/content/ComponentName;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # Ljava/lang/String;
-#    .param p2, "x2"    # Ljava/util/List;
-#    .prologue
-#    invoke-direct {p0, p1, p2}, Lcom/android/server/pm/PackageManagerService;->matchComponentForVerifier(Ljava/lang/String;Ljava/util/List;)Landroid/content/ComponentName;
-#    move-result-object v0
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3200(Lcom/android/server/pm/PackageManagerService;)J
-#    .locals 2
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .prologue
-#    invoke-direct {p0}, Lcom/android/server/pm/PackageManagerService;->getVerificationTimeout()J
-#    move-result-wide v0
-#    return-wide v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3400(Lcom/android/server/pm/PackageManagerService;Ljava/lang/String;)Ljava/io/File;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # Ljava/lang/String;
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/pm/PackageManagerService;->getNextCodePath(Ljava/lang/String;)Ljava/io/File;
-#    move-result-object v0
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3500([Ljava/lang/String;)[Ljava/lang/String;
-#    .locals 1
-#    .param p0, "x0"    # [Ljava/lang/String;
-#    .prologue
-#    invoke-static {p0}, Lcom/android/server/pm/PackageManagerService;->getDexCodeInstructionSets([Ljava/lang/String;)[Ljava/lang/String;
-#    move-result-object v0
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3600(Lcom/android/server/pm/PackageManagerService;Ljava/lang/String;)Z
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # Ljava/lang/String;
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/pm/PackageManagerService;->isAsecExternal(Ljava/lang/String;)Z
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3700(Ljava/lang/String;Lcom/android/server/pm/PackageSetting;)Ljava/lang/String;
-#    .locals 1
-#    .param p0, "x0"    # Ljava/lang/String;
-#    .param p1, "x1"    # Lcom/android/server/pm/PackageSetting;
-#    .prologue
-#    invoke-static {p0, p1}, Lcom/android/server/pm/PackageManagerService;->deriveAbiOverride(Ljava/lang/String;Lcom/android/server/pm/PackageSetting;)Ljava/lang/String;
-#    move-result-object v0
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3800(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-#    .locals 1
-#    .param p0, "x0"    # Ljava/lang/String;
-#    .param p1, "x1"    # Ljava/lang/String;
-#    .param p2, "x2"    # Ljava/lang/String;
-#    .prologue
-#    invoke-static {p0, p1, p2}, Lcom/android/server/pm/PackageManagerService;->getNextCodePath(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-#    move-result-object v0
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3900(Lcom/android/server/pm/PackageManagerService;Ljava/lang/String;II)I
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # Ljava/lang/String;
-#    .param p2, "x2"    # I
-#    .param p3, "x3"    # I
-#    .prologue
-#    invoke-direct {p0, p1, p2, p3}, Lcom/android/server/pm/PackageManagerService;->deletePackageX(Ljava/lang/String;II)I
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$4100(Lcom/android/server/pm/PackageManagerService;Ljava/lang/String;I)Z
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # Ljava/lang/String;
-#    .param p2, "x2"    # I
-#    .prologue
-#    invoke-direct {p0, p1, p2}, Lcom/android/server/pm/PackageManagerService;->clearApplicationUserDataLI(Ljava/lang/String;I)Z
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$4200(Lcom/android/server/pm/PackageManagerService;Ljava/lang/String;IZ)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # Ljava/lang/String;
-#    .param p2, "x2"    # I
-#    .param p3, "x3"    # Z
-#    .prologue
-#    invoke-direct {p0, p1, p2, p3}, Lcom/android/server/pm/PackageManagerService;->clearExternalStorageDataSync(Ljava/lang/String;IZ)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$4400(Lcom/android/server/pm/PackageManagerService;ZZZ)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/pm/PackageManagerService;
-#    .param p1, "x1"    # Z
-#    .param p2, "x2"    # Z
-#    .param p3, "x3"    # Z
-#    .prologue
-#    invoke-direct {p0, p1, p2, p3}, Lcom/android/server/pm/PackageManagerService;->updateExternalMediaStatusInner(ZZZ)V
-#    return-void
-#.end method
 
 .method private mzchooseBestActivity(Landroid/content/Intent;Ljava/lang/String;ILjava/util/List;I)Landroid/content/pm/ResolveInfo;
     .locals 1

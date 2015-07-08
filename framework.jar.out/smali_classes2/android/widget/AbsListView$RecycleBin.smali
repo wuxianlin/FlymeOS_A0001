@@ -1930,25 +1930,6 @@
     goto :goto_0
 .end method
 
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3900(Landroid/widget/AbsListView$RecycleBin;)Landroid/widget/AbsListView$RecyclerListener;
-#    .locals 1
-#    .param p0, "x0"    # Landroid/widget/AbsListView$RecycleBin;
-#    .prologue
-#    iget-object v0, p0, Landroid/widget/AbsListView$RecycleBin;->mRecyclerListener:Landroid/widget/AbsListView$RecyclerListener;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$3902(Landroid/widget/AbsListView$RecycleBin;Landroid/widget/AbsListView$RecyclerListener;)Landroid/widget/AbsListView$RecyclerListener;
-#    .locals 0
-#    .param p0, "x0"    # Landroid/widget/AbsListView$RecycleBin;
-#    .param p1, "x1"    # Landroid/widget/AbsListView$RecyclerListener;
-#    .prologue
-#    iput-object p1, p0, Landroid/widget/AbsListView$RecycleBin;->mRecyclerListener:Landroid/widget/AbsListView$RecyclerListener;
-#    return-object p1
-#.end method
-
 .method private mzProcessScrapView(Landroid/view/View;)V
     .locals 3
     .param p1, "scrap"    # Landroid/view/View;

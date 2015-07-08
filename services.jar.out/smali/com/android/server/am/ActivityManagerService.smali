@@ -34011,11 +34011,11 @@
     const/4 v2, 0x1
 
     goto :goto_4
-    
+
     :cond_flyme_0
-    
+
     invoke-direct/range {p0 .. p0}, Lcom/android/server/am/ActivityManagerService;->mzBroadcastRecentTasksChanged()V
-	
+
     return-void
 .end method
 
@@ -89319,170 +89319,6 @@
 
     throw v1
 .end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1000(Lcom/android/server/am/ActivityManagerService;II)Z
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/am/ActivityManagerService;
-#    .param p1, "x1"    # I
-#    .param p2, "x2"    # I
-#    .prologue
-#    invoke-direct {p0, p1, p2}, Lcom/android/server/am/ActivityManagerService;->removeTaskByIdLocked(II)Z
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1100(Lcom/android/server/am/ActivityManagerService;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/am/ActivityManagerService;
-#    .prologue
-#    invoke-direct {p0}, Lcom/android/server/am/ActivityManagerService;->start()V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1300(Ljava/util/ArrayList;)V
-#    .locals 0
-#    .param p0, "x0"    # Ljava/util/ArrayList;
-#    .prologue
-#    invoke-static {p0}, Lcom/android/server/am/ActivityManagerService;->writeLastDonePreBootReceivers(Ljava/util/ArrayList;)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1400(Lcom/android/server/am/ActivityManagerService;)Ljava/lang/StringBuilder;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/am/ActivityManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/am/ActivityManagerService;->mStrictModeBuffer:Ljava/lang/StringBuilder;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1500(Lcom/android/server/am/ActivityManagerService;I)Lcom/android/server/am/TaskRecord;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/am/ActivityManagerService;
-#    .param p1, "x1"    # I
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/am/ActivityManagerService;->recentTaskForIdLocked(I)Lcom/android/server/am/TaskRecord;
-#    move-result-object v0
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$1600(Lcom/android/server/am/ActivityManagerService;Lcom/android/server/am/TaskRecord;)Landroid/app/ActivityManager$RecentTaskInfo;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/am/ActivityManagerService;
-#    .param p1, "x1"    # Lcom/android/server/am/TaskRecord;
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/am/ActivityManagerService;->createRecentTaskInfoFromTaskRecord(Lcom/android/server/am/TaskRecord;)Landroid/app/ActivityManager$RecentTaskInfo;
-#    move-result-object v0
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$200(Lcom/android/server/am/ActivityManagerService;Lcom/android/server/am/ProcessRecord;Ljava/lang/String;Landroid/content/Intent;Ljava/lang/String;Landroid/content/IIntentReceiver;ILjava/lang/String;Landroid/os/Bundle;Ljava/lang/String;IZZIII)I
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/am/ActivityManagerService;
-#    .param p1, "x1"    # Lcom/android/server/am/ProcessRecord;
-#    .param p2, "x2"    # Ljava/lang/String;
-#    .param p3, "x3"    # Landroid/content/Intent;
-#    .param p4, "x4"    # Ljava/lang/String;
-#    .param p5, "x5"    # Landroid/content/IIntentReceiver;
-#    .param p6, "x6"    # I
-#    .param p7, "x7"    # Ljava/lang/String;
-#    .param p8, "x8"    # Landroid/os/Bundle;
-#    .param p9, "x9"    # Ljava/lang/String;
-#    .param p10, "x10"    # I
-#    .param p11, "x11"    # Z
-#    .param p12, "x12"    # Z
-#    .param p13, "x13"    # I
-#    .param p14, "x14"    # I
-#    .param p15, "x15"    # I
-#    .prologue
-#    invoke-direct/range {p0 .. p15}, Lcom/android/server/am/ActivityManagerService;->broadcastIntentLocked(Lcom/android/server/am/ProcessRecord;Ljava/lang/String;Landroid/content/Intent;Ljava/lang/String;Landroid/content/IIntentReceiver;ILjava/lang/String;Landroid/os/Bundle;Ljava/lang/String;IZZIII)I
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$300(Lcom/android/server/am/ActivityManagerService;Lcom/android/server/am/ProcessRecord;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/am/ActivityManagerService;
-#    .param p1, "x1"    # Lcom/android/server/am/ProcessRecord;
-#    .prologue
-#    invoke-direct {p0, p1}, Lcom/android/server/am/ActivityManagerService;->processStartTimedOutLocked(Lcom/android/server/am/ProcessRecord;)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$400(Lcom/android/server/am/ActivityManagerService;Ljava/lang/String;IZZZZZILjava/lang/String;)Z
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/am/ActivityManagerService;
-#    .param p1, "x1"    # Ljava/lang/String;
-#    .param p2, "x2"    # I
-#    .param p3, "x3"    # Z
-#    .param p4, "x4"    # Z
-#    .param p5, "x5"    # Z
-#    .param p6, "x6"    # Z
-#    .param p7, "x7"    # Z
-#    .param p8, "x8"    # I
-#    .param p9, "x9"    # Ljava/lang/String;
-#    .prologue
-#    invoke-direct/range {p0 .. p9}, Lcom/android/server/am/ActivityManagerService;->forceStopPackageLocked(Ljava/lang/String;IZZZZZILjava/lang/String;)Z
-#    move-result v0
-#    return v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$500(Lcom/android/server/am/ActivityManagerService;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/am/ActivityManagerService;
-#    .prologue
-#    invoke-direct {p0}, Lcom/android/server/am/ActivityManagerService;->dispatchProcessesChanged()V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$600(Lcom/android/server/am/ActivityManagerService;II)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/am/ActivityManagerService;
-#    .param p1, "x1"    # I
-#    .param p2, "x2"    # I
-#    .prologue
-#    invoke-direct {p0, p1, p2}, Lcom/android/server/am/ActivityManagerService;->dispatchProcessDied(II)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$700(Lcom/android/server/am/ActivityManagerService;ILjava/lang/String;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/am/ActivityManagerService;
-#    .param p1, "x1"    # I
-#    .param p2, "x2"    # Ljava/lang/String;
-#    .prologue
-#    invoke-direct {p0, p1, p2}, Lcom/android/server/am/ActivityManagerService;->showUserSwitchDialog(ILjava/lang/String;)V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$800(Lcom/android/server/am/ActivityManagerService;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/am/ActivityManagerService;
-#    .prologue
-#    invoke-direct {p0}, Lcom/android/server/am/ActivityManagerService;->writeGrantedUriPermissions()V
-#    return-void
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$900(Lcom/android/server/am/ActivityManagerService;)Lcom/android/server/am/LockToAppRequestDialog;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/am/ActivityManagerService;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/am/ActivityManagerService;->mLockToAppRequest:Lcom/android/server/am/LockToAppRequestDialog;
-#    return-object v0
-#.end method
 
 .method private mzBroadcastRecentTasksChanged()V
     .locals 17

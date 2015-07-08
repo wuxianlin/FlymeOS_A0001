@@ -6,8 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/android/server/SystemServer$FlymeInjector;,
-        Lcom/android/server/SystemServer$AdbPortObserver;
+        Lcom/android/server/SystemServer$AdbPortObserver;,
+        Lcom/android/server/SystemServer$FlymeInjector;
     }
 .end annotation
 
@@ -1497,9 +1497,9 @@
     .line 510
     move-object/from16 v0, p0
 
-    move-object/from16 v1, v115
+    move-object/from16 v4, v115
 
-    invoke-static {v0, v1}, Lcom/android/server/SystemServer$FlymeInjector;->startFlymeMoveWindowService(Lcom/android/server/SystemServer;Lcom/android/server/wm/WindowManagerService;)V
+    invoke-static {v0, v4}, Lcom/android/server/SystemServer$FlymeInjector;->startFlymeMoveWindowService(Lcom/android/server/SystemServer;Lcom/android/server/wm/WindowManagerService;)V
 
     move-object/from16 v0, p0
 
@@ -2181,6 +2181,7 @@
 
     invoke-virtual {v4, v5}, Lcom/android/server/SystemServiceManager;->startService(Ljava/lang/String;)Lcom/android/server/SystemService;
 
+    .line 721
     :cond_9
     invoke-static/range {p0 .. p0}, Lcom/android/server/SystemServer$FlymeInjector;->addFlymePppoeAndSambaService(Lcom/android/server/SystemServer;)V
 
@@ -5435,35 +5436,6 @@
     .line 1352
     return-void
 .end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$000(Lcom/android/server/SystemServer;)Lcom/android/server/SystemServiceManager;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/SystemServer;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/SystemServer;->mSystemServiceManager:Lcom/android/server/SystemServiceManager;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$100(Lcom/android/server/SystemServer;)Lcom/android/server/am/ActivityManagerService;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/server/SystemServer;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/server/SystemServer;->mActivityManagerService:Lcom/android/server/am/ActivityManagerService;
-#    return-object v0
-#.end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$200(Lcom/android/server/SystemServer;Ljava/lang/String;Ljava/lang/Throwable;)V
-#    .locals 0
-#    .param p0, "x0"    # Lcom/android/server/SystemServer;
-#    .param p1, "x1"    # Ljava/lang/String;
-#    .param p2, "x2"    # Ljava/lang/Throwable;
-#    .prologue
-#    invoke-direct {p0, p1, p2}, Lcom/android/server/SystemServer;->reportWtf(Ljava/lang/String;Ljava/lang/Throwable;)V
-#    return-void
-#.end method
 
 .method getPackageManagerService()Lcom/android/server/pm/PackageManagerService;
     .locals 1

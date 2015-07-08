@@ -4642,9 +4642,10 @@
 
     sput-object v0, Lcom/android/internal/R$styleable;->AndroidManifestAction:[I
 
-    # Extended the array length to fill needAccessControl.
-    # This value might be different on your device.
-    const/16 v0, 0x28
+    .line 24416
+    const/16 v0, 0x27
+
+    add-int/lit8 v0, v0, 0x1
 
     new-array v0, v0, [I
 

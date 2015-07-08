@@ -15,11 +15,11 @@
 
 
 # static fields
-.field private static final ACTION_STATE_CHANGE:Ljava/lang/String; = "com.android.internal.action.KEYGUARD_SERVICE_STATE_CHANGED"
-
 .field public static final FLYME_KEYGUARD_CLASS:Ljava/lang/String; = "com.android.keyguard.KeyguardService"
 
 .field public static final FLYME_KEYGUARD_PACKAGE:Ljava/lang/String; = "com.android.keyguard"
+
+.field private static final ACTION_STATE_CHANGE:Ljava/lang/String; = "com.android.internal.action.KEYGUARD_SERVICE_STATE_CHANGED"
 
 .field private static final DEBUG:Z = true
 
@@ -917,12 +917,3 @@
     :cond_0
     return-void
 .end method
-
-# Remove the first '#' if you want to enable this method. It might be invoked from codes of BOSP.
-#.method static synthetic access$100(Lcom/android/internal/policy/impl/keyguard/KeyguardServiceDelegate;)Landroid/view/View;
-#    .locals 1
-#    .param p0, "x0"    # Lcom/android/internal/policy/impl/keyguard/KeyguardServiceDelegate;
-#    .prologue
-#    iget-object v0, p0, Lcom/android/internal/policy/impl/keyguard/KeyguardServiceDelegate;->mScrim:Landroid/view/View;
-#    return-object v0
-#.end method

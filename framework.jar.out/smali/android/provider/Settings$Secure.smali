@@ -1641,115 +1641,109 @@
 
     const/16 v1, 0x18
 
-    const-string v2, "tts_use_defaults"
+    const-string/jumbo v2, "tts_use_defaults"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x19
 
-    const-string v2, "tts_default_rate"
+    const-string/jumbo v2, "tts_default_rate"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1a
 
-    const-string v2, "tts_default_pitch"
+    const-string/jumbo v2, "tts_default_pitch"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1b
 
-    const-string v2, "tts_default_synth"
+    const-string/jumbo v2, "tts_default_synth"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1c
 
-    const-string v2, "tts_default_lang"
+    const-string/jumbo v2, "tts_default_lang"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1d
 
-    const-string v2, "tts_default_country"
+    const-string/jumbo v2, "tts_default_country"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1e
 
-    const-string v2, "tts_enabled_plugins"
+    const-string/jumbo v2, "tts_enabled_plugins"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1f
 
-    const-string v2, "tts_default_locale"
+    const-string/jumbo v2, "tts_default_locale"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x20
 
-    const-string v2, "wifi_networks_available_notification_on"
+    const-string/jumbo v2, "wifi_networks_available_notification_on"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x21
 
-    const-string v2, "wifi_networks_available_repeat_delay"
+    const-string/jumbo v2, "wifi_networks_available_repeat_delay"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x22
 
-    const-string v2, "wifi_num_open_networks_kept"
+    const-string/jumbo v2, "wifi_num_open_networks_kept"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x23
 
-    const-string v2, "mount_play_not_snd"
+    const-string/jumbo v2, "mount_play_not_snd"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x24
 
-    const-string v2, "mount_ums_autostart"
+    const-string/jumbo v2, "mount_ums_autostart"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x25
 
-    const-string v2, "mount_ums_prompt"
+    const-string/jumbo v2, "mount_ums_prompt"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x26
 
-    const-string v2, "mount_ums_notify_enabled"
+    const-string/jumbo v2, "mount_ums_notify_enabled"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x27
 
-    const-string v2, "ui_night_mode"
+    const-string/jumbo v2, "ui_night_mode"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x28
 
-    const-string v2, "sleep_timeout"
-
-    aput-object v2, v0, v1
-
-    add-int/lit8 v1, v1, 0x1
-
-    const-string v2, "meizu_keyguard_lock"
+    const-string/jumbo v2, "sleep_timeout"
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x29
 
-    const-string v2, "privacy_guard_default"
+    const-string/jumbo v2, "privacy_guard_default"
 
     aput-object v2, v0, v1
 
@@ -1762,6 +1756,12 @@
     const/16 v1, 0x2b
 
     const-string v2, "development_shortcut"
+
+    aput-object v2, v0, v1
+
+    add-int/lit8 v1, v1, 0x1
+
+    const-string v2, "meizu_keyguard_lock"
 
     aput-object v2, v0, v1
 
