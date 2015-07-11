@@ -54,7 +54,7 @@ vendor_modify_images := boot
 # The default value is Bluetooth.
 # You can configure the apk name in the vendor/system/app or vendor/system/pri-app directory.
 #-----------------------------------------------------------------------------
-vendor_saved_apps := AntHalService Bluetooth BluetoothExt btmultisim com.qualcomm.qti.services.secureui fastdormancy \
+vendor_saved_apps := AntHalService atfwd Bluetooth BluetoothExt btmultisim com.qualcomm.qti.services.secureui fastdormancy \
                      InterfacePermissions NetworkSetting NfceeService_65T NfcNci QComQMIPermissions \
                      QtiBackupAgent SdCardService Stk TimeService TSM2Service WfdService com.qualcomm.location \
                      KeyChain HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
@@ -91,7 +91,7 @@ vendor_modify_jars := android.policy ext framework services telephony-common
 # The default value is nothing.
 # You can configure the board system file path which relative to the system directory in the board release.
 #-----------------------------------------------------------------------------
-board_saved_files := lib/libsqlite.so lib/libwebviewchromium.so
+board_saved_files := lib/libsqlite.so lib/libwebviewchromium.so bin/bootanimation media/bootanimation.zip
 
 ##############################################################################
 # The value decides which board system apk you want to remove.

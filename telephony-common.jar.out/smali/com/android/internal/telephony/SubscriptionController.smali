@@ -1146,7 +1146,7 @@
 
     #move-result v2
 
-    const/4 v2, 0x0
+    const/4 v2, 0x1
 
     iput v2, v0, Landroid/telephony/SubInfoRecord;->mStatus:I
 
@@ -1161,7 +1161,7 @@
 
     #move-result v2
 
-    const/4 v2, 0x0
+    const/4 v2, -0x1
 
     iput v2, v0, Landroid/telephony/SubInfoRecord;->mNwMode:I
 
@@ -8337,9 +8337,9 @@
 
     const/4 v4, 0x0
 
-    invoke-virtual {v1, v2, v7, v3, v4}, Landroid/content/ContentResolver;->update(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+    #invoke-virtual {v1, v2, v7, v3, v4}, Landroid/content/ContentResolver;->update(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
 
-    move-result v0
+    #move-result v0
 
     .line 1604
     .end local v7    # "value":Landroid/content/ContentValues;

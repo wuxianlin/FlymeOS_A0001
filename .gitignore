@@ -1,3 +1,6 @@
 /board/*
 /autopatch/*
 /out/*
+board
+/other/*
+.gitignore
